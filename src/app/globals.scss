@@ -1,0 +1,124 @@
+/*
+  Consolidated global styles
+  - Brand variables and color-scheme
+  - Resets and layout base
+  - Typography & heading rules (heavier headings)
+  - Small helpers used across components
+*/
+
+:root {
+  /* brand colors */
+  --brand-teal: #10C4C4;
+  --brand-pink: #ff4158;
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* typography */
+  --font-sans: 'Lato', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* make headings heavier */
+  --heading-weight-heavy: 900;
+  --heading-weight-bold: 700;
+  --muted: #6b7280;
+}
+
+/* dark-mode overrides */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* layout base */
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* resets */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img, picture, svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* headings (branding) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  margin: 0 0 0.6rem 0;
+  color: var(--foreground);
+  line-height: 1.06;
+  letter-spacing: -0.01em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* sizes chosen to roughly match original layout */
+h1, .h1 { font-weight: var(--heading-weight-heavy); font-size: clamp(2rem, 4.4vw, 3.6rem); line-height:1.1 }
+h2, .h2 { font-weight: var(--heading-weight-bold);  font-size: clamp(1.5rem, 3.2vw, 2.25rem); }
+
+/* Force heavier headings globally to ensure visual weight across components */
+h1, h2 {
+  font-weight: 700 !important;
+}
+h3, .h3 { font-weight: var(--heading-weight-bold);  font-size: clamp(1.25rem, 2.4vw, 1.75rem); }
+
+/* optional utility for explicitly bold headings */
+.heading-strong { font-weight: var(--heading-weight-heavy) !important; }
+
+/* utility / brand classes */
+.heading-accent, .text-accent {
+  color: var(--brand-teal) !important;
+  font-weight: var(--heading-weight-bold);
+}
+
+.header-secondary {
+  color: var(--brand-teal);
+  font-weight: var(--heading-weight-bold);
+}
+
+/* body text */
+p, li {
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--foreground);
+}
+
+/* small helpers */
+.lead{font-size:1.0625rem;color:#374151}
+.text-muted{color:var(--muted)}
+
+/* link reset */
+a { color: inherit; text-decoration: none; }
+
+/* visually hidden helper */
+.visually-hidden, .sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html { color-scheme: dark; }
+}

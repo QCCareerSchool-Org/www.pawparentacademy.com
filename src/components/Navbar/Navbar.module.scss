@@ -1,0 +1,32 @@
+.header {
+  background: #FD3A58;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.06);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar {
+  padding: 1rem 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  color: #fff !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navList :global(.nav-link) {
+  color: #fff !important;
+  margin-left: 1.1rem;
+  padding: 0.25rem 0.5rem;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.navList :global(.nav-link.active) {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+}

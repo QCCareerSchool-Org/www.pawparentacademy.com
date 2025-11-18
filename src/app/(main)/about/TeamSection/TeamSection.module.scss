@@ -1,0 +1,24 @@
+.team {
+  padding: 0;
+  background: #f5f5f5;
+}
+
+.team .img-fluid {
+  width: 100%;
+  border-radius: 23px;
+}
+
+.team h2 {
+  margin-top: 0;
+}
+
+.team h3 {
+  color: var(--brand-teal);
+  font-weight: 700;
+}
+
+/* new */
+.instructor {
+  color: var(--brand-teal);
+  font-weight: 700;
+}
