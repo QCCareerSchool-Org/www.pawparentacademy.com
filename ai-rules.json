@@ -1,0 +1,96 @@
+{
+    "version": 1,
+    "project": "Kajabi to Next.js Migration",
+    "description": "Unified AI coding rules for geenrating consistent, high-quality, and maintainable code in this project. All AI systems should read and follow these guidelines when generating or modifying code.",
+
+    "globalRules": [
+        "Use TypeScript exclusively",
+        "Use Next.js App Router (app directory) for all new pages and components",
+        "Use React Server Components by default; only use Client Components when state, effects, or event handlers are required",
+        "Use Bootstrap 5 for alyout and styling; perfer Bootstrap utility classes (container, row, col, mt-*, mb-*, px-*, etc) before writing custom SCSS",
+        "Use SCSS modules for component-specific styles only",
+        "Use the import alias '@/...' for all imports",
+        "Write clean, readable, and maintainable code with proper indentation and spacing",
+        "All reuseable components (ie components used for more than one page) must be placed in the /components in their own folder. Each component folder should contain an index.tsx file for the component and a styles.module.scss file for the component styles as needed",
+        "Do not generate inline styles except for dynamic values that cannot be handles with SCSS classes",
+        "Always validate all inputs on the server for forms and API routes",
+        "Follow the folder structure rules listed below"
+    ],
+
+    "folderStructure": {
+        "/app": "Page routes, layouts, and server components",
+        "/components": "Reusable React components shared across pages with their own folders",
+        "/lib": "Utility functions, API clients/wrappers, and helpers",
+        "/public": "Static assets like images, fonts, and icons (in their respective folders)",
+        "/styles": "Global styles, variables, and mixins (e.g., globals.scss, variables.scss)",
+        "/hooks": "Custom React hooks",
+        "/context": "React context providers and consumers"
+    },
+
+    "rules": [
+        {
+            "pattern": "app/**",
+            "description": "Pages and layouts must use server components unless interactivity is needed. Break large pages into small, reusable components in the /components folder. However, avoid over-componentization. If a components is only used once and is small, it can remain in the page file."
+        },
+        {
+            "pattern": "components/**",
+            "description": "Components must use TypeScript, be fully types with props interfaces, use Bootstrap classes for layout and styling, and avoid inline styles unless necessary."
+        },
+        {
+            "pattern": "components/**/*.module.scss",
+            "description": "SCSS modules are for local styling only. Avoid global overrides except in /styles/globals.scss"
+        },
+        {
+            "pattern": "styles/**",
+            "description": "Global SCSS (globals.scss) is preferred for shared styles and branding/global styles. Do not overuse global resets."
+        },
+        {
+            "pattern": "lib/**",
+            "description": "Utilities must be framework-agnostic, pure functions when possible and should not depend on Request/Response objects."
+        }
+    ],
+
+    "uiGuidelines": [
+        "Bootstrap grid (container, row, col) must be used for layout",
+        "Use spacing utlities (mt-*, mb-*, px-*, py-*) for margins and padding instead of custom CSS",
+        "Use Bootstrap components (cards, buttons, alerts) before writing custom ones",
+        "Avoid inventing one-off styles unless absolutely necessary for branding",
+        "Typography should rely on Bootstrap classes (fw-bold, text-center, display-*, lead, etc)",
+        "Font must be consistsent throughout the entire application"
+    ],
+
+    "scssGuidelines": [
+        "Place shared variables, mixins, and resets in styles/globals.scss",
+        "Component-level SCSS must be places in *.modules.scss files",
+        "Avoid deeply nested selectors; keep nesting to 3 levels max",
+        "Do not override Bootstrap base classes unless scoped and intentional",
+        "Use meaningful class names that reflect the component's purpose"
+    ],
+
+    "backendGuidelines": [
+        "All forms must submit to a server action or an API route",
+        "Never trust client input - always validate on the server",
+        "Use Zod or manual validation for all incoming data and POST bodies",
+        "API routes must structured JSON responses using NextResponse.json",
+        "Properly handle try/catch blocks and never expose internal errors to the client"
+    ],
+
+    "aiGenerationRules": [
+        "When asked to recreate a Kajabi page, break it into components based on logical sections (hero, features, testimonials, footer, etc) located in /components/* folder or directly in the page if only used once",
+        "Use Bootstrap for layout replication, not custom CSS",
+        "Follow the exact folder structure above",
+        "Always generate TypeScript, never JavaScript",
+        "When creating pages, automtically suggest moduliarizing into components if a section is repeated or large",
+        "When generating code, always include necessary imports at the top of the file",
+        "When generating components, always create a styles.module.scss file for component-specific styles",
+        "When generating forms, always include server-side validation and proper error handling",
+        "Generate server components by default unless interactivity is explicitly required",
+        "For any form, automatically scaffold a server handler or API route",
+        "When geenrating a page, propose JSON-LD structured data for SEO if applicable for important content to highlight. Use the appropriate schema.ord data type. For example, use FAQPage schema for the FAQ page, etc. If the schema is large, place it in a spearate file in the same folder as the page and import it."
+    ],
+
+    "examplePromptTemplates": {
+        "createComponent": "Create a reusable React component in TypeScript for a [component description] using Bootstrap 5 for layout and styling. Place the component in the /components/[ComponentName]/ folder with an index.tsx file and a styles.module.scss file. Ensure the component is a server component unless interactivity is required.",
+        "createPage": "Create a Next.js page in TypeScript for a [page description] using the App Router (app directory). Break the page into reusable components as needed, placing them in the /components/ folder. Use Bootstrap 5 for layout and styling, and ensure proper folder structure and imports."
+    }
+}
