@@ -3,12 +3,12 @@ import styles from './styles.module.scss';
 
 export default function PupPlaybooksHero() {
   return (
-    <section className={`py-4 ${styles.hero} mt-5`}>
+    <section className={`py-4 ${styles.hero} mt-2`}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 text-center">
-            <h1 className="display-5">Pup Playbooks</h1>
-            <h2 className={`mt-2 ${styles.subtitle}`}>Care for Every Dog</h2>
+            <h1 className="hero-heading">Pup Playbooks</h1>
+            <h2 className={`hero-subheading ${styles.subtitle}`}>Care for Every Dog</h2>
             <p className="lead mt-3">
               Discover quick and effective techniques to keep your pup happy, clean, and well-maintained with Paw Parent Academy&apos;s Pup Playbooks. These mini-courses are designed to make grooming easy, with simple, at-home care that enhances your pet&apos;s well-being and strengthens the bond you share.
             </p>

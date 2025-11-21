@@ -12,6 +12,7 @@ export interface CourseFeatureProps {
   enrollHref?: string;
   price?: string;
   noCol?: boolean;
+  greatFor?: string; // Add a new optional property for "Great For"
 }
 
 export default function CourseFeature({
@@ -24,6 +25,7 @@ export default function CourseFeature({
   enrollHref,
   price,
   noCol = false,
+  greatFor,
 }: CourseFeatureProps) {
   const card = (
     <div className={`p-3 ${styles.block} bg-white h-100`}>
@@ -37,16 +39,25 @@ export default function CourseFeature({
           sizes="(max-width: 768px) 100vw, 50vw"
         />
       </div>
-      <div className="mt-3">
-        <h3>{title}</h3>
-        {subtitle && <p className="mb-1 text-muted">{subtitle}</p>}
+      <div className="mt-4">
+        <h3><strong>{title}</strong></h3>
+        {subtitle && <p className="mb-3 mt-3 text-dark"><strong>{subtitle}</strong></p>}
         {description && <p>{description}</p>}
+        {greatFor && (
+          <p>
+            <span className="text-dark"><strong>Great For:</strong></span>
+            <span> {greatFor}</span>
+          </p>
+        )}
         {highlights.length > 0 && (
-          <ul>
-            {highlights.map((h, i) => (
-              <li key={i}>{h}</li>
-            ))}
-          </ul>
+          <>
+            <p className='text-dark'><strong>Highlights:</strong></p> {/* Add subheader before highlights */}
+            <ul>
+              {highlights.map((h, i) => (
+                <li key={i}>{h}</li>
+              ))}
+            </ul>
+          </>
         )}
 
         <div className="mt-3 d-flex align-items-center gap-2">

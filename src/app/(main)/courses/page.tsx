@@ -35,6 +35,7 @@ export default function CoursesPage() {
                 'Tools for stress-free trimming',
               ]}
               imageSrc="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/3aa1f3-7d7-e43f-4881-4214ef5ed46_nails-thumb-2.jpg"
+              greatFor='All breeds, from tiny Chihuahuas to big Labradors'
               learnHref="/courses/nail-trims-made-easy"
               enrollHref="/resource_redirect/offers/BZSKFNXJ"
               price="$68"
@@ -52,6 +53,7 @@ export default function CoursesPage() {
                 'Tips for maintaining coat health',
               ]}
               imageSrc="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/0f8646c-da-7703-8b46-6a4c7746a65f_deshedding--thumb.jpg"
+              greatFor='Heavy shedding double-coated breeds'
               learnHref="/courses/deshedding-mastery"
               enrollHref="/resource_redirect/offers/FvrF2AjN"
               price="$68"
@@ -76,6 +78,7 @@ export default function CoursesPage() {
                 'Making accommodations for your dog',
               ]}
               imageSrc="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/f5448a7-c4fb-12d2-55be-d02f4e14ade_pawsitive-thumb-no-bg.jpg"
+              greatFor="Every pup and paw parent"
               learnHref="/courses/paws-itive-grooming"
               enrollHref="/resource_redirect/offers/VVEgFcZX"
               price="$68"
