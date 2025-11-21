@@ -14,7 +14,8 @@
         "All reuseable components (ie components used for more than one page) must be placed in the /components in their own folder. Each component folder should contain an index.tsx file for the component and a styles.module.scss file for the component styles as needed",
         "Do not generate inline styles except for dynamic values that cannot be handles with SCSS classes",
         "Always validate all inputs on the server for forms and API routes",
-        "Follow the folder structure rules listed below"
+        "Follow the folder structure rules listed below",
+        "Use next/image for images, next/font for fonts, and next/link for links"
     ],
 
     "folderStructure": {
