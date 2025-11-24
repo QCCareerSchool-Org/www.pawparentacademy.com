@@ -4,6 +4,9 @@ import CoursesGrid from '@/components/CoursesGrid';
 import PupPlaybooksHero from '@/components/PupPlaybooksHero';
 import CourseFeature from '@/components/CourseFeature';
 import { courses } from './courses';
+import nailsThumb from './images/nails-thumb-2.jpg';
+import desheddingThumb from './images/deshedding--thumb.jpg';
+import pawsitiveThumb from './images/pawsitive-thumb-no-bg.jpg';
 
 export default function CoursesPage() {
   return (
@@ -34,7 +37,7 @@ export default function CoursesPage() {
                 'Prevent discomfort and injury',
                 'Tools for stress-free trimming',
               ]}
-              imageSrc="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/3aa1f3-7d7-e43f-4881-4214ef5ed46_nails-thumb-2.jpg"
+              imageSrc={nailsThumb}
               greatFor='All breeds, from tiny Chihuahuas to big Labradors'
               learnHref="/courses/nail-trims-made-easy"
               enrollHref="/resource_redirect/offers/BZSKFNXJ"
@@ -52,7 +55,7 @@ export default function CoursesPage() {
                 'Techniques for reducing fur buildup',
                 'Tips for maintaining coat health',
               ]}
-              imageSrc="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/0f8646c-da-7703-8b46-6a4c7746a65f_deshedding--thumb.jpg"
+              imageSrc={desheddingThumb}
               greatFor='Heavy shedding double-coated breeds'
               learnHref="/courses/deshedding-mastery"
               enrollHref="/resource_redirect/offers/FvrF2AjN"
@@ -77,7 +80,7 @@ export default function CoursesPage() {
                 "Overcoming your dog's fear of grooming",
                 'Making accommodations for your dog',
               ]}
-              imageSrc="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/f5448a7-c4fb-12d2-55be-d02f4e14ade_pawsitive-thumb-no-bg.jpg"
+              imageSrc={pawsitiveThumb}
               greatFor="Every pup and paw parent"
               learnHref="/courses/paws-itive-grooming"
               enrollHref="/resource_redirect/offers/VVEgFcZX"

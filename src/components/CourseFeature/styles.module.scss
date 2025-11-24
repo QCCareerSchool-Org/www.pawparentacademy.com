@@ -12,3 +12,62 @@
   display: block;
   border-radius: 24px;
 }
+
+.ctaStack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  align-items: flex-start;
+}
+
+.learnMoreLink {
+  color: var(--body-text);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.learnMoreLink:hover {
+  color: var(--brand-teal);
+}
+
+.enrollButton {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brand-teal);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.85rem 1.35rem;
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: none;
+  letter-spacing: 0.05em;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  align-self: flex-start;
+  text-decoration: none;
+  box-shadow: 0 5px 16px rgba(13, 155, 155, 0.25);
+}
+
+@media (max-width: 576px) {
+  .ctaStack {
+    align-items: center;
+    text-align: center;
+  }
+
+  .learnMoreLink {
+    text-align: center;
+  }
+
+  .enrollButton {
+    align-self: center;
+  }
+}
+
+.enrollButton:hover {
+  background-color: #13EBEB;
+  color: #fff;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import styles from './styles.module.scss';
 
 export interface CourseFeatureProps {
@@ -7,7 +7,7 @@ export interface CourseFeatureProps {
   subtitle?: string;
   description?: string;
   highlights?: string[];
-  imageSrc: string;
+  imageSrc: string | StaticImageData;
   learnHref?: string;
   enrollHref?: string;
   price?: string;
@@ -60,12 +60,12 @@ export default function CourseFeature({
           </>
         )}
 
-        <div className="mt-3 d-flex align-items-center gap-2">
-          <a className="btn btn-info" href={enrollHref ?? learnHref}>
-            {enrollHref ? `Enroll Now${price ? ` (${price})` : ''}` : 'Learn More'}
-          </a>
-          <a className="btn btn-link" href={learnHref}>
+        <div className={styles.ctaStack}>
+          <a className={styles.learnMoreLink} href={learnHref}>
             LEARN MORE
+          </a>
+          <a className={styles.enrollButton} href={enrollHref ?? learnHref}>
+            {enrollHref ? `Enroll Now${price ? ` (${price})` : ''}` : 'Enroll Now'}
           </a>
         </div>
       </div>
