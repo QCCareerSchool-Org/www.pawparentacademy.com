@@ -1,7 +1,7 @@
 import React from 'react';
-import CoursesHero from '@/components/CoursesHero';
+import CoursesHero from './CoursesHero';
 import CoursesGrid from '@/components/CoursesGrid';
-import PupPlaybooksHero from '@/components/PupPlaybooksHero';
+import PupPlaybooksHero from './PupPlaybooksHero';
 import CourseFeature from '@/components/CourseFeature';
 import { courses } from './courses';
 import nailsThumb from './images/nails-thumb-2.jpg';
