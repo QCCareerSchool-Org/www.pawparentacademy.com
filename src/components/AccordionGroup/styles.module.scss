@@ -1,0 +1,58 @@
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(15, 15, 15, 0.08);
+  padding: 1.5rem;
+}
+
+.accordion :global(.accordion-item) {
+  border: none;
+  border-bottom: 1px solid rgba(16, 196, 196, 0.2);
+  border-radius: 0;
+}
+
+.accordion :global(.accordion-item:last-of-type) {
+  border-bottom: none;
+}
+
+.accordion :global(.accordion-button) {
+  font-weight: 600;
+  font-size: 1.05rem;
+  padding: 1rem 0;
+  background-color: transparent;
+  color: #1d1d1f;
+  box-shadow: none;
+}
+
+.accordion :global(.accordion-button:not(.collapsed)) {
+  color: #10c4c4;
+}
+
+.accordion :global(.accordion-button::after) {
+  background-image: none;
+  content: '+';
+  color: #10c4c4;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.accordion :global(.accordion-button:not(.collapsed)::after) {
+  content: '−';
+}
+
+.accordion :global(.accordion-body) {
+  color: rgba(24, 26, 32, 0.85);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (max-width: 767px) {
+  .card {
+    padding: 1.25rem;
+  }
+
+  .accordion :global(.accordion-button) {
+    text-align: left;
+  }
+}

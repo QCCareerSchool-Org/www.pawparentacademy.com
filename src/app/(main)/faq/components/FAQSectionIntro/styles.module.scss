@@ -1,0 +1,13 @@
+.intro {
+  padding: 2.5rem 0 2rem;
+}
+
+.light {
+  background-color: #f5f5f5;
+}
+
+@media (min-width: 992px) {
+  .intro {
+    padding: 3.5rem 0 2.5rem;
+  }
+}

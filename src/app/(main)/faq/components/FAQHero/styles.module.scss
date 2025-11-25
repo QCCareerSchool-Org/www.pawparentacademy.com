@@ -1,0 +1,26 @@
+.hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 4.5rem 0 4rem;
+  overflow: hidden;
+}
+
+.hero :global(.container) {
+  position: relative;
+  z-index: 1;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+@media (min-width: 992px) {
+  .hero {
+    padding: 5rem 0 4rem;
+  }
+
+  .hero :global(.container) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
