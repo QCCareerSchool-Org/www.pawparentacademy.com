@@ -40,3 +40,10 @@
   color: rgba(255, 255, 255, 0.95);
   line-height: 1.6;
 }
+
+@media (max-width: 767px) {
+  .card p {
+    text-align: left !important;
+    width: 100%;
+  }
+}
