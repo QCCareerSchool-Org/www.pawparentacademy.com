@@ -1,13 +1,25 @@
 .cta {
-  background-image: url('/images/cta-bg.jpg');
+  background-image: url('./yorkie-2-thumb.jpg');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   padding: 100px 0;
-  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.sizer{position:relative;z-index:2} /* ensure content is above overlay */
+.cta::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.sizer{position:relative;z-index:1;width:100%} /* ensure content is above overlay */
 
 /* ensure all CTA text is white and readable */
 .cta h2,
@@ -23,26 +35,6 @@
   padding: 0;
 }
 
-.ctaBtn{
-  display:inline-block;
-  background:#10C4C4; /* accent teal */
-  color:#ffffff;
-  padding:0.9rem 2rem;
-  border-radius:32px;
-  font-weight:700;
-  box-shadow: 0 8px 24px rgba(16,196,196,0.18);
-  transition: transform .12s ease, box-shadow .12s ease;
-  text-decoration: none;
-  position: relative;
-  z-index: 3; /* ensure button is top-most and clickable */
-}
-
-.ctaBtn:hover,
-.ctaBtn:focus{
-  transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(16,196,196,0.22);
-  color: #fff;
-}
 
 /* ensure small-screen spacing looks good */
 @media (max-width: 767px) {

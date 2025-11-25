@@ -8,7 +8,7 @@ export default function AboutHero() {
       <div className="container mt-5">
         <div className="row justify-content-center">
           <div className="col-10 text-center">
-            <h1 id="about-hero-title" className="h1">Empowering Pet Parents</h1>
+            <h2>Empowering Pet Parents</h2>
           </div>
         </div>
 

@@ -40,7 +40,7 @@ export default function CourseFeature({
         />
       </div>
       <div className="mt-4">
-        <h3><strong>{title}</strong></h3>
+        <h3>{title}</h3>
         {subtitle && <p className="mb-3 mt-3 text-dark"><strong>{subtitle}</strong></p>}
         {description && <p>{description}</p>}
         {greatFor && (
@@ -64,7 +64,7 @@ export default function CourseFeature({
           <a className={styles.learnMoreLink} href={learnHref}>
             LEARN MORE
           </a>
-          <a className={styles.enrollButton} href={enrollHref ?? learnHref}>
+          <a className="btn-pill-primary" href={enrollHref ?? learnHref}>
             {enrollHref ? `Enroll Now${price ? ` (${price})` : ''}` : 'Enroll Now'}
           </a>
         </div>

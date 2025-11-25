@@ -13,7 +13,7 @@ export default function TeamSection(){
 
           <div className="col-6">
             <h2 id="team-heading">Expert-Led Education</h2>
-            <h3 className={styles.instructor}>Nadia Bongelli</h3>
+            <h3 className="subtitle-teal">Nadia Bongelli</h3>
             <p>Your course instructor, Nadia Bongelli, is a highly acclaimed industry leader and Nationally Certified Master Groomer. Recognized for her exceptional talent, she has been ranked as Canada’s #1 competitive groomer since 2018, earned the prestigious Barkleigh Honors Groomer of the Year award in 2024, and achieved second place at the 2024 World Grooming Championships in Belgium.</p>
           </div>
         </div>
