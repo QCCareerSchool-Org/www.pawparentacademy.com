@@ -76,5 +76,5 @@ export default function CourseFeature({
     return card;
   }
 
-  return <div className="col-12 col-md-6 mb-4">{card}</div>;
+  return <div className="col-12 col-md-6 mb-5">{card}</div>;
 }

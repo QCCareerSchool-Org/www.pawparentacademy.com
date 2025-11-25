@@ -9,7 +9,7 @@ export default function PupPlaybooksHero() {
           <div className="col-12 col-md-8 text-center">
             <h1 className="hero-heading">Pup Playbooks</h1>
             <h2 className={`hero-subheading ${styles.subtitle}`}>Care for Every Dog</h2>
-            <p className="lead mt-3">
+            <p className="mt-3">
               Discover quick and effective techniques to keep your pup happy, clean, and well-maintained with Paw Parent Academy&apos;s Pup Playbooks. These mini-courses are designed to make grooming easy, with simple, at-home care that enhances your pet&apos;s well-being and strengthens the bond you share.
             </p>
           </div>

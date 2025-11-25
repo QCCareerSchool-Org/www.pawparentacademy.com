@@ -22,7 +22,7 @@ export default function CoursesPage() {
       {/* Pup Playbooks section (hero + single feature) */}
       <PupPlaybooksHero />
 
-      {/* Pup Playbooks feature row: two cards */}
+      {/* Pup Playbooks course cards */}
       <section className="py-4 bg-white">
         <div className="container">
           <div className="row justify-content-center">
@@ -38,7 +38,7 @@ export default function CoursesPage() {
                 'Tools for stress-free trimming',
               ]}
               imageSrc={nailsThumb}
-              greatFor='All breeds, from tiny Chihuahuas to big Labradors'
+              greatFor="All breeds, from tiny Chihuahuas to big Labradors"
               learnHref="/courses/nail-trims-made-easy"
               enrollHref="/resource_redirect/offers/BZSKFNXJ"
               price="$68"
@@ -56,19 +56,14 @@ export default function CoursesPage() {
                 'Tips for maintaining coat health',
               ]}
               imageSrc={desheddingThumb}
-              greatFor='Heavy shedding double-coated breeds'
+              greatFor="Heavy shedding double-coated breeds"
               learnHref="/courses/deshedding-mastery"
               enrollHref="/resource_redirect/offers/FvrF2AjN"
               price="$68"
             />
           </div>
-        </div>
-      </section>
 
-      {/* Paws-itive single centered feature */}
-      <section className="py-4 bg-white">
-        <div className="container">
-          <div className="row justify-content-center">
+          <div className="row justify-content-center mt-3">
             <CourseFeature
               title="Paws-itive Grooming"
               subtitle=""
@@ -85,7 +80,6 @@ export default function CoursesPage() {
               learnHref="/courses/paws-itive-grooming"
               enrollHref="/resource_redirect/offers/VVEgFcZX"
               price="$68"
-              noCol={false} // Ensure consistent column structure
             />
           </div>
         </div>
