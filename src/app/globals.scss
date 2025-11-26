@@ -115,6 +115,12 @@ p, li {
   color: var(--body-text);
 }
 
+@media (max-width: 767px) {
+  p, li {
+    line-height: 1.5;
+  }
+}
+
 /* small helpers */
 .lead{font-size:1.0625rem;color:#374151}
 .text-muted{color:var(--muted)}
