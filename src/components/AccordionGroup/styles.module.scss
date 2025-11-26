@@ -1,24 +1,28 @@
 .card {
-  background-color: #ffffff;
-  border-radius: 20px;
-  box-shadow: 0 10px 35px rgba(15, 15, 15, 0.08);
-  padding: 1.5rem;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
 }
 
 .accordion :global(.accordion-item) {
   border: none;
-  border-bottom: 1px solid rgba(16, 196, 196, 0.2);
-  border-radius: 0;
+  border-radius: 16px;
+  background-color: #ffffff;
+  margin-bottom: 0.85rem;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(15, 15, 15, 0.08);
 }
 
 .accordion :global(.accordion-item:last-of-type) {
-  border-bottom: none;
+  margin-bottom: 0;
 }
 
 .accordion :global(.accordion-button) {
   font-weight: 600;
   font-size: 1.05rem;
-  padding: 1rem 0;
+  padding: 0.9rem 1.5rem 1rem;
+  margin-bottom: 0.8rem;
   background-color: transparent;
   color: #1d1d1f;
   box-shadow: none;
@@ -43,8 +47,7 @@
 
 .accordion :global(.accordion-body) {
   color: rgba(24, 26, 32, 0.85);
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0.5rem 1.5rem 1.25rem;
 }
 
 @media (max-width: 767px) {
