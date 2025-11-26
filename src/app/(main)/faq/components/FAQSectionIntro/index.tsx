@@ -14,7 +14,7 @@ export default function FAQSectionIntro({ title, description, variant = 'default
     <section className={sectionClass} aria-labelledby={headingId}>
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-12 col-lg-8">
+          <div className={`col-12 col-lg-8 ${styles.copy}`}>
             <h3 className="fw-bold mb-2" id={headingId}>
               {title}
             </h3>
