@@ -5,6 +5,7 @@ import AccordionGroup from '@/components/AccordionGroup';
 import CTASection from '@/components/CTASection';
 import { faqSections } from '@/app/(main)/faq/faq-data';
 import { faqSchema } from '@/app/(main)/faq/faq-schema';
+import styles from './FaqPage.module.scss';
 
 export const metadata: Metadata = {
   title: 'FAQ | Paw Parent Academy',
@@ -18,7 +19,7 @@ export default function FAQPage() {
       <FAQHero />
 
       {faqSections.map((section) => {
-        const backgroundClass = section.variant === 'light' ? 'bg-light' : '';
+        const backgroundClass = section.variant === 'light' ? styles.sectionLight : '';
 
         return (
           <div key={section.id}>
@@ -27,10 +28,10 @@ export default function FAQPage() {
               description={section.description}
               variant={section.variant}
             />
-            <section className={`${backgroundClass} py-4 py-lg-5`}>
+            <section className={`${backgroundClass} pt-2 pb-4 pb-lg-5`}>
               <div className="container">
                 <div className="row justify-content-center">
-                  <div className="col-12 col-lg-10">
+                  <div className="col-12 col-lg-8">
                     <AccordionGroup items={section.items} />
                   </div>
                 </div>

@@ -15,9 +15,9 @@ export default function FAQSectionIntro({ title, description, variant = 'default
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-lg-8">
-            <h2 className="fw-bold mb-3" id={headingId}>
+            <h3 className="fw-bold mb-2" id={headingId}>
               {title}
-            </h2>
+            </h3>
             {description && <p className="mb-0 text-muted">{description}</p>}
           </div>
         </div>
