@@ -108,6 +108,17 @@ h3, .h3 {
   font-weight: var(--heading-weight-bold);
 }
 
+.link-brand-pink {
+  color: var(--brand-pink) !important;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.link-brand-pink:hover,
+.link-brand-pink:focus {
+  color: #ff6b79 !important;
+}
+
 /* body text */
 p, li {
   font-weight: 400;

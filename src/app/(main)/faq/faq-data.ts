@@ -34,12 +34,12 @@ export const faqSections: FAQSectionContent[] = [
       {
         question: 'How does the Money-Back Guarantee work?',
         answerHtml:
-          '<p>Paw Parent Academy offers a 14-day Money-Back Guarantee on all course enrollments. If you decide the course is not the right fit, you may request a full refund within 14 days of enrollment.</p>\n<p>To request a refund, simply complete the course and email us at <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a> with a brief explanation of why the course does not meet your expectations.</p>\n<p>Refunds will be processed once we have verified your course completion.</p>'
+          '<p>Paw Parent Academy offers a 14-day Money-Back Guarantee on all course enrollments. If you decide the course is not the right fit, you may request a full refund within 14 days of enrollment.</p>\n<p>To request a refund, simply complete the course and email us at <a class="link-brand-pink" href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a> with a brief explanation of why the course does not meet your expectations.</p>\n<p>Refunds will be processed once we have verified your course completion.</p>'
       },
       {
         question: 'What devices can I use to access the course?',
         answerHtml:
-          '<p>At Paw Parent Academy, we’re committed to making your learning experience as smooth as possible. Our dog grooming courses are designed to be accessible on any device, whether you\'re using a computer, tablet, or smartphone. You can access your course anytime, anywhere, as long as you have an internet connection.</p>\n<p>All videos offer closed captioning to ensure everyone can follow along. If you ever need technical support, simply email us at <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>.</p>'
+          '<p>At Paw Parent Academy, we’re committed to making your learning experience as smooth as possible. Our dog grooming courses are designed to be accessible on any device, whether you\'re using a computer, tablet, or smartphone. You can access your course anytime, anywhere, as long as you have an internet connection.</p>\n<p>All videos offer closed captioning to ensure everyone can follow along. If you ever need technical support, simply email us at <a class="link-brand-pink" href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>.</p>'
       },
       {
         question: 'How long will it take me to complete the course?',
@@ -62,17 +62,17 @@ export const faqSections: FAQSectionContent[] = [
       {
         question: 'How do I choose which course to take?',
         answerHtml:
-          '<p>Getting started is easy! Simply visit our <a href="https://www.pawparentacademy.com/courses" target="_blank" rel="noreferrer">Courses</a> page and find the course that best suits your dog\'s needs based on coat type. Each course page includes information about the coat type covered in the course, along with examples of popular breeds that are well suited to that course. If you don’t see your dog’s breed listed, don’t worry! The grooming techniques will still apply. If you\'re unsure, send an email to <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a> and we\'ll help you find the right course for your needs.</p>'
+          '<p>Getting started is easy! Simply visit our <a class="link-brand-pink" href="https://www.pawparentacademy.com/courses" target="_blank" rel="noreferrer"><strong>Courses</strong></a> page and find the course that best suits your dog\'s needs based on coat type. Each course page includes information about the coat type covered in the course, along with examples of popular breeds that are well suited to that course. If you don’t see your dog’s breed listed, don’t worry! The grooming techniques will still apply. If you\'re unsure, send an email to <a class="link-brand-pink" href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a> and we\'ll help you find the right course for your needs.</p>'
       },
       {
         question: 'Which course should I take if my dog is a mixed breed?',
         answerHtml:
-          '<p>You\'ll choose a course based on your dog\'s coat type. Each course page provides a description of the coat type covered in that course. For example, if you have a Yorkie-Shih Tzu mix with a plush fluffy coat that is further from the body you\'ll choose <a href="https://www.pawparentacademy.com/courses/teddy-bear-cuts" target="_blank" rel="noreferrer">Teddy Bear Cuts</a>. Visit our <a href="https://www.pawparentacademy.com/courses" target="_blank" rel="noreferrer">Courses</a> page to see all the coat-specific grooming courses we offer. If you\'re unsure, simply reach out to us at <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>.</p>'
+          '<p>You\'ll choose a course based on your dog\'s coat type. Each course page provides a description of the coat type covered in that course. For example, if you have a Yorkie-Shih Tzu mix with a plush fluffy coat that is further from the body you\'ll choose <a class="link-brand-pink" href="https://www.pawparentacademy.com/courses/teddy-bear-cuts" target="_blank" rel="noreferrer">Teddy Bear Cuts</a>. Visit our <a class="link-brand-pink" href="https://www.pawparentacademy.com/courses" target="_blank" rel="noreferrer">Courses</a> page to see all the coat-specific grooming courses we offer. If you\'re unsure, simply reach out to us at <a class="link-brand-pink" href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>.</p>'
       },
       {
         question: 'What if my dog is uneasy getting groomed?',
         answerHtml:
-          '<p>We understand—most dogs aren’t fans of grooming! If your pup gets anxious or stressed during the process, our <a href="https://www.pawparentacademy.com/courses/paws-itive-grooming" target="_blank" rel="noreferrer">Paws-itive Grooming</a> course can help. Learn expert techniques to make grooming easier, calmer, and more enjoyable for both of you! Plus, if you\'d like to combine Paws-itive Grooming with one of our coat-specific grooming courses, simply send us an email at <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a> and we\'ll offer you a special discount for enrolling in multiple courses.</p>'
+          '<p>We understand—most dogs aren’t fans of grooming! If your pup gets anxious or stressed during the process, our <a class="link-brand-pink" href="https://www.pawparentacademy.com/courses/paws-itive-grooming" target="_blank" rel="noreferrer"><strong>Paws-itive Grooming</strong></a> course can help. Learn expert techniques to make grooming easier, calmer, and more enjoyable for both of you! Plus, if you\'d like to combine Paws-itive Grooming with one of our coat-specific grooming courses, simply send us an email at <a class="link-brand-pink" href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a> and we\'ll offer you a special discount for enrolling in multiple courses.</p>'
       },
       {
         question: 'What if my goal is to maintain my dog’s coat between professional grooms?',
@@ -82,7 +82,7 @@ export const faqSections: FAQSectionContent[] = [
       {
         question: 'Will I get a discount if I enroll in more than one course?',
         answerHtml:
-          '<p>Absolutely! Send us an email at <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a> and we\'ll send you a special discount code.</p>'
+          '<p>Absolutely! Send us an email at <a class="link-brand-pink" href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a> and we\'ll send you a special discount code.</p>'
       }
     ]
   },
