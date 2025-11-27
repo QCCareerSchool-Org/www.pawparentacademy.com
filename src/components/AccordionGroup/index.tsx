@@ -18,7 +18,7 @@ export default function AccordionGroup({ items, className }: AccordionGroupProps
 
   return (
     <div className={wrapperClass}>
-      <Accordion alwaysOpen={false} className={styles.accordion} flush>
+      <Accordion alwaysOpen className={styles.accordion} flush>
         {items.map((item, index) => (
           <Accordion.Item eventKey={String(index)} key={item.question} className={styles.item}>
             <Accordion.Header>{item.question}</Accordion.Header>
