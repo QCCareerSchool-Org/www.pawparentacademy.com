@@ -30,3 +30,54 @@
   text-underline-offset: 6px;
   text-decoration-thickness: 2px;
 }
+
+.toggler {
+  border: 0;
+  padding: 0.5rem;
+  box-shadow: none;
+}
+
+.togglerIcon {
+  position: relative;
+  width: 26px;
+  height: 2px;
+  display: block;
+  background: #fff;
+  background-image: none !important;
+  border-radius: 999px;
+  transition: background 0.2s ease, transform 0.2s ease;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 26px;
+    height: 2px;
+    background: #fff;
+    border-radius: 999px;
+    transition: transform 0.25s ease, top 0.25s ease, opacity 0.25s ease;
+  }
+
+  &::before {
+    top: -7px;
+  }
+
+  &::after {
+    top: 7px;
+  }
+}
+
+.toggler[aria-expanded='true'] .togglerIcon {
+  background: transparent;
+
+  &::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+}

@@ -30,22 +30,34 @@ export default function Navbar() {
             />
           </Link>
 
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon" />
+          <button
+            className={`navbar-toggler ${styles.toggler}`}
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className={`navbar-toggler-icon ${styles.togglerIcon}`} />
           </button>
 
           <div className="collapse navbar-collapse justify-content-end" id="mainNav">
             <ul className={`navbar-nav ${styles.navList}`}>
-              {links.map(({ href, label }) => (
-                <li className="nav-item" key={href}>
-                  <Link
-                    href={href}
-                    className={`nav-link ${pathname?.startsWith(href) ? 'active' : ''}`.trim()}
-                  >
-                    {label}
-                  </Link>
-                </li>
-              ))}
+              {links.map(({ href, label }) => {
+                const isActive = pathname === href || pathname === `${href}/`;
+
+                return (
+                  <li className="nav-item" key={href}>
+                    <Link
+                      href={href}
+                      className={`nav-link ${isActive ? 'active' : ''}`.trim()}
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>

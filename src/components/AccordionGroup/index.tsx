@@ -24,7 +24,6 @@ export default function AccordionGroup({ items, className }: AccordionGroupProps
             <Accordion.Header>{item.question}</Accordion.Header>
             <Accordion.Body
               dangerouslySetInnerHTML={{ __html: item.answerHtml }}
-              className="pt-3"
             />
           </Accordion.Item>
         ))}

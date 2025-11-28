@@ -1,0 +1,14 @@
+.section {
+  padding-top: 3.5rem;
+}
+
+.content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 575.98px) {
+  .section {
+    padding-top: 2.5rem;
+  }
+}

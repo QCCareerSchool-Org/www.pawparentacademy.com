@@ -10,7 +10,10 @@ import styles from './FaqPage.module.scss';
 export const metadata: Metadata = {
   title: 'FAQ | Paw Parent Academy',
   description:
-    'Find out grooming costs, the best course, and more. Learn to groom your dog at home, save money, and bond with your pet with Paw Parent Academy’s online courses.'
+    'Find out grooming costs, the best course, and more. Learn to groom your dog at home, save money, and bond with your pet with Paw Parent Academy’s online courses.',
+  alternates: {
+    canonical: 'https://www.pawparentacademy.com/faq',
+  },
 };
 
 export default function FAQPage() {

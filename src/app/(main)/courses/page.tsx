@@ -1,4 +1,5 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import CoursesHero from './CoursesHero';
 import CoursesGrid from '@/components/CoursesGrid';
 import PupPlaybooksHero from './PupPlaybooksHero';
@@ -7,6 +8,15 @@ import { courses } from './courses';
 import nailsThumb from './images/nails-thumb-2.jpg';
 import desheddingThumb from './images/deshedding--thumb.jpg';
 import pawsitiveThumb from './images/pawsitive-thumb-no-bg.jpg';
+
+export const metadata: Metadata = {
+  title: 'Dog Grooming Courses | Paw Parent Academy',
+  description:
+    'Browse online dog grooming courses for every coat type. Learn pro techniques, save on grooming bills, and bond with your pup at home.',
+  alternates: {
+    canonical: 'https://www.pawparentacademy.com/courses',
+  },
+};
 
 export default function CoursesPage() {
   return (
