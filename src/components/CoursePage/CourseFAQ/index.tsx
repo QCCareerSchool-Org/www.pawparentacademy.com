@@ -1,4 +1,5 @@
 import AccordionGroup, { AccordionItem } from '@/components/AccordionGroup';
+import styles from './styles.module.scss';
 
 interface CourseFAQProps {
   heading: string;
@@ -7,7 +8,7 @@ interface CourseFAQProps {
 
 export default function CourseFAQ({ heading, items }: CourseFAQProps) {
   return (
-    <section className="py-5 bg-light mb-5">
+    <section className={`py-5 bg-light ${styles.section}`}>
       <div className="container">
         <div className="row justify-content-center text-center mb-4">
           <div className="col-lg-6">

@@ -123,7 +123,7 @@ export default function CourseModulesCarousel({ modules, enrollHref, enrollLabel
         )}
 
         {enrollHref && (
-          <div className={styles.ctaWrap}>
+          <div className={`${styles.ctaWrap} mt-5`}>
             <a className={`btn-pill-primary ${styles.ctaButton}`} href={enrollHref}>
               {ctaLabel}
             </a>

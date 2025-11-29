@@ -15,6 +15,13 @@ interface CourseFeatureGridProps {
 }
 
 export default function CourseFeatureGrid({ heading, features, className }: CourseFeatureGridProps) {
+  const desktopColumnClass = `row-cols-lg-${Math.min(4, Math.max(1, features.length))}`;
+  const rowClasses = ['row', 'row-cols-1', 'row-cols-sm-2', desktopColumnClass, 'g-4'];
+
+  if (features.length < 4) {
+    rowClasses.push('justify-content-center');
+  }
+
   return (
     <section className={className}>
       <div className="container py-5">
@@ -25,7 +32,7 @@ export default function CourseFeatureGrid({ heading, features, className }: Cour
             </div>
           </div>
         )}
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+        <div className={rowClasses.join(' ')}>
           {features.map((feature) => (
             <div className="col" key={feature.title}>
               <div className={`h-100 text-center p-4 ${styles.featureCard}`}>
