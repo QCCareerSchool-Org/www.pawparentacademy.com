@@ -1,4 +1,7 @@
 import type { AccordionItem } from '@/components/AccordionGroup';
+import nailsIcon from '../images/nails-icon.png';
+import nailClippersIcon from '../images/nail-clippers-icon.png';
+import dogIcon from '../images/dog-icon.png';
 
 export const courseMetadata = {
   title: 'Paws-itive Grooming',
@@ -35,20 +38,17 @@ export const fitChecklistContent = {
 
 export const featureHighlights = [
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/f7be367-32b-bb41-b335-02bd876bd6b_nails-icon.png',
+    iconSrc: nailsIcon,
     title: 'Make Positive Connections',
     description: 'Help your pup learn to feel good about essential grooming tasks.',
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/ae467ea-a257-dbf6-afc7-ac1864ae581_ec33914c-1c5c-4915-8f0a-11110a362624.png',
+    iconSrc: nailClippersIcon,
     title: 'Overcome Grooming Fears',
     description: 'Teach your dog that nail trims and grooming are nothing to fear.',
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/c243d0f-ba5-f25d-81db-3bea0d170b2d_39752f4c-7934-4cca-882e-9f31df1ca1c2.png',
+    iconSrc: dogIcon,
     title: 'Customize the Groom',
     description: "Learn to customize the grooming process for your pet's unique needs.",
   },

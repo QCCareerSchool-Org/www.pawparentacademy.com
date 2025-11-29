@@ -1,10 +1,10 @@
 import type { AccordionItem } from '@/components/AccordionGroup';
 import heroPastel2 from './hero-pastel-2.jpg';
 import goldendoodleShaving from './goldendoodle-shaving.jpg';
-import bathIcon from './bathe-icon.png';
-import coatIcon from './coat-icon.png';
-import nailsIcon from './nails-icon.png';
-import trimsIcon from './trims-icon.png';
+import bathIcon from '../images/bathe-icon.png';
+import coatIcon from '../images/coat-icon.png';
+import nailsIcon from '../images/nails-icon.png';
+import trimsIcon from '../images/trims-icon.png';
 import remyPupStar from './remy-pup-star.jpg';
 
 export const courseMetadata = {
@@ -48,17 +48,17 @@ export const featureHighlights = [
   {
     iconSrc: coatIcon,
     title: 'Maintain a Healthy Coat',
-    description: 'Prevent mats, knots, and tangles for a plush, healthy finish.',
+    description: "Learn how to keep your pup's high-maintenance coat smooth and silky.",
   },
   {
     iconSrc: bathIcon,
     title: 'Bathe & Dry Like a Pro',
-    description: 'Follow pro techniques for salon-worthy cleanliness and comfort.',
+    description: 'Learn professional techniques for a clean and happy pet.',
   },
   {
     iconSrc: trimsIcon,
     title: 'Create Adorable Trims',
-    description: 'Give your dog a polished teddy bear look right at home.',
+    description: 'See how you can create an adorable teddy bear cut on your dog.',
   },
 ];
 

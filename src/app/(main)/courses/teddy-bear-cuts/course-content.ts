@@ -1,4 +1,8 @@
 import type { AccordionItem } from '@/components/AccordionGroup';
+import bathIcon from '../images/bathe-icon.png';
+import coatIcon from '../images/coat-icon.png';
+import nailsIcon from '../images/nails-icon.png';
+import trimsIcon from '../images/trims-icon.png';
 
 export const courseMetadata = {
   title: 'Teddy Bear Cuts',
@@ -35,28 +39,24 @@ export const fitChecklistContent = {
 
 export const featureHighlights = [
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/f7be367-32b-bb41-b335-02bd876bd6b_nails-icon.png',
+    iconSrc: nailsIcon,
     title: 'Master No-Fear Nail Trims',
-    description: 'Keep your pup calm while maintaining perfectly trimmed nails.',
+    description: 'Keep your pup calm and their paws perfectly maintained.',
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/43ef032-77f-1f1a-ee25-6e3edbfef0_coat-icon.png',
+    iconSrc: coatIcon,
     title: 'Maintain a Healthy Coat',
-    description: 'Prevent mats, knots, and tangles so the coat stays soft and luxurious.',
+    description: "Learn how to keep your pup's high-maintenance coat smooth and silky.",
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/223ffbc-224f-f581-a0b3-b44d728528_bathe-icon.png',
-    title: 'Bathe and Dry Like a Pro',
-    description: 'Follow professional bathing and drying techniques for a clean, happy pup.',
+    iconSrc: bathIcon,
+    title: 'Bathe & Dry Like a Pro',
+    description: 'Learn professional techniques for a clean and happy pet.',
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/2474105-46e4-c77a-7740-0705abfc678c_trims-icon.png',
+    iconSrc: trimsIcon,
     title: 'Create Adorable Trims',
-    description: 'Shape an irresistibly round teddy bear face right at home.',
+    description: 'See how you can create an adorable teddy bear cut on your dog.',
   },
 ];
 

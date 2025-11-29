@@ -1,4 +1,8 @@
 import type { AccordionItem } from '@/components/AccordionGroup';
+import bathIcon from '../images/bathe-icon.png';
+import coatIcon from '../images/coat-icon.png';
+import nailsIcon from '../images/nails-icon.png';
+import trimsIcon from '../images/trims-icon.png';
 
 export const courseMetadata = {
   title: 'How to Groom a Golden Retriever',
@@ -35,28 +39,24 @@ export const fitChecklistContent = {
 
 export const featureHighlights = [
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/f7be367-32b-bb41-b335-02bd876bd6b_nails-icon.png',
+    iconSrc: nailsIcon,
     title: 'Master No-Fear Nail Trims',
-    description: 'Keep your pup calm while you maintain perfectly manicured paws.',
+    description: 'Keep your pup calm and their paws perfectly maintained.',
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/43ef032-77f-1f1a-ee25-6e3edbfef0_coat-icon.png',
+    iconSrc: coatIcon,
     title: 'Maintain a Healthy Coat',
-    description: 'Prevent hot spots, mats, and tangles on your double-coated dog.',
+    description: "Learn how to keep your pup's high-maintenance coat smooth and silky.",
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/223ffbc-224f-f581-a0b3-b44d728528_bathe-icon.png',
-    title: 'Bathe and Dry like a Pro',
-    description: 'Learn professional bathing techniques for a clean and happy pet.',
+    iconSrc: bathIcon,
+    title: 'Bathe and Dry Like a Pro',
+    description: 'Learn professional techniques for a clean and happy pet.',
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/2474105-46e4-c77a-7740-0705abfc678c_trims-icon.png',
+    iconSrc: trimsIcon,
     title: 'Finishing Touches',
-    description: "Give your pup a neat, tidy trim to showcase that feathered coat.",
+    description: 'See how you can create an adorable teddy bear cut on your dog.',
   },
 ];
 

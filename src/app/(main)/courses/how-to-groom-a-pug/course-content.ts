@@ -1,4 +1,8 @@
 import type { AccordionItem } from '@/components/AccordionGroup';
+import bathIcon from '../images/bathe-icon.png';
+import coatIcon from '../images/coat-icon.png';
+import nailsIcon from '../images/nails-icon.png';
+import curryIcon from '../images/curry-icon.png';
 
 export const courseMetadata = {
   title: 'How to Groom a Pug',
@@ -33,28 +37,24 @@ export const fitChecklistContent = {
 
 export const featureHighlights = [
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/f7be367-32b-bb41-b335-02bd876bd6b_nails-icon.png',
-    title: 'Master Nail Trims',
-    description: 'Learn pro techniques to make the nail trimming process a breeze.',
+    iconSrc: nailsIcon,
+    title: 'Master No-Fear Nail Trims',
+    description: 'Keep your pup calm and their paws perfectly maintained.',
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/43ef032-77f-1f1a-ee25-6e3edbfef0_coat-icon.png',
+    iconSrc: coatIcon,
     title: 'Maintain a Healthy Coat',
-    description: 'Prevent the buildup of dead hair by learning proper brushing techniques.',
+    description: "Learn how to keep your pup's high-maintenance coat smooth and silky.",
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/223ffbc-224f-f581-a0b3-b44d728528_bathe-icon.png',
-    title: 'Bathe and Dry like a Pro',
-    description: 'Carefully clean your dog, including under sensitive folds and wrinkles.',
+    iconSrc: bathIcon,
+    title: 'Bathe and Dry Like a Pro',
+    description: 'Learn professional techniques for a clean and happy pet.',
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/5a42d2e-4d8-147a-7420-c0be04a13f_curry-icon.png',
+    iconSrc: curryIcon,
     title: 'Finishing Touches',
-    description: 'Give your pup a perfect, shiny coat with a final deshedding process.',
+    description: 'See how you can create an adorable teddy bear cut on your dog.',
   },
 ];
 

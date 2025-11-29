@@ -1,4 +1,7 @@
 import type { AccordionItem } from '@/components/AccordionGroup';
+import coatIcon from '../images/coat-icon.png';
+import brushIcon from '../images/brush-icon.png';
+import dogIcon from '../images/dog-icon.png';
 
 export const courseMetadata = {
   title: 'Deshedding Mastery',
@@ -34,20 +37,17 @@ export const fitChecklistContent = {
 
 export const featureHighlights = [
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/43ef032-77f-1f1a-ee25-6e3edbfef0_coat-icon.png',
+    iconSrc: coatIcon,
     title: 'Maintain a Healthy Coat',
     description: 'Prevent mats, knots, and tangles for a healthy finish.',
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/80c6f35-af7b-ba45-bda4-85d64c1a32e_brush-icon.png',
+    iconSrc: brushIcon,
     title: 'Manage Shedding',
     description: 'Learn the best ways to reduce shedding and keep hair off the couch.',
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/cb81eec-4082-4552-e8c5-bc2d4ed7432_dog-icon.png',
+    iconSrc: dogIcon,
     title: 'Build a Routine',
     description: 'Find the perfect brushing routine so your pet looks and feels great.',
   },

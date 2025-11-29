@@ -1,4 +1,7 @@
 import type { AccordionItem } from '@/components/AccordionGroup';
+import nailsIcon from '../images/nails-icon.png';
+import nailClippersIcon from '../images/nail-clippers-icon.png';
+import dogIcon from '../images/dog-icon.png';
 
 export const courseMetadata = {
   title: 'Nail Trims Made Easy',
@@ -34,20 +37,17 @@ export const fitChecklistContent = {
 
 export const featureHighlights = [
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/f7be367-32b-bb41-b335-02bd876bd6b_nails-icon.png',
+    iconSrc: nailsIcon,
     title: 'Enjoy No-Fear Nail Trims',
     description: "Make cutting your dog's nails a positive experience for you and your pup.",
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/0f4e04e-c7d5-72e1-5ac1-2e716cdb45_nail-clippers-icon.png',
+    iconSrc: nailClippersIcon,
     title: 'Avoid Cutting the Quick',
     description: 'Master comfortable, pain-free trims with expert tips from a pro groomer.',
   },
   {
-    iconSrc:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/db3f167-1ba-7ac-8dc6-003d8660a84_dog-icon.png',
+    iconSrc: dogIcon,
     title: 'Master Dog Handling',
     description: 'Learn the right way to handle your dog for easy, stress-free nail trims.',
   },
