@@ -3,9 +3,15 @@ import styles from './StatsSection.module.scss';
 import lockImg from './lock-icon.jpg';
 import shieldImg from './shield-icon.jpg';
 
-export default function StatsSection() {
+interface StatsSectionProps {
+  className?: string;
+}
+
+export default function StatsSection({ className }: StatsSectionProps = {}) {
+  const sectionClass = ['py-5', className].filter(Boolean).join(' ').trim();
+
   return (
-    <section className="py-5">
+    <section className={sectionClass}>
       <div className="container mt-5 mb-5">
         <div className="row g-4">
           <div className="col-12 col-md-6">

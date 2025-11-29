@@ -1,0 +1,45 @@
+import Link from 'next/link';
+import styles from './HeroSection.module.scss';
+
+interface HeroSectionProps {
+  headline: string;
+  subheading: string;
+  ctaLabel: string;
+  ctaHref: string;
+  backgroundImage: string;
+}
+
+export default function HeroSection({
+  headline,
+  subheading,
+  ctaLabel,
+  ctaHref,
+  backgroundImage,
+}: HeroSectionProps) {
+  return (
+    <section
+      className={styles.hero}
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+      aria-labelledby="home-hero-heading"
+    >
+      <div className={styles.overlay} aria-hidden="true" />
+      <div className="container">
+        <div className="row justify-content-start">
+          <div className="col-12 col-lg-9">
+            <div className={styles.content}>
+              <h1 id="home-hero-heading" className={styles.headline}>
+                {headline}
+              </h1>
+              <p className={styles.subheading}>{subheading}</p>
+              <div className={styles.ctaWrap}>
+                <Link href={ctaHref} className={`btn-pill-primary ${styles.ctaButton}`}>
+                  {ctaLabel}
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
