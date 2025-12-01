@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import styles from './styles.module.scss';
 
@@ -18,31 +18,72 @@ interface CourseModulesCarouselProps {
 }
 
 const AUTO_INTERVAL = 3000;
+const INTERACTION_DELAY = 6000;
 
 export default function CourseModulesCarousel({ modules, enrollHref, enrollLabel }: CourseModulesCarouselProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const total = modules.length;
   const hasModules = total > 0;
   const ctaLabel = enrollLabel ?? 'Enroll Now';
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const delayRef = useRef(AUTO_INTERVAL);
 
-  useEffect(() => {
-    if (total <= 1) return undefined;
+  const scheduleRotation = useCallback(() => {
+    if (timerRef.current) {
+      window.clearTimeout(timerRef.current);
+    }
 
-    const timer = window.setInterval(() => {
+    if (total <= 1) {
+      return;
+    }
+
+    timerRef.current = window.setTimeout(() => {
+      delayRef.current = AUTO_INTERVAL;
       setActiveIndex((prev) => (prev + 1) % total);
-    }, AUTO_INTERVAL);
-
-    return () => window.clearInterval(timer);
+    }, delayRef.current);
   }, [total]);
 
-  const handlePrev = () => {
+  useEffect(() => {
+    scheduleRotation();
+
+    return () => {
+      if (timerRef.current) {
+        window.clearTimeout(timerRef.current);
+      }
+    };
+  }, [activeIndex, scheduleRotation]);
+
+  const setIndexWithDelay = (updater: (prev: number) => number) => {
     if (total <= 1) return;
-    setActiveIndex((prev) => (prev - 1 + total) % total);
+    delayRef.current = INTERACTION_DELAY;
+
+    if (timerRef.current) {
+      window.clearTimeout(timerRef.current);
+      timerRef.current = null;
+    }
+
+    setActiveIndex((prev) => {
+      const next = updater(prev);
+
+      if (next === prev) {
+        scheduleRotation();
+        return prev;
+      }
+
+      return next;
+    });
+  };
+
+  const handlePrev = () => {
+    setIndexWithDelay((prev) => (prev - 1 + total) % total);
   };
 
   const handleNext = () => {
-    if (total <= 1) return;
-    setActiveIndex((prev) => (prev + 1) % total);
+    setIndexWithDelay((prev) => (prev + 1) % total);
+  };
+
+  const handleDotClick = (index: number) => {
+    setIndexWithDelay(() => index);
   };
 
   if (!hasModules) {
@@ -114,7 +155,7 @@ export default function CourseModulesCarousel({ modules, enrollHref, enrollLabel
                 key={module.subtitle}
                 type="button"
                 className={`${styles.dot} ${index === activeIndex ? styles.dotActive : ''}`}
-                onClick={() => setActiveIndex(index)}
+                onClick={() => handleDotClick(index)}
                 aria-label={`Go to module ${index + 1}`}
                 aria-pressed={index === activeIndex}
               />
