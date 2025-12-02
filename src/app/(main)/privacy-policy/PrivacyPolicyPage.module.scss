@@ -1,0 +1,62 @@
+.privacySection {
+  padding: clamp(3rem, 6vw, 4.5rem) 0 5rem;
+  background: #ffffff;
+}
+
+.content {
+  max-width: 820px;
+  margin: 0 auto;
+  color: var(--body-text);
+  padding: 0 clamp(1.5rem, 6vw, 3.75rem);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.sectionBlock + .sectionBlock {
+  margin-top: 2rem;
+}
+
+.sectionBlock h5 {
+  margin-bottom: 0.65rem;
+  font-weight: 700;
+}
+
+.sectionBlock p,
+.sectionBlock ul,
+.sectionBlock address {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.sectionBlock ul {
+  padding-left: 1.25rem;
+}
+
+.sectionBlock li + li {
+  margin-top: 0.4rem;
+}
+
+.address,
+.sectionBlock address {
+  font-style: normal;
+}
+
+.note {
+  background: #fff7f9;
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 575.98px) {
+  .privacySection {
+    padding: 2.5rem 0 3.75rem;
+  }
+
+  .content {
+    padding: 0 1.5rem;
+  }
+}
