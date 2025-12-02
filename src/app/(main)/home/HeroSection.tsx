@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import styles from './HeroSection.module.scss';
+import { StaticImageData } from 'next/image';
 
 interface HeroSectionProps {
   headline: string;
   subheading: string;
   ctaLabel: string;
   ctaHref: string;
-  backgroundImage: string;
+  backgroundImage: string | StaticImageData;
 }
 
 export default function HeroSection({

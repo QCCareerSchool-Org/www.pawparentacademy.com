@@ -1,10 +1,10 @@
-import Image from 'next/image';
+import Image, { type StaticImageData } from 'next/image';
 import styles from './ValuePropsSection.module.scss';
 
 interface ValueProp {
   title: string;
   description: string;
-  image: string;
+  image: string | StaticImageData;
   alt: string;
 }
 

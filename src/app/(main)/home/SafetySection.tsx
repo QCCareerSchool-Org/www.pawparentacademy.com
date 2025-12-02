@@ -1,10 +1,10 @@
-import Image from 'next/image';
+import Image, { type StaticImageData } from 'next/image';
 import styles from './SafetySection.module.scss';
 
 interface SafetyFeature {
   title: string;
   description: string;
-  icon: string;
+  icon: string | StaticImageData;
   alt: string;
 }
 

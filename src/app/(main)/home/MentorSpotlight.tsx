@@ -1,11 +1,11 @@
-import Image from 'next/image';
+import Image, { type StaticImageData } from 'next/image';
 import styles from './MentorSpotlight.module.scss';
 
 interface MentorSpotlightProps {
   name: string;
   title: string;
   description: string[];
-  image: string;
+  image: string | StaticImageData;
   imageAlt: string;
 }
 

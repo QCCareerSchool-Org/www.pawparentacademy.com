@@ -1,13 +1,13 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Image from 'next/image';
+import Image, { type StaticImageData } from 'next/image';
 import styles from './TestimonialsCarousel.module.scss';
 
 export interface TestimonialItem {
   name: string;
   quote: string;
-  image: string;
+  image: string | StaticImageData;
   alt: string;
 }
 
