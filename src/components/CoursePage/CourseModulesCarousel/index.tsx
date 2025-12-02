@@ -1,14 +1,14 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
-import Image from 'next/image';
+import Image, { type StaticImageData } from 'next/image';
 import styles from './styles.module.scss';
 
 export interface CourseModuleInfo {
   title: string;
   subtitle: string;
   description: string;
-  image: string;
+  image: string | StaticImageData;
 }
 
 interface CourseModulesCarouselProps {
