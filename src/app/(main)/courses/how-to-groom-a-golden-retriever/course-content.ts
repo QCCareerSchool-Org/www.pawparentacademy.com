@@ -3,6 +3,17 @@ import bathIcon from '../images/bathe-icon.png';
 import coatIcon from '../images/coat-icon.png';
 import nailsIcon from '../images/nails-icon.png';
 import trimsIcon from '../images/trims-icon.png';
+import heroImage from './images/hero-golden-retriever.jpg';
+import fitChecklistImage from './images/golden-retriever.jpg';
+import nalaPupStar from './images/golden-pup-star.jpg';
+import module1Image from './images/module-1.jpg';
+import module2Image from './images/module-2.jpg';
+import module3Image from './images/module-3.jpg';
+import module4Image from './images/module-4.jpg';
+import module5Image from './images/module-5.jpg';
+import module6Image from './images/module-6.jpg';
+import module7Image from './images/module-7.jpg';
+import module8Image from './images/module-bonus.jpg';
 
 export const courseMetadata = {
   title: 'How to Groom a Golden Retriever',
@@ -13,11 +24,10 @@ export const courseMetadata = {
 
 export const heroContent = {
   title: 'How to Groom a Golden Retriever',
-  description: 'Learn how to groom your Golden, Aussie or other double-coated dog at home.',
+  description: 'Learn How to Groom Your Golden, Aussie or Other Double-Coated Dog at Home.',
   ctaLabel: 'Enroll Now ($248)',
   ctaHref: '/resource_redirect/offers/W4jL2sL9',
-  backgroundImage:
-    'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/75860b-24-781-fa68-88aa66dd38_hero-golden-retriever.jpg',
+  backgroundImage: heroImage,
 };
 
 export const fitChecklistContent = {
@@ -32,7 +42,7 @@ export const fitChecklistContent = {
     "You're ready to be your dog's #1 groomer!",
   ],
   image: {
-    src: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/051c8-dd7-6a4-2cf-570fcb82a37_golden-retriever.jpg',
+    src: fitChecklistImage,
     alt: 'Nadia Bongelli combing a golden retriever.',
   },
 };
@@ -46,17 +56,17 @@ export const featureHighlights = [
   {
     iconSrc: coatIcon,
     title: 'Maintain a Healthy Coat',
-    description: "Learn how to keep your pup's high-maintenance coat smooth and silky.",
+    description: "Prevent hot spots, mats, and tangles on your double-coat dog.",
   },
   {
     iconSrc: bathIcon,
     title: 'Bathe and Dry Like a Pro',
-    description: 'Learn professional techniques for a clean and happy pet.',
+    description: 'Learn professional bathing techniques for a clean and happy pet.',
   },
   {
     iconSrc: trimsIcon,
     title: 'Finishing Touches',
-    description: 'See how you can create an adorable teddy bear cut on your dog.',
+    description: "Enhance your pup's look by learning how to do a neat and tidy trim.",
   },
 ];
 
@@ -69,7 +79,7 @@ export const mascotSpotlight = {
     'Gets mats behind the ears, in the armpits, and under the collar.',
   ],
   image: {
-    src: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/6a132e-0304-ebb7-f1b-5ebe720b527_golden-pup-star.jpg',
+    src: nalaPupStar,
     alt: 'Nadia Bongelli patting a golden retriever.',
   },
 };
@@ -95,64 +105,56 @@ export const modules = [
     subtitle: 'Grooming Basics',
     description:
       'Discover your dog\'s unique grooming needs including what a proper grooming routine looks like and how you can use the grooming experience to monitor health.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/13c377d-88a-658e-f18b-e7c65ec85cda_module-1.jpg',
+    image: module1Image,
   },
   {
     title: 'Module 2',
     subtitle: 'Your Grooming Space',
     description:
       "Learn how to set up safe and efficient grooming and bathing areas for you and your pet. We'll walk you through the exact setup you need for a smooth grooming process.",
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/a500164-c381-b1e1-bfcc-5d44c82f68d_module-2.jpg',
+    image: module2Image,
   },
   {
     title: 'Module 3',
     subtitle: 'Safe Grooming',
     description:
       'We know you have safety top of mind and so do we! Learn the techniques and equipment you should be using to prevent injuries.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/7fb3d66-f3a5-52-2ee6-2104c81c82_module-3.jpg',
+    image: module3Image,
   },
   {
     title: 'Module 4',
     subtitle: 'Brushing a Double Coat',
     description:
       'Discover which tools you should be using for each area of your dog. Master mats and tangles and learn how to make the brushing experience enjoyable.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/ef53cb-4b7-03b-05a6-cc801e480c1_module-4.jpg',
+    image: module4Image,
   },
   {
     title: 'Module 5',
     subtitle: 'Nails, Eyes, Ears and Teeth',
     description:
       "Find out what your dog's maintenance schedule should be and learn proper nail, eye, ear and teeth-cleaning techniques.",
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/b22867c-06ea-70ed-eb2-13558b35fc_module-5.jpg',
+    image: module5Image,
   },
   {
     title: 'Module 6',
     subtitle: 'Bathing and Drying',
     description:
       "Splish splash - it's time for a bath! Learn how to effectively bathe and dry your pet including our expert's best tip for keeping yourself dry during the process.",
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/13a0f1-20d4-4b48-3025-136025f462ff_module-6.jpg',
+    image: module6Image,
   },
   {
     title: 'Module 7',
     subtitle: 'Trim and Finishing Touches',
     description:
       "Study how to safely use scissors and clippers before learning how to trim your golden retriever's feathering, paws and ears.",
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/16ae8b6-2df8-2c6b-bd26-3f8a0238701b_module-7.jpg',
+    image: module7Image,
   },
   {
     title: 'Bonus Module',
     subtitle: 'Canine Communication',
     description:
-      "Find out what your dog is really trying to tell you. Observe signals early so you can respond quickly and adjust to your pet's needs.",
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/1384da-7b20-ef3a-f28a-e6ed3f47812_module-bonus.jpg',
+      "Find out what your dog is really trying to tell you. Observe signals early so you can respond quickly and adjust to your pet's needs. You and your dog will work together as a team.",
+    image: module8Image,
   },
 ];
 
@@ -160,32 +162,32 @@ export const faqItems: AccordionItem[] = [
   {
     question: 'Do I need prior experience?',
     answerHtml:
-      'Not at all! You can learn how to groom your Golden Retriever or other double-coated dog with no prior grooming experience. There is no complicated terminology or skipped techniques, and you can watch each demo as often as you like.',
+      "Not at all! You can learn how to groom your Golden Retriever or other double-coated dog with no prior experience grooming dogs. There will be no complicated terminology or techniques skipped over - plus you’ll be able to watch each technique as often as you like.",
   },
   {
     question: 'Is the course appropriate for all double-coat breeds?',
     answerHtml:
-      "Yes! This course is perfect for learning to groom a Golden Retriever, Australian Shepherd, Bernese Mountain Dog or any other double-coated mix with a lush, thick coat.",
+      "Yes! This course is perfect for learning to groom a Golden Retriever, Australian Shepherd, Bernese Mountain Dog or any other double-coated dog mix with a lush, thick coat.",
   },
   {
     question: 'How much will it cost to buy the equipment to groom my dog?',
     answerHtml:
-      "What you invest in your grooming setup depends on how much of the groom you'd like to do. If you're trimming feathering, paws and ears you'll invest in clippers and shears. The upfront cost pays for itself as professional grooming visits shrink or disappear.",
+      "What you invest in your grooming setup depends on how much of the groom you’d like to do. For instance, if you're going to trim your dog's feathering, paws and ears you'll invest in clippers and shears. The investment you put into your equipment will pay for itself as your professional grooming expenses are reduced or eliminated altogether.",
   },
   {
     question: 'My dog is terrified to go to the groomers. Will this course help?',
     answerHtml:
-      'Grooming your dog at home can be the perfect solution if salon visits feel scary. You control the environment, can offer breaks whenever needed, and follow the course guidance to keep every session positive.',
+      "Grooming your dog may be the perfect solution for you if your dog is uncomfortable going to the groomer. You’ll be able to control the environment so your dog feels comfortable and you can give your dog lots of breaks if needed. The course will walk you through all the steps to get your dog comfortable with the grooming process.",
   },
   {
     question: 'How can I determine if I have sufficient physical strength to groom my own dog?',
     answerHtml:
-      'You will want good grip strength for handling tools and to be comfortable standing for longer periods. The course shows you how to set up an ergonomic grooming station that keeps both you and your pup comfortable.',
+      "You’ll want to have good grip strength for tool handling and be comfortable standing for longer periods. You’ll learn great tips in the course to set up an ergonomic and comfortable grooming station for you and your pet.",
   },
   {
     question: 'I have another dog with a different coat type. Will this course teach me everything I need to know?',
     answerHtml:
-      'Paw Parent Academy offers unique courses for each coat type. Email <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a> and we will help you pick the right fit, and share bundle discounts if you enroll in multiple courses.',
+      "Paw Parent Academy has a unique course for each coat type. This course is for double-coats and features a golden retriever haircut. You’ll want to review all courses and choose one that aligns with your dog’s coat. If you need help choosing simply email <a href=\"mailto:info@pawparentacademy.com\">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses we offer a special discount—just reach out to us for more details!",
   },
 ];
 
@@ -207,9 +209,8 @@ export const videoSchema = {
   uploadDate: '2025-02-28T17:54:24.000Z',
   thumbnailUrl:
     'https://embed-ssl.wistia.com/deliveries/32ebc5c2cdf2ac7968bc9f13676e7a29006605ff.jpg?image_crop_resized=640x360',
-  embedUrl: 'https://fast.wistia.net/embed/iframe/bgw1j115w1',
-  contentUrl:
-    'https://embed-ssl.wistia.com/deliveries/e7063f726cbead8fc7c65cfbd41179301b64d5a8.m3u8',
+  embedUrl: videoSample.videoSrc,
+  contentUrl: videoSample.videoSrc,
 };
 
 export const courseSchema = {

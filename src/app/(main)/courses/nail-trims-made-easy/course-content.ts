@@ -2,6 +2,12 @@ import type { AccordionItem } from '@/components/AccordionGroup';
 import nailsIcon from '../images/nails-icon.png';
 import nailClippersIcon from '../images/nail-clippers-icon.png';
 import dogIcon from '../images/dog-icon.png';
+import heroImage from './images/hero-nail-trimmingv-2.jpg';
+import module1Imgae from './images/module-1.jpg';
+import module2Image from './images/module-2.jpg';
+import module3Image from './images/module-3.jpg';
+import module4Image from './images/module-bonus.jpg';
+import fitChecklistImage from './images/nail-trimming.jpg';
 
 export const courseMetadata = {
   title: 'Nail Trims Made Easy',
@@ -12,11 +18,10 @@ export const courseMetadata = {
 
 export const heroContent = {
   title: 'Nail Trims Made Easy',
-  description: 'Learn how to cut your dog\'s nails at home.',
+  description: 'Learn How to Cut Your Dog’s Nails at Home.',
   ctaLabel: 'Enroll Now ($68)',
   ctaHref: '/resource_redirect/offers/BZSKFNXJ',
-  backgroundImage:
-    'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/3533676-f15-d36-4caf-3f0b5571c414_hero-nail-trimmingv-2.jpg',
+  backgroundImage: heroImage,
 };
 
 export const fitChecklistContent = {
@@ -30,7 +35,7 @@ export const fitChecklistContent = {
     "You're ready to give your dog the ultimate pet-icure!",
   ],
   image: {
-    src: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/83b824c-cdab-e250-b43e-b02761b13f0_nail-trimming.jpg',
+    src: fitChecklistImage,
     alt: 'Diagram explaining a dog\'s dew claw',
   },
 };
@@ -74,32 +79,28 @@ export const modules = [
     subtitle: 'Introduction to Nail Trimming',
     description:
       'Discover the ideal nail-care routine and learn how to get your dog comfortable with nail trims through expert tips and handling tricks.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/63c032-a10a-1ff7-a03a-1dab1b6881d_module-1.jpg',
+    image: module1Imgae,
   },
   {
     title: 'Module 2',
     subtitle: 'Preparation',
     description:
       "Learn to set up a safe and efficient grooming space, plus choose the best clippers and tools to cut your dog's nails like a pro.",
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/82fa4e-671f-53a-1fd2-183d08c1efa1_module-2.jpg',
+    image: module2Image,
   },
   {
     title: 'Module 3',
     subtitle: 'Trimming the Nails',
     description:
       'Follow step-by-step demos and learn professional techniques to ensure top-notch nail health with every trim.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/3120063-e12b-3d77-afec-256b0667c0d_module-3.jpg',
+    image: module3Image,
   },
   {
     title: 'Bonus Content',
     subtitle: 'Downloadable Guides',
     description:
       "Gain confidence with three bonus guides covering dog handling techniques, essential tools and equipment, and a step-by-step walkthrough of the nail trimming process.",
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/4cadba8-c486-741e-1816-2bacb623db78_module-bonus.jpg',
+    image: module4Image,
   },
 ];
 
@@ -107,32 +108,32 @@ export const faqItems: AccordionItem[] = [
   {
     question: 'Which breeds is this course suitable for?',
     answerHtml:
-      "<p>This course is perfect for all dog breeds and sizes! You'll learn how to cut black, brown, and clear nails to the perfect length.</p>",
+      "This course is perfect for all dog breeds and sizes! You'll learn how to cut black nails, brown nails and clear nails to the perfect length.",
   },
   {
     question: "What tools do I need to cut my dog's nails at home?",
     answerHtml:
-      "<p>You'll need a reliable pair of dog nail clippers and styptic powder. You can also add a grinder, grooming table, or other tools if you want to level up your setup, but they're optional.</p>",
+      "To safely and effectively cut your dog's nails at home, you'll simply need dog nail clippers and styptic powder. You may choose to invest in additional tools and equipment, such as a nail grinder and grooming table - but that's entirely up to you! ",
   },
   {
     question: "How often should I trim my dog's nails?",
     answerHtml:
-      '<p>Trim your dog\'s nails every week to prevent discomfort and overgrown nails. Frequent trims mean smaller cuts that feel more comfortable for your pup.</p>',
+      "Trim your dog's nails every week to prevent discomfort and overgrown nails. Frequent nail trimming allows you to make smaller cuts, which will be more comfortable for your pet!",
   },
   {
     question: "How short should I cut my dog's nails?",
     answerHtml:
-      '<p>Cut as close to the quick as possible without nicking it. The goal is for the nails to stay off the floor when your dog is standing.</p>',
+      "To encourage healthy nail growth and avoid overgrown nails, cut your dog's nail as close to the quick (the sensitive nerve inside the nail) as possible without cutting the quick. The nails shouldn't touch the floor when your dog is standing. ",
   },
   {
     question: 'My dog hates having his nails trimmed. Will this course help?',
     answerHtml:
-      '<p>Absolutely. You\'ll learn handling tips, training strategies, and grooming techniques that keep nail trims calm, positive, and stress-free for you and your dog.</p>',
+      "Absolutely! Our goal is to make nail trims easy and stress-free for both you and your dog. This course will show you the best techniques to trim your dog's nails comfortably and safely to make the experience more enjoyagble for your pet. You'll also learn dog handling methods and training tips that will help your dog feel at ease with the nail trimming process. ",
   },
   {
     question: 'Do I need prior experience?',
     answerHtml:
-      '<p>No experience needed! The course keeps things simple, avoids complicated jargon, and lets you rewatch each demo whenever you need.</p>',
+      "Not at all! You can learn how to cut your dog's nails with no prior experience. There will be no complicated terminology or techniques skipped over - plus you’ll be able to watch each technique as often as you like.",
   },
 ];
 
@@ -155,9 +156,8 @@ export const videoSchema = {
   uploadDate: '2025-02-28T17:54:24.000Z',
   thumbnailUrl:
     'https://embed-ssl.wistia.com/deliveries/32ebc5c2cdf2ac7968bc9f13676e7a29006605ff.jpg?image_crop_resized=640x360',
-  embedUrl: 'https://fast.wistia.net/embed/iframe/bgw1j115w1',
-  contentUrl:
-    'https://embed-ssl.wistia.com/deliveries/e7063f726cbead8fc7c65cfbd41179301b64d5a8.m3u8',
+  embedUrl: videoSample.videoSrc,
+  contentUrl: videoSample.videoSrc,
 };
 
 export const courseSchema = {

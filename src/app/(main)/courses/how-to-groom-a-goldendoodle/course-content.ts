@@ -1,11 +1,19 @@
 import type { AccordionItem } from '@/components/AccordionGroup';
-import heroPastel2 from './hero-pastel-2.jpg';
-import goldendoodleShaving from './goldendoodle-shaving.jpg';
+import heroPastel2 from './images/hero-pastel-2.jpg';
+import goldendoodleShaving from './images/goldendoodle-shaving.jpg';
 import bathIcon from '../images/bathe-icon.png';
 import coatIcon from '../images/coat-icon.png';
 import nailsIcon from '../images/nails-icon.png';
 import trimsIcon from '../images/trims-icon.png';
-import remyPupStar from './remy-pup-star.jpg';
+import remyPupStar from './images/remy-pup-star.jpg';
+import module1 from './images/module-1.jpg';
+import module2 from './images/module-2.jpg';
+import module3 from './images/module-3.jpg';
+import module4 from './images/module-4.jpg';
+import module5 from './images/module-5.jpg';
+import module6 from './images/module-6.jpg';
+import module7 from './images/module-7.jpg';
+import module8 from './images/module-8.jpg';
 
 export const courseMetadata = {
   title: 'How to Groom a Goldendoodle',
@@ -16,7 +24,7 @@ export const courseMetadata = {
 
 export const heroContent = {
   title: 'How to Groom a Goldendoodle',
-  description: 'Learn how to groom your doodle, poodle or other curly-coated dog at home.',
+  description: 'Learn How to Groom Your Doodle, Poodle or Other Curly-Coated Dog at Home.',
   ctaLabel: 'Enroll Now ($248)',
   ctaHref: '/resource_redirect/offers/ypsFd4NT',
   backgroundImage: heroPastel2,
@@ -25,13 +33,13 @@ export const heroContent = {
 export const fitChecklistContent = {
   heading: 'Are We Barking Up the Right Tree?',
   checklist: [
-    'You adore your Goldendoodle, Poodle, or any curly-coated pup.',
-    'Keeping your dog healthy and happy is a top priority.',
-    'Saving money while elevating care makes your tail wag.',
-    'Grooming at home keeps both you and your dog stress-free.',
-    'You crave a stronger bond with your furry best friend.',
-    'You want to spot potential health concerns early.',
-    "You’re ready to be your dog’s #1 groomer.",
+    'You are the proud paw parent of a Goldendoodle, Poodle or any other curly-coated dog.',
+    'Keeping your dog healthy and happy is your top priority.',
+    'Saving money gets your tail wagging.',
+    'Grooming at home means less worry for you and your dog.',
+    'A strong bond with your furry friend is important to you.',
+    "You’d never miss a chance to catch potential health concerns early.",
+    "You want to be your dog’s #1 groomer!",
   ],
   image: {
     src: goldendoodleShaving,
@@ -48,17 +56,17 @@ export const featureHighlights = [
   {
     iconSrc: coatIcon,
     title: 'Maintain a Healthy Coat',
-    description: "Learn how to keep your pup's high-maintenance coat smooth and silky.",
+    description: "Prevent mats, knots, and tangles for a healthy finish.",
   },
   {
     iconSrc: bathIcon,
-    title: 'Bathe & Dry Like a Pro',
+    title: 'Bathe and Dry Like a Pro',
     description: 'Learn professional techniques for a clean and happy pet.',
   },
   {
     iconSrc: trimsIcon,
     title: 'Create Adorable Trims',
-    description: 'See how you can create an adorable teddy bear cut on your dog.',
+    description: 'Give your dog a polished, adorable look right at home.',
   },
 ];
 
@@ -66,9 +74,9 @@ export const mascotSpotlight = {
   heading: 'Meet Your Course Pup Star',
   pupName: 'Remy the Goldendoodle',
   bullets: [
-    'Loves ear scratches and politely holds paws for trims.',
-    'Rocks a natural teddy bear style that is easy to maintain.',
-    'Prefers cozy grooming sessions at home with his paw parents.',
+    'Loves pets behind the ears and is a pro at holding a paw',
+    "Looks great in a natural Teddy-Bear 'do",
+    'A regular at the salon but prefers to be home with his paw parents',
   ],
   image: {
     src: remyPupStar,
@@ -79,15 +87,13 @@ export const mascotSpotlight = {
 export const videoSample = {
   heading: 'Watch a Course Sample',
   description: 'Peek inside the lessons with a real clip pulled directly from the course.',
-  videoSrc: 'https://47de3d821751073337b6-1b9eff79752112441e95f2296d639dd5.ssl.cf1.rackcdn.com/video-samples/golden-doodle.mp4',
-  posterSrc:
-    'https://47de3d821751073337b6-1b9eff79752112441e95f2296d639dd5.ssl.cf1.rackcdn.com/video-samples/golden-doodle.jpg',
+  videoSrc: 'https://47de3d821751073337b6-1b9eff79752112441e95f2296d639dd5.ssl.cf1.rackcdn.com/video-samples/golden-doodle.mp4', /* Replace with CDN link */
 };
 
 export const overviewContent = {
   heading: 'Learn How to Groom a Goldendoodle with Easy-to-Follow Online Lessons',
   body:
-    'Each module deconstructs the grooming process into short, bingeable lessons complete with downloadable tip sheets and tool lists. Rewatch anytime so you always have a pro in your back pocket.',
+    'The grooming process is broken down into short videos that you can re-watch as often as you like. Each module also includes helpful grooming instructions, tip sheets and tool lists.',
 };
 
 export const modules = [
@@ -95,110 +101,95 @@ export const modules = [
     title: 'Module 1',
     subtitle: 'Grooming Basics',
     description:
-      'Understand your dog’s unique coat needs, build a healthy routine, and use grooming to monitor overall wellness.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/f343ff6-4c3c-f851-bc60-c838f633abd5_module-1.jpg',
+      "Discover your dog's unique grooming needs including what a proper grooming routine looks like and how you can use the grooming experience to monitor health.",
+    image: module1,
   },
   {
     title: 'Module 2',
     subtitle: 'Your Grooming Space',
     description:
-      'Set up safe, efficient bathing and grooming stations so every session feels organized and stress-free.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/bb6608f-1f5c-0ade-f40-bdc4654b137d_module-2.jpg',
+      "Learn how to set up safe and efficient grooming and bathing areas for you and your pet. We'll walk you through the exact setup you need for a smooth grooming process.",
+    image: module2,
   },
   {
     title: 'Module 3',
     subtitle: 'Safe Grooming',
     description:
-      'Master pro safety techniques and tools that prevent injuries for both you and your doodle.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/7c56c5d-3188-e5e-05da-ea6d88e142ff_module-3.jpg',
+      'We know you have safety top of mind and so do we! Learn the techniques and equipment you should be using to prevent injuries.',
+    image: module3,
   },
   {
     title: 'Module 4',
     subtitle: 'Brushing a Curly Coat',
     description:
-      'Choose the right tools for each area, eliminate mats, and make brushing a relaxing ritual.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/e1b0cab-2505-b0d7-7ef3-b73e387f0c1_module-4.jpg',
+      'Discover which tools you should be using for each area of your dog. Master mats and tangles and learn how to make the brushing experience an enjoyable one.',
+    image: module4,
   },
   {
     title: 'Module 5',
     subtitle: 'Nails, Eyes, Ears & Teeth',
     description:
-      'Follow the ideal maintenance schedule and hygienic techniques for every detail of your pup’s face and paws.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/a8faba5-caca-076-58ac-6fadf8e007_module-5.1.jpg',
+      "Find out what your dog's maintenance schedule should be and learn proper nail, eye, ear and teeth-cleaning techniques.",
+    image: module5,
   },
   {
     title: 'Module 6',
     subtitle: 'Bathing & Drying',
     description:
-      'Splish splash! Wash and dry like a pro while keeping yourself comfortable and mess-free.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/4102a5-e64-4270-71f-56e53ff278e_module-6.jpg',
+      "Splish splash - it's time for a bath! Learn how to effectively bathe and dry your pet including our expert's best tip for keeping yourself dry during the process.",
+    image: module6,
   },
   {
     title: 'Module 7',
     subtitle: 'The Teddy Bear Trim',
     description:
-      'Put your clipper and scissor skills to work to create the cutest teddy bear trim imaginable.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/006f608-1807-ae66-7ffb-0d3e548738_module-7.jpg',
+      'Learn how to safely use scissors and clippers before diving into the complete grooming process. Let your creativity shine as you create the cutest teddy bear trim on your pooch!',
+    image: module7,
   },
   {
     title: 'Bonus Module',
     subtitle: 'Canine Communication',
     description:
-      'Decode your dog’s signals so you can make the grooming process ultra-comfortable from start to finish.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/4f188ed-6260-dec5-f48c-b18b7b685_module-8.jpg',
+      'Find out what your dog is really trying to tell you. Observe signals early on so you can make the grooming process comfortable for your pet.',
+    image: module8,
   },
 ];
-
-export const ctaContent = {
-  heading: 'Ready to become your doodle’s favorite groomer?',
-  ctaLabel: 'Enroll Now ($248)',
-  ctaHref: '/resource_redirect/offers/ypsFd4NT',
-  supportText: 'Get lifetime access plus downloadable grooming guides.',
-};
 
 export const faqItems: AccordionItem[] = [
   {
     question: 'Do I need prior experience?',
     answerHtml:
-      'No experience required! We break down every technique without jargon and you can rewatch lessons any time.',
+      'Not at all! You can learn how to groom your goldendoodle with no prior experience grooming dogs. There will be no complicated terminology or techniques skipped over - plus you’ll be able to watch each technique as often as you like.',
   },
   {
     question: 'Is the course appropriate for all curly-coat breeds?',
     answerHtml:
-      'Absolutely. The curriculum is perfect for Poodles, Goldendoodles, Labradoodles, and any mix with a curly coat that loves the teddy bear look.',
+      'This course is perfect for learning to complete a Teddy Bear groom on your Poodle, Golden Doodle, Labradoodle or any other Poodle mix with a lush, curly coat.',
   },
   {
-    question: 'How much will the equipment cost?',
+    question: 'How much will it cost to buy the equipment to groom my dog?',
     answerHtml:
-      'Your setup depends on how much of the groom you want to complete. Expect to invest in clippers, shears, brushes, and safety gear—all of which quickly pay for themselves as you reduce salon visits.',
+      "What you invest in your grooming setup depends on how much of the groom you’d like to do. For instance, if you're going to complete the trim on your pet you’ll need to purchase clippers and shears. The investment you put into your equipment will pay for itself as your professional grooming expenses are reduced or eliminated altogether.",
   },
   {
-    question: 'Which haircut style do you teach?',
+    question: 'Which goldendoodle haircut is taught in the course?',
     answerHtml:
-      'We focus on the beloved teddy bear trim. It is low maintenance, cuddly, and keeps your doodle cute between full grooms.',
+      'Your instructor teaches the teddy-bear doodle haircut. Learn how to create this super cute and cuddly style on your doodle in no time. This short and clean doodle haircut is perfect for dog owners who are looking for lower maintenance.',
   },
   {
-    question: 'My dog is terrified of the groomer. Will this help?',
+    question: 'My dog is terrified to go to the groomers. Will this course help?',
     answerHtml:
-      'Yes! Grooming at home lets you control the environment and pace. We show you how to add breaks, positive reinforcement, and clear communication for anxious pups.',
+      'Grooming your dog may be the perfect solution for you if your dog is uncomfortable going to the groomer. You’ll be able to control the environment so your dog feels comfortable and you can give your dog lots of breaks if needed. The course will walk you through all the steps to get your dog comfortable with the grooming process.',
   },
   {
-    question: 'How do I know if I have the physical strength to groom at home?',
+    question: 'How can I determine if I have sufficient physical strength to groom my own dog?',
     answerHtml:
-      'You will need steady grip strength and the ability to stand for short periods. We share ergonomic tips so the process stays comfortable for you, too.',
+      'You’ll want to have good grip strength for tool handling and be comfortable standing for longer periods. You’ll learn great tips in the course to set up an ergonomic and comfortable grooming station for you and your pet.',
   },
   {
-    question: 'Can I use this course for my other dog with a different coat?',
+    question: 'I have another dog with a different coat type. Will this course teach me everything I need to know?',
     answerHtml:
-      'We recommend enrolling in the course that matches each dog’s coat type. Email <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a> for bundle savings.',
+      'Paw Parent Academy has a unique course for each coat type. You’ll want to review the courses and choose one that aligns with your dog’s coat. If you need help choosing simply email <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses we offer a special discount—just reach out to us for more details!',
   },
 ];
 
@@ -220,9 +211,8 @@ export const videoSchema = {
   uploadDate: '2025-02-28T17:54:24.000Z',
   thumbnailUrl:
     'https://embed-ssl.wistia.com/deliveries/32ebc5c2cdf2ac7968bc9f13676e7a29006605ff.jpg?image_crop_resized=640x360',
-  embedUrl: 'https://fast.wistia.net/embed/iframe/bgw1j115w1',
-  contentUrl:
-    'https://embed-ssl.wistia.com/deliveries/e7063f726cbead8fc7c65cfbd41179301b64d5a8.m3u8',
+  embedUrl: videoSample.videoSrc,
+  contentUrl: videoSample.videoSrc,
 };
 
 export const courseSchema = {

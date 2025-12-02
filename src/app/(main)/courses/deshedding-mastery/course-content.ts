@@ -2,6 +2,13 @@ import type { AccordionItem } from '@/components/AccordionGroup';
 import coatIcon from '../images/coat-icon.png';
 import brushIcon from '../images/brush-icon.png';
 import dogIcon from '../images/dog-icon.png';
+import heroImage from './images/hero-de-shedding-no-bg.jpg';
+import module1Image from './images/module-1.jpg';
+import module2Image from './images/module-2.jpg';
+import bonusModuleImage from './images/modules-bonus.jpg';
+import fitChecklistImge from './images/Ollie deshed.jpg';
+import OlliePupStar from './images/ollie-pup-star.jpg';
+
 
 export const courseMetadata = {
   title: 'Deshedding Mastery',
@@ -12,11 +19,10 @@ export const courseMetadata = {
 
 export const heroContent = {
   title: 'Deshedding Mastery',
-  description: "Learn how to deshed your Aussie, Retriever, or other double-coated dog at home.",
+  description: "Learn How to Deshed Your Aussie, Retriever, or Other Double-Coated Dog at Home.",
   ctaLabel: 'Enroll Now ($68)',
   ctaHref: '/resource_redirect/offers/FvrF2AjN',
-  backgroundImage:
-    'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/8e0f37b-013-325-7e0e-f1cfa8fda1_hero-de-shedding-no-bg.jpg',
+  backgroundImage: heroImage,
 };
 
 export const fitChecklistContent = {
@@ -30,7 +36,7 @@ export const fitChecklistContent = {
     "You want to be your dog's #1 groomer!",
   ],
   image: {
-    src: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/cd54c8e-bc3-0f-3eb-5e48b4fe2e84_frame_4519.jpg',
+    src: fitChecklistImge,
     alt: 'Grooming expert Nadia Bongelli brushing an Australian Shepherd.',
   },
 };
@@ -62,7 +68,7 @@ export const mascotSpotlight = {
     'Loves to play with his friends',
   ],
   image: {
-    src: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/a4018e0-1132-ee8f-333b-e5f6e84fd638_ollie-pup-star.jpg',
+    src: OlliePupStar,
     alt: 'Ollie the Australian Shepherd posing for the Deshedding Mastery course.',
   },
 };
@@ -79,7 +85,7 @@ export const videoSample = {
 export const overviewContent = {
   heading: 'Learn How to Deshed Your Dog with Easy-to-Follow Online Lessons',
   body:
-    'The deshedding process is broken down into short videos you can replay anytime. You will also get brushing guides, tool lists, and practical tips to keep the undercoat under control.',
+    "The deshedding process is broken down into short videos that you can re-watch as often as you like. You'll also enjoy helpful tip sheets including a brushing guide and tool list!",
 };
 
 export const modules = [
@@ -87,25 +93,22 @@ export const modules = [
     title: 'Module 1',
     subtitle: 'Introduction to Deshedding',
     description:
-      "Discover why deshedding is crucial for your dog's coat and skin health, then learn how to set up an ideal grooming station at home.",
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/a303c1d-0efc-ef6-8fe-46ab7566be_module-1.jpg',
+      "Discover why deshedding is crucial for your dog's coat and skin health. Then, learn how to set up an ideal grooming station at home.",
+    image: module1Image,
   },
   {
     title: 'Module 2',
     subtitle: 'The Deshedding Process',
     description:
       "Find out the most effective tools and techniques to thoroughly deshed your pup's thick double coat and prevent matting.",
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/77418-7585-0d8-8c28-3848ec5348f_module-2.jpg',
+    image: module2Image,
   },
   {
     title: 'Bonus Content',
     subtitle: 'Downloadable Guides',
     description:
-      'Say goodbye to hair everywhere with printable guides that outline the entire process and the tools you need to get the job done.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/1378f3c-ce11-3e-22e-1eefb00581a_modules-bonus.jpg',
+      'Say goodbye to hair EVERYWHERE! Enjoy bonus downloadables that outline what you need to get the job done and the entire deshedding process.',
+    image: bonusModuleImage,
   },
 ];
 
@@ -161,9 +164,8 @@ export const videoSchema = {
   uploadDate: '2025-02-28T17:54:24.000Z',
   thumbnailUrl:
     'https://embed-ssl.wistia.com/deliveries/32ebc5c2cdf2ac7968bc9f13676e7a29006605ff.jpg?image_crop_resized=640x360',
-  embedUrl: 'https://fast.wistia.net/embed/iframe/bgw1j115w1',
-  contentUrl:
-    'https://embed-ssl.wistia.com/deliveries/e7063f726cbead8fc7c65cfbd41179301b64d5a8.m3u8',
+  embedUrl: videoSample.videoSrc,
+  contentUrl: videoSample.videoSrc,
 };
 
 export const courseSchema = {

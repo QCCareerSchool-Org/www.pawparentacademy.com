@@ -2,6 +2,12 @@ import type { AccordionItem } from '@/components/AccordionGroup';
 import nailsIcon from '../images/nails-icon.png';
 import nailClippersIcon from '../images/nail-clippers-icon.png';
 import dogIcon from '../images/dog-icon.png';
+import heroImage from './images/hero-pawsitive.jpg';
+import fitChecklistImage from './images/archer-pawsitive.jpg';
+import archerPupStar from './images/pup-star-archer.jpg';
+import module1Image from './images/module-1.jpg';
+import module2Image from './images/module-2.jpg';
+import bonusModuleImage from './images/module-bonus.jpg';
 
 export const courseMetadata = {
   title: 'Paws-itive Grooming',
@@ -12,11 +18,10 @@ export const courseMetadata = {
 
 export const heroContent = {
   title: 'Paws-itive Grooming',
-  description: 'Learn how to make grooming a positive experience for you and your dog.',
+  description: 'Learn How to Make Grooming a Positive Experience for You and Your Dog.',
   ctaLabel: 'Enroll Now ($68)',
   ctaHref: '/resource_redirect/offers/VVEgFcZX',
-  backgroundImage:
-    'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/f876a2-48b0-ce57-5c8-6fb342f3f6e8_hero-pawsitive.jpg',
+  backgroundImage: heroImage,
 };
 
 export const fitChecklistContent = {
@@ -31,7 +36,7 @@ export const fitChecklistContent = {
     'You want grooming to be a positive bonding experience for you and your dog.',
   ],
   image: {
-    src: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/64d435-0bd-1efc-363-ba4dfcace5_archer-pawsitive.jpg',
+    src: fitChecklistImage,
     alt: 'Groomer Nadia Bongelli harnessing an elderly dog in a sling.',
   },
 };
@@ -63,7 +68,7 @@ export const mascotSpotlight = {
     'Working hard to compete in grooming shows with his mom, award-winning groomer Nadia Bongelli',
   ],
   image: {
-    src: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/62ccb7-2813-5768-001e-700ed0cd3b_pup-star-archer.jpg',
+    src: archerPupStar,
     alt: 'Expert Groomer Nadia Bongelli grooming Archer the Bedlington Terrier.',
   },
 };
@@ -80,7 +85,7 @@ export const videoSample = {
 export const overviewContent = {
   heading: 'Learn How to Make Grooming Fun with Easy-to-Follow Online Lessons',
   body:
-    'Follow along with short videos you can re-watch anytime. Each module includes instructions, tip sheets, and training guides to keep grooming stress-free.',
+    "Follow along with short videos that you can re-watch as often as you like. Each module also includes helpful instructions, tip sheets and training guides.",
 };
 
 export const modules = [
@@ -88,25 +93,22 @@ export const modules = [
     title: 'Module 1',
     subtitle: 'Introduction to Positive Grooming',
     description:
-      'Find out what your dog is trying to tell you. Learn to read communication signals, ease their stress, and make grooming more comfortable.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/30e3d2-fc5e-dc64-50b2-ef7dac6616_module-1.jpg',
+      'Find out what your dog is trying to tell you! Learn to read communication signals, ease their stress, and make grooming more comfortable.',
+    image: module1Image,
   },
   {
     title: 'Module 2',
     subtitle: 'Creating a Paws-itive Experience',
     description:
       'Use positive reinforcement to help your dog feel safe and confident with pro handling tips and training exercises.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/805c0b7-d52f-0bd7-8ccb-ac2cd6862c0_module-2.jpg',
+    image: module2Image,
   },
   {
     title: 'Bonus Content',
-    subtitle: 'Downloadable Guides',
+    subtitle: 'Downloadable Content',
     description:
-      'Gain confidence faster with printable guides that build positive associations and put each step in order.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/02fc412-34d2-0e0f-1d48-a2312b27b740_module-bonus.jpg',
+      "You'll quickly gain confidence and grooom your dog with ease thanks to bonus guides that teach you how to make positive associations and overcome any negative ones.",
+    image: bonusModuleImage,
   },
 ];
 
@@ -128,12 +130,12 @@ export const faqItems: AccordionItem[] = [
   {
     question: 'My dog is terrified to go to the groomers. Will this course help?',
     answerHtml:
-      '<p>Grooming at home lets you control the environment so your dog feels comfortable. You can give them breaks when needed and follow the step-by-step plan to build confidence.</p>',
+      '<p>Grooming your dog may be the perfect solution for you if your dog is uncomfortable going to the groomer. You’ll be able to control the environment so your dog feels comfortable and you can give your dog lots of breaks if needed. The course will walk you through all the steps to get your dog comfortable with the grooming process.</p>',
   },
   {
     question: 'How can I determine if I have sufficient physical strength to groom my own dog?',
     answerHtml:
-      '<p>You will want good grip strength for tool handling and to be comfortable standing for a bit. The course shares ergonomic setup tips so grooming is easier on you both.</p>',
+      '<p>You’ll want to have good grip strength for tool handling and be comfortable standing for longer periods. You’ll learn great tips in the course to set up an ergonomic and comfortable grooming station for you and your pet.</p>',
   },
 ];
 
@@ -157,9 +159,8 @@ export const videoSchema = {
   uploadDate: '2025-02-28T17:54:24.000Z',
   thumbnailUrl:
     'https://embed-ssl.wistia.com/deliveries/32ebc5c2cdf2ac7968bc9f13676e7a29006605ff.jpg?image_crop_resized=640x360',
-  embedUrl: 'https://fast.wistia.net/embed/iframe/bgw1j115w1',
-  contentUrl:
-    'https://embed-ssl.wistia.com/deliveries/e7063f726cbead8fc7c65cfbd41179301b64d5a8.m3u8',
+  embedUrl: videoSample.videoSrc,
+  contentUrl: videoSample.videoSrc,
 };
 
 export const courseSchema = {

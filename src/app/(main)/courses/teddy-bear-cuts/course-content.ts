@@ -3,6 +3,17 @@ import bathIcon from '../images/bathe-icon.png';
 import coatIcon from '../images/coat-icon.png';
 import nailsIcon from '../images/nails-icon.png';
 import trimsIcon from '../images/trims-icon.png';
+import checklistImage from './images/Pepe communication.jpg'
+import module1 from './images/modules-1.jpg';
+import module2 from './images/modules-2-2.jpg';
+import module3 from './images/modules-3-2.jpg';
+import module4 from './images/modules-4.jpg';
+import module5 from './images/modules-5.jpg';
+import module6 from './images/modules-6.jpg';
+import module7 from './images/modules-7-2.jpg';
+import module8 from './images/modules-8.jpg';
+import heroImage from './images/plush-coats-no-bg.jpg'
+import pepePupStar from './images/pepe-pupstar.jpg'
 
 export const courseMetadata = {
   title: 'Teddy Bear Cuts',
@@ -16,23 +27,22 @@ export const heroContent = {
   description: 'Give your Shih Tzu or any fluffy-coated dog a teddy bear cut at home.',
   ctaLabel: 'Add to Cart ($248)',
   ctaHref: '/resource_redirect/offers/A9oi3pRZ',
-  backgroundImage:
-    'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/1aeb8a5-df2-f60-fa2e-df07d166e5a_plush-coats.jpg',
+  backgroundImage: heroImage,
 };
 
 export const fitChecklistContent = {
   heading: 'Are We Following the Right Scent?',
   checklist: [
-    'You have a Shih Tzu, Pomeranian, or another fluffy-coated dog.',
-    'Providing top-notch pet care while keeping costs down matters to you.',
-    'Your goal is to keep that plush coat looking fabulous.',
-    'A teddy bear cut is your go-to for an adorable, low-maintenance trim.',
+    'You have a Shih Tzu, Pomeranian or other fluffy-coated dog.',
+    'Providing top-notch pet care while keeping costs down is important.',
+    'Your goal is to keep that fluffy coat looking fabulous.',
+    'A teddy bear cut is your top pick for a low-maintenance trim that keeps your pet looking adorable.',
     'Spending quality time with your furry friend is a top priority.',
-    'Catching health issues early eases your mind.',
-    "You're ready to be your dog's number one groomer.",
+    'Catching health issues right away eases your worry.',
+    "You're excited to be your dog’s #1 groomer.",
   ],
   image: {
-    src: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/140012e-2532-d07-f0aa-364cb3db4b47_pepe-teddy-bear-cut.jpg',
+    src: checklistImage,
     alt: 'Grooming expert Nadia Bongelli trims a Yorkie\'s feet.',
   },
 };
@@ -41,22 +51,22 @@ export const featureHighlights = [
   {
     iconSrc: nailsIcon,
     title: 'Master No-Fear Nail Trims',
-    description: 'Keep your pup calm and their paws perfectly maintained.',
+    description: 'Keep your pup calm and their nails perfectly maintained.',
   },
   {
     iconSrc: coatIcon,
     title: 'Maintain a Healthy Coat',
-    description: "Learn how to keep your pup's high-maintenance coat smooth and silky.",
+    description: "Prevent mats, knots, and tangles for a healthy, luxurious coat.",
   },
   {
     iconSrc: bathIcon,
-    title: 'Bathe & Dry Like a Pro',
+    title: 'Bathe and Dry Like a Pro',
     description: 'Learn professional techniques for a clean and happy pet.',
   },
   {
     iconSrc: trimsIcon,
     title: 'Create Adorable Trims',
-    description: 'See how you can create an adorable teddy bear cut on your dog.',
+    description: 'Give your dog an adorable teddy bear cut right at home.',
   },
 ];
 
@@ -65,11 +75,11 @@ export const mascotSpotlight = {
   pupName: 'Pepe the Biewer Terrier',
   bullets: [
     'Loves to give kisses to his adoring fans.',
-    'Has a lush coat that is perfect for a round teddy bear face.',
+    'Has a lush coat perfect for a round, teddy bear face.',
     'Prone to tangles under his harness after long walks.',
   ],
   image: {
-    src: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/c087ab4-5d02-efa8-c7db-00b25ad5ad6_6766fa00-672c-4dec-aeb5-db37180f38e5.jpg',
+    src: pepePupStar,
     alt: 'Grooming expert Nadia Bongelli smiling at Pepe the Biewer Terrier.',
   },
 };
@@ -86,7 +96,7 @@ export const videoSample = {
 export const overviewContent = {
   heading: 'Learn to Give Your Dog a Teddy Bear Cut with Easy-to-Follow Online Lessons',
   body:
-    'Learn the entire grooming process step by step with short, rewatchable videos plus downloadable guides and product lists.',
+    'Learn the whole grooming process step by step! Follow along with short videos that you can re-watch as often as you like. You can also follow along with helpful grooming guides and product lists.',
 };
 
 export const modules = [
@@ -94,65 +104,57 @@ export const modules = [
     title: 'Module 1',
     subtitle: 'Grooming Basics',
     description:
-      'Discover your dog\'s unique grooming needs, build a custom routine, and use grooming to monitor overall health.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/e513dc6-2eed-2542-367-ec62fd5d1ee_modules-1.jpg',
+      'Discover your dog\'s unique grooming needs and develop an ideal grooming routine. Plus, learn how to monitor your pup\'s health through grooming.',
+    image: module1,
   },
   {
     title: 'Module 2',
     subtitle: 'Your Grooming Space',
     description:
-      'Set up a safe, efficient grooming space with the right tools and layout for stress-free sessions.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/2da8de7-a244-400d-cf5d-cbe8bc45806f_modules-2-2.jpg',
+      "Find out how to setup a safe and efficient grooming space. We'll walk  you through the ideal space and equipment for a stress-free groom.",
+    image: module2,
   },
   {
     title: 'Module 3',
     subtitle: 'Safe Grooming',
     description:
-      'Learn pro safety techniques so you and your pup stay comfortable, confident, and injury-free.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/205d4bc-fc8f-a12d-7423-ea1ce7b2bb_modules-3-2.jpg',
+      "Safety is our top priority! We'll outline the best ways to work with your pet to create a safe and happy grooming experience.",
+    image: module3,
   },
   {
     title: 'Module 4',
     subtitle: 'Brushing a Plush Coat',
     description:
-      'Pick the best brushes and combs for plush coats, prevent mats, and keep grooming comfortable.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/05d11ba-c5b8-20e0-a73d-ab05fe85f7_modules-4.jpg',
+      'Find out which tools are best suited to your dog\'s soft, plush coat. Prevent mats and tangles with proper brushing that\'s comfortable for your pet.',
+    image: module4,
   },
   {
     title: 'Module 5',
     subtitle: 'Nails, Eyes, Ears, and Teeth',
     description:
-      'Follow the ideal maintenance schedule and master hygienic techniques for every delicate detail.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/0754dc-88a4-2b3-2380-a05a6bb8fe_modules-5.jpg',
+      'Find out what your dog\'s maintenance schedule should include and learn proper nail, eye, ear and teeth-cleaning techniques.',
+    image: module5,
   },
   {
     title: 'Module 6',
     subtitle: 'Bathing and Drying',
     description:
-      'Bathe and dry like a pro with expert product picks and insider tricks that keep everyone comfy.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/8efdff-5e5c-f5ff-73be-f288258dc4e7_modules-6.jpg',
+      'Discover the best ways to bathe and dry your pup, with expert product picks and an insider trick to keep yourself dry!',
+    image: module6,
   },
   {
     title: 'Module 7',
     subtitle: 'The Teddy Bear Trim',
     description:
-      'Combine your clipper and scissor skills to deliver the full teddy bear haircut from start to finish.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/b277b7-d02f-baac-d7a1-b03aef70bae_modules-7-2.jpg',
+      'Give your pup star the perfect teddy bear haricut! Learn safe clipping and scissoring techqniues before mastering the complete grooming process.',
+    image: module7,
   },
   {
     title: 'Bonus Module',
     subtitle: 'Canine Communication',
     description:
-      'Decode what your dog is telling you so you can adjust the grooming experience and keep it positive.',
-    image:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/c6153a3-43b-e-ff1-34f3d0e5a37_modules-8.jpg',
+      'Find out what your dog is really trying to tell you. Observe signals early on so you can make the grooming process comfortable and enjoyable for your pup.',
+    image: module8,
   },
 ];
 
@@ -160,32 +162,32 @@ export const faqItems: AccordionItem[] = [
   {
     question: 'What is a teddy bear cut?',
     answerHtml:
-      'A teddy bear cut is a cute, low-maintenance haircut for fluffy-coated dogs like Shih Tzus, Pomeranians, Havanese, and Biewer Terriers. It keeps the face and paws plush while the body stays neatly clipped so your pup looks cuddly and feels comfortable.',
+      "A teddy bear cut is a popular, low-maintenance haircut perfect for fluffy-coated dogs like Shih Tzus, Pomeranians, Havanese and Biewer Terriers. This cute and cuddly look features a round teddy bear face and fluffy paws with a neatly clipped body, keeping your pup cute, comfortable and easy to groom. In this course, you'll learn everything from how to cut a teddy bear face to shaping those adorable round feet!",
   },
   {
     question: 'Which breeds are a good fit for this course?',
     answerHtml:
-      'Any small breed with a long, plush coat can rock this style. Think Shih Tzus, Pomeranians, Havanese, Lhasa Apsos, Biewer Terriers, and mixes with similar coats. Email <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a> if you need help choosing the perfect course.',
+      "Any small breed with a soft, fluffy, long-growing coat will look absolutely adorable with a teddy bear cut! For instance, the techniques taught in this course are ideal for achieving a charming Shih Tzu teddy bear cut. Breeds like Shih Tzus, Pomeranians, Havanese, Lhasa Apsos, and Biewer Terriers are all perfect candidates for this grooming style, making this course a great fit for anyone with a fluffy pup! If you're unsure whether this is the right course for your dog, feel free to email us at <a href=\"mailto:info@pawparentacademy.com\">info@pawparentacademy.com</a>. We'll help you choose the perfect course!",
   },
   {
     question: 'Do I need prior experience?',
     answerHtml:
-      'Not at all. We skip the jargon, explain every tool, and show each technique step by step so you can learn without any grooming background.',
+      'Not at all! You can learn how to give your dog a teddy bear cut with no prior experience grooming dogs. There will be no complicated terminology or techniques skipped over - plus you’ll be able to watch each technique as often as you like.',
   },
   {
     question: 'How much will it cost to buy the equipment to groom my dog?',
     answerHtml:
-      'Your setup depends on how much of the groom you want to complete. Expect to invest in clippers, shears, brushes, and a few safety essentials. The tools quickly pay for themselves as you reduce salon visits.',
+      "What you invest in your grooming setup depends on how much of the groom you’d like to do. For instance, if you're going to complete the trim on your pet you’ll need to purchase clippers and shears. The investment you put into your equipment will pay for itself as your professional grooming expenses are reduced or eliminated altogether.",
   },
   {
     question: 'My dog is anxious about grooming. Can this course help?',
     answerHtml:
-      'Yes. Grooming at home lets you control the environment, move at your dog\'s pace, and add breaks whenever you need them. We show you calming techniques throughout the course.',
+      'If your dog feels afraid or anxious at the groomer, grooming at home could be the ideal solution. You’ll have control over the environment, allowing your dog to feel at ease, and you can take plenty of breaks if needed. This course will guide you through every step of the process, from nail trims to achieving the perfect teddy bear cut, helping your dog feel more relaxed and comfortable with grooming.',
   },
   {
     question: 'What if I have another dog with a different coat type?',
     answerHtml:
-      'Paw Parent Academy offers courses for each coat type. Email <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a> for personalized guidance and bundle discounts if you enroll in multiple courses.',
+      'Paw Parent Academy has a unique course for each coat type. You’ll want to review the courses and choose one that aligns with your dog’s coat. If you need help choosing, simply email <a href=\"mailto:info@pawparentacademy.com\">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses, we offer a special discount—just reach out to us for more details!',
   },
 ];
 
@@ -207,9 +209,8 @@ export const videoSchema = {
   uploadDate: '2025-02-28T17:54:24.000Z',
   thumbnailUrl:
     'https://embed-ssl.wistia.com/deliveries/32ebc5c2cdf2ac7968bc9f13676e7a29006605ff.jpg?image_crop_resized=640x360',
-  embedUrl: 'https://fast.wistia.net/embed/iframe/bgw1j115w1',
-  contentUrl:
-    'https://embed-ssl.wistia.com/deliveries/e7063f726cbead8fc7c65cfbd41179301b64d5a8.m3u8',
+  embedUrl: videoSample.videoSrc,
+  contentUrl: videoSample.videoSrc,
 };
 
 export const courseSchema = {
