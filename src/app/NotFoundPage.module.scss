@@ -1,0 +1,74 @@
+.notFoundSection {
+  padding: clamp(3.5rem, 6vw, 4.75rem) 0;
+  background: #ffffff;
+  min-height: calc(100vh - 140px);
+  display: flex;
+  align-items: center;
+}
+
+.centerWrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 2.25rem;
+}
+
+.card h3 {
+  margin-bottom: 0.35rem;
+}
+
+.logoWrap {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+.logoWrap img {
+  width: 100%;
+  height: auto;
+}
+
+.subtitle {
+  font-size: 1.05rem;
+  max-width: 640px;
+  font-style: italic;
+}
+
+.ctaButton {
+  margin-top: 0.75rem;
+  min-width: 220px;
+}
+
+@media (max-width: 575.98px) {
+  .notFoundSection {
+    padding: 3rem 0 3.5rem;
+    min-height: calc(100vh - 110px);
+  }
+
+  .card {
+    padding: 0 1.25rem;
+    max-width: 100%;
+  }
+
+  .logoWrap {
+    width: 100px;
+  }
+
+  .subtitle {
+    max-width: 100%;
+  }
+
+  .ctaButton {
+    width: 100%;
+  }
+}
