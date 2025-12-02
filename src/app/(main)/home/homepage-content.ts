@@ -1,9 +1,24 @@
+import heroImage from './images/hero-image.jpg';
+import valueImage3 from './images/bond-1.jpg';
+import valueImage2 from './images/skillled-1.jpg';
+import valueImage1 from './images/save-2.jpg';
+import meaghan from './images/Meaghan.jpg';
+import jason from './images/jason.jpg';
+import monica from './images/Monica with Pepe the Biewer Yorkie.jpg';
+import mike from './images/Mike with Ollie the Pughuahua.jpg';
+import sara from './images/Sarah with Timothy the Dachshund.jpg';
+import nadia from './images/nadia.jpg';
+import heartBookIcon from './images/heart-book-icon.png';
+import checklistIcons from './images/checklist-icon.png';
+import scissorsIcon from './images/scissors-icon.png';
+import calendarCheckIcon from './images/calendar-check.jpg';
+
 export const heroContent = {
   headline: "Be Your Dog’s Favorite Groomer",
   subheading: "Learn How to Groom Your Dog From Home Today!",
   ctaLabel: "Explore Courses",
   ctaHref: "/courses",
-  backgroundImage: "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2160217297/settings_images/07ee661-f2e3-f031-c324-871c5da5e346_hero-image-test-1.jpg",
+  backgroundImage: heroImage,
 };
 
 export const introContent = {
@@ -17,19 +32,19 @@ export const valueProps = [
   {
     title: "Save Money",
     description: "Cut down on expensive grooming bills and enjoy the convenience of grooming from home.",
-    image: "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2160217297/settings_images/172c4-534b-27f2-a86-cd0244aa35b7_save-2.jpg",
+    image: valueImage1,
     alt: "Yorkie with a piggy bank",
   },
   {
     title: "Learn a New Skill",
     description: "Master step-by-step grooming techniques tailored to your dog’s breed.",
-    image: "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/0d3c45d-b6cb-6fab-8dcc-634f1b40ea2_skillled-1.jpg",
+    image: valueImage2,
     alt: "Groomer trimming a Shih Tzu",
   },
   {
     title: "Bond with Your Pet",
     description: "Create a stress-free grooming routine that brings you closer to your pet.",
-    image: "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159797494/settings_images/aabf6ae-65ec-27e1-57de-6ceac1a5045c_bond-1.jpg",
+    image: valueImage3,
     alt: "Dog owner hugging a golden retriever",
   },
 ];
@@ -66,50 +81,37 @@ export const testimonials = [
   {
     name: "Meaghan & Duke",
     quote:
-      "Trimming my dogs' nails at home doesn't feel like an overwhelming proposition anymore. I feel confident and equipped to give my dogs the care they need.",
-    image:
-      "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2160217297/settings_images/5637f5b-883b-5d2b-f0f2-df37c4a5c6_Meaghan.jpg",
+      "Trimming my dogs' nails at home doesn't feel like an overwhelming proposition anymore. I feel confident and equipped to give my dogs the care they need. I highly recommend this course!",
+    image: meaghan,
     alt: "Meaghan smiling with Duke",
   },
   {
     name: "Jason & Dozer",
     quote:
       "I especially like learning about the right tools to use and how to make sure my dog is comfortable around those tools. I feel a lot more confident trimming my dog's nails!",
-    image:
-      "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2160217297/settings_images/684de87-e12b-5fa6-7163-c803b4f364_jason.jpg",
+    image: jason,
     alt: "Jason holding Dozer the dog",
   },
   {
     name: "Monica & Pepe",
     quote:
-      "Comprehensive and easy to follow. The content is well-structured, breaking down the grooming process into clear, manageable modules based on different dog hair types.",
-    image:
-      "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2160217297/settings_images/7c4ff6-b565-dff3-7124-1b61530086f7_Monica_with_Pepe_the_Biewer_Yorkie.jpg",
+      "Comprehensive and easy to follow. The content is well-structured, breaking down the grooming process into clear, manageable modules based on different dog hair types and specific grooming steps. The instructor provided lots of tips & tricks, and the adorable dog modules are a bonus.",
+    image: monica,
     alt: "Monica with Pepe the Biewer Yorkie",
   },
   {
     name: "Mike & Ollie",
     quote:
-      "It was getting harder and harder to leave my senior dog at the groomer. This course taught us everything we need to take care of her at home without the stress of leaving her.",
-    image:
-      "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2160217297/settings_images/ed07151-a821-2c2a-1a75-45d636f5a73_Mike_with_Ollie_the_Pughuahua.jpg",
+      "It was getting harder and harder to leave my senior dog at the groomer for nail trims and baths. This course taught us everything we need to take care of her at home without the stress of leaving her. We even learned great tips for grooming a senior dog!",
+    image: mike,
     alt: "Mike holding Ollie the dog",
   },
   {
     name: "Sara & Timothy",
     quote:
-      "I wanted to get my new puppy off to the right start with grooming. I learned how to keep his nails, teeth, and coat well maintained while making him feel comfortable.",
-    image:
-      "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2160217297/settings_images/36664de-daa8-f875-72b1-76c2a3eb2a_Sarah_with_Timothy_the_Dachshund.jpg",
+      "I wanted to get my new puppy off to the right start with grooming. With my Paw Parent Academy course, I not only learned how to keep my puppy's nails, teeth and coat well maintained, I also learned how to make him feel comfortable with grooming.",
+    image: sara,
     alt: "Sara with Timothy the dachshund",
-  },
-  {
-    name: "Hannah & Maple",
-    quote:
-      "The instructor provided so many pro tips and the adorable dog models kept me engaged. Now Maple actually loves grooming night!",
-    image:
-      "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2160217297/settings_images/e1c7bbd-1a4c-6a5a-4b52-1f2b6dc076_Hannah_and_Maple.jpg",
-    alt: "Hannah hugging Maple the dog",
   },
 ];
 
@@ -120,7 +122,7 @@ export const mentorSpotlight = {
     "Nadia is a highly acclaimed industry leader whose journey began as a devoted paw parent. Grooming her own dog sparked a passion that led her to the top of the industry.",
     "She has been ranked among the top competitive groomers since 2018, earned the prestigious Barkleigh Honors Groomer of the Year award in 2024, and secured second place at Belgium's 2024 World Grooming Championships.",
   ],
-  image: "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2160217297/settings_images/4dc5f81-e84-0e3d-11a8-ea27ffacf534_nadia-graphic-2.jpg",
+  image: nadia,
   imageAlt: "Nadia Bongelli smiling with a dog",
 };
 
@@ -128,25 +130,25 @@ export const safetyFeatures = [
   {
     title: "Self-Directed",
     description: "Complete the course at your own pace with lifetime access.",
-    icon: "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2160217297/settings_images/bf2157-657-3d6-7128-5c0870defea3_calendar-check.png",
+    icon: calendarCheckIcon,
     alt: "Calendar icon",
   },
   {
     title: "Tools of the Trade",
     description: "Discover the best tools for your dog's breed and coat type.",
-    icon: "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2160217297/settings_images/58ad35d-fbbf-124-2a7-e3c5447506f_Scissors.png",
+    icon: scissorsIcon,
     alt: "Pair of scissors icon",
   },
   {
     title: "Easy to Follow",
     description: "Follow step-by-step instructions for the entire grooming process.",
-    icon: "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2160217297/settings_images/c38ee14-d7d-7750-bf5d-eee25160bf2_list-check.png",
+    icon: checklistIcons,
     alt: "Checklist icon",
   },
   {
     title: "Bonus Guides",
-    description: "Enjoy printable guides you can keep nearby while grooming.",
-    icon: "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2160217297/settings_images/ee3e47c-474a-f61b-eb8-66cebf25170_book-heart.png",
+    description: "Enjoy bonus guides that you can refer to as you're grooming.",
+    icon: heartBookIcon,
     alt: "Book with heart icon",
   },
 ];

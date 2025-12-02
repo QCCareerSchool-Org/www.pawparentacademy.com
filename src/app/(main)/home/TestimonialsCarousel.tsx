@@ -24,12 +24,12 @@ export default function TestimonialsCarousel({ items }: TestimonialsCarouselProp
   useEffect(() => {
     if (total <= 1) return undefined;
 
-    const timer = window.setInterval(() => {
+    const timer = window.setTimeout(() => {
       setActiveIndex((prev) => (prev + 1) % total);
     }, AUTO_ROTATE_MS);
 
-    return () => window.clearInterval(timer);
-  }, [total]);
+    return () => window.clearTimeout(timer);
+  }, [activeIndex, total]);
 
   const handlePrev = () => {
     if (total <= 1) return;

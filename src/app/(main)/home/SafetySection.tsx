@@ -26,7 +26,7 @@ export default function SafetySection({ features }: SafetySectionProps) {
               <div className={styles.iconWrap}>
                 <Image src={feature.icon} alt={feature.alt} width={36} height={36} />
               </div>
-              <h3 className="h5">{feature.title}</h3>
+              <h3 className="h5 fw-bold">{feature.title}</h3>
               <p>{feature.description}</p>
             </article>
           ))}
