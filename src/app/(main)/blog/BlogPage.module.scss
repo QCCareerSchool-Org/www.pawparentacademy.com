@@ -1,0 +1,65 @@
+.page {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+.hero {
+  max-width: 960px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.eyebrow {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--brand-teal);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: clamp(2.25rem, 3vw, 3.5rem);
+  font-weight: 800;
+  color: #044242;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: rgba(4, 42, 42, 0.78);
+  margin: 0 auto;
+  max-width: 720px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 340px));
+  justify-content: center;
+  gap: 2rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 2.5rem 0 3rem;
+}
+
+.filterButton {
+  border: 1px solid rgba(16, 196, 196, 0.4);
+  border-radius: 999px;
+  padding: 0.65rem 1.5rem;
+  font-weight: 600;
+  background: #fff;
+  color: #044242;
+  transition: all 0.2s ease;
+}
+
+.filterButton:hover,
+.filterButton[data-active='true'] {
+  background: var(--brand-teal);
+  color: #fff;
+  border-color: var(--brand-teal);
+}

@@ -37,18 +37,18 @@ export default function CoursesPage() {
         <div className="container">
           <div className="row justify-content-center">
             <CourseFeature
-              title="Nail Trimming Made Easy"
-              subtitle=""
+              title="Nail Trims Made Easy"
+              subtitle="Clipper + Grinder Confidence"
               description={
-                "Safely and confidently trim your dog’s nails to keep them comfortable and healthy. Perfect for all dog owners!"
+                'Learn calm routines, tool handling, and safety techniques so every nail trim—clipper or grinder—feels stress-free for you and your pup.'
               }
               highlights={[
-                'Step-by-step nail trimming guide',
-                'Prevent discomfort and injury',
-                'Tools for stress-free trimming',
+                'Desensitization plans for anxious dogs',
+                'Clipper and grinder demos for every paw size',
+                'Tool checklists, troubleshooting, and pro tips',
               ]}
               imageSrc={nailsThumb}
-              greatFor="All breeds, from tiny Chihuahuas to big Labradors"
+              greatFor="All breeds and nervous pups who need gentle nail care"
               learnHref="/courses/nail-trims-made-easy"
               enrollHref="/resource_redirect/offers/BZSKFNXJ"
               price="$68"

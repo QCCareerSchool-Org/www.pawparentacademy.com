@@ -20,9 +20,13 @@ export const courses = [
     {
         title: 'Teddy Bear Cuts',
         subtitle: '(for Small Plush Dogs)',
-        description: "Give your pup an adorable, plush teddy bear cut from the comfort of home. This  course will guide you through every step of grooming your fluffly friend, from detangling that cloud-like coat to shaping the perfect teddy bear cut.",
-        highlights: ['Scissoring techniques for small frames', 'Pro tips to enhance the coat', 'Coat-specific product recommendations'],
-        greatFor: 'Shih Tzus, Havanese, Pomeranians, Lhaso Apsos and mixed fluffy breeds',
+        description: "Give your Pom (and every plush pup) the perfectly rounded, photo-ready teddy bear look at home. Follow detailed prep, scissoring, and finishing lessons that keep double coats full while preventing damage.",
+        highlights: [
+            'Face, ear, and tail shaping demos tailored to Pomeranians',
+            'Clipper guard + shear maps for plush density',
+            'Seasonal maintenance plans with tool + product checklists',
+        ],
+        greatFor: 'Pomeranians, Shih Tzus, Havanese, Lhasa Apsos, and other fluffy mixes',
         imageSrc: teddyBearThumb,
         learnHref: '/courses/teddy-bear-cuts',
         enrollHref: '/resource_redirect/offers/A9oi3pRZ',
@@ -31,9 +35,15 @@ export const courses = [
     {
         title: 'How to Groom a Yorkie',
         subtitle: '(and Other Silky Coats)',
-        description: "Want to keep your silky-haired pup looking glamorous? With this course, you'll master expert grooming techniques to keep your pet's silky coat tangle-free, and perfectly styled in a teddy bear cut. Maintain a perfectly groomed pet without constant trips to the groomer!",
-        highlights: ['Brushing and detangling techniques', 'Bathing and drying', 'Pro tips for trims'],
-        greatFor: 'Yorkies, Maltese, Morkies and other small, silky mixes',
+        description:
+            "Turn every at-home grooming session into a Yorkie spa day. Learn how to prep, bathe, and finish silky coats so teddy bear cuts, schnauzer-inspired trims, and glam top knots look polished without salon visits.",
+        highlights: [
+            'Daily brush maps, tear-stain care, and detangling routines for glassy coats',
+            'Clipper + scissor blueprints for teddy bear, schnauzer, layered, and top knot styles',
+            'Seasonal maintenance + product checklists to keep Yorkies comfy year-round',
+        ],
+        greatFor:
+            'Yorkies, Morkies, Maltese, Shih Tzu mixes, and any silky companion who needs salon-level polish',
         imageSrc: yorkieThumb,
         learnHref: '/courses/how-to-groom-a-yorkie',
         enrollHref: '/resource_redirect/offers/M8B9bLhc',
@@ -53,9 +63,15 @@ export const courses = [
     {
         title: 'How to Groom a Golden Retriever',
         subtitle: '(and Other Double Coats)',
-        description: "Double-coated breeds need extra attention to manage shedding and avoid matting. Our comprehensive home-grooming course covers the best brushing and bathing techniques to keep your dog's thick coat healthy, tangle-free and perfectly trimmed for a neat and natural look!",
-        highlights: ['Removing loose undercoat', 'Seasonal shedding cycles', 'Top tools for thick coats'],
-        greatFor: 'Golden Retrievers, Huskies, German Shepherds, Collies, and other double-coated dogs',
+        description:
+            "Feathered coats like Cocker Spaniels need strategic deshedding, silky skirt shaping, and spotless ear care. This course shows you exactly how to prep, trim, and finish every section so double coats stay plush without matting or losing their shine.",
+        highlights: [
+            'Spaniel-friendly feathering, skirt, and sanitary trims',
+            'Line brushing + blowout routines that protect the undercoat',
+            'Ear, paw, and tail care demos to prevent buildup',
+        ],
+        greatFor:
+            'Cocker Spaniels, Springer Spaniels, Golden Retrievers, Setters, and other feathered double coats',
         imageSrc: goldenThumb,
         learnHref: '/courses/how-to-groom-a-golden-retriever',
         enrollHref: '/resource_redirect/offers/W4jL2sL9',
@@ -64,9 +80,15 @@ export const courses = [
     {
         title: 'How to Groom a Pug',
         subtitle: '(and Other Short Coats)',
-        description: "Short and smooth coats may not tangle, but they can still benefit from proper grooming to minimize shedding and maintain healthy skin. Learn quick,  gentle techniques you can do at home to keep your fur baby looking and feeling their best!",
-        highlights: ['Wrinkle care and cleaning', 'Bathing for sensitive skin', 'Minimizing shedding'],
-        greatFor: 'Pugs, French Bulldogs, Boxers, Beagles — any short-coated breeds',
+        description:
+            "Short, smooth coats still deal with itchy flare-ups, funky odors, and sensitive skin. Learn to choose the right shampoo, build a soothing bath routine, and keep wrinkles, paws, and bellies clean between washes.",
+        highlights: [
+            'Sensitive-skin bathing blueprint + product picks',
+            'Wrinkle, paw, and tail-pocket deep cleaning demos',
+            'Odor-neutralizing drying and coat-care routines',
+        ],
+        greatFor:
+            'Pugs, Frenchies, Boston Terriers, Boxers, and any short-coated pup battling allergies or odor',
         imageSrc: pugThumb,
         learnHref: '/courses/how-to-groom-a-pug',
         enrollHref: '/resource_redirect/offers/6Fzcenzo',
