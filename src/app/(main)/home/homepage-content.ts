@@ -1,4 +1,4 @@
-import heroImage from './images/hero-image.jpg';
+import heroImage from './images/hero-image-test-1.jpg';
 import valueImage3 from './images/bond-1.jpg';
 import valueImage2 from './images/skillled-1.jpg';
 import valueImage1 from './images/save-2.jpg';
