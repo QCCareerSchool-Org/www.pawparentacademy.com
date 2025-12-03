@@ -17,10 +17,11 @@ export default function HeroSection({
   ctaHref,
   backgroundImage,
 }: HeroSectionProps) {
+  const backgroundUrl = typeof backgroundImage === 'string' ? backgroundImage : backgroundImage.src;
   return (
     <section
       className={styles.hero}
-      style={{ backgroundImage: `url(${backgroundImage})` }}
+      style={{ backgroundImage: `url(${backgroundUrl})` }}
       aria-labelledby="home-hero-heading"
     >
       <div className={styles.overlay} aria-hidden="true" />

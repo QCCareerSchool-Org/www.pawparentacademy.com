@@ -10,6 +10,8 @@ interface LeadMagnetFormProps {
   heading: string;
   description?: string;
   disclaimer?: string;
+  submitLabel?: string;
+  successMessage?: string;
 }
 
 const initialState: LeadMagnetFormState = {
@@ -17,17 +19,26 @@ const initialState: LeadMagnetFormState = {
   message: '',
 };
 
-function SubmitButton() {
+function SubmitButton({ label }: { label: string }) {
   const { pending } = useFormStatus();
   return (
     <button type="submit" className="btn-pill-pink w-100" disabled={pending}>
-      {pending ? 'Sending…' : 'Yes! I want $50 off!'}
+      {pending ? 'Sending…' : label}
     </button>
   );
 }
 
-export default function LeadMagnetForm({ eyebrow, heading, description, disclaimer }: LeadMagnetFormProps) {
+export default function LeadMagnetForm({
+  eyebrow,
+  heading,
+  description,
+  disclaimer,
+  submitLabel,
+  successMessage,
+}: LeadMagnetFormProps) {
   const [state, formAction] = useActionState(submitLeadMagnet, initialState);
+  const buttonLabel = submitLabel ?? 'Yes! I want $50 off!';
+  const alertMessage = state.success ? successMessage ?? state.message : state.message;
 
   return (
     <section className={styles.wrapper}>
@@ -42,7 +53,7 @@ export default function LeadMagnetForm({ eyebrow, heading, description, disclaim
               <form action={formAction} noValidate className="d-grid gap-3">
                 {state.message && (
                   <div className={`alert ${state.success ? 'alert-success' : 'alert-warning'} mb-0`} role="status">
-                    {state.message}
+                    {alertMessage}
                   </div>
                 )}
                 <div>
@@ -73,7 +84,7 @@ export default function LeadMagnetForm({ eyebrow, heading, description, disclaim
                   />
                   {state.errors?.email && <div className="invalid-feedback">{state.errors.email}</div>}
                 </div>
-                <SubmitButton />
+                <SubmitButton label={buttonLabel} />
                 {disclaimer && <p className="small text-muted mb-0">{disclaimer}</p>}
               </form>
             </div>
