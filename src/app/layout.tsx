@@ -12,6 +12,9 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: "Paw Parent Academy",
   description: "Learn to groom your dog at home - Paw Parent Academy",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
