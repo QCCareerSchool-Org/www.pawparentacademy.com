@@ -25,11 +25,11 @@ export default function CourseModulesCarousel({ modules, enrollHref, enrollLabel
   const total = modules.length;
   const hasModules = total > 0;
   const ctaLabel = enrollLabel ?? 'Enroll Now';
-  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const timerRef = useRef<number | null>(null);
   const delayRef = useRef(AUTO_INTERVAL);
 
   const scheduleRotation = useCallback(() => {
-    if (timerRef.current) {
+    if (timerRef.current !== null) {
       window.clearTimeout(timerRef.current);
     }
 
@@ -47,7 +47,7 @@ export default function CourseModulesCarousel({ modules, enrollHref, enrollLabel
     scheduleRotation();
 
     return () => {
-      if (timerRef.current) {
+      if (timerRef.current !== null) {
         window.clearTimeout(timerRef.current);
       }
     };
@@ -57,7 +57,7 @@ export default function CourseModulesCarousel({ modules, enrollHref, enrollLabel
     if (total <= 1) return;
     delayRef.current = INTERACTION_DELAY;
 
-    if (timerRef.current) {
+    if (timerRef.current !== null) {
       window.clearTimeout(timerRef.current);
       timerRef.current = null;
     }
