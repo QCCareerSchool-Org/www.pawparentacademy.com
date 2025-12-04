@@ -9,12 +9,19 @@ const featuredTags = ['All Topics', 'DIY Dog Grooming', 'DIY Grooming', 'Dog Gro
 
 export default function BlogPage() {
   const [activeTag, setActiveTag] = useState<string>(featuredTags[0]);
+  const postsByDate = useMemo(() => {
+    return [...blogPosts].sort((a, b) => {
+      const dateA = a.publishedOn ? new Date(a.publishedOn).getTime() : 0;
+      const dateB = b.publishedOn ? new Date(b.publishedOn).getTime() : 0;
+      return dateB - dateA;
+    });
+  }, []);
   const filteredPosts = useMemo(() => {
     if (activeTag === 'All Topics') {
-      return blogPosts;
+      return postsByDate;
     }
-    return blogPosts.filter((post) => post.tags.includes(activeTag));
-  }, [activeTag]);
+    return postsByDate.filter((post) => post.tags.includes(activeTag));
+  }, [activeTag, postsByDate]);
 
   return (
     <div className={`container ${styles.page}`}>

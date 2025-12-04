@@ -120,14 +120,7 @@
 }
 
 .content :global(.button) {
-  display: inline-block;
   margin-top: 1rem;
-  padding: 0.7rem 1.75rem;
-  border-radius: 999px;
-  font-weight: 700;
-  background: var(--brand-pink, #ff4158);
-  color: #fff;
-  text-decoration: none;
 }
 
 .content :global(.responsive-embed) {
