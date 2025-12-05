@@ -14,7 +14,7 @@ export const courses = [
         greatFor: 'Poodles, Goldendoodles, Labradoodles, Bichons, and other curly-coated breeds',
         imageSrc: doodleThumb,
         learnHref: '/courses/how-to-groom-a-goldendoodle',
-        enrollHref: '/resource_redirect/offers/ypsFd4NT',
+        enrollHref: 'https://enroll.pawparentacademy.com/offers/how-to-groom-a-goldendoodle/checkout',
         price: '$248',
     },
     {
@@ -29,7 +29,7 @@ export const courses = [
         greatFor: 'Pomeranians, Shih Tzus, Havanese, Lhasa Apsos, and other fluffy mixes',
         imageSrc: teddyBearThumb,
         learnHref: '/courses/teddy-bear-cuts',
-        enrollHref: '/resource_redirect/offers/A9oi3pRZ',
+        enrollHref: 'https://enroll.pawparentacademy.com/offers/teddy-bear-cuts/checkout',
         price: '$248',
     },
     {
@@ -46,7 +46,7 @@ export const courses = [
             'Yorkies, Morkies, Maltese, Shih Tzu mixes, and any silky companion who needs salon-level polish',
         imageSrc: yorkieThumb,
         learnHref: '/courses/how-to-groom-a-yorkie',
-        enrollHref: '/resource_redirect/offers/M8B9bLhc',
+        enrollHref: 'https://enroll.pawparentacademy.com/offers/how-to-groom-a-yorkie/checkout',
         price: '$248',
     },
     {
@@ -57,7 +57,7 @@ export const courses = [
         greatFor: 'Border Terriers, Cairn Terriers other wire-coated mixes',
         imageSrc: terrierThumb,
         learnHref: '/courses/how-to-groom-a-terrier',
-        enrollHref: '/resource_redirect/offers/fZttPBGB',
+        enrollHref: 'https://enroll.pawparentacademy.com/offers/how-to-groom-a-terrier/checkout',
         price: '$248',
     },
     {
@@ -74,7 +74,7 @@ export const courses = [
             'Cocker Spaniels, Springer Spaniels, Golden Retrievers, Setters, and other feathered double coats',
         imageSrc: goldenThumb,
         learnHref: '/courses/how-to-groom-a-golden-retriever',
-        enrollHref: '/resource_redirect/offers/W4jL2sL9',
+        enrollHref: 'https://enroll.pawparentacademy.com/offers/how-to-groom-a-golden-retriever/checkout',
         price: '$248',
     },
     {
@@ -91,7 +91,7 @@ export const courses = [
             'Pugs, Frenchies, Boston Terriers, Boxers, and any short-coated pup battling allergies or odor',
         imageSrc: pugThumb,
         learnHref: '/courses/how-to-groom-a-pug',
-        enrollHref: '/resource_redirect/offers/6Fzcenzo',
+        enrollHref: 'https://enroll.pawparentacademy.com/offers/how-to-groom-a-pug/checkout',
         price: '$248',
     },
 ];

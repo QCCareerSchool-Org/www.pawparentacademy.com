@@ -26,7 +26,7 @@ export const heroContent = {
   title: 'How to Groom a Golden Retriever',
   description: 'Learn How to Groom Your Golden, Aussie or Other Double-Coated Dog at Home.',
   ctaLabel: 'Enroll Now ($248)',
-  ctaHref: '/resource_redirect/offers/W4jL2sL9',
+  ctaHref: 'https://enroll.pawparentacademy.com/offers/how-to-groom-a-golden-retriever/checkout',
   backgroundImage: heroImage,
 };
 

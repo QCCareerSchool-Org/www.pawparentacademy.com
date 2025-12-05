@@ -25,7 +25,7 @@ export const heroContent = {
   title: 'How to Groom a Terrier',
   description: 'Learn How to Groom a Cairn Terrier or Border Terrier at Home.',
   ctaLabel: 'Enroll Now ($248)',
-  ctaHref: '/resource_redirect/offers/fZttPBGB',
+  ctaHref: 'https://enroll.pawparentacademy.com/offers/how-to-groom-a-terrier/checkout',
   backgroundImage: heroImage,
 };
 

@@ -26,7 +26,7 @@ export const heroContent = {
   title: 'How to Groom a Goldendoodle',
   description: 'Learn How to Groom Your Doodle, Poodle or Other Curly-Coated Dog at Home.',
   ctaLabel: 'Enroll Now ($248)',
-  ctaHref: '/resource_redirect/offers/ypsFd4NT',
+  ctaHref: 'https://enroll.pawparentacademy.com/offers/how-to-groom-a-goldendoodle/checkout',
   backgroundImage: heroPastel2,
 };
 

@@ -26,7 +26,7 @@ export const heroContent = {
   title: 'Teddy Bear Cuts',
   description: 'Give your Shih Tzu or any fluffy-coated dog a teddy bear cut at home.',
   ctaLabel: 'Add to Cart ($248)',
-  ctaHref: '/resource_redirect/offers/A9oi3pRZ',
+  ctaHref: 'https://enroll.pawparentacademy.com/offers/teddy-bear-cuts/checkout',
   backgroundImage: heroImage,
 };
 

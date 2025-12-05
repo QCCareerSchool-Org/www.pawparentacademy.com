@@ -26,7 +26,7 @@ export const heroContent = {
   title: 'How to Groom a Yorkie',
   description: 'Learn How to Groom a Yorkie, Morkie or Maltese at Home.',
   ctaLabel: 'Enroll Now ($248)',
-  ctaHref: '/resource_redirect/offers/M8B9bLhc',
+  ctaHref: 'https://enroll.pawparentacademy.com/offers/how-to-groom-a-yorkie/checkout',
   backgroundImage: heroImage,
 };
 

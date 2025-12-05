@@ -21,7 +21,7 @@ export const heroContent = {
   title: 'Deshedding Mastery',
   description: "Learn How to Deshed Your Aussie, Retriever, or Other Double-Coated Dog at Home.",
   ctaLabel: 'Enroll Now ($68)',
-  ctaHref: '/resource_redirect/offers/FvrF2AjN',
+  ctaHref: 'https://enroll.pawparentacademy.com/offers/deshedding-mastery/checkout',
   backgroundImage: heroImage,
 };
 

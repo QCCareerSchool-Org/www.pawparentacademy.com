@@ -50,7 +50,7 @@ export default function CoursesPage() {
               imageSrc={nailsThumb}
               greatFor="All breeds and nervous pups who need gentle nail care"
               learnHref="/courses/nail-trims-made-easy"
-              enrollHref="/resource_redirect/offers/BZSKFNXJ"
+              enrollHref="https://enroll.pawparentacademy.com/offers/nail-trims-made-easy/checkout"
               price="$68"
             />
 
@@ -68,7 +68,7 @@ export default function CoursesPage() {
               imageSrc={desheddingThumb}
               greatFor="Heavy shedding double-coated breeds"
               learnHref="/courses/deshedding-mastery"
-              enrollHref="/resource_redirect/offers/FvrF2AjN"
+              enrollHref="https://enroll.pawparentacademy.com/offers/deshedding-mastery/checkout"
               price="$68"
             />
           </div>
@@ -88,7 +88,7 @@ export default function CoursesPage() {
               imageSrc={pawsitiveThumb}
               greatFor="Every pup and paw parent"
               learnHref="/courses/paws-itive-grooming"
-              enrollHref="/resource_redirect/offers/VVEgFcZX"
+              enrollHref="https://enroll.pawparentacademy.com/offers/paws-itive-grooming/checkout"
               price="$68"
             />
           </div>

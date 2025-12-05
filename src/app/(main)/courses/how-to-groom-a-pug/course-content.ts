@@ -25,7 +25,7 @@ export const heroContent = {
   title: 'How to Groom a Pug',
   description: 'Learn How to Groom Your Pug, Bully or Other Short-Coated Dog at Home.',
   ctaLabel: 'Enroll Now ($248)',
-  ctaHref: '/resource_redirect/offers/6Fzcenzo',
+  ctaHref: 'https://enroll.pawparentacademy.com/offers/how-to-groom-a-pug/checkout',
   backgroundImage: heroImage,
 };
 

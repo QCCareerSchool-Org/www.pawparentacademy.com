@@ -20,7 +20,7 @@ export const heroContent = {
   title: 'Paws-itive Grooming',
   description: 'Learn How to Make Grooming a Positive Experience for You and Your Dog.',
   ctaLabel: 'Enroll Now ($68)',
-  ctaHref: '/resource_redirect/offers/VVEgFcZX',
+  ctaHref: 'https://enroll.pawparentacademy.com/offers/paws-itive-grooming/checkout',
   backgroundImage: heroImage,
 };
 

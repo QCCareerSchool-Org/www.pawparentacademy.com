@@ -20,7 +20,7 @@ export const heroContent = {
   title: 'Nail Trims Made Easy',
   description: 'Learn How to Cut Your Dog’s Nails at Home.',
   ctaLabel: 'Enroll Now ($68)',
-  ctaHref: '/resource_redirect/offers/BZSKFNXJ',
+  ctaHref: 'https://enroll.pawparentacademy.com/offers/nail-trims-made-easy/checkout',
   backgroundImage: heroImage,
 };
 
