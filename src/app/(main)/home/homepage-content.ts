@@ -71,7 +71,7 @@ export const courseFinderContent = {
     image: "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2160217297/settings_images/5737d07-660a-a313-7535-80dc6f2c7aec_teddy-bear--thumb.jpg",
     imageAlt: "Instructor Nadia with a goldendoodle",
     primaryCtaLabel: "Enroll Now ($248)",
-    primaryCtaHref: "https://www.pawparentacademy.com/offers/A9oi3pRZ/checkout",
+    primaryCtaHref: "https://enroll.pawparentacademy.com/offers/teddy-bear-cuts/checkout",
     secondaryLinkLabel: "Learn More",
     secondaryLinkHref: "/courses/teddy-bear-cuts",
   },

@@ -27,7 +27,6 @@ export default function Navbar() {
     { href: '/faq', label: 'FAQ' },
     { href: '/about', label: 'About' },
     { href: '/blog', label: 'Blog' },
-    { href: '/login', label: 'Log In' },
   ];
 
   useEffect(() => {
