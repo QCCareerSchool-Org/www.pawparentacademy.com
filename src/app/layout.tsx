@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Lato } from 'next/font/google';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.scss';
 
 const lato = Lato({
@@ -11,6 +12,9 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: "Paw Parent Academy",
   description: "Learn to groom your dog at home - Paw Parent Academy",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({

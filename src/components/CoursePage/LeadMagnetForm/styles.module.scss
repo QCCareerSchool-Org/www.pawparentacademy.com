@@ -1,0 +1,40 @@
+.wrapper {
+  background-image: url('./cta-footer.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  isolation: isolate;
+}
+
+.wrapper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 7, 29, 0.88);
+  z-index: -1;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 2.25rem;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+  border-radius: 999px;
+  border: 1px solid rgba(17, 17, 17, 0.15);
+  padding: 0.65rem 1rem;
+  font-size: 0.95rem;
+}
+
+.input:focus {
+  border-color: #fd3a58;
+  box-shadow: 0 0 0 0.15rem rgba(253, 58, 88, 0.15);
+}
+
+@media (max-width: 575px) {
+  .card {
+    padding: 1.5rem;
+  }
+}

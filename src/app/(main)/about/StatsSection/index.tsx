@@ -3,9 +3,15 @@ import styles from './StatsSection.module.scss';
 import lockImg from './lock-icon.jpg';
 import shieldImg from './shield-icon.jpg';
 
-export default function StatsSection() {
+interface StatsSectionProps {
+  className?: string;
+}
+
+export default function StatsSection({ className }: StatsSectionProps = {}) {
+  const sectionClass = ['py-5', className].filter(Boolean).join(' ').trim();
+
   return (
-    <section className="py-5">
+    <section className={sectionClass}>
       <div className="container mt-5 mb-5">
         <div className="row g-4">
           <div className="col-12 col-md-6">
@@ -18,8 +24,8 @@ export default function StatsSection() {
                 style={{ objectFit: 'contain' }}
                 className={styles.icon}
               />
-              <h2 className="h2 text-center mt-3">Money-Back Guarantee</h2>
-              <p className="mt-3 text-center">
+              <h3 className="h3 text-center mt-3">Money-Back Guarantee</h3>
+              <p className="mt-2 text-center">
                 At Paw Parent Academy, we stand behind our high-quality dog grooming courses. Within 14 days of enrolling, you are eligible for a full refund. All you need to do is go through the course and contact the school to let us know why it’s not a good fit for you.
               </p>
             </article>
@@ -35,8 +41,8 @@ export default function StatsSection() {
                 style={{ objectFit: 'contain' }}
                 className={`${styles.icon} mt-2`}
               />
-              <h2 className="h2 text-center mt-3">Lifetime Access</h2>
-              <p className="mt-3 text-center">
+              <h3 className="h3 text-center mt-3">Lifetime Access</h3>
+              <p className="mt-2 text-center">
                 With lifetime access to Paw Parent Academy’s dog grooming courses, you can learn at your own pace and gain confidence step by step. You’ll always have expert guidance at your fingertips, so you can revisit lessons whenever you need a refresher!
               </p>
             </article>

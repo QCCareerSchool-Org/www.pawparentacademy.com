@@ -1,0 +1,106 @@
+
+.hero {
+  position: relative;
+  padding: clamp(3.5rem, 8vw, 6rem) 0;
+  background: #fff8f5;
+  overflow: hidden;
+}
+
+@media (min-width: 992px) {
+  .hero {
+    background-image: radial-gradient(circle at top left, rgba(255, 255, 255, 0.45), rgba(255, 248, 245, 0.65)),
+      url('./nail-trimming-easy-hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.4), rgba(255, 245, 239, 0.65));
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+}
+
+.anchor {
+  position: relative;
+  top: -110px;
+}
+
+.listWrap ul {
+  padding-left: 1.25rem;
+  margin-bottom: 0;
+  color: #495057;
+}
+
+.listWrap li + li {
+  margin-top: 0.5rem;
+}
+
+.formCard {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  box-shadow: 0 25px 70px rgba(13, 19, 33, 0.12);
+  backdrop-filter: blur(6px);
+}
+
+.formImageWrap {
+  border-radius: 1.25rem;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.formImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.input {
+  border-radius: 999px;
+  border: 1px solid #ffe0d2;
+  padding: 0.85rem 1.25rem;
+  transition: border-color 0.2s ease;
+}
+
+.input:focus {
+  border-color: #ff9b7c;
+  box-shadow: 0 0 0 0.2rem rgba(255, 179, 150, 0.35);
+}
+
+.priceStrike {
+  text-decoration: line-through;
+  color: #c05252;
+  font-weight: 700;
+}
+
+.freeText {
+  color: var(--brand-teal);
+  font-weight: 800;
+}
+
+@media (max-width: 991.98px) {
+  .hero {
+    padding: 3rem 0;
+  }
+
+  .anchor {
+    top: -80px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .formCard {
+    padding: 2rem;
+  }
+
+  .formImageWrap {
+    margin-bottom: 1rem;
+  }
+}

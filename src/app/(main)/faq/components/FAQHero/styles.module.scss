@@ -1,0 +1,101 @@
+.hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url('./faq-bg-image.jpg');
+  padding: 4.5rem 0 4rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.hero :global(.container) {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.copy {
+  text-align: center;
+}
+
+.titleDesktop {
+  display: none;
+}
+
+.titleMobile {
+  display: block;
+}
+
+.subtitleDesktop {
+  display: none;
+}
+
+.subtitleMobile {
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .copy {
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding: 3rem 0 2.5rem;
+    background-image: url('./faq-bg-image-mobile.jpg');
+    background-attachment: scroll;
+    background-position: center top;
+  }
+
+  .hero :global(.container) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .copy {
+    padding-left: 1.5rem;
+    padding-right: 7rem;
+  }
+
+  .titleMobile {
+    font-size: 1.9rem;
+    line-height: 1.2;
+  }
+
+  .subtitleMobile {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero {
+    padding: 5rem 0 4rem;
+  }
+
+  .hero :global(.container) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .titleDesktop {
+    display: block;
+  }
+
+  .titleMobile {
+    display: none;
+  }
+
+  .subtitleDesktop {
+    display: block;
+  }
+
+  .subtitleMobile {
+    display: none;
+  }
+}

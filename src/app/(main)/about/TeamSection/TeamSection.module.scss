@@ -17,8 +17,13 @@
   font-weight: 700;
 }
 
-/* new */
-.instructor {
-  color: var(--brand-teal);
-  font-weight: 700;
+@media (max-width: 767px) {
+  .team p {
+    text-align: left;
+  }
+
+  .team h2,
+  .team h3 {
+    text-align: left;
+  }
 }

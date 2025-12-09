@@ -1,0 +1,154 @@
+.article {
+  max-width: 860px;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+.header {
+  margin-bottom: 2.5rem;
+}
+
+.title {
+  font-size: clamp(2.1rem, 4vw, 3rem);
+  font-weight: 800;
+  color: #044242;
+  margin-bottom: 1.25rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.tag {
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  background: rgba(4, 42, 42, 0.08);
+  color: #044242;
+}
+
+.date {
+  display: inline-block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(4, 42, 42, 0.5);
+}
+
+.heroImage {
+  position: relative;
+  margin: 2.5rem 0 3rem;
+  border-radius: 24px;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: #e6f5f5;
+}
+
+.heroImage img {
+  object-fit: cover;
+}
+
+.content {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(4, 42, 42, 0.92);
+}
+
+.content :global(h2) {
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-weight: 800;
+  margin: 2.5rem 0 1rem;
+  color: #044242;
+}
+
+.content :global(h3) {
+  font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+  font-weight: 700;
+  margin: 2rem 0 0.85rem;
+  color: #065656;
+}
+
+.content :global(h4) {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 1.75rem 0 0.5rem;
+  color: #086868;
+}
+
+.content :global(p) {
+  margin-bottom: 1rem;
+}
+
+.content :global(ul),
+.content :global(ol) {
+  margin: 0 0 1.25rem 1.2rem;
+  padding-left: 1rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.content :global(li) {
+  padding-left: 0.25rem;
+}
+
+.content :global(img) {
+  width: 100%;
+  border-radius: 20px;
+  margin: 1.25rem 0;
+}
+
+.content :global(.toc) {
+  border: 1px solid rgba(4, 42, 42, 0.12);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background: #f7fbfb;
+}
+
+.content :global(.box) {
+  border: 1px solid rgba(4, 42, 42, 0.12);
+  border-radius: 18px;
+  padding: 1.75rem;
+  margin: 2rem 0;
+  background: rgba(16, 196, 196, 0.08);
+}
+
+.content :global(.button) {
+  margin-top: 1rem;
+}
+
+.content :global(.responsive-embed) {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 1.5rem 0;
+}
+
+.content :global(.responsive-embed iframe) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 20px;
+}
+
+@media (max-width: 767px) {
+  .article {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+
+  .heroImage {
+    border-radius: 18px;
+  }
+}
