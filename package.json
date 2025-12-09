@@ -1,5 +1,5 @@
 {
-  "name": "ppa-migration",
+  "name": "www-pawparentacademy-com",
   "version": "0.1.1",
   "private": true,
   "scripts": {
@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
-    "next": "16.0.3",
-    "react": "19.2.0",
+    "next": "^16.0.8",
+    "react": "^19.2.1",
     "react-bootstrap": "^2.10.10",
-    "react-dom": "19.2.0",
+    "react-dom": "^19.2.1",
     "sass": "^1.95.0"
   },
   "devDependencies": {
