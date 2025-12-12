@@ -1,13 +1,13 @@
-import type { AccordionItem } from '@/components/AccordionGroup';
-import nailsIcon from '../images/nails-icon.png';
-import nailClippersIcon from '../images/nail-clippers-icon.png';
 import dogIcon from '../images/dog-icon.png';
+import nailClippersIcon from '../images/nail-clippers-icon.png';
+import nailsIcon from '../images/nails-icon.png';
 import heroImage from './images/hero-nail-trimmingv-2.jpg';
 import module1Imgae from './images/module-1.jpg';
 import module2Image from './images/module-2.jpg';
 import module3Image from './images/module-3.jpg';
 import module4Image from './images/module-bonus.jpg';
 import fitChecklistImage from './images/nail-trimming.jpg';
+import type { AccordionItem } from '@/components/AccordionGroup';
 
 export const courseMetadata = {
   title: 'Nail Trims Made Easy',
@@ -99,7 +99,7 @@ export const modules = [
     title: 'Bonus Content',
     subtitle: 'Downloadable Guides',
     description:
-      "Gain confidence with three bonus guides covering dog handling techniques, essential tools and equipment, and a step-by-step walkthrough of the nail trimming process.",
+      'Gain confidence with three bonus guides covering dog handling techniques, essential tools and equipment, and a step-by-step walkthrough of the nail trimming process.',
     image: module4Image,
   },
 ];
@@ -150,31 +150,31 @@ export const finalCtaContent = {
 export const videoSchema = {
   '@context': 'http://schema.org/',
   '@type': 'VideoObject',
-  name: 'Nail Trims Made Easy Course Sample',
-  description: 'A Kajabi-hosted sample video that previews the Nail Trims Made Easy course.',
-  duration: 'PT1M3S',
-  uploadDate: '2025-02-28T17:54:24.000Z',
-  thumbnailUrl:
+  'name': 'Nail Trims Made Easy Course Sample',
+  'description': 'A Kajabi-hosted sample video that previews the Nail Trims Made Easy course.',
+  'duration': 'PT1M3S',
+  'uploadDate': '2025-02-28T17:54:24.000Z',
+  'thumbnailUrl':
     'https://embed-ssl.wistia.com/deliveries/32ebc5c2cdf2ac7968bc9f13676e7a29006605ff.jpg?image_crop_resized=640x360',
-  embedUrl: videoSample.videoSrc,
-  contentUrl: videoSample.videoSrc,
+  'embedUrl': videoSample.videoSrc,
+  'contentUrl': videoSample.videoSrc,
 };
 
 export const courseSchema = {
   '@context': 'https://schema.org/',
   '@type': 'Course',
-  name: courseMetadata.title,
-  description: courseMetadata.description,
-  provider: {
+  'name': courseMetadata.title,
+  'description': courseMetadata.description,
+  'provider': {
     '@type': 'Organization',
-    name: 'Paw Parent Academy',
-    sameAs: 'https://www.pawparentacademy.com',
+    'name': 'Paw Parent Academy',
+    'sameAs': 'https://www.pawparentacademy.com',
   },
-  offers: {
+  'offers': {
     '@type': 'Offer',
-    price: '68',
-    priceCurrency: 'USD',
-    availability: 'https://schema.org/InStock',
-    url: courseMetadata.canonicalUrl,
+    'price': '68',
+    'priceCurrency': 'USD',
+    'availability': 'https://schema.org/InStock',
+    'url': courseMetadata.canonicalUrl,
   },
 };

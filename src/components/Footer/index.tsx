@@ -1,5 +1,6 @@
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
+
 import styles from './Footer.module.scss';
 import whiteLogoIcon from '@/images/ppa-logo.jpg';
 
@@ -135,7 +136,7 @@ export default function Footer() {
           </div>
 
           <nav aria-label="Social media" className={styles.social}>
-            {socialLinks.map((link) => (
+            {socialLinks.map(link => (
               <Link
                 key={link.name}
                 href={link.href}

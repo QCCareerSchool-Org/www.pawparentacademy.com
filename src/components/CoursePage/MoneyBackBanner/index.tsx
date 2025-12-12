@@ -1,6 +1,7 @@
 import Image from 'next/image';
-import styles from './styles.module.scss';
+
 import shieldIcon from './shield-icon.jpg';
+import styles from './styles.module.scss';
 
 const EYEBROW = '14 DAY MONEY-BACK GUARANTEE';
 const HEADING = 'Money-Back Guarantee';

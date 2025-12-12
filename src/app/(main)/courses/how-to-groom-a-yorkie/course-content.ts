@@ -1,10 +1,7 @@
-import type { AccordionItem } from '@/components/AccordionGroup';
 import bathIcon from '../images/bathe-icon.png';
 import coatIcon from '../images/coat-icon.png';
 import nailsIcon from '../images/nails-icon.png';
 import trimsIcon from '../images/trims-icon.png';
-import heroImage from './images/yorkie-coats-no-bg.jpg';
-import yorkiePupStar from './images/yorkie-pup-star.jpg';
 import module1 from './images/module-1.jpg';
 import module2 from './images/module-2.jpg';
 import module3 from './images/module-3.jpg';
@@ -14,6 +11,9 @@ import module6 from './images/module-6.jpg';
 import module7 from './images/module-7.jpg';
 import module8 from './images/modules-bonus.jpg';
 import yorkieChecklist from './images/yorkie-checklist.jpg';
+import heroImage from './images/yorkie-coats-no-bg.jpg';
+import yorkiePupStar from './images/yorkie-pup-star.jpg';
+import type { AccordionItem } from '@/components/AccordionGroup';
 
 export const courseMetadata = {
   title: 'How to Groom a Yorkie',
@@ -116,14 +116,14 @@ export const modules = [
     title: 'Module 3',
     subtitle: 'Safe Grooming',
     description:
-      "We know you have safety top of mind and so do we! Learn the techniques and equipment you should be using to prevent injuries.",
+      'We know you have safety top of mind and so do we! Learn the techniques and equipment you should be using to prevent injuries.',
     image: module3,
   },
   {
     title: 'Module 4',
     subtitle: 'Brushing a Silky Coat',
     description:
-      "Discover which tools you should be using for each area of your dog. Master mats and tangles and learn how to make the brushing experience an enjoyable one.",
+      'Discover which tools you should be using for each area of your dog. Master mats and tangles and learn how to make the brushing experience an enjoyable one.',
     image: module4,
   },
   {
@@ -180,12 +180,12 @@ export const faqItems: AccordionItem[] = [
   {
     question: 'My dog is terrified to go to the groomer. Will this course help?',
     answerHtml:
-      "Grooming your dog may be the perfect solution for you if your dog is uncomfortable going to the groomer. You’ll be able to control the environment so your dog feels comfortable and you can give your dog lots of breaks if needed. The course will walk you through all the steps to get your dog comfortable with the grooming process.",
+      'Grooming your dog may be the perfect solution for you if your dog is uncomfortable going to the groomer. You’ll be able to control the environment so your dog feels comfortable and you can give your dog lots of breaks if needed. The course will walk you through all the steps to get your dog comfortable with the grooming process.',
   },
   {
     question: 'I have another dog with a different coat type. Will this course teach me everything I need to know?',
     answerHtml:
-      "Paw Parent Academy has a unique course for each coat type. You’ll want to review the courses and choose one that aligns with your dog’s coat. If you need help choosing simply email <a href=\"mailto:info@pawparentacademy.com\">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses, we offer a special discount—just reach out to us for more details!",
+      'Paw Parent Academy has a unique course for each coat type. You’ll want to review the courses and choose one that aligns with your dog’s coat. If you need help choosing simply email <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses, we offer a special discount—just reach out to us for more details!',
   },
 ];
 
@@ -201,31 +201,31 @@ export const leadMagnetContent = {
 export const videoSchema = {
   '@context': 'http://schema.org/',
   '@type': 'VideoObject',
-  name: 'How to Groom a Yorkie Course Sample',
-  description: 'A Kajabi hosted video sample that previews the How to Groom a Yorkie course.',
-  duration: 'PT1M3S',
-  uploadDate: '2025-02-28T17:54:24.000Z',
-  thumbnailUrl:
+  'name': 'How to Groom a Yorkie Course Sample',
+  'description': 'A Kajabi hosted video sample that previews the How to Groom a Yorkie course.',
+  'duration': 'PT1M3S',
+  'uploadDate': '2025-02-28T17:54:24.000Z',
+  'thumbnailUrl':
     'https://embed-ssl.wistia.com/deliveries/32ebc5c2cdf2ac7968bc9f13676e7a29006605ff.jpg?image_crop_resized=640x360',
-  embedUrl: videoSample.videoSrc,
-  contentUrl: videoSample.videoSrc,
+  'embedUrl': videoSample.videoSrc,
+  'contentUrl': videoSample.videoSrc,
 };
 
 export const courseSchema = {
   '@context': 'https://schema.org/',
   '@type': 'Course',
-  name: courseMetadata.title,
-  description: courseMetadata.description,
-  provider: {
+  'name': courseMetadata.title,
+  'description': courseMetadata.description,
+  'provider': {
     '@type': 'Organization',
-    name: 'Paw Parent Academy',
-    sameAs: 'https://www.pawparentacademy.com',
+    'name': 'Paw Parent Academy',
+    'sameAs': 'https://www.pawparentacademy.com',
   },
-  offers: {
+  'offers': {
     '@type': 'Offer',
-    price: '248',
-    priceCurrency: 'USD',
-    availability: 'https://schema.org/InStock',
-    url: courseMetadata.canonicalUrl,
+    'price': '248',
+    'priceCurrency': 'USD',
+    'availability': 'https://schema.org/InStock',
+    'url': courseMetadata.canonicalUrl,
   },
 };

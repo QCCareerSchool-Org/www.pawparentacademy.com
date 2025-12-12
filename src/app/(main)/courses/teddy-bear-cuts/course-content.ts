@@ -1,9 +1,7 @@
-import type { AccordionItem } from '@/components/AccordionGroup';
 import bathIcon from '../images/bathe-icon.png';
 import coatIcon from '../images/coat-icon.png';
 import nailsIcon from '../images/nails-icon.png';
 import trimsIcon from '../images/trims-icon.png';
-import checklistImage from './images/Pepe communication.jpg'
 import module1 from './images/modules-1.jpg';
 import module2 from './images/modules-2-2.jpg';
 import module3 from './images/modules-3-2.jpg';
@@ -12,8 +10,10 @@ import module5 from './images/modules-5.jpg';
 import module6 from './images/modules-6.jpg';
 import module7 from './images/modules-7-2.jpg';
 import module8 from './images/modules-8.jpg';
-import heroImage from './images/plush-coats-no-bg.jpg'
-import pepePupStar from './images/pepe-pupstar.jpg'
+import checklistImage from './images/Pepe communication.jpg';
+import pepePupStar from './images/pepe-pupstar.jpg';
+import heroImage from './images/plush-coats-no-bg.jpg';
+import type { AccordionItem } from '@/components/AccordionGroup';
 
 export const courseMetadata = {
   title: 'Teddy Bear Cuts',
@@ -39,7 +39,7 @@ export const fitChecklistContent = {
     'A teddy bear cut is your top pick for a low-maintenance trim that keeps your pet looking adorable.',
     'Spending quality time with your furry friend is a top priority.',
     'Catching health issues right away eases your worry.',
-    "You're excited to be your dog’s #1 groomer.",
+    "You're excited to be your dog's #1 groomer.",
   ],
   image: {
     src: checklistImage,
@@ -56,7 +56,7 @@ export const featureHighlights = [
   {
     iconSrc: coatIcon,
     title: 'Maintain a Healthy Coat',
-    description: "Prevent mats, knots, and tangles for a healthy, luxurious coat.",
+    description: 'Prevent mats, knots, and tangles for a healthy, luxurious coat.',
   },
   {
     iconSrc: bathIcon,
@@ -161,33 +161,27 @@ export const modules = [
 export const faqItems: AccordionItem[] = [
   {
     question: 'What is a teddy bear cut?',
-    answerHtml:
-      "A teddy bear cut is a popular, low-maintenance haircut perfect for fluffy-coated dogs like Shih Tzus, Pomeranians, Havanese and Biewer Terriers. This cute and cuddly look features a round teddy bear face and fluffy paws with a neatly clipped body, keeping your pup cute, comfortable and easy to groom. In this course, you'll learn everything from how to cut a teddy bear face to shaping those adorable round feet!",
+    answerHtml: "A teddy bear cut is a popular, low-maintenance haircut perfect for fluffy-coated dogs like Shih Tzus, Pomeranians, Havanese and Biewer Terriers. This cute and cuddly look features a round teddy bear face and fluffy paws with a neatly clipped body, keeping your pup cute, comfortable and easy to groom. In this course, you'll learn everything from how to cut a teddy bear face to shaping those adorable round feet!",
   },
   {
     question: 'Which breeds are a good fit for this course?',
-    answerHtml:
-      "Any small breed with a soft, fluffy, long-growing coat will look absolutely adorable with a teddy bear cut! For instance, the techniques taught in this course are ideal for achieving a charming Shih Tzu teddy bear cut. Breeds like Shih Tzus, Pomeranians, Havanese, Lhasa Apsos, and Biewer Terriers are all perfect candidates for this grooming style, making this course a great fit for anyone with a fluffy pup! If you're unsure whether this is the right course for your dog, feel free to email us at <a href=\"mailto:info@pawparentacademy.com\">info@pawparentacademy.com</a>. We'll help you choose the perfect course!",
+    answerHtml: "Any small breed with a soft, fluffy, long-growing coat will look absolutely adorable with a teddy bear cut! For instance, the techniques taught in this course are ideal for achieving a charming Shih Tzu teddy bear cut. Breeds like Shih Tzus, Pomeranians, Havanese, Lhasa Apsos, and Biewer Terriers are all perfect candidates for this grooming style, making this course a great fit for anyone with a fluffy pup! If you're unsure whether this is the right course for your dog, feel free to email us at <a href=\"mailto:info@pawparentacademy.com\">info@pawparentacademy.com</a>. We'll help you choose the perfect course!",
   },
   {
     question: 'Do I need prior experience?',
-    answerHtml:
-      'Not at all! You can learn how to give your dog a teddy bear cut with no prior experience grooming dogs. There will be no complicated terminology or techniques skipped over - plus you’ll be able to watch each technique as often as you like.',
+    answerHtml: 'Not at all! You can learn how to give your dog a teddy bear cut with no prior experience grooming dogs. There will be no complicated terminology or techniques skipped over—plus you\'ll be able to watch each technique as often as you like.',
   },
   {
     question: 'How much will it cost to buy the equipment to groom my dog?',
-    answerHtml:
-      "What you invest in your grooming setup depends on how much of the groom you’d like to do. For instance, if you're going to complete the trim on your pet you’ll need to purchase clippers and shears. The investment you put into your equipment will pay for itself as your professional grooming expenses are reduced or eliminated altogether.",
+    answerHtml: "What you invest in your grooming setup depends on how much of the groom you'd like to do. For instance, if you're going to complete the trim on your pet you'll need to purchase clippers and shears. The investment you put into your equipment will pay for itself as your professional grooming expenses are reduced or eliminated altogether.",
   },
   {
     question: 'My dog is anxious about grooming. Can this course help?',
-    answerHtml:
-      'If your dog feels afraid or anxious at the groomer, grooming at home could be the ideal solution. You’ll have control over the environment, allowing your dog to feel at ease, and you can take plenty of breaks if needed. This course will guide you through every step of the process, from nail trims to achieving the perfect teddy bear cut, helping your dog feel more relaxed and comfortable with grooming.',
+    answerHtml: 'If your dog feels afraid or anxious at the groomer, grooming at home could be the ideal solution. You\'ll have control over the environment, allowing your dog to feel at ease, and you can take plenty of breaks if needed. This course will guide you through every step of the process, from nail trims to achieving the perfect teddy bear cut, helping your dog feel more relaxed and comfortable with grooming.',
   },
   {
     question: 'What if I have another dog with a different coat type?',
-    answerHtml:
-      'Paw Parent Academy has a unique course for each coat type. You’ll want to review the courses and choose one that aligns with your dog’s coat. If you need help choosing, simply email <a href=\"mailto:info@pawparentacademy.com\">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses, we offer a special discount—just reach out to us for more details!',
+    answerHtml: 'Paw Parent Academy has a unique course for each coat type. You\'ll want to review the courses and choose one that aligns with your dog\'s coat. If you need help choosing, simply email <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses, we offer a special discount—just reach out to us for more details!',
   },
 ];
 
@@ -203,31 +197,31 @@ export const leadMagnetContent = {
 export const videoSchema = {
   '@context': 'http://schema.org/',
   '@type': 'VideoObject',
-  name: 'Teddy Bear Cuts Course Sample',
-  description: 'A Kajabi hosted video sample that previews the Teddy Bear Cuts course.',
-  duration: 'PT1M3S',
-  uploadDate: '2025-02-28T17:54:24.000Z',
-  thumbnailUrl:
+  'name': 'Teddy Bear Cuts Course Sample',
+  'description': 'A Kajabi hosted video sample that previews the Teddy Bear Cuts course.',
+  'duration': 'PT1M3S',
+  'uploadDate': '2025-02-28T17:54:24.000Z',
+  'thumbnailUrl':
     'https://embed-ssl.wistia.com/deliveries/32ebc5c2cdf2ac7968bc9f13676e7a29006605ff.jpg?image_crop_resized=640x360',
-  embedUrl: videoSample.videoSrc,
-  contentUrl: videoSample.videoSrc,
+  'embedUrl': videoSample.videoSrc,
+  'contentUrl': videoSample.videoSrc,
 };
 
 export const courseSchema = {
   '@context': 'https://schema.org/',
   '@type': 'Course',
-  name: 'Teddy Bear Cuts',
-  description: courseMetadata.description,
-  provider: {
+  'name': 'Teddy Bear Cuts',
+  'description': courseMetadata.description,
+  'provider': {
     '@type': 'Organization',
-    name: 'Paw Parent Academy',
-    sameAs: 'https://www.pawparentacademy.com',
+    'name': 'Paw Parent Academy',
+    'sameAs': 'https://www.pawparentacademy.com',
   },
-  offers: {
+  'offers': {
     '@type': 'Offer',
-    price: '248',
-    priceCurrency: 'USD',
-    availability: 'https://schema.org/InStock',
-    url: courseMetadata.canonicalUrl,
+    'price': '248',
+    'priceCurrency': 'USD',
+    'availability': 'https://schema.org/InStock',
+    'url': courseMetadata.canonicalUrl,
   },
 };

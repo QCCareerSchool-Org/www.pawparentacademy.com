@@ -9,14 +9,14 @@ export interface LeadMagnetFormState {
   };
 }
 
-const emailRegex = /^[\w.!#$%&'*+/=?`{|}~-]+@[\w-]+(?:\.[\w-]+)+$/;
+const emailRegex = /^[\w.!#$%&'*+/=?`{|}~-]+@[\w-]+(?:\.[\w-]+)+$/u;
 
-export async function submitLeadMagnet(
+export function submitLeadMagnet(
   _prevState: LeadMagnetFormState | undefined,
   formData: FormData,
-): Promise<LeadMagnetFormState> {
-  const name = String(formData.get('name') ?? '').trim();
-  const email = String(formData.get('email') ?? '').trim();
+): LeadMagnetFormState {
+  const name = String(formData.get('name')?.valueOf ?? '').trim();
+  const email = String(formData.get('email')?.valueOf ?? '').trim();
 
   const errors: LeadMagnetFormState['errors'] = {};
 

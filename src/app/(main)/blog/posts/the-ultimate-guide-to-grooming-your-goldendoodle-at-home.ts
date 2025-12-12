@@ -369,22 +369,22 @@ const goldendoodleGroomingGuideHtml = String.raw`
 `;
 
 export const goldendoodleGroomingGuidePost: BlogPost = {
-    slug: 'the-ultimate-guide-to-grooming-your-goldendoodle-at-home',
-    title:
+  slug: 'the-ultimate-guide-to-grooming-your-goldendoodle-at-home',
+  title:
       'The Ultimate Guide to Grooming Your Goldendoodle at Home (With Step-by-Step Instructions & Pro Tips)',
-    excerpt:
+  excerpt:
       'Step-by-step Goldendoodle grooming roadmap covering coat types, tools, product picks, and pro video tips for salon-quality results at home.',
-    description:
+  description:
       'Learn how to groom a Goldendoodle at home with this comprehensive step-by-step guide for beginners. Discover coat-specific tips, tool recommendations, and expert advice to keep your Doodle looking and feeling their best!',
-    imageUrl:
+  imageUrl:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/8f57ce-0415-14ed-bff6-bd7f63847_the_ultimate_guide_to_grooming_your_goldendoodle_at_home_feature_image_2_.jpg',
-    heroImage:
+  heroImage:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/8f57ce-0415-14ed-bff6-bd7f63847_the_ultimate_guide_to_grooming_your_goldendoodle_at_home_feature_image_2_.jpg',
-    heroImageAlt:
+  heroImageAlt:
       'Curly-coated Goldendoodle being groomed on a table, showcasing tools and techniques for DIY Goldendoodle grooming at home.',
-    tags: ['DIY Dog Grooming', 'DIY Grooming', 'Dog Grooming'],
-    publishedOn: 'May 22, 2025',
-    canonicalUrl:
+  tags: [ 'DIY Dog Grooming', 'DIY Grooming', 'Dog Grooming' ],
+  publishedOn: 'May 22, 2025',
+  canonicalUrl:
       'https://www.pawparentacademy.com/blog/the-ultimate-guide-to-grooming-your-goldendoodle-at-home',
-    contentHtml: goldendoodleGroomingGuideHtml,
-  };
+  contentHtml: goldendoodleGroomingGuideHtml,
+};

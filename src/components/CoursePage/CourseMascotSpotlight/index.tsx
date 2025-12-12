@@ -1,4 +1,5 @@
 import Image, { type StaticImageData } from 'next/image';
+
 import styles from './styles.module.scss';
 
 interface CourseMascotSpotlightProps {
@@ -13,7 +14,7 @@ interface CourseMascotSpotlightProps {
 }
 
 export default function CourseMascotSpotlight({ heading, pupName, bullets, image, className }: CourseMascotSpotlightProps) {
-  const sectionClassNames = [styles.section, className].filter(Boolean).join(' ');
+  const sectionClassNames = [ styles.section, className ].filter(Boolean).join(' ');
 
   return (
     <section className={sectionClassNames}>
@@ -28,7 +29,7 @@ export default function CourseMascotSpotlight({ heading, pupName, bullets, image
             <h3 className="fw-bold mb-2">{heading}</h3>
             <h4 className="subtitle-teal mb-4">{pupName}</h4>
             <ul className={`${styles.list} mt-4`}>
-              {bullets.map((bullet) => (
+              {bullets.map(bullet => (
                 <li key={bullet}>{bullet}</li>
               ))}
             </ul>

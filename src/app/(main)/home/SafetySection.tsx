@@ -1,4 +1,5 @@
 import Image, { type StaticImageData } from 'next/image';
+
 import styles from './SafetySection.module.scss';
 
 interface SafetyFeature {
@@ -21,7 +22,7 @@ export default function SafetySection({ features }: SafetySectionProps) {
           <h2 id="safety-heading" className="mb-5">Everything You Need to Succeed</h2>
         </div>
         <div className={styles.grid}>
-          {features.map((feature) => (
+          {features.map(feature => (
             <article key={feature.title} className={styles.card}>
               <div className={styles.iconWrap}>
                 <Image src={feature.icon} alt={feature.alt} width={36} height={36} />

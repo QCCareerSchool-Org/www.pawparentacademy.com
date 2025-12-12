@@ -1,6 +1,7 @@
-import Image from 'next/image';
-import styles from './styles.module.scss';
 import type { StaticImageData } from 'next/image';
+import Image from 'next/image';
+
+import styles from './styles.module.scss';
 
 export interface FeatureHighlight {
   iconSrc: string | StaticImageData;
@@ -16,7 +17,7 @@ interface CourseFeatureGridProps {
 
 export default function CourseFeatureGrid({ heading, features, className }: CourseFeatureGridProps) {
   const desktopColumnClass = `row-cols-lg-${Math.min(4, Math.max(1, features.length))}`;
-  const rowClasses = ['row', 'row-cols-1', 'row-cols-sm-2', desktopColumnClass, 'g-4'];
+  const rowClasses = [ 'row', 'row-cols-1', 'row-cols-sm-2', desktopColumnClass, 'g-4' ];
 
   if (features.length < 4) {
     rowClasses.push('justify-content-center');
@@ -33,7 +34,7 @@ export default function CourseFeatureGrid({ heading, features, className }: Cour
           </div>
         )}
         <div className={rowClasses.join(' ')}>
-          {features.map((feature) => (
+          {features.map(feature => (
             <div className="col" key={feature.title}>
               <div className={`h-100 text-center p-4 ${styles.featureCard}`}>
                 <div className="d-flex justify-content-center mb-3">

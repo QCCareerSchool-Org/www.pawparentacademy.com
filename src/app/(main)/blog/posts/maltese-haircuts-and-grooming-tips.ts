@@ -460,22 +460,22 @@ const malteseHaircutsHtml = String.raw`
 `;
 
 export const malteseHaircutsPost: BlogPost = {
-    slug: 'maltese-haircuts-and-grooming-tips',
-    title:
+  slug: 'maltese-haircuts-and-grooming-tips',
+  title:
       '14 Adorable Maltese Haircuts (With Photos) + DIY Grooming Tips for Every Style',
-    excerpt:
+  excerpt:
       'Looking for the perfect Maltese haircut? Explore 14 adorable styles with grooming tips, home care guides, and expert recommendations.',
-    description:
+  description:
       'Discover 14 Maltese haircut styles—complete with photos, tool lists, and step-by-step grooming advice—to keep silky coats healthy and mat-free at home.',
-    imageUrl:
+  imageUrl:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/fe1dca7-6ef8-7b47-03f7-3ac16264b74_maltese_haircuts_feature_image.jpg',
-    heroImage:
+  heroImage:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/fe1dca7-6ef8-7b47-03f7-3ac16264b74_maltese_haircuts_feature_image.jpg',
-    heroImageAlt:
+  heroImageAlt:
       'A fluffy white Maltese puppy with a soft, well-groomed coat sitting on a plush rug in natural light.',
-    tags: ['DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools'],
-    publishedOn: 'Aug 11, 2025',
-    canonicalUrl:
+  tags: [ 'DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools' ],
+  publishedOn: 'Aug 11, 2025',
+  canonicalUrl:
       'https://www.pawparentacademy.com/blog/14-adorable-maltese-haircuts-diy-grooming-tips',
-    contentHtml: malteseHaircutsHtml,
-  };
+  contentHtml: malteseHaircutsHtml,
+};

@@ -1,4 +1,5 @@
-import TestimonialsCarousel, { TestimonialItem } from './TestimonialsCarousel';
+import type { TestimonialItem } from './TestimonialsCarousel';
+import TestimonialsCarousel from './TestimonialsCarousel';
 import styles from './TestimonialsSection.module.scss';
 
 interface TestimonialsSectionProps {

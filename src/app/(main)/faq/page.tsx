@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
+
+import styles from './FaqPage.module.scss';
 import FAQHero from '@/app/(main)/faq/components/FAQHero';
 import FAQSectionIntro from '@/app/(main)/faq/components/FAQSectionIntro';
-import AccordionGroup from '@/components/AccordionGroup';
-import CTASection from '@/components/CTASection';
 import { faqSections } from '@/app/(main)/faq/faq-data';
 import { faqSchema } from '@/app/(main)/faq/faq-schema';
-import styles from './FaqPage.module.scss';
+import AccordionGroup from '@/components/AccordionGroup';
+import CTASection from '@/components/CTASection';
 
 export const metadata: Metadata = {
   title: 'FAQ | Paw Parent Academy',
@@ -21,7 +22,7 @@ export default function FAQPage() {
     <>
       <FAQHero />
 
-      {faqSections.map((section) => {
+      {faqSections.map(section => {
         const backgroundClass = section.variant === 'light' ? styles.sectionLight : '';
 
         return (

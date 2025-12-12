@@ -1,5 +1,6 @@
-import AccordionGroup, { AccordionItem } from '@/components/AccordionGroup';
 import styles from './styles.module.scss';
+import type { AccordionItem } from '@/components/AccordionGroup';
+import AccordionGroup from '@/components/AccordionGroup';
 
 interface CourseFAQProps {
   heading: string;
@@ -12,7 +13,7 @@ export default function CourseFAQ({ heading, items }: CourseFAQProps) {
       <div className="container">
         <div className="row justify-content-center text-center mb-4">
           <div className="col-lg-6">
-            <h2 className='mt-5'>{heading}</h2>
+            <h2 className="mt-5">{heading}</h2>
           </div>
         </div>
         <div className="row justify-content-center">

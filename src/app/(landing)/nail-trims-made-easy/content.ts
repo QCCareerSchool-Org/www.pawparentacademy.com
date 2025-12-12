@@ -1,6 +1,5 @@
-import nadia from '@/app/(main)/home/images/nadia.jpg';
-
 import formImage from './form-dog.png';
+import nadia from '@/app/(main)/home/images/nadia.jpg';
 
 export const heroContent = {
   eyebrow: 'Free Pup Playbook',
@@ -21,11 +20,11 @@ export const heroContent = {
 };
 
 export const mentorSpotlight = {
-  name: "Nadia Bongelli",
-  title: "Nationally Certified Master Groomer",
-  description: ['Your course instructor, Nadia Bongelli, is a highly acclaimed industry leader and Nationally Certified Master Groomer. Recognized for her exceptional talent, she has been ranked as Canada’s #1 competitive groomer since 2018, earned the prestigious Barkleigh Honors Groomer of the Year award in 2024, and achieved second place at the 2024 World Grooming Championships in Belgium.'],
+  name: 'Nadia Bongelli',
+  title: 'Nationally Certified Master Groomer',
+  description: [ 'Your course instructor, Nadia Bongelli, is a highly acclaimed industry leader and Nationally Certified Master Groomer. Recognized for her exceptional talent, she has been ranked as Canada’s #1 competitive groomer since 2018, earned the prestigious Barkleigh Honors Groomer of the Year award in 2024, and achieved second place at the 2024 World Grooming Championships in Belgium.' ],
   image: nadia,
-  imageAlt: "Nadia Bongelli smiling with a dog",
+  imageAlt: 'Nadia Bongelli smiling with a dog',
 };
 
 export const leadMagnetCopy = {

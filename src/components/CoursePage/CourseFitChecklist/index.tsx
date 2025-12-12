@@ -1,4 +1,5 @@
 import Image, { type StaticImageData } from 'next/image';
+
 import styles from './styles.module.scss';
 
 interface CourseFitChecklistProps {
@@ -12,7 +13,7 @@ interface CourseFitChecklistProps {
 }
 
 export default function CourseFitChecklist({ heading, checklist, image, className }: CourseFitChecklistProps) {
-  const sectionClassNames = [styles.section, className].filter(Boolean).join(' ');
+  const sectionClassNames = [ styles.section, className ].filter(Boolean).join(' ');
 
   return (
     <section className={sectionClassNames}>
@@ -32,7 +33,7 @@ export default function CourseFitChecklist({ heading, checklist, image, classNam
           <div className={`col-lg-6 order-lg-2 ${styles.textCol}`}>
             <h3 className="fw-bold mb-4">{heading}</h3>
             <ul className={styles.list}>
-              {checklist.map((item) => (
+              {checklist.map(item => (
                 <li key={item}>{item}</li>
               ))}
             </ul>

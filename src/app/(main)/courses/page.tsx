@@ -1,21 +1,18 @@
-import React from 'react';
 import type { Metadata } from 'next';
+
+import { courses } from './courses';
 import CoursesHero from './CoursesHero';
-import CoursesGrid from '@/components/CoursesGrid';
+import desheddingThumb from './images/deshedding--thumb.jpg';
+import nailsThumb from './images/nails-thumb-2.jpg';
+import pawsitiveThumb from './images/pawsitive-thumb-no-bg.jpg';
 import PupPlaybooksHero from './PupPlaybooksHero';
 import CourseFeature from '@/components/CourseFeature';
-import { courses } from './courses';
-import nailsThumb from './images/nails-thumb-2.jpg';
-import desheddingThumb from './images/deshedding--thumb.jpg';
-import pawsitiveThumb from './images/pawsitive-thumb-no-bg.jpg';
+import CoursesGrid from '@/components/CoursesGrid';
 
 export const metadata: Metadata = {
   title: 'Dog Grooming Courses | Paw Parent Academy',
-  description:
-    'Browse online dog grooming courses for every coat type. Learn pro techniques, save on grooming bills, and bond with your pup at home.',
-  alternates: {
-    canonical: 'https://www.pawparentacademy.com/courses',
-  },
+  description: 'Browse online dog grooming courses for every coat type. Learn pro techniques, save on grooming bills, and bond with your pup at home.',
+  alternates: { canonical: 'https://www.pawparentacademy.com/courses' },
 };
 
 export default function CoursesPage() {
@@ -39,9 +36,7 @@ export default function CoursesPage() {
             <CourseFeature
               title="Nail Trims Made Easy"
               subtitle="Clipper + Grinder Confidence"
-              description={
-                'Learn calm routines, tool handling, and safety techniques so every nail trim—clipper or grinder—feels stress-free for you and your pup.'
-              }
+              description="Learn calm routines, tool handling, and safety techniques so every nail trim—clipper or grinder—feels stress-free for you and your pup."
               highlights={[
                 'Desensitization plans for anxious dogs',
                 'Clipper and grinder demos for every paw size',
@@ -57,9 +52,7 @@ export default function CoursesPage() {
             <CourseFeature
               title="Deshedding Mastery"
               subtitle=""
-              description={
-                "Keep shedding under control with expert techniques for all breeds. Learn how to reduce loose fur and maintain a clean, healthy coat year-round."
-              }
+              description="Keep shedding under control with expert techniques for all breeds. Learn how to reduce loose fur and maintain a clean, healthy coat year-round."
               highlights={[
                 'Effective tools for de-shedding',
                 'Techniques for reducing fur buildup',
@@ -77,9 +70,7 @@ export default function CoursesPage() {
             <CourseFeature
               title="Paws-itive Grooming"
               subtitle=""
-              description={
-                "Grooming can be a paws-itive bonding experience for you and your furry friend! Learn to use positive reinforcement to make grooming fun and stress-free for both of you."
-              }
+              description="Grooming can be a paws-itive bonding experience for you and your furry friend! Learn to use positive reinforcement to make grooming fun and stress-free for both of you."
               highlights={[
                 'Positive reinforcement',
                 "Overcoming your dog's fear of grooming",

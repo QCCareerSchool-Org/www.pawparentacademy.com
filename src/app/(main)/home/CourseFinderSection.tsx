@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+
 import styles from './CourseFinderSection.module.scss';
 
 interface HighlightProps {
@@ -45,7 +46,7 @@ export default function CourseFinderSection({
               <h3 className="h4 mb-3 text-dark">{subtitle}</h3>
               <p>{description}</p>
               <ul className={styles.bullets}>
-                {bullets.map((item) => (
+                {bullets.map(item => (
                   <li key={item}>{item}</li>
                 ))}
               </ul>

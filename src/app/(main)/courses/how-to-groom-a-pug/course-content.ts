@@ -1,18 +1,18 @@
-import type { AccordionItem } from '@/components/AccordionGroup';
 import bathIcon from '../images/bathe-icon.png';
 import coatIcon from '../images/coat-icon.png';
-import nailsIcon from '../images/nails-icon.png';
 import curryIcon from '../images/curry-icon.png';
+import nailsIcon from '../images/nails-icon.png';
 import heroImage from './images/hero-pug.jpg';
+import bonusModuleImage from './images/module-bonus.jpg';
+import module4Image from './images/module-brushing.jpg';
+import module1Image from './images/module-intro.jpg';
+import module5Image from './images/module-nails-ears-teeth.jpg';
+import module3Image from './images/module-safe.jpg';
+import module2Image from './images/module-space.jpg';
+import module6Image from './images/modules-bathing.jpg';
 import fitChecklistImage from './images/pug-nadia.jpg';
 import chumleyPupStar from './images/pug-pup-star.jpg';
-import module1Image from './images/module-intro.jpg'
-import module2Image from './images/module-space.jpg'
-import module3Image from './images/module-safe.jpg'
-import module4Image from './images/module-brushing.jpg'
-import module5Image from './images/module-nails-ears-teeth.jpg'
-import module6Image from './images/modules-bathing.jpg'
-import bonusModuleImage from './images/module-bonus.jpg'
+import type { AccordionItem } from '@/components/AccordionGroup';
 
 export const courseMetadata = {
   title: 'How to Groom a Pug',
@@ -53,7 +53,7 @@ export const featureHighlights = [
   {
     iconSrc: coatIcon,
     title: 'Maintain a Healthy Coat',
-    description: "Prevent the buildup of dead hair by learning proper brushing techniques.",
+    description: 'Prevent the buildup of dead hair by learning proper brushing techniques.',
   },
   {
     iconSrc: bathIcon,
@@ -94,7 +94,7 @@ export const videoSample = {
 export const overviewContent = {
   heading: 'Learn How to Groom a Pug with Easy-to-Follow Online Lessons',
   body:
-    "The grooming process is broken down into short videos that you can re-watch as often as you like. You can also follow along with step-by-step grooming guides and tool lists. ",
+    'The grooming process is broken down into short videos that you can re-watch as often as you like. You can also follow along with step-by-step grooming guides and tool lists. ',
 };
 
 export const modules = [
@@ -127,7 +127,7 @@ export const modules = [
     subtitle: 'Brushing a Short Coat',
     description:
       'Discover which tools you should be using for each step of the grooming process. Get shedding under control and learn how to make the brushing experience an enjoyable one.',
-    image: module4Image
+    image: module4Image,
   },
   {
     title: 'Module 5',
@@ -156,17 +156,17 @@ export const faqItems: AccordionItem[] = [
   {
     question: 'Do I need prior experience?',
     answerHtml:
-      "Not at all! You can learn how to groom your pug with no prior experience grooming dogs. There will be no complicated terminology or techniques skipped over - plus you’ll be able to watch each technique as often as you like.",
+      'Not at all! You can learn how to groom your pug with no prior experience grooming dogs. There will be no complicated terminology or techniques skipped over - plus you’ll be able to watch each technique as often as you like.',
   },
   {
     question: 'Which breeds is this course suitable for?',
     answerHtml:
-      "This course is perfect for learning to groom and deshed a short-coated dog with an undercoat such as Pugs, Bulldogs and other Bully breeds.",
+      'This course is perfect for learning to groom and deshed a short-coated dog with an undercoat such as Pugs, Bulldogs and other Bully breeds.',
   },
   {
     question: 'Is this course appropriate for large breeds?',
     answerHtml:
-      "Yes - this course is appropriate for any short-haired breed with an undercoat, from tiny chihuahuas to boxers!",
+      'Yes - this course is appropriate for any short-haired breed with an undercoat, from tiny chihuahuas to boxers!',
   },
   {
     question: 'How much will it cost to buy the equipment to groom my dog?',
@@ -176,17 +176,17 @@ export const faqItems: AccordionItem[] = [
   {
     question: 'My dog is terrified to go to the groomers. Will this course help?',
     answerHtml:
-      "Grooming your dog may be the perfect solution for you if your dog is uncomfortable going to the groomer. You’ll be able to control the environment so your dog feels comfortable and you can give your dog lots of breaks if needed. The course will walk you through all the steps to get your dog comfortable with the grooming process.",
+      'Grooming your dog may be the perfect solution for you if your dog is uncomfortable going to the groomer. You’ll be able to control the environment so your dog feels comfortable and you can give your dog lots of breaks if needed. The course will walk you through all the steps to get your dog comfortable with the grooming process.',
   },
   {
     question: 'How can I determine if I have sufficient physical strength to groom my own dog?',
     answerHtml:
-      "You’ll want to have good grip strength for tool handling and be comfortable standing for longer periods. You’ll learn great tips in the course to set up an ergonomic and comfortable grooming station for you and your pet.",
+      'You’ll want to have good grip strength for tool handling and be comfortable standing for longer periods. You’ll learn great tips in the course to set up an ergonomic and comfortable grooming station for you and your pet.',
   },
   {
     question: 'I have another dog with a different coat type. Will this course teach me everything I need to know?',
     answerHtml:
-      "Paw Parent Academy has a unique course for each coat type. You’ll want to review the courses and choose one that aligns with your dog’s coat. If you need help choosing simply email <a href=\"mailto:info@pawparentacademy.com\">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses we offer a special discount. Just reach out to us for more details!",
+      'Paw Parent Academy has a unique course for each coat type. You’ll want to review the courses and choose one that aligns with your dog’s coat. If you need help choosing simply email <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses we offer a special discount. Just reach out to us for more details!',
   },
 ];
 
@@ -202,31 +202,31 @@ export const leadMagnetContent = {
 export const videoSchema = {
   '@context': 'http://schema.org/',
   '@type': 'VideoObject',
-  name: 'How to Groom a Pug Course Sample',
-  description: 'A Kajabi-hosted video sample that previews the How to Groom a Pug course.',
-  duration: 'PT1M3S',
-  uploadDate: '2025-02-28T17:54:24.000Z',
-  thumbnailUrl:
+  'name': 'How to Groom a Pug Course Sample',
+  'description': 'A Kajabi-hosted video sample that previews the How to Groom a Pug course.',
+  'duration': 'PT1M3S',
+  'uploadDate': '2025-02-28T17:54:24.000Z',
+  'thumbnailUrl':
     'https://embed-ssl.wistia.com/deliveries/32ebc5c2cdf2ac7968bc9f13676e7a29006605ff.jpg?image_crop_resized=640x360',
-  embedUrl: videoSample.videoSrc,
-  contentUrl: videoSample.videoSrc,
+  'embedUrl': videoSample.videoSrc,
+  'contentUrl': videoSample.videoSrc,
 };
 
 export const courseSchema = {
   '@context': 'https://schema.org/',
   '@type': 'Course',
-  name: courseMetadata.title,
-  description: courseMetadata.description,
-  provider: {
+  'name': courseMetadata.title,
+  'description': courseMetadata.description,
+  'provider': {
     '@type': 'Organization',
-    name: 'Paw Parent Academy',
-    sameAs: 'https://www.pawparentacademy.com',
+    'name': 'Paw Parent Academy',
+    'sameAs': 'https://www.pawparentacademy.com',
   },
-  offers: {
+  'offers': {
     '@type': 'Offer',
-    price: '248',
-    priceCurrency: 'USD',
-    availability: 'https://schema.org/InStock',
-    url: courseMetadata.canonicalUrl,
+    'price': '248',
+    'priceCurrency': 'USD',
+    'availability': 'https://schema.org/InStock',
+    'url': courseMetadata.canonicalUrl,
   },
 };

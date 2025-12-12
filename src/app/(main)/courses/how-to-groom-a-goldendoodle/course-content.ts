@@ -1,11 +1,9 @@
-import type { AccordionItem } from '@/components/AccordionGroup';
-import heroPastel2 from './images/hero-pastel-2.jpg';
 import goldendoodleShaving from './images/goldendoodle-shaving.jpg';
+import heroPastel2 from './images/hero-pastel-2.jpg';
 import bathIcon from '../images/bathe-icon.png';
 import coatIcon from '../images/coat-icon.png';
 import nailsIcon from '../images/nails-icon.png';
 import trimsIcon from '../images/trims-icon.png';
-import remyPupStar from './images/remy-pup-star.jpg';
 import module1 from './images/module-1.jpg';
 import module2 from './images/module-2.jpg';
 import module3 from './images/module-3.jpg';
@@ -14,6 +12,8 @@ import module5 from './images/module-5.jpg';
 import module6 from './images/module-6.jpg';
 import module7 from './images/module-7.jpg';
 import module8 from './images/module-8.jpg';
+import remyPupStar from './images/remy-pup-star.jpg';
+import type { AccordionItem } from '@/components/AccordionGroup';
 
 export const courseMetadata = {
   title: 'How to Groom a Goldendoodle',
@@ -38,8 +38,8 @@ export const fitChecklistContent = {
     'Saving money gets your tail wagging.',
     'Grooming at home means less worry for you and your dog.',
     'A strong bond with your furry friend is important to you.',
-    "You’d never miss a chance to catch potential health concerns early.",
-    "You want to be your dog’s #1 groomer!",
+    'You’d never miss a chance to catch potential health concerns early.',
+    'You want to be your dog’s #1 groomer!',
   ],
   image: {
     src: goldendoodleShaving,
@@ -56,7 +56,7 @@ export const featureHighlights = [
   {
     iconSrc: coatIcon,
     title: 'Maintain a Healthy Coat',
-    description: "Prevent mats, knots, and tangles for a healthy finish.",
+    description: 'Prevent mats, knots, and tangles for a healthy finish.',
   },
   {
     iconSrc: bathIcon,
@@ -205,31 +205,31 @@ export const leadMagnetContent = {
 export const videoSchema = {
   '@context': 'http://schema.org/',
   '@type': 'VideoObject',
-  name: 'How to Groom a Goldendoodle Course Sample',
-  description: 'A Kajabi hosted video sample that previews the How to Groom a Goldendoodle course.',
-  duration: 'PT1M3S',
-  uploadDate: '2025-02-28T17:54:24.000Z',
-  thumbnailUrl:
+  'name': 'How to Groom a Goldendoodle Course Sample',
+  'description': 'A Kajabi hosted video sample that previews the How to Groom a Goldendoodle course.',
+  'duration': 'PT1M3S',
+  'uploadDate': '2025-02-28T17:54:24.000Z',
+  'thumbnailUrl':
     'https://embed-ssl.wistia.com/deliveries/32ebc5c2cdf2ac7968bc9f13676e7a29006605ff.jpg?image_crop_resized=640x360',
-  embedUrl: videoSample.videoSrc,
-  contentUrl: videoSample.videoSrc,
+  'embedUrl': videoSample.videoSrc,
+  'contentUrl': videoSample.videoSrc,
 };
 
 export const courseSchema = {
   '@context': 'https://schema.org/',
   '@type': 'Course',
-  name: 'How to Groom a Goldendoodle',
-  description: courseMetadata.description,
-  provider: {
+  'name': 'How to Groom a Goldendoodle',
+  'description': courseMetadata.description,
+  'provider': {
     '@type': 'Organization',
-    name: 'Paw Parent Academy',
-    sameAs: 'https://www.pawparentacademy.com',
+    'name': 'Paw Parent Academy',
+    'sameAs': 'https://www.pawparentacademy.com',
   },
-  offers: {
+  'offers': {
     '@type': 'Offer',
-    price: '248',
-    priceCurrency: 'USD',
-    availability: 'https://schema.org/InStock',
-    url: courseMetadata.canonicalUrl,
+    'price': '248',
+    'priceCurrency': 'USD',
+    'availability': 'https://schema.org/InStock',
+    'url': courseMetadata.canonicalUrl,
   },
 };

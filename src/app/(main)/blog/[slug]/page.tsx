@@ -39,13 +39,13 @@ export async function generateMetadata({ params }: BlogArticlePageProps): Promis
       description,
       url: canonical,
       tags: post.tags,
-      images: heroImage ? [{ url: heroImage }] : undefined,
+      images: heroImage ? [ { url: heroImage } ] : undefined,
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description,
-      images: heroImage ? [heroImage] : undefined,
+      images: heroImage ? [ heroImage ] : undefined,
     },
   };
 }
@@ -67,7 +67,7 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
       <header className={styles.header}>
         <h2 className={styles.title}>{post.title}</h2>
         <div className={styles.tags}>
-          {post.tags.map((tag) => (
+          {post.tags.map(tag => (
             <span className={styles.tag} key={`${post.slug}-${tag}`}>
               {tag}
             </span>

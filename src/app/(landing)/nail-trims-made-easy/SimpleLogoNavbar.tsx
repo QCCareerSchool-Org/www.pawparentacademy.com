@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '@/images/ppa-full-logo.jpg';
+
 import styles from './SimpleLogoNavbar.module.scss';
+import logo from '@/images/ppa-full-logo.jpg';
 
 export default function SimpleLogoNavbar() {
   return (

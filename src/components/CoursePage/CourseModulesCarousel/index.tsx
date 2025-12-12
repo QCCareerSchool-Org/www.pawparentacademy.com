@@ -1,7 +1,8 @@
 'use client';
 
-import { useCallback, useEffect, useRef, useState } from 'react';
 import Image, { type StaticImageData } from 'next/image';
+import { useCallback, useEffect, useRef, useState } from 'react';
+
 import styles from './styles.module.scss';
 
 export interface CourseModuleInfo {
@@ -21,7 +22,7 @@ const AUTO_INTERVAL = 3000;
 const INTERACTION_DELAY = 6000;
 
 export default function CourseModulesCarousel({ modules, enrollHref, enrollLabel }: CourseModulesCarouselProps) {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [ activeIndex, setActiveIndex ] = useState(0);
   const total = modules.length;
   const hasModules = total > 0;
   const ctaLabel = enrollLabel ?? 'Enroll Now';
@@ -39,9 +40,9 @@ export default function CourseModulesCarousel({ modules, enrollHref, enrollLabel
 
     timerRef.current = window.setTimeout(() => {
       delayRef.current = AUTO_INTERVAL;
-      setActiveIndex((prev) => (prev + 1) % total);
+      setActiveIndex(prev => (prev + 1) % total);
     }, delayRef.current);
-  }, [total]);
+  }, [ total ]);
 
   useEffect(() => {
     scheduleRotation();
@@ -51,10 +52,10 @@ export default function CourseModulesCarousel({ modules, enrollHref, enrollLabel
         window.clearTimeout(timerRef.current);
       }
     };
-  }, [activeIndex, scheduleRotation]);
+  }, [ activeIndex, scheduleRotation ]);
 
   const setIndexWithDelay = (updater: (prev: number) => number) => {
-    if (total <= 1) return;
+    if (total <= 1) { return; }
     delayRef.current = INTERACTION_DELAY;
 
     if (timerRef.current !== null) {
@@ -62,7 +63,7 @@ export default function CourseModulesCarousel({ modules, enrollHref, enrollLabel
       timerRef.current = null;
     }
 
-    setActiveIndex((prev) => {
+    setActiveIndex(prev => {
       const next = updater(prev);
 
       if (next === prev) {
@@ -75,11 +76,11 @@ export default function CourseModulesCarousel({ modules, enrollHref, enrollLabel
   };
 
   const handlePrev = () => {
-    setIndexWithDelay((prev) => (prev - 1 + total) % total);
+    setIndexWithDelay(prev => (prev - 1 + total) % total);
   };
 
   const handleNext = () => {
-    setIndexWithDelay((prev) => (prev + 1) % total);
+    setIndexWithDelay(prev => (prev + 1) % total);
   };
 
   const handleDotClick = (index: number) => {

@@ -340,20 +340,20 @@ const pomeranianHaircutsHtml = String.raw`
 `;
 
 export const pomeranianHaircutsPost: BlogPost = {
-    slug: 'pomeranian-haircuts',
-    title: '12 Adorable Pomeranian Haircuts + Grooming Tips for Every Pom',
-    excerpt:
+  slug: 'pomeranian-haircuts',
+  title: '12 Adorable Pomeranian Haircuts + Grooming Tips for Every Pom',
+  excerpt:
       'Keep your Pom plush without risking coat damage. These 12 cuts include maintenance timelines, seasonal tips, and before-and-after advice.',
-    description:
+  description:
       'Discover 12 adorable Pomeranian haircuts for male and female Poms, with before-and-after looks, grooming tips, and DIY style advice.',
-    imageUrl:
+  imageUrl:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/3fc378b-da82-532d-e0e-80f50d1de2c_pomeranian_haircuts_feature_image.jpg',
-    heroImage:
+  heroImage:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/3fc378b-da82-532d-e0e-80f50d1de2c_pomeranian_haircuts_feature_image.jpg',
-    heroImageAlt:
+  heroImageAlt:
       'Pomeranian haircuts – fluffy, well-groomed Pom showing off a full, rounded coat after professional grooming.',
-    tags: ['DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools'],
-    publishedOn: 'Aug 16, 2025',
-    canonicalUrl: 'https://www.pawparentacademy.com/blog/12-adorable-pomeranian-haircuts',
-    contentHtml: pomeranianHaircutsHtml,
-  };
+  tags: [ 'DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools' ],
+  publishedOn: 'Aug 16, 2025',
+  canonicalUrl: 'https://www.pawparentacademy.com/blog/12-adorable-pomeranian-haircuts',
+  contentHtml: pomeranianHaircutsHtml,
+};
