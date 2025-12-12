@@ -533,22 +533,22 @@ const cockerSpanielCutsHtml = String.raw`
 `;
 
 export const cockerSpanielCutsPost: BlogPost = {
-    slug: 'cocker-spaniel-haircuts',
-    title:
+  slug: 'cocker-spaniel-haircuts',
+  title:
       '11 Most Popular Cocker Spaniel Cuts (With Grooming Tips for Pet Parents)',
-    excerpt:
+  excerpt:
       'From sporty to plush, explore 11 Cocker Spaniel haircuts plus coat-care tips, tool lists, and DIY grooming steps.',
-    description:
+  description:
       'Discover the 11 most popular Cocker Spaniel cuts with grooming tips to keep your Spaniel stylish, healthy, and comfortable at home.',
-    imageUrl:
+  imageUrl:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/22051d-c762-ff53-2ab-0c7fe0e8120_cocker_spaniel_cut_featureimage.jpg',
-    heroImage:
+  heroImage:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/22051d-c762-ff53-2ab-0c7fe0e8120_cocker_spaniel_cut_featureimage.jpg',
-    heroImageAlt:
+  heroImageAlt:
       'Cocker Spaniel cut featuring a golden English Cocker Spaniel lying indoors with a neat, trimmed coat and long ears, next to an orange ball.',
-    tags: ['DIY Grooming', 'Dog Grooming Tools', 'Breed Guides'],
-    publishedOn: 'Oct 01, 2025',
-    canonicalUrl:
+  tags: [ 'DIY Grooming', 'Dog Grooming Tools', 'Breed Guides' ],
+  publishedOn: 'Oct 01, 2025',
+  canonicalUrl:
       'https://www.pawparentacademy.com/blog/11-most-popular-cocker-spaniel-cuts',
-    contentHtml: cockerSpanielCutsHtml,
-  };
+  contentHtml: cockerSpanielCutsHtml,
+};

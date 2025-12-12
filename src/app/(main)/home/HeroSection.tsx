@@ -1,6 +1,7 @@
+import type { StaticImageData } from 'next/image';
 import Link from 'next/link';
+
 import styles from './HeroSection.module.scss';
-import { StaticImageData } from 'next/image';
 
 interface HeroSectionProps {
   headline: string;

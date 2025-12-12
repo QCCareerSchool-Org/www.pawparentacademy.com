@@ -364,7 +364,7 @@ export const shihTzuHaircutsPost: BlogPost = {
     'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/becc87-3e62-10b7-d683-8afea0e3321e_shih_tzu_haircuts_feature_image.jpg',
   heroImageAlt:
     'Close-up of a Shih Tzu with a neatly groomed haircut that showcases a classic face trim style.',
-  tags: ['DIY Dog Grooming', 'DIY Grooming', 'Dog Grooming'],
+  tags: [ 'DIY Dog Grooming', 'DIY Grooming', 'Dog Grooming' ],
   publishedOn: 'May 22, 2025',
   canonicalUrl: 'https://www.pawparentacademy.com/blog/shih-tzu-haircuts',
   contentHtml: shihTzuHaircutsHtml,

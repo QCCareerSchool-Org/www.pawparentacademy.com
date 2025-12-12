@@ -1,4 +1,5 @@
 import Image, { type StaticImageData } from 'next/image';
+
 import styles from './ValuePropsSection.module.scss';
 
 interface ValueProp {
@@ -17,7 +18,7 @@ export default function ValuePropsSection({ items }: ValuePropsSectionProps) {
     <section className={`${styles.section} bg-white`} aria-label="Pet parent benefits">
       <div className="container">
         <div className={styles.grid}>
-          {items.map((item) => (
+          {items.map(item => (
             <article key={item.title} className={styles.card}>
               <div className={styles.imageWrap}>
                 <Image

@@ -1,6 +1,5 @@
-import type { AccordionItem } from '@/components/AccordionGroup';
-import coatIcon from '../images/coat-icon.png';
 import brushIcon from '../images/brush-icon.png';
+import coatIcon from '../images/coat-icon.png';
 import dogIcon from '../images/dog-icon.png';
 import heroImage from './images/hero-de-shedding-no-bg.jpg';
 import module1Image from './images/module-1.jpg';
@@ -8,7 +7,7 @@ import module2Image from './images/module-2.jpg';
 import bonusModuleImage from './images/modules-bonus.jpg';
 import fitChecklistImge from './images/Ollie deshed.jpg';
 import OlliePupStar from './images/ollie-pup-star.jpg';
-
+import type { AccordionItem } from '@/components/AccordionGroup';
 
 export const courseMetadata = {
   title: 'Deshedding Mastery',
@@ -19,7 +18,7 @@ export const courseMetadata = {
 
 export const heroContent = {
   title: 'Deshedding Mastery',
-  description: "Learn How to Deshed Your Aussie, Retriever, or Other Double-Coated Dog at Home.",
+  description: 'Learn How to Deshed Your Aussie, Retriever, or Other Double-Coated Dog at Home.',
   ctaLabel: 'Enroll Now ($68)',
   ctaHref: 'https://enroll.pawparentacademy.com/offers/deshedding-mastery/checkout',
   backgroundImage: heroImage,
@@ -121,7 +120,7 @@ export const faqItems: AccordionItem[] = [
   {
     question: 'Which breeds is this course suitable for?',
     answerHtml:
-      "<p>This course is perfect for dogs with thick double coats such as Australian Shepherds, Golden Retrievers, Bernese Mountain Dogs, and similar breeds.</p>",
+      '<p>This course is perfect for dogs with thick double coats such as Australian Shepherds, Golden Retrievers, Bernese Mountain Dogs, and similar breeds.</p>',
   },
   {
     question: 'How much will it cost to buy the equipment to groom my dog?',
@@ -158,31 +157,31 @@ export const finalCtaContent = {
 export const videoSchema = {
   '@context': 'http://schema.org/',
   '@type': 'VideoObject',
-  name: 'Deshedding Mastery Course Sample',
-  description: 'A Kajabi-hosted sample video that previews the Deshedding Mastery course.',
-  duration: 'PT1M3S',
-  uploadDate: '2025-02-28T17:54:24.000Z',
-  thumbnailUrl:
+  'name': 'Deshedding Mastery Course Sample',
+  'description': 'A Kajabi-hosted sample video that previews the Deshedding Mastery course.',
+  'duration': 'PT1M3S',
+  'uploadDate': '2025-02-28T17:54:24.000Z',
+  'thumbnailUrl':
     'https://embed-ssl.wistia.com/deliveries/32ebc5c2cdf2ac7968bc9f13676e7a29006605ff.jpg?image_crop_resized=640x360',
-  embedUrl: videoSample.videoSrc,
-  contentUrl: videoSample.videoSrc,
+  'embedUrl': videoSample.videoSrc,
+  'contentUrl': videoSample.videoSrc,
 };
 
 export const courseSchema = {
   '@context': 'https://schema.org/',
   '@type': 'Course',
-  name: courseMetadata.title,
-  description: courseMetadata.description,
-  provider: {
+  'name': courseMetadata.title,
+  'description': courseMetadata.description,
+  'provider': {
     '@type': 'Organization',
-    name: 'Paw Parent Academy',
-    sameAs: 'https://www.pawparentacademy.com',
+    'name': 'Paw Parent Academy',
+    'sameAs': 'https://www.pawparentacademy.com',
   },
-  offers: {
+  'offers': {
     '@type': 'Offer',
-    price: '68',
-    priceCurrency: 'USD',
-    availability: 'https://schema.org/InStock',
-    url: courseMetadata.canonicalUrl,
+    'price': '68',
+    'priceCurrency': 'USD',
+    'availability': 'https://schema.org/InStock',
+    'url': courseMetadata.canonicalUrl,
   },
 };

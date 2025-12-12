@@ -1,7 +1,8 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import Image, { type StaticImageData } from 'next/image';
+import { useEffect, useState } from 'react';
+
 import styles from './TestimonialsCarousel.module.scss';
 
 export interface TestimonialItem {
@@ -18,28 +19,30 @@ interface TestimonialsCarouselProps {
 const AUTO_ROTATE_MS = 6000;
 
 export default function TestimonialsCarousel({ items }: TestimonialsCarouselProps) {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [ activeIndex, setActiveIndex ] = useState(0);
   const total = items.length;
 
   useEffect(() => {
-    if (total <= 1) return undefined;
+    if (total <= 1) { return undefined; }
 
     const timer = window.setTimeout(() => {
-      setActiveIndex((prev) => (prev + 1) % total);
+      setActiveIndex(prev => (prev + 1) % total);
     }, AUTO_ROTATE_MS);
 
     return () => window.clearTimeout(timer);
-  }, [activeIndex, total]);
+  }, [ activeIndex, total ]);
 
   const handlePrev = () => {
-    if (total <= 1) return;
-    setActiveIndex((prev) => (prev - 1 + total) % total);
+    if (total <= 1) { return; }
+    setActiveIndex(prev => (prev - 1 + total) % total);
   };
 
   const handleNext = () => {
-    if (total <= 1) return;
-    setActiveIndex((prev) => (prev + 1) % total);
+    if (total <= 1) { return; }
+    setActiveIndex(prev => (prev + 1) % total);
   };
+
+  const handleButtonClick = (index: number) => setActiveIndex(index);
 
   if (!total) {
     return null;
@@ -63,13 +66,13 @@ export default function TestimonialsCarousel({ items }: TestimonialsCarouselProp
             style={{ transform: `translateX(-${activeIndex * 100}%)` }}
             aria-live="polite"
           >
-            {items.map((item) => (
+            {items.map(item => (
               <article key={item.name} className={styles.card}>
                 <div className={styles.cardInner}>
                   <div className={styles.avatar}>
                     <Image src={item.image} alt={item.alt} width={84} height={84} />
                   </div>
-                  <p className={styles.quote}>“{item.quote}”</p>
+                  <p className={styles.quote}>&ldquo;{item.quote}&rdquo;</p>
                   <p className="fw-bold mb-0">{item.name}</p>
                 </div>
               </article>
@@ -94,7 +97,7 @@ export default function TestimonialsCarousel({ items }: TestimonialsCarouselProp
               key={item.name}
               type="button"
               className={`${styles.dot} ${index === activeIndex ? styles.dotActive : ''}`}
-              onClick={() => setActiveIndex(index)}
+              onClick={() => handleButtonClick(index)}
               aria-label={`Go to slide ${index + 1}`}
               aria-pressed={index === activeIndex}
             />

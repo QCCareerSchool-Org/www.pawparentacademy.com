@@ -1,13 +1,13 @@
-import type { AccordionItem } from '@/components/AccordionGroup';
-import nailsIcon from '../images/nails-icon.png';
-import nailClippersIcon from '../images/nail-clippers-icon.png';
 import dogIcon from '../images/dog-icon.png';
-import heroImage from './images/hero-pawsitive.jpg';
+import nailClippersIcon from '../images/nail-clippers-icon.png';
+import nailsIcon from '../images/nails-icon.png';
 import fitChecklistImage from './images/archer-pawsitive.jpg';
-import archerPupStar from './images/pup-star-archer.jpg';
+import heroImage from './images/hero-pawsitive.jpg';
 import module1Image from './images/module-1.jpg';
 import module2Image from './images/module-2.jpg';
 import bonusModuleImage from './images/module-bonus.jpg';
+import archerPupStar from './images/pup-star-archer.jpg';
+import type { AccordionItem } from '@/components/AccordionGroup';
 
 export const courseMetadata = {
   title: 'Paws-itive Grooming',
@@ -85,7 +85,7 @@ export const videoSample = {
 export const overviewContent = {
   heading: 'Learn How to Make Grooming Fun with Easy-to-Follow Online Lessons',
   body:
-    "Follow along with short videos that you can re-watch as often as you like. Each module also includes helpful instructions, tip sheets and training guides.",
+    'Follow along with short videos that you can re-watch as often as you like. Each module also includes helpful instructions, tip sheets and training guides.',
 };
 
 export const modules = [
@@ -125,7 +125,7 @@ export const faqItems: AccordionItem[] = [
   {
     question: 'How much will it cost to buy the equipment to groom my dog?',
     answerHtml:
-      "<p>All you need to create a positive grooming experience for your dog is their favorite treats!</p>",
+      '<p>All you need to create a positive grooming experience for your dog is their favorite treats!</p>',
   },
   {
     question: 'My dog is terrified to go to the groomers. Will this course help?',
@@ -153,31 +153,31 @@ export const finalCtaContent = {
 export const videoSchema = {
   '@context': 'http://schema.org/',
   '@type': 'VideoObject',
-  name: 'Paws-itive Grooming Course Sample',
-  description: 'A Kajabi-hosted sample video that previews the Paws-itive Grooming course.',
-  duration: 'PT1M3S',
-  uploadDate: '2025-02-28T17:54:24.000Z',
-  thumbnailUrl:
+  'name': 'Paws-itive Grooming Course Sample',
+  'description': 'A Kajabi-hosted sample video that previews the Paws-itive Grooming course.',
+  'duration': 'PT1M3S',
+  'uploadDate': '2025-02-28T17:54:24.000Z',
+  'thumbnailUrl':
     'https://embed-ssl.wistia.com/deliveries/32ebc5c2cdf2ac7968bc9f13676e7a29006605ff.jpg?image_crop_resized=640x360',
-  embedUrl: videoSample.videoSrc,
-  contentUrl: videoSample.videoSrc,
+  'embedUrl': videoSample.videoSrc,
+  'contentUrl': videoSample.videoSrc,
 };
 
 export const courseSchema = {
   '@context': 'https://schema.org/',
   '@type': 'Course',
-  name: courseMetadata.title,
-  description: courseMetadata.description,
-  provider: {
+  'name': courseMetadata.title,
+  'description': courseMetadata.description,
+  'provider': {
     '@type': 'Organization',
-    name: 'Paw Parent Academy',
-    sameAs: 'https://www.pawparentacademy.com',
+    'name': 'Paw Parent Academy',
+    'sameAs': 'https://www.pawparentacademy.com',
   },
-  offers: {
+  'offers': {
     '@type': 'Offer',
-    price: '68',
-    priceCurrency: 'USD',
-    availability: 'https://schema.org/InStock',
-    url: courseMetadata.canonicalUrl,
+    'price': '68',
+    'priceCurrency': 'USD',
+    'availability': 'https://schema.org/InStock',
+    'url': courseMetadata.canonicalUrl,
   },
 };

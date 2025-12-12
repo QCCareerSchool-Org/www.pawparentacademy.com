@@ -1,5 +1,6 @@
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
+
 import styles from './NotFoundPage.module.scss';
 import pinkLogoIcon from '@/app/pink-logo-icon.png';
 

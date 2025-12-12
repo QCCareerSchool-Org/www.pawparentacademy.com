@@ -1,12 +1,13 @@
 import type { Metadata } from 'next';
-import HeroSection from './HeroSection';
+
+import { faqItems, finalCta, heroContent, leadMagnetCopy, mentorSpotlight } from './content';
 import FaqSection from './FaqSection';
+import HeroSection from './HeroSection';
 import NailTrimCTA from './NailTrimCTA';
-import ValuePropsSection from '@/app/(main)/home/ValuePropsSection';
-import TestimonialsSection from '@/app/(main)/home/TestimonialsSection';
+import { testimonials, valueProps } from '@/app/(main)/home/homepage-content';
 import MentorSpotlight from '@/app/(main)/home/MentorSpotlight';
-import { heroContent, leadMagnetCopy, faqItems, finalCta, mentorSpotlight } from './content';
-import { valueProps, testimonials } from '@/app/(main)/home/homepage-content';
+import TestimonialsSection from '@/app/(main)/home/TestimonialsSection';
+import ValuePropsSection from '@/app/(main)/home/ValuePropsSection';
 
 export const metadata: Metadata = {
   title: 'Nail Trims Made Easy | Paw Parent Academy',

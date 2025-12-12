@@ -381,21 +381,21 @@ const howToGroomAPomeranianHtml = String.raw`
 `;
 
 export const howToGroomAPomeranianPost: BlogPost = {
-    slug: 'how-to-groom-a-pomeranian-step-by-step-guide',
-    title: 'How to Groom a Pomeranian: Step-by-Step Home Guide',
-    excerpt:
+  slug: 'how-to-groom-a-pomeranian-step-by-step-guide',
+  title: 'How to Groom a Pomeranian: Step-by-Step Home Guide',
+  excerpt:
       'Learn how to groom a Pomeranian at home with step-by-step routines covering schedules, tools, costs, and expert fluff-finishing tips.',
-    description:
+  description:
       'Learn how to groom a Pomeranian at home with our step-by-step guide—covering styles, tools, costs, and expert tips for a fluffy, healthy coat.',
-    imageUrl:
+  imageUrl:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/ff4c22-a0a5-e188-4bf-2b40738e002d_how_to_groom_a_pomeranian_feature_image.jpg',
-    heroImage:
+  heroImage:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/ff4c22-a0a5-e188-4bf-2b40738e002d_how_to_groom_a_pomeranian_feature_image.jpg',
-    heroImageAlt:
+  heroImageAlt:
       'How to groom a Pomeranian – step-by-step guide for brushing, trimming, and styling your fluffy companion at home.',
-    tags: ['DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools'],
-    publishedOn: 'Aug 15, 2025',
-    canonicalUrl:
+  tags: [ 'DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools' ],
+  publishedOn: 'Aug 15, 2025',
+  canonicalUrl:
       '/blog/how-to-groom-a-pomeranian-step-by-step-guide',
-    contentHtml: howToGroomAPomeranianHtml,
-  };
+  contentHtml: howToGroomAPomeranianHtml,
+};

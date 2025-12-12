@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
+
 import AboutHero from './AboutHeroSection';
 import MissionSection from './MissionSection';
 import StatsSection from './StatsSection';
 import TeamSection from './TeamSection';
-import CTASection from '@/components/CTASection'; 
+import CTASection from '@/components/CTASection';
 
 export const metadata: Metadata = {
   title: 'About Paw Parent Academy | Our Mission to Empower Paw Parents',

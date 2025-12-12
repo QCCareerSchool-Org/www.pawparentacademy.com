@@ -1,10 +1,11 @@
 'use client';
-import Link from 'next/link';
 import Image from 'next/image';
-import { useEffect, useRef, useState } from 'react';
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import logo from '@/images/ppa-full-logo.jpg'; // optional static import if you prefer
+import { useEffect, useRef, useState } from 'react';
+
 import styles from './Navbar.module.scss';
+import logo from '@/images/ppa-full-logo.jpg'; // optional static import if you prefer
 
 const courseLinks = [
   { href: '/courses/how-to-groom-a-goldendoodle', label: 'How to Groom a Goldendoodle' },
@@ -20,7 +21,7 @@ const courseLinks = [
 
 export default function Navbar() {
   const pathname = usePathname();
-  const [isCoursesOpen, setIsCoursesOpen] = useState(false);
+  const [ isCoursesOpen, setIsCoursesOpen ] = useState(false);
   const dropdownRef = useRef<HTMLLIElement>(null);
   const dropdownMenuId = 'courses-menu';
   const links = [
@@ -51,12 +52,13 @@ export default function Navbar() {
   }, []);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsCoursesOpen(false);
-  }, [pathname]);
+  }, [ pathname ]);
 
-  const toggleDropdown = () => setIsCoursesOpen((prev) => !prev);
-  const closeDropdown = () => setIsCoursesOpen(false);
-  const isCoursesActive = pathname?.startsWith('/courses');
+  const handleDropdownClick = () => setIsCoursesOpen(prev => !prev);
+  const handleDropdownClose = () => setIsCoursesOpen(false);
+  const isCoursesActive = pathname.startsWith('/courses');
 
   return (
     <header className={styles.header} role="banner">
@@ -97,7 +99,7 @@ export default function Navbar() {
                   aria-expanded={isCoursesOpen}
                   aria-haspopup="true"
                   aria-controls={dropdownMenuId}
-                  onClick={toggleDropdown}
+                  onClick={handleDropdownClick}
                 >
                   Courses
                   <span aria-hidden="true" className={styles.dropdownCaret} />
@@ -111,7 +113,7 @@ export default function Navbar() {
                   <ul className={styles.dropdownList}>
                     {courseLinks.map(({ href, label }) => (
                       <li key={href}>
-                        <Link href={href} className={styles.dropdownLink} onClick={closeDropdown}>
+                        <Link href={href} className={styles.dropdownLink} onClick={handleDropdownClose}>
                           {label}
                         </Link>
                       </li>
@@ -120,7 +122,7 @@ export default function Navbar() {
                   <Link
                     href="/courses"
                     className={`${styles.dropdownLink} ${styles.viewAllLink}`.trim()}
-                    onClick={closeDropdown}
+                    onClick={handleDropdownClose}
                   >
                     View all courses
                   </Link>

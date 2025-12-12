@@ -377,10 +377,10 @@ const schnauzerHaircutsHtml = String.raw`
 <h2><span style="font-weight: 400;">Conclusion: Groom Your Schnauzer with Confidence!</span></h2>
 <p><span style="font-weight: 400;">Schnauzers are more than just stylish dogs; they’re loyal companions with BIG personalities! Thus, keeping them looking sharp with the right Schnauzer haircut is about more than appearance. Rather, it keeps them healthy, comfortable, and happy.</span></p>
 <p><span style="font-weight: 400;">From low-maintenance options like the Schnauzer puppy cut or summer short Schnauzer cut, to fluffy favorites like the teddy bear Schnauzer haircut, there’s a style for every dog and every family. With the right tools, daily care, and a little practice, you can master these Schnauzer haircut styles right at home!</span></p>
-<h3><span style="font-weight: 400;">Want step-by-step video lessons to master Schnauzer grooming with confidence? </span></h3>
+<h3><span style="font-weight: 400;">Want step-by-step video lessons to master Schnauzer grooming with confidence?</span></h3>
 <p><b>Enroll today with Paw Parent Academy and give your Schnauzer the stylish, stress-free haircut they deserve!</b></p>
 <div class="box">
-<h2 class="h4">🧡 Transform Your Schnauzer’s Grooming Routine Into a Calm, Positive Experience!</h2>
+<h2 class="h4">🧡 Transform Your Schnauzer's Grooming Routine Into a Calm, Positive Experience!</h2>
 <p>Join our <em>Paws-itive Grooming Course</em> and learn gentle, stress-free techniques to keep your pup looking sharp and feeling happy.</p>
 <a href="https://www.pawparentacademy.com/courses/paws-itive-grooming" class="button">Save Your Spot</a></div>
 <h2 id="faqs">Schnauzer Haircut FAQs</h2>
@@ -393,34 +393,34 @@ const schnauzerHaircutsHtml = String.raw`
 <p><span style="font-weight: 400;">Most Schnauzers need a haircut every </span><b>4 to 6 weeks</b><span style="font-weight: 400;">. Regular trims keep their coat neat and prevent mats, especially in styles like the teddy bear Schnauzer haircut.</span></p>
 <h3><span style="font-weight: 400;">Is a Schnauzer puppy cut good for beginners?</span></h3>
 <p><span style="font-weight: 400;">Yes! The </span><b>Schnauzer puppy cut</b><span style="font-weight: 400;"> is one of the easiest to maintain. This style keeps the coat short and even all over, making it perfect for new groomers.</span></p>
-<h3><span style="font-weight: 400;">What’s the difference between a Mini Schnauzer haircut and a Standard Schnauzer haircut?</span></h3>
-<p><span style="font-weight: 400;">The </span><b>Miniature Schnauzer haircut</b><span style="font-weight: 400;"> often looks puffier and rounder, while the <strong><a href="https://www.akc.org/dog-breeds/standard-schnauzer/">standard Schnauzer</a></strong></span><b> cut</b><span style="font-weight: 400;"> highlights a larger dog’s strong features. Mini Schnauzers may also need more frequent trims since their fine coats mat faster.</span></p>
+<h3><span style="font-weight: 400;">What's the difference between a Mini Schnauzer haircut and a Standard Schnauzer haircut?</span></h3>
+<p><span style="font-weight: 400;">The </span><b>Miniature Schnauzer haircut</b><span style="font-weight: 400;"> often looks puffier and rounder, while the <strong><a href="https://www.akc.org/dog-breeds/standard-schnauzer/">standard Schnauzer</a></strong></span><b>cut</b> <span style="font-weight: 400;">highlights a larger dog's strong features. Mini Schnauzers may also need more frequent trims since their fine coats mat faster.</span></p>
 <h3><span style="font-weight: 400;">Can I groom my Schnauzer at home?</span></h3>
 <p><span style="font-weight: 400;">With the right tools and a little practice, ABSOLUTELY! A slicker brush, Greyhound comb, and quality clippers are a must. Paw Parent Academy’s </span><a href="https://www.pawparentacademy.com/courses"><span style="font-weight: 400;">step-by-step grooming courses</span></a><span style="font-weight: 400;"> also make DIY Schnauzer grooming simple and stress-free!</span></p>
 <h3><span style="font-weight: 400;">What is the best summer short Schnauzer cut?</span></h3>
 <p><span style="font-weight: 400;">The </span><b>summer short Schnauzer cut</b><span style="font-weight: 400;"> (sometimes called a “kennel cut”) keeps the coat clipped close to the body. It’s low-maintenance, helps your dog stay cool, and is perfect for active pups.</span></p>
 <h3><span style="font-weight: 400;">Do Schnauzers need hand-stripping?</span></h3>
-<p><a href="https://www.akc.org/expert-advice/health/hand-stripping-dog-coats/" target="_blank" rel="noopener noreferrer"><span style="font-weight: 400;">Hand-stripping</span></a><span style="font-weight: 400;"> is a traditional grooming technique used for show Schnauzers. It keeps the wiry coat texture intact. For pets, clippers are fine as they’re quicker, easier, and more comfortable for most families to do at home. That said, if you ever want to try hand-stripping your Schnauzer, you absolutely can do that too!</span></p>
+<p><a href="https://www.akc.org/expert-advice/health/hand-stripping-dog-coats/" target="_blank" rel="noopener noreferrer"><span style="font-weight: 400;">Hand-stripping</span></a><span style="font-weight: 400;"> is a traditional grooming technique used for show Schnauzers. It keeps the wiry coat texture intact. For pets, clippers are fine as they're quicker, easier, and more comfortable for most families to do at home. That said, if you ever want to try hand-stripping your Schnauzer, you absolutely can do that too!</span></p>
 </div>
 `;
 
 export const schnauzerHaircutsPost: BlogPost = {
-    slug: 'schnauzer-haircuts-and-grooming-styles',
-    title:
+  slug: 'schnauzer-haircuts-and-grooming-styles',
+  title:
       '14 Schnauzer Haircuts & Grooming Styles (Plus a DIY Grooming Guide)',
-    excerpt:
+  excerpt:
       'Discover 14 Schnauzer haircut styles plus a complete DIY grooming roadmap for brows, beards, and furnishings.',
-    description:
+  description:
       'From 14 of the most iconic Schnauzer haircut styles to a complete DIY grooming guide, learn how to trim brows, beards, and furnishings with confidence.',
-    imageUrl:
+  imageUrl:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/e486a4e-383b-780-ad70-f0ac544de7_schnauzer_haircut_feature_image.jpg',
-    heroImage:
+  heroImage:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/e486a4e-383b-780-ad70-f0ac544de7_schnauzer_haircut_feature_image.jpg',
-    heroImageAlt:
+  heroImageAlt:
       'Close-up portrait of a Schnauzer with freshly trimmed beard and brows in a classic haircut style.',
-    tags: ['DIY Dog Grooming', 'DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools'],
-    publishedOn: 'Aug 22, 2025',
-    canonicalUrl:
+  tags: [ 'DIY Dog Grooming', 'DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools' ],
+  publishedOn: 'Aug 22, 2025',
+  canonicalUrl:
       'https://www.pawparentacademy.com/blog/14-schnauzer-haircuts-and-grooming-styles',
-    contentHtml: schnauzerHaircutsHtml,
-  };
+  contentHtml: schnauzerHaircutsHtml,
+};

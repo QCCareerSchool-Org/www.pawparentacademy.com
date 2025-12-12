@@ -1,22 +1,23 @@
 import type { Metadata } from 'next';
-import HeroSection from './home/HeroSection';
-import IntroSection from './home/IntroSection';
-import ValuePropsSection from './home/ValuePropsSection';
-import CourseFinderSection from './home/CourseFinderSection';
-import TestimonialsSection from './home/TestimonialsSection';
-import MentorSpotlight from './home/MentorSpotlight';
-import SafetySection from './home/SafetySection';
-import CTASection from '@/components/CTASection';
+
 import StatsSection from './about/StatsSection';
+import CourseFinderSection from './home/CourseFinderSection';
+import HeroSection from './home/HeroSection';
 import {
+  courseFinderContent,
   heroContent,
   introContent,
-  valueProps,
-  courseFinderContent,
-  testimonials,
   mentorSpotlight,
   safetyFeatures,
+  testimonials,
+  valueProps,
 } from './home/homepage-content';
+import IntroSection from './home/IntroSection';
+import MentorSpotlight from './home/MentorSpotlight';
+import SafetySection from './home/SafetySection';
+import TestimonialsSection from './home/TestimonialsSection';
+import ValuePropsSection from './home/ValuePropsSection';
+import CTASection from '@/components/CTASection';
 
 export const metadata: Metadata = {
   title: 'Paw Parent Academy | Learn to Groom Your Dog at Home',

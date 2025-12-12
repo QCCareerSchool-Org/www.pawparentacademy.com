@@ -481,21 +481,21 @@ const huskyGroomingGuideHtml = String.raw`
 `;
 
 export const huskyGroomingGuidePost: BlogPost = {
-    slug: 'the-ultimate-husky-grooming-guide',
-    title: 'The Ultimate Husky Grooming Guide: How to Care for Your Dog’s Coat at Home',
-    excerpt:
+  slug: 'the-ultimate-husky-grooming-guide',
+  title: 'The Ultimate Husky Grooming Guide: How to Care for Your Dog’s Coat at Home',
+  excerpt:
       'Step-by-step double-coat roadmap covering blowouts, deshedding, safe trims, and at-home Husky grooming tools.',
-    description:
+  description:
       'Husky grooming made simple! Learn how to groom your Siberian Husky at home, control shedding, choose the best brush, and avoid grooming mistakes—no shaving needed.',
-    imageUrl:
+  imageUrl:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/4b0502d-d14e-cb7-cb44-a5dfe70aba0b_husky_grooming_feature_image.jpg',
-    heroImage:
+  heroImage:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/4b0502d-d14e-cb7-cb44-a5dfe70aba0b_husky_grooming_feature_image.jpg',
-    heroImageAlt:
+  heroImageAlt:
       'Close-up of a happy Siberian Husky with a thick double coat and one blue eye, sitting indoors—ideal for a Husky grooming guide about deshedding and double-coat care.',
-    tags: ['DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools'],
-    publishedOn: 'Aug 06, 2025',
-    canonicalUrl:
+  tags: [ 'DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools' ],
+  publishedOn: 'Aug 06, 2025',
+  canonicalUrl:
       'https://www.pawparentacademy.com/blog/the-ultimate-husky-grooming-guide',
-    contentHtml: huskyGroomingGuideHtml,
-  };
+  contentHtml: huskyGroomingGuideHtml,
+};
