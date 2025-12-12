@@ -35,7 +35,7 @@ export default function FAQPage() {
               <div className="container">
                 <div className="row justify-content-center">
                   <div className="col-12 col-lg-8">
-                    <AccordionGroup items={section.items} />
+                    <AccordionGroup items={section.items} isFAQ />
                   </div>
                 </div>
               </div>
