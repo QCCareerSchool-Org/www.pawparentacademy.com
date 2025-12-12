@@ -11,10 +11,11 @@ export interface LeadMagnetFormState {
 
 const emailRegex = /^[\w.!#$%&'*+/=?`{|}~-]+@[\w-]+(?:\.[\w-]+)+$/u;
 
-export function submitLeadMagnet(
+// eslint-disable-next-line @typescript-eslint/require-await
+export async function submitLeadMagnet(
   _prevState: LeadMagnetFormState | undefined,
   formData: FormData,
-): LeadMagnetFormState {
+): Promise<LeadMagnetFormState> {
   const name = String(formData.get('name')?.valueOf ?? '').trim();
   const email = String(formData.get('email')?.valueOf ?? '').trim();
 
