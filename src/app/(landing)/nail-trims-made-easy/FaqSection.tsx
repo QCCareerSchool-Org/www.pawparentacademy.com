@@ -19,7 +19,7 @@ export default function FaqSection({ items }: FaqSectionProps) {
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-10">
-            <AccordionGroup items={items} />
+            <AccordionGroup items={items} isFAQ />
           </div>
         </div>
       </div>

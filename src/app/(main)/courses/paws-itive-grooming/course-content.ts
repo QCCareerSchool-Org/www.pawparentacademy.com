@@ -153,27 +153,38 @@ export const finalCtaContent = {
 export const videoSchema = {
   '@context': 'http://schema.org/',
   '@type': 'VideoObject',
-  'name': 'Paws-itive Grooming Course Sample',
-  'description': 'A Kajabi-hosted sample video that previews the Paws-itive Grooming course.',
-  'duration': 'PT1M3S',
-  'uploadDate': '2025-02-28T17:54:24.000Z',
-  'thumbnailUrl':
+  name: 'Paws-itive Grooming Course Sample',
+  description: 'A Kajabi-hosted sample video that previews the Paws-itive Grooming course.',
+  duration: 'PT46S',
+  thumbnailUrl:
     'https://embed-ssl.wistia.com/deliveries/32ebc5c2cdf2ac7968bc9f13676e7a29006605ff.jpg?image_crop_resized=640x360',
-  'embedUrl': videoSample.videoSrc,
-  'contentUrl': videoSample.videoSrc,
+  contentUrl: videoSample.videoSrc,
 };
 
 export const courseSchema = {
   '@context': 'https://schema.org/',
   '@type': 'Course',
-  'name': courseMetadata.title,
-  'description': courseMetadata.description,
-  'provider': {
+  name: courseMetadata.title,
+  description: courseMetadata.description,
+  availableLanguage: 'en',
+  provider: {
     '@type': 'Organization',
-    'name': 'Paw Parent Academy',
-    'sameAs': 'https://www.pawparentacademy.com',
+    name: 'Paw Parent Academy',
+    sameAs: [
+      'https://www.facebook.com/pawparentacademy',
+      'https://www.instagram.com/pawparentacademy/#',
+      'https://www.youtube.com/@PawParentAcademy',
+      'https://in.pinterest.com/pawparentacademy/',
+      'https://www.tiktok.com/@pawparentacademy'
+    ],
   },
-  'offers': {
+    hasCourseInstance: [
+      {
+        '@type': 'CourseInstance',
+        courseMode: 'online'
+      }
+    ],
+  offers: {
     '@type': 'Offer',
     'price': '68',
     'priceCurrency': 'USD',
