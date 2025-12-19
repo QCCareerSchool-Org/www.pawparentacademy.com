@@ -1,5 +1,6 @@
-import AccordionGroup, { AccordionItem } from '@/components/AccordionGroup';
 import styles from './styles.module.scss';
+import type { AccordionItem } from '@/components/AccordionGroup';
+import AccordionGroup from '@/components/AccordionGroup';
 
 interface CourseFAQProps {
   heading: string;

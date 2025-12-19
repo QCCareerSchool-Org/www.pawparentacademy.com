@@ -1,5 +1,7 @@
+import type { StaticImageData } from 'next/image';
+import Image from 'next/image';
 import React from 'react';
-import Image, { StaticImageData } from 'next/image';
+
 import styles from './styles.module.scss';
 
 export interface CourseFeatureProps {
@@ -51,7 +53,7 @@ export default function CourseFeature({
         )}
         {highlights.length > 0 && (
           <>
-            <p className='text-dark'><strong>Highlights:</strong></p> {/* Add subheader before highlights */}
+            <p className="text-dark"><strong>Highlights:</strong></p> {/* Add subheader before highlights */}
             <ul>
               {highlights.map((h, i) => (
                 <li key={i}>{h}</li>

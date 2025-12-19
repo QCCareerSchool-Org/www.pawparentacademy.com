@@ -559,21 +559,21 @@ const bestDogBrushForSheddingHtml = String.raw`
 `;
 
 export const bestDogBrushForSheddingPost: BlogPost = {
-    slug: 'best-dog-brush-for-shedding',
-    title: 'Best Dog Brush for Shedding: Top Picks for Every Coat',
-    excerpt:
+  slug: 'best-dog-brush-for-shedding',
+  title: 'Best Dog Brush for Shedding: Top Picks for Every Coat',
+  excerpt:
       'Compare rakes, slickers, and deshedding tools to pick the right brush for your pup’s coat texture.',
-    description:
+  description:
       'Looking for the best dog brush for shedding? Whether your pup has short or long hair, we’ll help you choose the right brush, avoid common mistakes, and groom like a pro—right from home!',
-    imageUrl:
+  imageUrl:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/11af2ec-beca-b60-f042-7e2cc242d743_best_dog_brush_for_shedding_feature_image.jpg',
-    heroImage:
+  heroImage:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/11af2ec-beca-b60-f042-7e2cc242d743_best_dog_brush_for_shedding_feature_image.jpg',
-    heroImageAlt:
+  heroImageAlt:
       'Small dog being groomed with the best dog brush for shedding, highlighting effective home grooming for both short and long hair breeds.',
-    tags: ['DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools'],
-    publishedOn: 'Jul 31, 2025',
-    canonicalUrl:
+  tags: [ 'DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools' ],
+  publishedOn: 'Jul 31, 2025',
+  canonicalUrl:
       'https://www.pawparentacademy.com/blog/best-dog-brush-for-shedding',
-    contentHtml: bestDogBrushForSheddingHtml,
-  };
+  contentHtml: bestDogBrushForSheddingHtml,
+};

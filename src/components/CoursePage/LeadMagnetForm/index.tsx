@@ -2,8 +2,9 @@
 
 import { useActionState } from 'react';
 import { useFormStatus } from 'react-dom';
-import { submitLeadMagnet, type LeadMagnetFormState } from '@/app/actions/leadMagnet';
+
 import styles from './styles.module.scss';
+import { type LeadMagnetFormState, submitLeadMagnet } from '@/app/actions/leadMagnet';
 
 interface LeadMagnetFormProps {
   eyebrow?: string;
@@ -36,7 +37,7 @@ export default function LeadMagnetForm({
   submitLabel,
   successMessage,
 }: LeadMagnetFormProps) {
-  const [state, formAction] = useActionState(submitLeadMagnet, initialState);
+  const [ state, formAction ] = useActionState(submitLeadMagnet, initialState);
   const buttonLabel = submitLabel ?? 'Yes! I want $50 off!';
   const alertMessage = state.success ? successMessage ?? state.message : state.message;
 
@@ -47,7 +48,7 @@ export default function LeadMagnetForm({
           <div className="col-lg-6">
             <div className={styles.card}>
               {eyebrow && <h3>{eyebrow}</h3>}
-              <h4 className='subtitle-teal'>{heading}</h4>
+              <h4 className="subtitle-teal">{heading}</h4>
               {description && <p className="text-muted mb-4">{description}</p>}
 
               <form action={formAction} noValidate className="d-grid gap-3">

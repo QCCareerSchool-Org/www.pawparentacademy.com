@@ -1,13 +1,13 @@
-import type { AccordionItem } from '@/components/AccordionGroup';
-import nailsIcon from '../images/nails-icon.png';
-import nailClippersIcon from '../images/nail-clippers-icon.png';
 import dogIcon from '../images/dog-icon.png';
+import nailClippersIcon from '../images/nail-clippers-icon.png';
+import nailsIcon from '../images/nails-icon.png';
 import heroImage from './images/hero-nail-trimmingv-2.jpg';
 import module1Imgae from './images/module-1.jpg';
 import module2Image from './images/module-2.jpg';
 import module3Image from './images/module-3.jpg';
 import module4Image from './images/module-bonus.jpg';
 import fitChecklistImage from './images/nail-trimming.jpg';
+import type { AccordionItem } from '@/components/AccordionGroup';
 
 export const courseMetadata = {
   title: 'Nail Trims Made Easy',
@@ -99,7 +99,7 @@ export const modules = [
     title: 'Bonus Content',
     subtitle: 'Downloadable Guides',
     description:
-      "Gain confidence with three bonus guides covering dog handling techniques, essential tools and equipment, and a step-by-step walkthrough of the nail trimming process.",
+      'Gain confidence with three bonus guides covering dog handling techniques, essential tools and equipment, and a step-by-step walkthrough of the nail trimming process.',
     image: module4Image,
   },
 ];
@@ -183,9 +183,9 @@ export const courseSchema = {
     ],
   offers: {
     '@type': 'Offer',
-    price: '68',
-    priceCurrency: 'USD',
-    availability: 'https://schema.org/InStock',
-    url: courseMetadata.canonicalUrl,
+    'price': '68',
+    'priceCurrency': 'USD',
+    'availability': 'https://schema.org/InStock',
+    'url': courseMetadata.canonicalUrl,
   },
 };

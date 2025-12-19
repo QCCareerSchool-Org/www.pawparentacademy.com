@@ -1,6 +1,5 @@
-import type { AccordionItem } from '@/components/AccordionGroup';
-import coatIcon from '../images/coat-icon.png';
 import brushIcon from '../images/brush-icon.png';
+import coatIcon from '../images/coat-icon.png';
 import dogIcon from '../images/dog-icon.png';
 import heroImage from './images/hero-de-shedding-no-bg.jpg';
 import module1Image from './images/module-1.jpg';
@@ -8,7 +7,7 @@ import module2Image from './images/module-2.jpg';
 import bonusModuleImage from './images/modules-bonus.jpg';
 import fitChecklistImge from './images/Ollie deshed.jpg';
 import OlliePupStar from './images/ollie-pup-star.jpg';
-
+import type { AccordionItem } from '@/components/AccordionGroup';
 
 export const courseMetadata = {
   title: 'Deshedding Mastery',
@@ -19,7 +18,7 @@ export const courseMetadata = {
 
 export const heroContent = {
   title: 'Deshedding Mastery',
-  description: "Learn How to Deshed Your Aussie, Retriever, or Other Double-Coated Dog at Home.",
+  description: 'Learn How to Deshed Your Aussie, Retriever, or Other Double-Coated Dog at Home.',
   ctaLabel: 'Enroll Now ($68)',
   ctaHref: 'https://enroll.pawparentacademy.com/offers/deshedding-mastery/checkout',
   backgroundImage: heroImage,
@@ -121,7 +120,7 @@ export const faqItems: AccordionItem[] = [
   {
     question: 'Which breeds is this course suitable for?',
     answerHtml:
-      "<p>This course is perfect for dogs with thick double coats such as Australian Shepherds, Golden Retrievers, Bernese Mountain Dogs, and similar breeds.</p>",
+      '<p>This course is perfect for dogs with thick double coats such as Australian Shepherds, Golden Retrievers, Bernese Mountain Dogs, and similar breeds.</p>',
   },
   {
     question: 'How much will it cost to buy the equipment to groom my dog?',

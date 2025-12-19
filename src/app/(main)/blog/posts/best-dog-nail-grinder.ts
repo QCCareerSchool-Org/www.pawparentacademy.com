@@ -324,20 +324,20 @@ const bestDogNailGrinderHtml = String.raw`
 `;
 
 export const bestDogNailGrinderPost: BlogPost = {
-    slug: 'best-dog-nail-grinder',
-    title: 'The Best Dog Nail Grinder for Stress-Free Trims',
-    excerpt:
+  slug: 'best-dog-nail-grinder',
+  title: 'The Best Dog Nail Grinder for Stress-Free Trims',
+  excerpt:
       'Discover quiet, beginner-friendly nail grinders plus step-by-step techniques to keep every dog’s paws healthy at home.',
-    description:
+  description:
       'Looking for the best dog nail grinder? Explore the top tools, pro tips, and stress-free techniques for trimming your pup’s nails at home.',
-    imageUrl:
+  imageUrl:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/85553e3-873b-ee08-3a4a-7ad2c7edad44_the_best_dog_nail_grinder_feature_image.jpg',
-    heroImage:
+  heroImage:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/85553e3-873b-ee08-3a4a-7ad2c7edad44_the_best_dog_nail_grinder_feature_image.jpg',
-    heroImageAlt:
+  heroImageAlt:
       'Close-up of a pet parent using a nail grinder to trim a dog’s nails at home.',
-    tags: ['DIY Dog Grooming', 'DIY Grooming', 'Dog Grooming Tools', 'Dog Nail Trimming'],
-    publishedOn: 'Jul 25, 2025',
-    canonicalUrl: 'https://www.pawparentacademy.com/blog/the-best-dog-nail-grinder',
-    contentHtml: bestDogNailGrinderHtml,
-  };
+  tags: [ 'DIY Dog Grooming', 'DIY Grooming', 'Dog Grooming Tools', 'Dog Nail Trimming' ],
+  publishedOn: 'Jul 25, 2025',
+  canonicalUrl: 'https://www.pawparentacademy.com/blog/the-best-dog-nail-grinder',
+  contentHtml: bestDogNailGrinderHtml,
+};

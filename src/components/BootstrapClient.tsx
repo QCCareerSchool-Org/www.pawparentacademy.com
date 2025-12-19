@@ -6,7 +6,7 @@ export default function BootstrapClient() {
     // dynamically load bootstrap JS bundle on client only
     // TypeScript: runtime-only import without types, ignore missing declaration
     // @ts-expect-error: bootstrap has no bundled TypeScript declarations
-    import('bootstrap/dist/js/bootstrap.bundle');
+    void import('bootstrap/dist/js/bootstrap.bundle');
   }, []);
 
   return null;

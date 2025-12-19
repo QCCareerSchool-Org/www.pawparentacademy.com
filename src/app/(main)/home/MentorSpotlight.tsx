@@ -1,4 +1,5 @@
 import Image, { type StaticImageData } from 'next/image';
+
 import styles from './MentorSpotlight.module.scss';
 
 interface MentorSpotlightProps {
@@ -11,7 +12,7 @@ interface MentorSpotlightProps {
 
 export default function MentorSpotlight({ name, title, description, image, imageAlt }: MentorSpotlightProps) {
   return (
-    <section className={`${styles.section}`} aria-labelledby="mentor-heading">
+    <section className={styles.section} aria-labelledby="mentor-heading">
       <div className="container">
         <div className="row align-items-center g-4">
           <div className="col-12 col-lg-6">
@@ -21,7 +22,7 @@ export default function MentorSpotlight({ name, title, description, image, image
                 {name}
               </h2>
               <h3 className="h5 text-muted mb-4">{title}</h3>
-              {description.map((paragraph) => (
+              {description.map(paragraph => (
                 <p key={paragraph}>{paragraph}</p>
               ))}
             </article>

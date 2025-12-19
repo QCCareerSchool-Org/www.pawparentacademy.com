@@ -205,10 +205,10 @@ const yorkieGroomingStylesHtml = String.raw`
 </ul>
 <div class="toc"><h2>Table of Contents</h2><ul><li><a href="#why-grooming-matters">Why Grooming Matters for Yorkies</a></li><li><a href="#top-13">Top 13 Most Popular Yorkie Haircuts (With Style &amp; Maintenance Tips)</a></li><li><a href="#males-vs-females">Best Yorkie Haircuts for Males vs. Females</a></li><li><a href="#by-task">Grooming Frequency: By Task</a></li><li><a href="#home-grooming">Home Grooming vs. Professional Grooming</a></li><li><a href="#step-by-step">Step-by-Step Guide for a Simple Yorkie Cut</a></li><li><a href="#expert-groomer-tips">Expert Groomer Tips</a></li><li><a href="#faqs">Yorkie Grooming Styles FAQs</a></li></ul></div>
 <h2><span style="font-weight: 400;">Introduction</span></h2>
-<p><span style="font-weight: 400;">Yorkshire Terriers may be tiny, but their grooming styles are anything but understated! Whether you’re after the classic Puppy Cut or something trendy like a Teddy Bear trim, grooming your Yorkie at home is not only possible—it can be a fun, bonding experience for you and your pup. In this ultimate guide, we’ll explore the most popular Yorkie grooming styles, including expert tips for at-home success, seasonal recommendations, and even style ideas for male and female Yorkies.</span></p>
+<p><span style="font-weight: 400;">Yorkshire Terriers may be tiny, but their grooming styles are anything but understated! Whether you're after the classic Puppy Cut or something trendy like a Teddy Bear trim, grooming your Yorkie at home is not only possible—it can be a fun, bonding experience for you and your pup. In this ultimate guide, we'll explore the most popular Yorkie grooming styles, including expert tips for at-home success, seasonal recommendations, and even style ideas for male and female Yorkies.</span></p>
 <p><span style="font-weight: 400;">📖 Curious which Yorkie grooming styles best match YOUR pup? Keep reading to discover adorable haircut ideas, maintenance tips, and DIY grooming tricks you can try at home!</span></p>
 <h2 id="why-grooming-matters">Why Grooming Matters for Yorkies</h2>
-<p><span style="font-weight: 400;">Yorkies aren’t just adorable—they’re a breed that thrives on consistent grooming. Their fine, human-like hair needs special care to avoid tangles and skin irritation. And grooming isn’t just about looks—it’s about health, hygiene, and comfort.</span></p>
+<p><span style="font-weight: 400;">Yorkies aren't just adorable—they're a breed that thrives on consistent grooming. Their fine, human-like hair needs special care to avoid tangles and skin irritation. And grooming isn't just about looks—it's about health, hygiene, and comfort.</span></p>
 <h3><span style="font-weight: 400;">Yorkie Coat Basics</span></h3>
 <p><span style="font-weight: 400;">Unlike many breeds with fur, Yorkies have long, silky hair that grows continuously, just like ours. This means:</span></p>
 <ul>
@@ -217,26 +217,26 @@ const yorkieGroomingStylesHtml = String.raw`
 <li style="font-weight: 400;"><span style="font-weight: 400;">Their coats are prone to buildup if not bathed regularly</span></li>
 </ul>
 <h2 id="top-13">Top 13 Most Popular Yorkie Haircuts (With Style &amp; Maintenance Tips)</h2>
-<p><span style="font-weight: 400;">From practical trims to show-stopping styles, Yorkies have a wide range of haircut options to suit every coat length and grooming routine. Here’s a breakdown of 13 popular Yorkie grooming styles!</span></p>
+<p><span style="font-weight: 400;">From practical trims to show-stopping styles, Yorkies have a wide range of haircut options to suit every coat length and grooming routine. Here's a breakdown of 13 popular Yorkie grooming styles!</span></p>
 <h3><span style="font-weight: 400;">1. Teddy Bear Yorkie Haircut</span></h3>
 <p><span style="font-weight: 400;"><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/bd740cc-77ef-0172-6faa-0152b168a653_yorkie_grooming_styles_teddy_bear_cut.jpg" alt="Yorkie with a teddy bear haircut, a popular short Yorkie haircut style for a soft and rounded look."></span></p>
 <p><span style="font-weight: 400;">This rounded, fluffy style creates a sweet, plush appearance.</span></p>
 <ul>
 <li style="font-weight: 400;"><b>Best for</b><span style="font-weight: 400;">: Cuddly companions and affectionate lap dogs</span></li>
-<li style="font-weight: 400;"><b>Maintenance</b><span style="font-weight: 400;">: Trim every 4–6 weeks; brush 2–3x/week</span></li>
+<li style="font-weight: 400;"><b>Maintenance</b><span style="font-weight: 400;">: Trim every 4 to 6 weeks; brush 2 to 3x/week</span></li>
 <li style="font-weight: 400;"><b>Style tip</b><span style="font-weight: 400;">: Blend cheeks and ears for a rounded look</span></li>
 </ul>
 <div class="box">
 <h2 class="h4">🐻 Fluffy, Adorable, and Easy to Master</h2>
-<p>Our <em>Teddy Bear Cuts Course</em> at Paw Parent Academy shows you exactly how to achieve that soft, rounded look that Yorkie parents love. With step-by-step video lessons and pro tips for shaping the face, ears, and body, you’ll learn to create a picture-perfect teddy bear style—no salon visit needed.</p>
+<p>Our <em>Teddy Bear Cuts Course</em> at Paw Parent Academy shows you exactly how to achieve that soft, rounded look that Yorkie parents love. With step-by-step video lessons and pro tips for shaping the face, ears, and body, you'll learn to create a picture-perfect teddy bear style—no salon visit needed.</p>
 <a href="https://www.pawparentacademy.com/courses/teddy-bear-cuts" class="button">Learn the Teddy Bear Cut Today</a></div>
 <h3><span style="font-weight: 400;">2. Yorkie Puppy Cut</span></h3>
 <p><span style="font-weight: 400;"><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/481610-7fd2-d337-38ef-cef412bd3fa6_yorkie_grooming_styles_puppy_cut.jpg" alt="Yorkie with a classic Yorkie puppy cut, featuring even-length hair for a low-maintenance and playful look."></span></p>
-<h4><span style="font-weight: 400;"> </span><span style="font-weight: 400;">The go-to for many new pet parents, this even-length cut keeps things simple.</span></h4>
+<h4><span style="font-weight: 400;">The go-to for many new pet parents, this even-length cut keeps things simple.</span></h4>
 <ul>
 <li style="font-weight: 400;"><b>Best for</b><span style="font-weight: 400;">: Playful, active pups</span></li>
 <li style="font-weight: 400;"><b>Maintenance</b><span style="font-weight: 400;">: Minimal—monthly trims and weekly brushing</span></li>
-<li style="font-weight: 400;"><b>Style tip</b><span style="font-weight: 400;">: 1–1.5 inches of uniform length all over</span></li>
+<li style="font-weight: 400;"><b>Style tip</b><span style="font-weight: 400;">: 1 to 1.5 inches of uniform length all over</span></li>
 </ul>
 <h3><span style="font-weight: 400;">3. Top Knot Cut</span></h3>
 <h4><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/ff0455-6bcf-5167-d68c-046a1ea6c526_yorkie_grooming_styles_top_knot.jpg" alt="Female Yorkie with long hair and a top knot hairstyle, showing off an elegant long hair Yorkie grooming style."></h4>
@@ -320,14 +320,14 @@ const yorkieGroomingStylesHtml = String.raw`
 </ul>
 <h3><span style="font-weight: 400;">13. Personalized Cut</span></h3>
 <h4><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/6f1e24c-bd5f-376-86db-5ece774e57b_yorkie_grooming_styles_personalized.jpg" alt="Yorkie with a casual beach-ready look, styled in one of the relaxed Yorkipoo grooming styles for warm weather and easy care."></h4>
-<p><span style="font-weight: 400;">Customize the trim to fit your Yorkie’s lifestyle, health, or environment.</span></p>
+<p><span style="font-weight: 400;">Customize the trim to fit your Yorkie's lifestyle, health, or environment.</span></p>
 <ul>
 <li style="font-weight: 400;"><b>Best for</b><span style="font-weight: 400;">: Dogs with special needs or preferences</span></li>
 <li style="font-weight: 400;"><b>Maintenance</b><span style="font-weight: 400;">: As needed</span></li>
 <li style="font-weight: 400;"><b>Style tip</b><span style="font-weight: 400;">: Blend function with style (e.g., keep belly short for cleanliness)</span></li>
 </ul>
 <h2 id="males-vs-females">Best Yorkie Haircuts for Males vs. Females</h2>
-<p data-start="317" data-end="572">While every Yorkie is unique (and grooming should always suit their personality and lifestyle), certain haircut styles tend to complement either male or female features more traditionally. Here’s a quick guide to help you choose the best fit for your pup:</p>
+<p data-start="317" data-end="572">While every Yorkie is unique (and grooming should always suit their personality and lifestyle), certain haircut styles tend to complement either male or female features more traditionally. Here's a quick guide to help you choose the best fit for your pup:</p>
 <h3 data-start="574" data-end="603">🐾 Male Yorkie Haircuts</h3>
 <p data-start="604" data-end="687">Tidy, structured cuts often bring out the bold and confident charm in male Yorkies.</p>
 <h4 data-start="689" data-end="717">Popular choices include:</h4>
@@ -359,15 +359,15 @@ const yorkieGroomingStylesHtml = String.raw`
 </ul>
 <p data-start="1307" data-end="1467"><strong data-start="1307" data-end="1323">Maintenance:</strong> More frequent brushing and accessories upkeep<br data-start="1369" data-end="1372"> <strong data-start="1372" data-end="1386">Style Tip:</strong> Add soft bows or clips to enhance the delicate look without tugging on the hair.</p>
 <div class="box">
-<h2 class="h4">🐶 Groom Your Yorkie Like a Pro—Even If You’ve Never Held Clippers Before</h2>
+<h2 class="h4">🐶 Groom Your Yorkie Like a Pro—Even If You've Never Held Clippers Before</h2>
 <p>Our DIY Yorkie Grooming Course teaches you exactly how to handle every step—from tear stain cleaning to safe trimming techniques. No guesswork and no overwhelm. Just simple, guided lessons that help you create a happy grooming routine at home!</p>
 <a href="https://www.pawparentacademy.com/courses/how-to-groom-a-yorkie" class="button">Start Learning Today</a></div>
 <h2 id="by-task">Grooming Frequency: By Task</h2>
 <p><span style="font-weight: 400;"><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/514de2e-a3ed-0870-365-01b18cc58fd6_how_often_should_you_groom_your_yorkie_infographic.png" alt="Infographic showing how often to groom your Yorkie, with tips for brushing, bathing, and short Yorkie haircut maintenance routines."></span></p>
-<p><span style="font-weight: 400;">Wondering how often you should groom your Yorkie at home? Here’s a quick breakdown by task to help you build a healthy, low-stress routine for your pup.</span></p>
+<p><span style="font-weight: 400;">Wondering how often you should groom your Yorkie at home? Here's a quick breakdown by task to help you build a healthy, low-stress routine for your pup.</span></p>
 <h4><span style="font-weight: 400;">Teeth Brushing: 1-2 Times Per Day</span></h4>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Daily brushing is ideal for Yorkies, who are prone to dental issues. If twice a day isn’t realistic, aim for once daily or at least several times a week.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Daily brushing is ideal for Yorkies, who are prone to dental issues. If twice a day isn't realistic, aim for once daily or at least several times a week.</span></li>
 </ul>
 <h4><span style="font-weight: 400;">Cleaning Between Their Eyes: Daily</span></h4>
 <ul>
@@ -383,7 +383,7 @@ const yorkieGroomingStylesHtml = String.raw`
 </ul>
 <h4><span style="font-weight: 400;">Nail Trimming: Weekly If Possible (Monthly Minimum)</span></h4>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Long nails can cause discomfort or even change your dog’s posture. Trim weekly if your dog tolerates it, or at least once a month.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Long nails can cause discomfort or even change your dog's posture. Trim weekly if your dog tolerates it, or at least once a month.</span></li>
 </ul>
 <h4><span style="font-weight: 400;">Bathing: Every 1-4 Weeks</span></h4>
 <ul>
@@ -399,10 +399,10 @@ const yorkieGroomingStylesHtml = String.raw`
 </ul>
 <h2 id="home-grooming">Home Grooming vs. Professional Grooming</h2>
 <p><span style="font-weight: 400;">When it comes to keeping your Yorkie looking and feeling their best, both home and professional grooming have their place—but for most pet parents, grooming at home is the more empowering (and budget-friendly) option.</span></p>
-<p><b>Home grooming</b><span style="font-weight: 400;"> puts you in control. You set the pace, you know your dog’s sensitivities, and you create a calm, familiar environment that helps reduce grooming anxiety. It’s also a fantastic way to strengthen your bond—your pup learns to trust you with care routines, and you gain confidence with each session. Plus, the cost savings over time are significant.</span></p>
-<p><span style="font-weight: 400;">That said, professional groomers can be helpful for advanced styles like show cuts, or if your dog is severely matted or extremely nervous. But for the average Yorkie—and the average paw parent—regular trips to the salon aren’t necessary.</span></p>
-<h2 id="home-grooming-kit">What You’ll Need to Groom Your Yorkie at Home</h2>
-<p><span style="font-weight: 400;">Before you get trimming, make sure you’ve got the right gear:</span></p>
+<p><b>Home grooming</b><span style="font-weight: 400;"> puts you in control. You set the pace, you know your dog's sensitivities, and you create a calm, familiar environment that helps reduce grooming anxiety. It's also a fantastic way to strengthen your bond—your pup learns to trust you with care routines, and you gain confidence with each session. Plus, the cost savings over time are significant.</span></p>
+<p><span style="font-weight: 400;">That said, professional groomers can be helpful for advanced styles like show cuts, or if your dog is severely matted or extremely nervous. But for the average Yorkie—and the average paw parent—regular trips to the salon aren't necessary.</span></p>
+<h2 id="home-grooming-kit">What You'll Need to Groom Your Yorkie at Home</h2>
+<p><span style="font-weight: 400;">Before you get trimming, make sure you've got the right gear:</span></p>
 <ul>
 <li style="font-weight: 400;"><a href="https://www.amazon.com/dog-grooming-table/s?k=dog+grooming+table" target="_blank" rel="noopener noreferrer"><b>Grooming table</b></a><span style="font-weight: 400;"> – Gives you a stable workspace and keeps your Yorkie secure.</span></li>
 <li style="font-weight: 400;"><a href="https://www.petedge.com/pet-clippers-blades/dog-clippers/adjustable-blade-clippers?srsltid=AfmBOorzzjzIf6SUWRxrUokYlgt5J2fXG1eklIQWrQ9_oYoa88qxCw9H" target="_blank" rel="noopener noreferrer"><b>Dog clippers with adjustable blades</b></a><span style="font-weight: 400;"> – Essential for even body work and tidy leg lines.</span></li>
@@ -454,9 +454,9 @@ const yorkieGroomingStylesHtml = String.raw`
 <li style="font-weight: 400;"><span style="font-weight: 400;">Adjust trimming frequency based on activity level and coat growth.</span></li>
 </ul>
 <h2 id="expert-groomer-tips">Expert Groomer Tips</h2>
-<p><span style="font-weight: 400;">Whether you dream of the perfect teddy bear Yorkie haircut or just want to keep your pup clean and cute, Paw Parent Academy’s DIY <em>How To Groom a Yorkie</em> course is here to help!</span></p>
+<p><span style="font-weight: 400;">Whether you dream of the perfect teddy bear Yorkie haircut or just want to keep your pup clean and cute, Paw Parent Academy's DIY <em>How To Groom a Yorkie</em> course is here to help!</span></p>
 <p><span style="font-weight: 400;"><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/cd453f-0e46-223b-6183-d4ab64a2d86d_yorkie_grooming_styles_in-post_image.jpg" alt="Dog groomer and Paw Parent Academy instructor, Nadia Bongelli, preparing a Yorkie for a short Yorkie haircut using clippers and grooming tools on a pink grooming table."></span></p>
-<p><span style="font-weight: 400;">“When it comes to grooming the face, I like to first clip a Yorkie’s silky coat in reverse. Gently support their head in your hands, turn the clipper on (on a 40 setting, as always), and trim from the back to the front. Then you can use your comb to fluff the hair up, and then run the clipper with the grain from front to back.” — Nadia Bongelli, award-winning dog groomer and Paw Parent Academy instructor</span></p>
+<p><span style="font-weight: 400;">“When it comes to grooming the face, I like to first clip a Yorkie's silky coat in reverse. Gently support their head in your hands, turn the clipper on (on a 40 setting, as always), and trim from the back to the front. Then you can use your comb to fluff the hair up, and then run the clipper with the grain from front to back.” — Nadia Bongelli, award-winning dog groomer and Paw Parent Academy instructor</span></p>
 <h3><span style="font-weight: 400;">Pro Tips:</span></h3>
 <ul>
 <li style="font-weight: 400;"><span style="font-weight: 400;">✔️ Start grooming after playtime when your dog is calm</span></li>
@@ -466,7 +466,7 @@ const yorkieGroomingStylesHtml = String.raw`
 <li style="font-weight: 400;"><span style="font-weight: 400;">✔️ Use rounded scissors for extra safety</span></li>
 </ul>
 <h3><span style="font-weight: 400;">Learn to Groom Like a Pro</span></h3>
-<p><span style="font-weight: 400;">Whether you dream of the perfect teddy bear Yorkie haircut or just want to keep your pup clean and cute, Paw Parent Academy’s DIY <em>How To Groom a Yorkie</em> course is here to help!</span></p>
+<p><span style="font-weight: 400;">Whether you dream of the perfect teddy bear Yorkie haircut or just want to keep your pup clean and cute, Paw Parent Academy's DIY <em>How To Groom a Yorkie</em> course is here to help!</span></p>
 <div class="responsive-embed" id="responsive-embed--0"><iframe width="560" height="315" src="https://www.youtube.com/embed/lACP05uBH28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>
 <p><span style="font-weight: 400;">Our beginner-friendly course includes:</span></p>
 <ul>
@@ -475,16 +475,16 @@ const yorkieGroomingStylesHtml = String.raw`
 <li style="font-weight: 400;"><span style="font-weight: 400;">✅ Gentle guidance for nervous pups</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">✅ Styling tutorials for all major Yorkie cuts</span></li>
 </ul>
-<p><span style="font-weight: 400;">By the end of the course, you’ll feel confident handling every snip, brush, and bath—turning everyday grooming into a stress-free routine your Yorkie will love.</span></p>
+<p><span style="font-weight: 400;">By the end of the course, you'll feel confident handling every snip, brush, and bath—turning everyday grooming into a stress-free routine your Yorkie will love.</span></p>
 <div class="box">
-<h2 class="h4">🛁 From Scruffy to Stylish—You’ve Got This!</h2>
-<p>Our <em>How To Groom a Yorkie (and Other Silky Coats)</em> Course walks you through every step of the process, whether you’re aiming for a tidy trim or a show-stopping style. With expert tips and video guidance, you’ll learn to groom your pup safely, gently, and beautifully—all from the comfort of home!</p>
+<h2 class="h4">🛁 From Scruffy to Stylish—You've Got This!</h2>
+<p>Our <em>How To Groom a Yorkie (and Other Silky Coats)</em> Course walks you through every step of the process, whether you're aiming for a tidy trim or a show-stopping style. With expert tips and video guidance, you'll learn to groom your pup safely, gently, and beautifully—all from the comfort of home!</p>
 <a href="https://www.pawparentacademy.com/courses/how-to-groom-a-yorkie" class="button">Get Started Today</a></div>
 <h2 id="faqs">Yorkie Grooming Styles FAQs</h2>
 <p><span style="font-weight: 400;"><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/bf50b7e-2ae-2430-430a-1785e470604f_yorkie_grooming_styles_frequently_asked_questions.png" alt="Header graphic for Yorkie Grooming Styles FAQ section, featuring a curious Yorkie and tips on male and female Yorkie haircuts."></span></p>
 <h3><span style="font-weight: 400;">What is the best haircut for a Yorkie?</span></h3>
 <p><span style="font-weight: 400;">The Puppy Cut and Teddy Bear Cut are two of the most popular and beginner-friendly styles.</span></p>
-<h3><span style="font-weight: 400;">How short can I cut my Yorkie’s hair?</span></h3>
+<h3><span style="font-weight: 400;">How short can I cut my Yorkie's hair?</span></h3>
 <p><span style="font-weight: 400;">You can go as short as 1/2 inch, especially in hot weather, but avoid shaving too close to prevent skin irritation.</span></p>
 <h3><span style="font-weight: 400;">How often should I groom a Yorkie?</span></h3>
 <p><span style="font-weight: 400;">Every 4–6 weeks for trims and weekly brushing, depending on the cut.</span></p>
@@ -496,21 +496,21 @@ const yorkieGroomingStylesHtml = String.raw`
 `;
 
 export const yorkieGroomingStylesPost: BlogPost = {
-    slug: '13-most-popular-yorkie-grooming-styles',
-    title: 'The 13 Most Popular Yorkie Grooming Styles',
-    excerpt:
+  slug: '13-most-popular-yorkie-grooming-styles',
+  title: 'The 13 Most Popular Yorkie Grooming Styles',
+  excerpt:
       'Find 13 Yorkie haircut ideas plus maintenance tips, seasonal advice, and DIY grooming steps for silky coats.',
-    description:
+  description:
       'Explore the 13 most popular Yorkie grooming styles with pictures, tool lists, maintenance timelines, and expert-backed DIY grooming advice.',
-    imageUrl:
+  imageUrl:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/31f64ff-4afd-dbec-5b8-806523717606_yorkie_grooming_styles_feature_image.jpg',
-    heroImage:
+  heroImage:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/31f64ff-4afd-dbec-5b8-806523717606_yorkie_grooming_styles_feature_image.jpg',
-    heroImageAlt:
+  heroImageAlt:
       'Happy Yorkie outdoors with a fresh haircut, showcasing one of the popular Yorkie grooming styles.',
-    tags: ['DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools'],
-    publishedOn: 'Jul 14, 2025',
-    canonicalUrl:
+  tags: [ 'DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools' ],
+  publishedOn: 'Jul 14, 2025',
+  canonicalUrl:
       'https://www.pawparentacademy.com/blog/13-most-popular-yorkie-grooming-styles',
-    contentHtml: yorkieGroomingStylesHtml,
-  };
+  contentHtml: yorkieGroomingStylesHtml,
+};

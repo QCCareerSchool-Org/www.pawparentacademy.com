@@ -1,5 +1,7 @@
 import React from 'react';
-import CourseFeature, { CourseFeatureProps } from '../CourseFeature';
+
+import type { CourseFeatureProps } from '../CourseFeature';
+import CourseFeature from '../CourseFeature';
 import styles from './styles.module.scss';
 
 export interface CoursesGridProps {
@@ -8,7 +10,7 @@ export interface CoursesGridProps {
 
 export default function CoursesGrid({ courses }: CoursesGridProps) {
   return (
-    <div className={`row ${styles.grid}` }>
+    <div className={`row ${styles.grid}`}>
       {courses.map((c, i) => (
         <CourseFeature key={i} {...c} />
       ))}

@@ -3,8 +3,9 @@
 import Image, { type StaticImageData } from 'next/image';
 import { useActionState } from 'react';
 import { useFormStatus } from 'react-dom';
-import { submitLeadMagnet, type LeadMagnetFormState } from '@/app/actions/leadMagnet';
+
 import styles from './HeroSection.module.scss';
+import { type LeadMagnetFormState, submitLeadMagnet } from '@/app/actions/leadMagnet';
 
 export interface HeroLeadMagnetCopy {
   eyebrow?: string;
@@ -34,7 +35,7 @@ function SubmitButton({ label }: { label: string }) {
 }
 
 export default function HeroLeadMagnetForm({ copy }: { copy: HeroLeadMagnetCopy }) {
-  const [state, formAction] = useActionState(submitLeadMagnet, initialState);
+  const [ state, formAction ] = useActionState(submitLeadMagnet, initialState);
   const buttonLabel = copy.submitLabel ?? 'Get Access';
   const alertMessage = state.success ? copy.successMessage ?? state.message : state.message;
 

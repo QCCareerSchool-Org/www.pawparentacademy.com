@@ -1,4 +1,5 @@
 import Image, { type StaticImageData } from 'next/image';
+
 import styles from './styles.module.scss';
 
 interface CourseHeroProps {
@@ -21,8 +22,8 @@ export default function CourseHero({
   backgroundImage,
 }: CourseHeroProps) {
   return (
-    <section className={`text-white position-relative ${styles.hero}`}> 
-      <div/>
+    <section className={`text-white position-relative ${styles.hero}`}>
+      <div />
       {backgroundImage && (
         <Image
           src={backgroundImage}
@@ -43,7 +44,7 @@ export default function CourseHero({
 
             {supportingPoints && supportingPoints.length > 0 && (
               <ul className={`list-unstyled d-flex flex-column flex-md-row gap-3 justify-content-center mb-4 ${styles.supportList}`}>
-                {supportingPoints.map((point) => (
+                {supportingPoints.map(point => (
                   <li key={point} className="d-flex align-items-center gap-2">
                     <span className={styles.bullet} aria-hidden="true">
                       •

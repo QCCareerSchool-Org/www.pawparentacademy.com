@@ -1,6 +1,7 @@
-"use client";
+'use client';
 
 import Accordion from 'react-bootstrap/Accordion';
+
 import styles from './styles.module.scss';
 
 export interface AccordionItem {

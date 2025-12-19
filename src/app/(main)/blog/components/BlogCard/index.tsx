@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import type { BlogPost } from '../../blog-posts';
 import styles from './BlogCard.module.scss';
+import type { BlogPost } from '../../blog-posts';
 
 interface BlogCardProps {
   post: BlogPost;
@@ -26,7 +26,7 @@ export function BlogCard({ post }: BlogCardProps) {
       )}
       <div className={styles.content}>
         <div className={styles.tags}>
-          {tags.map((tag) => (
+          {tags.map(tag => (
             <span className={styles.tag} key={`${title}-${tag}`}>
               {tag}
             </span>

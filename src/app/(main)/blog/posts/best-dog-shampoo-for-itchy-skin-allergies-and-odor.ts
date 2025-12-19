@@ -427,22 +427,22 @@ const bestDogShampooHtml = String.raw`
 `;
 
 export const bestDogShampooPost: BlogPost = {
-    slug: 'best-dog-shampoo-for-itchy-skin-allergies-and-odor',
-    title:
+  slug: 'best-dog-shampoo-for-itchy-skin-allergies-and-odor',
+  title:
       'Best Dog Shampoo for Itchy Skin, Allergies, and Odor',
-    excerpt:
+  excerpt:
       'Discover the best dog shampoo for itchy skin, allergies, and odor control with expert-recommended ingredients, bathing tips, and top product picks.',
-    description:
+  description:
       'Discover the best dog shampoo for itchy skin, allergies, and odor control. This expert-reviewed guide breaks down top picks by need, coat type, and ingredients.',
-    imageUrl:
+  imageUrl:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/14e3d-864-64ee-ed44-a37f34afa20b_best_dog_shampoo_feature_image.jpg',
-    heroImage:
+  heroImage:
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/14e3d-864-64ee-ed44-a37f34afa20b_best_dog_shampoo_feature_image.jpg',
-    heroImageAlt:
+  heroImageAlt:
       'Close-up of a dog in a bubble bath with foam on its head, ideal for a guide on the best dog shampoo for itchy skin, allergies, and odor.',
-    tags: ['DIY Grooming', 'Dog Bathing', 'Dog Grooming'],
-    publishedOn: 'May 27, 2025',
-    canonicalUrl:
+  tags: [ 'DIY Grooming', 'Dog Bathing', 'Dog Grooming' ],
+  publishedOn: 'May 27, 2025',
+  canonicalUrl:
       'https://www.pawparentacademy.com/blog/best-dog-shampoo-for-itchy-skin-allergies-and-odor',
-    contentHtml: bestDogShampooHtml,
-  };
+  contentHtml: bestDogShampooHtml,
+};

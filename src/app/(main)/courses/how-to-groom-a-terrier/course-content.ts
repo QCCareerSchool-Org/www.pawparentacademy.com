@@ -1,11 +1,8 @@
-import type { AccordionItem } from '@/components/AccordionGroup';
 import bathIcon from '../images/bathe-icon.png';
 import coatIcon from '../images/coat-icon.png';
 import nailsIcon from '../images/nails-icon.png';
 import trimsIcon from '../images/trims-icon.png';
 import heroImage from './images/hero-terrier-no-bg.jpg';
-import fitChecklistImage from './images/terrier.jpg'
-import roxyPupStar from './images/terrier-pup-star.jpg';
 import module1 from './images/modules-1-2.jpg';
 import module2 from './images/modules-2-2.jpg';
 import module3 from './images/modules-3-2.jpg';
@@ -13,6 +10,9 @@ import module4 from './images/modules-4.jpg';
 import module5 from './images/modules-5-2.jpg';
 import module6 from './images/modules-6.jpg';
 import module7 from './images/modules-bonus-7.jpg';
+import roxyPupStar from './images/terrier-pup-star.jpg';
+import fitChecklistImage from './images/terrier.jpg';
+import type { AccordionItem } from '@/components/AccordionGroup';
 
 export const courseMetadata = {
   title: 'How to Groom a Terrier',
@@ -37,7 +37,7 @@ export const fitChecklistContent = {
     "You want to protect your dog's wire hair with proper grooming.",
     "You're ready to tackle handstripping so your dog's wire coat always looks great.",
     'More bonding time with your fur baby is your idea of fun.',
-    "You want to prevent issues like a blown out coat and hot spots.",
+    'You want to prevent issues like a blown out coat and hot spots.',
     "You're ready to be your terrier's go-to groomer!",
   ],
   image: {
@@ -55,7 +55,7 @@ export const featureHighlights = [
   {
     iconSrc: coatIcon,
     title: 'Maintain a Healthy Coat',
-    description: "Prevent mats and blown-out coat through handstripping and brushing.",
+    description: 'Prevent mats and blown-out coat through handstripping and brushing.',
   },
   {
     iconSrc: bathIcon,
@@ -152,12 +152,12 @@ export const faqItems: AccordionItem[] = [
   {
     question: 'Do I need prior experience?',
     answerHtml:
-      "Not at all! This course is perfect for paw parents of any skill level. You can learn how to groom your Terrier, even if you’ve never groomed a dog before. There will be no complicated terminology or techniques skipped over. Plus, you can watch each technique as many times as you need to feel confident!",
+      'Not at all! This course is perfect for paw parents of any skill level. You can learn how to groom your Terrier, even if you’ve never groomed a dog before. There will be no complicated terminology or techniques skipped over. Plus, you can watch each technique as many times as you need to feel confident!',
   },
   {
     question: 'Is this course appropriate for all terriers?',
     answerHtml:
-      "This course is ideal for learning how to handstrip wire-coated terriers, like Border Terriers or Cairn Terriers. These breeds have tough, wiry coats that require handstripping to maintain their health and appearance. These techniques can be applied to any wire-coated terrier. However, some terrier breeds, like Schnauzers or Westies, have specific breed styles.",
+      'This course is ideal for learning how to handstrip wire-coated terriers, like Border Terriers or Cairn Terriers. These breeds have tough, wiry coats that require handstripping to maintain their health and appearance. These techniques can be applied to any wire-coated terrier. However, some terrier breeds, like Schnauzers or Westies, have specific breed styles.',
   },
   {
     question: 'Will this course teach me how to groom a terrier mix?',
@@ -177,12 +177,12 @@ export const faqItems: AccordionItem[] = [
   {
     question: 'My dog is afraid of going to the groomer. Will this course help?',
     answerHtml:
-      "If your dog struggles with visiting the groomer, grooming at home could be an ideal solution. You’ll be able to create a calm, familiar environment where your dog feels safe, and take breaks whenever necessary. The course will provide step-by-step guidance to help you ease your dog into the grooming process and make it a more comfortable experience for both of you.",
+      'If your dog struggles with visiting the groomer, grooming at home could be an ideal solution. You’ll be able to create a calm, familiar environment where your dog feels safe, and take breaks whenever necessary. The course will provide step-by-step guidance to help you ease your dog into the grooming process and make it a more comfortable experience for both of you.',
   },
   {
     question: 'I have more than one dog. Will this course teach me everything I need to know for different coat types?',
     answerHtml:
-      "While this course focuses on the specific techniques used to groom wire-haired Terriers, Paw Parent Academy offers a unique course for each coat type. Be sure to review the courses and choose the one that best matches your dog’s coat. If you need assistance in selecting the right course, feel free to email us at <a href=\"mailto:info@pawparentacademy.com\">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses, we offer a special discount—just reach out to us for more details!",
+      'While this course focuses on the specific techniques used to groom wire-haired Terriers, Paw Parent Academy offers a unique course for each coat type. Be sure to review the courses and choose the one that best matches your dog’s coat. If you need assistance in selecting the right course, feel free to email us at <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses, we offer a special discount—just reach out to us for more details!',
   },
 ];
 
@@ -231,9 +231,9 @@ export const courseSchema = {
     ],
   offers: {
     '@type': 'Offer',
-    price: '248',
-    priceCurrency: 'USD',
-    availability: 'https://schema.org/InStock',
-    url: courseMetadata.canonicalUrl,
+    'price': '248',
+    'priceCurrency': 'USD',
+    'availability': 'https://schema.org/InStock',
+    'url': courseMetadata.canonicalUrl,
   },
 };

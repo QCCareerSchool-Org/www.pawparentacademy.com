@@ -7,7 +7,7 @@ interface CourseOverviewIntroProps {
 }
 
 export default function CourseOverviewIntro({ heading, body, className }: CourseOverviewIntroProps) {
-  const sectionClass = [styles.section, className].filter(Boolean).join(' ');
+  const sectionClass = [ styles.section, className ].filter(Boolean).join(' ');
 
   return (
     <section className={sectionClass}>

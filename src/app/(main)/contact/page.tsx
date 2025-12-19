@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+
 import styles from './ContactPage.module.scss';
 
 const emailAddress = 'info@pawparentacademy.com';

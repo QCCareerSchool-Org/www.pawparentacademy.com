@@ -1,28 +1,29 @@
 import type { Metadata } from 'next';
-import CourseHero from '@/components/CoursePage/CourseHero';
-import CourseFitChecklist from '@/components/CoursePage/CourseFitChecklist';
-import CourseFeatureGrid from '@/components/CoursePage/CourseFeatureGrid';
-import CourseMascotSpotlight from '@/components/CoursePage/CourseMascotSpotlight';
-import CourseVideoCTA from '@/components/CoursePage/CourseVideoCTA';
-import CourseOverviewIntro from '@/components/CoursePage/CourseOverviewIntro';
-import CourseModulesCarousel from '@/components/CoursePage/CourseModulesCarousel';
-import MoneyBackBanner from '@/components/CoursePage/MoneyBackBanner';
-import CourseFAQ from '@/components/CoursePage/CourseFAQ';
-import LeadMagnetForm from '@/components/CoursePage/LeadMagnetForm';
+
 import {
   courseMetadata,
-  heroContent,
-  fitChecklistContent,
-  featureHighlights,
-  mascotSpotlight,
-  videoSample,
-  overviewContent,
-  modules,
-  faqItems,
-  leadMagnetContent,
-  videoSchema,
   courseSchema,
+  faqItems,
+  featureHighlights,
+  fitChecklistContent,
+  heroContent,
+  leadMagnetContent,
+  mascotSpotlight,
+  modules,
+  overviewContent,
+  videoSample,
+  videoSchema,
 } from './course-content';
+import CourseFAQ from '@/components/CoursePage/CourseFAQ';
+import CourseFeatureGrid from '@/components/CoursePage/CourseFeatureGrid';
+import CourseFitChecklist from '@/components/CoursePage/CourseFitChecklist';
+import CourseHero from '@/components/CoursePage/CourseHero';
+import CourseMascotSpotlight from '@/components/CoursePage/CourseMascotSpotlight';
+import CourseModulesCarousel from '@/components/CoursePage/CourseModulesCarousel';
+import CourseOverviewIntro from '@/components/CoursePage/CourseOverviewIntro';
+import CourseVideoCTA from '@/components/CoursePage/CourseVideoCTA';
+import LeadMagnetForm from '@/components/CoursePage/LeadMagnetForm';
+import MoneyBackBanner from '@/components/CoursePage/MoneyBackBanner';
 
 export const metadata: Metadata = {
   title: `${courseMetadata.title} | Paw Parent Academy`,
@@ -44,7 +45,7 @@ export const metadata: Metadata = {
 };
 
 function CourseStructuredData() {
-  const payloads = [videoSchema, courseSchema];
+  const payloads = [ videoSchema, courseSchema ];
   return (
     <>
       {payloads.map((schema, index) => (

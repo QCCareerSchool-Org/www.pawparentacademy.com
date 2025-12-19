@@ -1,17 +1,17 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 import { Lato } from 'next/font/google';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.scss';
 
 const lato = Lato({
-  weight: ['300','400','700','900'],
-  subsets: ['latin'],
+  weight: [ '300', '400', '700', '900' ],
+  subsets: [ 'latin' ],
   display: 'swap',
 });
 
 export const metadata: Metadata = {
-  title: "Paw Parent Academy",
-  description: "Learn to groom your dog at home - Paw Parent Academy",
+  title: 'Paw Parent Academy',
+  description: 'Learn to groom your dog at home - Paw Parent Academy',
   icons: {
     icon: '/favicon.ico',
   },

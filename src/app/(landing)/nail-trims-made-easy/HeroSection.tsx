@@ -1,5 +1,5 @@
-import styles from './HeroSection.module.scss';
 import HeroLeadMagnetForm, { type HeroLeadMagnetCopy } from './HeroLeadMagnetForm.client';
+import styles from './HeroSection.module.scss';
 
 interface HeroSectionProps {
   eyebrow: string;
@@ -40,7 +40,7 @@ export default function HeroSection({
               <div className="col-sm-6">
                 <h3 className="h6 text-uppercase mb-3"><strong>What you&apos;ll learn</strong></h3>
                 <ul>
-                  {learnList.map((item) => (
+                  {learnList.map(item => (
                     <li key={item}>{item}</li>
                   ))}
                 </ul>
@@ -48,7 +48,7 @@ export default function HeroSection({
               <div className="col-sm-6">
                 <h3 className="h6 text-uppercase mb-3"><strong>Why join?</strong></h3>
                 <ul>
-                  {reasonsList.map((item) => (
+                  {reasonsList.map(item => (
                     <li key={item}>{item}</li>
                   ))}
                 </ul>

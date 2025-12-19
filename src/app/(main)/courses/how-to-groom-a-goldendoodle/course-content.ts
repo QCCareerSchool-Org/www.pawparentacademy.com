@@ -1,11 +1,9 @@
-import type { AccordionItem } from '@/components/AccordionGroup';
-import heroPastel2 from './images/hero-pastel-2.jpg';
 import goldendoodleShaving from './images/goldendoodle-shaving.jpg';
+import heroPastel2 from './images/hero-pastel-2.jpg';
 import bathIcon from '../images/bathe-icon.png';
 import coatIcon from '../images/coat-icon.png';
 import nailsIcon from '../images/nails-icon.png';
 import trimsIcon from '../images/trims-icon.png';
-import remyPupStar from './images/remy-pup-star.jpg';
 import module1 from './images/module-1.jpg';
 import module2 from './images/module-2.jpg';
 import module3 from './images/module-3.jpg';
@@ -14,6 +12,8 @@ import module5 from './images/module-5.jpg';
 import module6 from './images/module-6.jpg';
 import module7 from './images/module-7.jpg';
 import module8 from './images/module-8.jpg';
+import remyPupStar from './images/remy-pup-star.jpg';
+import type { AccordionItem } from '@/components/AccordionGroup';
 
 export const courseMetadata = {
   title: 'How to Groom a Goldendoodle',
@@ -38,8 +38,8 @@ export const fitChecklistContent = {
     'Saving money gets your tail wagging.',
     'Grooming at home means less worry for you and your dog.',
     'A strong bond with your furry friend is important to you.',
-    "You’d never miss a chance to catch potential health concerns early.",
-    "You want to be your dog’s #1 groomer!",
+    'You’d never miss a chance to catch potential health concerns early.',
+    'You want to be your dog’s #1 groomer!',
   ],
   image: {
     src: goldendoodleShaving,
@@ -56,7 +56,7 @@ export const featureHighlights = [
   {
     iconSrc: coatIcon,
     title: 'Maintain a Healthy Coat',
-    description: "Prevent mats, knots, and tangles for a healthy finish.",
+    description: 'Prevent mats, knots, and tangles for a healthy finish.',
   },
   {
     iconSrc: bathIcon,
@@ -238,9 +238,9 @@ export const courseSchema = {
     ],
   offers: {
     '@type': 'Offer',
-    price: '248',
-    priceCurrency: 'USD',
-    availability: 'https://schema.org/InStock',
-    url: courseMetadata.canonicalUrl,
+    'price': '248',
+    'priceCurrency': 'USD',
+    'availability': 'https://schema.org/InStock',
+    'url': courseMetadata.canonicalUrl,
   },
 };

@@ -8,7 +8,7 @@ interface FAQSectionIntroProps {
 
 export default function FAQSectionIntro({ title, description, variant = 'default' }: FAQSectionIntroProps) {
   const sectionClass = variant === 'light' ? `${styles.intro} ${styles.light}` : styles.intro;
-  const headingId = `${title.replace(/\s+/g, '-').toLowerCase()}-heading`;
+  const headingId = `${title.replace(/\s+/gu, '-').toLowerCase()}-heading`;
 
   return (
     <section className={sectionClass} aria-labelledby={headingId}>

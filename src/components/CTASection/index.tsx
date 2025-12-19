@@ -1,7 +1,8 @@
 import Link from 'next/link';
+
 import styles from './CTASection.module.scss';
 
-export default function CTASection(){
+export default function CTASection() {
   return (
     <section className={styles.cta} aria-labelledby="cta-heading">
       <div className={styles.sizer}>
