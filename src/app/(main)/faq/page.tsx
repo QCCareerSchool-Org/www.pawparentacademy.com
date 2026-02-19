@@ -1,57 +1,40 @@
 import type { Metadata } from 'next';
 
-import styles from './FaqPage.module.scss';
-import FAQHero from '@/app/(main)/faq/components/FAQHero';
-import FAQSectionIntro from '@/app/(main)/faq/components/FAQSectionIntro';
-import { faqSections } from '@/app/(main)/faq/faq-data';
-import { faqSchema } from '@/app/(main)/faq/faq-schema';
-import AccordionGroup from '@/components/AccordionGroup';
-import CTASection from '@/components/CTASection';
+import { Hero } from './_components/hero';
+import { categories } from './data';
+import { Schema } from './schema';
+import type { PageComponent } from '@/app/serverComponent';
+import { Accordion } from '@/components/accordionX';
+import { CTASection } from '@/components/ctaSectionX';
 
 export const metadata: Metadata = {
-  title: 'FAQ | Paw Parent Academy',
-  description:
-    'Find out grooming costs, the best course, and more. Learn to groom your dog at home, save money, and bond with your pet with Paw Parent Academy’s online courses.',
-  alternates: {
-    canonical: 'https://www.pawparentacademy.com/faq',
-  },
+  title: 'Frequently Asked Questions',
+  description: 'Find out grooming costs, the best course, and more. Learn to groom your dog at home, save money, and bond with your pet with Paw Parent Academy\'s online courses.',
+  alternates: { canonical: '/faq' },
 };
 
-export default function FAQPage() {
-  return (
-    <>
-      <FAQHero />
-
-      {faqSections.map(section => {
-        const backgroundClass = section.variant === 'light' ? styles.sectionLight : '';
-
-        return (
-          <div key={section.id}>
-            <FAQSectionIntro
-              title={section.title}
-              description={section.description}
-              variant={section.variant}
-            />
-            <section className={`${backgroundClass} pt-2 pb-4 pb-lg-5`}>
-              <div className="container">
-                <div className="row justify-content-center">
-                  <div className="col-12 col-lg-8">
-                    <AccordionGroup items={section.items} />
-                  </div>
-                </div>
+const FAQPage: PageComponent = () => (
+  <>
+    <Hero />
+    {categories.map((section, index) => {
+      const className = index % 2 === 0 ? 'bg-light' : '';
+      return (
+        <section key={section.id} id={section.id} className={className}>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-12 col-lg-8">
+                <h3 className="text-center">{section.title}</h3>
+                {section.description && <p className="mt-2 mb-4 text-muted text-center">{section.description}</p>}
+                <Accordion items={section.items} />
               </div>
-            </section>
+            </div>
           </div>
-        );
-      })}
+        </section>
+      );
+    })}
+    <CTASection />
+    <Schema />
+  </>
+);
 
-      <CTASection />
-
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-    </>
-  );
-}
+export default FAQPage;

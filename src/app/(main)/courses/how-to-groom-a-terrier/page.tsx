@@ -14,16 +14,16 @@ import {
   videoSample,
   videoSchema,
 } from './course-content';
-import CourseFAQ from '@/components/CoursePage/CourseFAQ';
-import CourseFeatureGrid from '@/components/CoursePage/CourseFeatureGrid';
-import CourseFitChecklist from '@/components/CoursePage/CourseFitChecklist';
-import CourseHero from '@/components/CoursePage/CourseHero';
-import CourseMascotSpotlight from '@/components/CoursePage/CourseMascotSpotlight';
-import CourseModulesCarousel from '@/components/CoursePage/CourseModulesCarousel';
-import CourseOverviewIntro from '@/components/CoursePage/CourseOverviewIntro';
-import CourseVideoCTA from '@/components/CoursePage/CourseVideoCTA';
-import LeadMagnetForm from '@/components/CoursePage/LeadMagnetForm';
-import MoneyBackBanner from '@/components/CoursePage/MoneyBackBanner';
+import CourseFAQ from '@/components/coursePageX/CourseFAQ';
+import CourseFeatureGrid from '@/components/coursePageX/CourseFeatureGrid';
+import CourseFitChecklist from '@/components/coursePageX/CourseFitChecklist';
+import CourseHero from '@/components/coursePageX/CourseHero';
+import CourseMascotSpotlight from '@/components/coursePageX/CourseMascotSpotlight';
+import CourseModulesCarousel from '@/components/coursePageX/CourseModulesCarousel';
+import CourseOverviewIntro from '@/components/coursePageX/CourseOverviewIntro';
+import CourseVideoCTA from '@/components/coursePageX/CourseVideoCTA';
+import LeadMagnetForm from '@/components/coursePageX/LeadMagnetForm';
+import MoneyBackBanner from '@/components/coursePageX/MoneyBackBanner';
 
 export const metadata: Metadata = {
   title: `${courseMetadata.title} | Paw Parent Academy`,

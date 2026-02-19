@@ -7,7 +7,7 @@ import module2Image from './images/module-2.jpg';
 import module3Image from './images/module-3.jpg';
 import module4Image from './images/module-bonus.jpg';
 import fitChecklistImage from './images/nail-trimming.jpg';
-import type { AccordionItem } from '@/components/AccordionGroup';
+import type { AccordionItem } from '@/components/accordionX';
 
 export const courseMetadata = {
   title: 'Nail Trims Made Easy',
@@ -106,33 +106,33 @@ export const modules = [
 
 export const faqItems: AccordionItem[] = [
   {
-    question: 'Which breeds is this course suitable for?',
-    answerHtml:
+    heading: 'Which breeds is this course suitable for?',
+    body:
       "This course is perfect for all dog breeds and sizes! You'll learn how to cut black nails, brown nails and clear nails to the perfect length.",
   },
   {
-    question: "What tools do I need to cut my dog's nails at home?",
-    answerHtml:
+    heading: "What tools do I need to cut my dog's nails at home?",
+    body:
       "To safely and effectively cut your dog's nails at home, you'll simply need dog nail clippers and styptic powder. You may choose to invest in additional tools and equipment, such as a nail grinder and grooming table - but that's entirely up to you! ",
   },
   {
-    question: "How often should I trim my dog's nails?",
-    answerHtml:
+    heading: "How often should I trim my dog's nails?",
+    body:
       "Trim your dog's nails every week to prevent discomfort and overgrown nails. Frequent nail trimming allows you to make smaller cuts, which will be more comfortable for your pet!",
   },
   {
-    question: "How short should I cut my dog's nails?",
-    answerHtml:
+    heading: "How short should I cut my dog's nails?",
+    body:
       "To encourage healthy nail growth and avoid overgrown nails, cut your dog's nail as close to the quick (the sensitive nerve inside the nail) as possible without cutting the quick. The nails shouldn't touch the floor when your dog is standing. ",
   },
   {
-    question: 'My dog hates having his nails trimmed. Will this course help?',
-    answerHtml:
+    heading: 'My dog hates having his nails trimmed. Will this course help?',
+    body:
       "Absolutely! Our goal is to make nail trims easy and stress-free for both you and your dog. This course will show you the best techniques to trim your dog's nails comfortably and safely to make the experience more enjoyagble for your pet. You'll also learn dog handling methods and training tips that will help your dog feel at ease with the nail trimming process. ",
   },
   {
-    question: 'Do I need prior experience?',
-    answerHtml:
+    heading: 'Do I need prior experience?',
+    body:
       "Not at all! You can learn how to cut your dog's nails with no prior experience. There will be no complicated terminology or techniques skipped over - plus you’ll be able to watch each technique as often as you like.",
   },
 ];

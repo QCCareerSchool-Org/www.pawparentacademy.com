@@ -13,7 +13,7 @@ import module5Image from './images/module-5.jpg';
 import module6Image from './images/module-6.jpg';
 import module7Image from './images/module-7.jpg';
 import module8Image from './images/module-bonus.jpg';
-import type { AccordionItem } from '@/components/AccordionGroup';
+import type { AccordionItem } from '@/components/accordionX';
 
 export const courseMetadata = {
   title: 'How to Groom a Golden Retriever',
@@ -160,33 +160,33 @@ export const modules = [
 
 export const faqItems: AccordionItem[] = [
   {
-    question: 'Do I need prior experience?',
-    answerHtml:
+    heading: 'Do I need prior experience?',
+    body:
       'Not at all! You can learn how to groom your Golden Retriever or other double-coated dog with no prior experience grooming dogs. There will be no complicated terminology or techniques skipped over - plus you’ll be able to watch each technique as often as you like.',
   },
   {
-    question: 'Is the course appropriate for all double-coat breeds?',
-    answerHtml:
+    heading: 'Is the course appropriate for all double-coat breeds?',
+    body:
       'Yes! This course is perfect for learning to groom a Golden Retriever, Australian Shepherd, Bernese Mountain Dog or any other double-coated dog mix with a lush, thick coat.',
   },
   {
-    question: 'How much will it cost to buy the equipment to groom my dog?',
-    answerHtml:
+    heading: 'How much will it cost to buy the equipment to groom my dog?',
+    body:
       "What you invest in your grooming setup depends on how much of the groom you’d like to do. For instance, if you're going to trim your dog's feathering, paws and ears you'll invest in clippers and shears. The investment you put into your equipment will pay for itself as your professional grooming expenses are reduced or eliminated altogether.",
   },
   {
-    question: 'My dog is terrified to go to the groomers. Will this course help?',
-    answerHtml:
+    heading: 'My dog is terrified to go to the groomers. Will this course help?',
+    body:
       'Grooming your dog may be the perfect solution for you if your dog is uncomfortable going to the groomer. You’ll be able to control the environment so your dog feels comfortable and you can give your dog lots of breaks if needed. The course will walk you through all the steps to get your dog comfortable with the grooming process.',
   },
   {
-    question: 'How can I determine if I have sufficient physical strength to groom my own dog?',
-    answerHtml:
+    heading: 'How can I determine if I have sufficient physical strength to groom my own dog?',
+    body:
       'You’ll want to have good grip strength for tool handling and be comfortable standing for longer periods. You’ll learn great tips in the course to set up an ergonomic and comfortable grooming station for you and your pet.',
   },
   {
-    question: 'I have another dog with a different coat type. Will this course teach me everything I need to know?',
-    answerHtml:
+    heading: 'I have another dog with a different coat type. Will this course teach me everything I need to know?',
+    body:
       'Paw Parent Academy has a unique course for each coat type. This course is for double-coats and features a golden retriever haircut. You’ll want to review all courses and choose one that aligns with your dog’s coat. If you need help choosing simply email <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses we offer a special discount—just reach out to us for more details!',
   },
 ];

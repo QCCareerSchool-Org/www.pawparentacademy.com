@@ -13,15 +13,15 @@ import {
   videoSample,
   videoSchema,
 } from './course-content';
-import CourseFAQ from '@/components/CoursePage/CourseFAQ';
-import CourseFeatureGrid from '@/components/CoursePage/CourseFeatureGrid';
-import CourseFinalCTA from '@/components/CoursePage/CourseFinalCTA';
-import CourseFitChecklist from '@/components/CoursePage/CourseFitChecklist';
-import CourseHero from '@/components/CoursePage/CourseHero';
-import CourseModulesCarousel from '@/components/CoursePage/CourseModulesCarousel';
-import CourseOverviewIntro from '@/components/CoursePage/CourseOverviewIntro';
-import CourseVideoCTA from '@/components/CoursePage/CourseVideoCTA';
-import MoneyBackBanner from '@/components/CoursePage/MoneyBackBanner';
+import CourseFAQ from '@/components/coursePageX/CourseFAQ';
+import CourseFeatureGrid from '@/components/coursePageX/CourseFeatureGrid';
+import CourseFinalCTA from '@/components/coursePageX/CourseFinalCTA';
+import CourseFitChecklist from '@/components/coursePageX/CourseFitChecklist';
+import CourseHero from '@/components/coursePageX/CourseHero';
+import CourseModulesCarousel from '@/components/coursePageX/CourseModulesCarousel';
+import CourseOverviewIntro from '@/components/coursePageX/CourseOverviewIntro';
+import CourseVideoCTA from '@/components/coursePageX/CourseVideoCTA';
+import MoneyBackBanner from '@/components/coursePageX/MoneyBackBanner';
 
 export const metadata: Metadata = {
   title: `${courseMetadata.title} | Paw Parent Academy`,

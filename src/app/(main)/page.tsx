@@ -1,58 +1,41 @@
 import type { Metadata } from 'next';
 
-import StatsSection from './about/StatsSection';
-import CourseFinderSection from './home/CourseFinderSection';
-import HeroSection from './home/HeroSection';
-import {
-  courseFinderContent,
-  heroContent,
-  introContent,
-  mentorSpotlight,
-  safetyFeatures,
-  testimonials,
-  valueProps,
-} from './home/homepage-content';
-import IntroSection from './home/IntroSection';
-import MentorSpotlight from './home/MentorSpotlight';
-import SafetySection from './home/SafetySection';
-import TestimonialsSection from './home/TestimonialsSection';
-import ValuePropsSection from './home/ValuePropsSection';
-import CTASection from '@/components/CTASection';
+import type { PageComponent } from '../serverComponent';
+import { CourseFinderSection } from './_components/courseFinderSection';
+import { HeroSection } from './_components/heroSection';
+import { IntroSection } from './_components/introSection';
+import { MentorSpotlight } from './_components/mentorSpotlightSection';
+import { SafetySection } from './_components/safetySection';
+import { TestimonialsSection } from './_components/testimonialsSection';
+import { CTASection } from '@/components/ctaSectionX';
+import { StatsSection } from '@/components/statsSection';
+import { getServerData } from '@/lib/getServerData';
+
+const title = 'Learn to Groom Your Dog at Home';
+const description = 'Step-by-step online grooming courses that help loving paw parents save money, learn pro techniques, and bond with their pups from the comfort of home.';
 
 export const metadata: Metadata = {
-  title: 'Paw Parent Academy | Learn to Groom Your Dog at Home',
-  description:
-    'Step-by-step online grooming courses that help loving paw parents save money, learn pro techniques, and bond with their pups from the comfort of home.',
-  alternates: {
-    canonical: '/',
-  },
-  openGraph: {
-    title: 'Paw Parent Academy | Learn to Groom Your Dog at Home',
-    description:
-      'Step-by-step online grooming courses that help loving paw parents save money, learn pro techniques, and bond with their pups.',
-    url: 'https://www.pawparentacademy.com/',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Paw Parent Academy | Learn to Groom Your Dog at Home',
-    description:
-      'Save on grooming bills and learn pro techniques through coat-specific courses taught by an award-winning instructor.',
-  },
+  title,
+  description,
+  alternates: { canonical: '/' },
+  openGraph: { title, description, url: 'https://www.pawparentacademy.com/', type: 'website' },
+  twitter: { card: 'summary_large_image', title, description },
 };
 
-export default function HomePage() {
+const HomePage: PageComponent = async props => {
+  const { countryCode, provinceCode } = await getServerData(props.searchParams);
   return (
     <>
-      <HeroSection {...heroContent} />
-      <IntroSection {...introContent} />
-      <ValuePropsSection items={valueProps} />
-      <CourseFinderSection {...courseFinderContent} />
-      <TestimonialsSection items={testimonials} />
-      <MentorSpotlight {...mentorSpotlight} />
-      <SafetySection features={safetyFeatures} />
+      <HeroSection />
+      <IntroSection />
+      <CourseFinderSection countryCode={countryCode} provinceCode={provinceCode} />
+      <TestimonialsSection />
+      <MentorSpotlight />
+      <SafetySection />
       <StatsSection className="bg-light" />
       <CTASection />
     </>
   );
-}
+};
+
+export default HomePage;

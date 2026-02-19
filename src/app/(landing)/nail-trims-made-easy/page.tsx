@@ -5,9 +5,9 @@ import FaqSection from './FaqSection';
 import HeroSection from './HeroSection';
 import NailTrimCTA from './NailTrimCTA';
 import { testimonials, valueProps } from '@/app/(main)/home/homepage-content';
-import MentorSpotlight from '@/app/(main)/home/MentorSpotlight';
-import TestimonialsSection from '@/app/(main)/home/TestimonialsSection';
-import ValuePropsSection from '@/app/(main)/home/ValuePropsSection';
+import MentorSpotlight from '@/app/(main)/_components/mentorSpotlightSection';
+import TestimonialsSection from '@/app/(main)/_components/testimonialsSection';
+import ValuePropsSection from '@/app/(main)/_components/valuePropsSection';
 
 export const metadata: Metadata = {
   title: 'Nail Trims Made Easy | Paw Parent Academy',

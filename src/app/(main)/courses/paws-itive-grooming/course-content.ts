@@ -7,7 +7,7 @@ import module1Image from './images/module-1.jpg';
 import module2Image from './images/module-2.jpg';
 import bonusModuleImage from './images/module-bonus.jpg';
 import archerPupStar from './images/pup-star-archer.jpg';
-import type { AccordionItem } from '@/components/AccordionGroup';
+import type { AccordionItem } from '@/components/accordionX';
 
 export const courseMetadata = {
   title: 'Paws-itive Grooming',
@@ -114,27 +114,27 @@ export const modules = [
 
 export const faqItems: AccordionItem[] = [
   {
-    question: 'Do I need prior experience in dog behavior training?',
-    answerHtml:
+    heading: 'Do I need prior experience in dog behavior training?',
+    body:
       '<p>Not at all! This course is designed for dog parents looking to learn practical behavior tips that make grooming easier for both parent and pup.</p>',
   },
   {
-    question: 'Which breeds is this course suitable for?',
-    answerHtml: '<p>This course is perfect for all dogs!</p>',
+    heading: 'Which breeds is this course suitable for?',
+    body: '<p>This course is perfect for all dogs!</p>',
   },
   {
-    question: 'How much will it cost to buy the equipment to groom my dog?',
-    answerHtml:
+    heading: 'How much will it cost to buy the equipment to groom my dog?',
+    body:
       '<p>All you need to create a positive grooming experience for your dog is their favorite treats!</p>',
   },
   {
-    question: 'My dog is terrified to go to the groomers. Will this course help?',
-    answerHtml:
+    heading: 'My dog is terrified to go to the groomers. Will this course help?',
+    body:
       '<p>Grooming your dog may be the perfect solution for you if your dog is uncomfortable going to the groomer. You’ll be able to control the environment so your dog feels comfortable and you can give your dog lots of breaks if needed. The course will walk you through all the steps to get your dog comfortable with the grooming process.</p>',
   },
   {
-    question: 'How can I determine if I have sufficient physical strength to groom my own dog?',
-    answerHtml:
+    heading: 'How can I determine if I have sufficient physical strength to groom my own dog?',
+    body:
       '<p>You’ll want to have good grip strength for tool handling and be comfortable standing for longer periods. You’ll learn great tips in the course to set up an ergonomic and comfortable grooming station for you and your pet.</p>',
   },
 ];

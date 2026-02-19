@@ -13,7 +13,7 @@ import module8 from './images/modules-bonus.jpg';
 import yorkieChecklist from './images/yorkie-checklist.jpg';
 import heroImage from './images/yorkie-coats-no-bg.jpg';
 import yorkiePupStar from './images/yorkie-pup-star.jpg';
-import type { AccordionItem } from '@/components/AccordionGroup';
+import type { AccordionItem } from '@/components/accordionX';
 
 export const courseMetadata = {
   title: 'How to Groom a Yorkie',
@@ -158,33 +158,33 @@ export const modules = [
 
 export const faqItems: AccordionItem[] = [
   {
-    question: 'Do I need prior experience?',
-    answerHtml:
+    heading: 'Do I need prior experience?',
+    body:
       'Not at all! You can learn how to groom your Yorkie, Morkie or Maltese with no prior experience grooming dogs. There will be no complicated terminology or techniques skipped over - plus you’ll be able to watch each technique as often as you like.',
   },
   {
-    question: 'Is this course appropriate for all silky-coated breeds?',
-    answerHtml:
+    heading: 'Is this course appropriate for all silky-coated breeds?',
+    body:
       "Yes! This course is perfect for mastering the teddy bear cut on your Yorkie, Morkie, Maltese, or any other silky-coated mix. You'll learn all the essential techniques to create the perfect Yorkie haircuts and keep your silky pup looking adorable!",
   },
   {
-    question: 'Which Yorkie haircuts will I learn in this course?',
-    answerHtml:
+    heading: 'Which Yorkie haircuts will I learn in this course?',
+    body:
       "This course is all about mastering the adorable Yorkie teddy bear cut! You'll learn how to create the signature round face, trim the body for a soft, fluffy look, and shape neatly rounded paws. This popular style keeps your Yorkie looking irresistibly cute while making grooming easier. The teddy bear cut is a favorite among pet owners because this short Yorkie haircut helps prevent mats and tangles on the body while keeping the face and tail longer for that classic, silky Yorkie style!",
   },
   {
-    question: 'How much will it cost to buy the equipment to groom my dog?',
-    answerHtml:
+    heading: 'How much will it cost to buy the equipment to groom my dog?',
+    body:
       "What you invest in your grooming setup depends on how much of the groom you’d like to do. For instance, if you're going to complete the trim on your pet you’ll need to purchase clippers and shears. The investment you put into your equipment will pay for itself as your professional grooming expenses are reduced or eliminated altogether.",
   },
   {
-    question: 'My dog is terrified to go to the groomer. Will this course help?',
-    answerHtml:
+    heading: 'My dog is terrified to go to the groomer. Will this course help?',
+    body:
       'Grooming your dog may be the perfect solution for you if your dog is uncomfortable going to the groomer. You’ll be able to control the environment so your dog feels comfortable and you can give your dog lots of breaks if needed. The course will walk you through all the steps to get your dog comfortable with the grooming process.',
   },
   {
-    question: 'I have another dog with a different coat type. Will this course teach me everything I need to know?',
-    answerHtml:
+    heading: 'I have another dog with a different coat type. Will this course teach me everything I need to know?',
+    body:
       'Paw Parent Academy has a unique course for each coat type. You’ll want to review the courses and choose one that aligns with your dog’s coat. If you need help choosing simply email <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses, we offer a special discount—just reach out to us for more details!',
   },
 ];

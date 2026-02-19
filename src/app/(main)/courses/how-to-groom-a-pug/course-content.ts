@@ -12,7 +12,7 @@ import module2Image from './images/module-space.jpg';
 import module6Image from './images/modules-bathing.jpg';
 import fitChecklistImage from './images/pug-nadia.jpg';
 import chumleyPupStar from './images/pug-pup-star.jpg';
-import type { AccordionItem } from '@/components/AccordionGroup';
+import type { AccordionItem } from '@/components/accordionX';
 
 export const courseMetadata = {
   title: 'How to Groom a Pug',
@@ -154,38 +154,38 @@ export const modules = [
 
 export const faqItems: AccordionItem[] = [
   {
-    question: 'Do I need prior experience?',
-    answerHtml:
+    heading: 'Do I need prior experience?',
+    body:
       'Not at all! You can learn how to groom your pug with no prior experience grooming dogs. There will be no complicated terminology or techniques skipped over - plus you’ll be able to watch each technique as often as you like.',
   },
   {
-    question: 'Which breeds is this course suitable for?',
-    answerHtml:
+    heading: 'Which breeds is this course suitable for?',
+    body:
       'This course is perfect for learning to groom and deshed a short-coated dog with an undercoat such as Pugs, Bulldogs and other Bully breeds.',
   },
   {
-    question: 'Is this course appropriate for large breeds?',
-    answerHtml:
+    heading: 'Is this course appropriate for large breeds?',
+    body:
       'Yes - this course is appropriate for any short-haired breed with an undercoat, from tiny chihuahuas to boxers!',
   },
   {
-    question: 'How much will it cost to buy the equipment to groom my dog?',
-    answerHtml:
+    heading: 'How much will it cost to buy the equipment to groom my dog?',
+    body:
       "What you invest in your grooming setup depends on how much of the groom you’d like to do. For instance, if you're going to bathe and dry your pup, you'll need dog-safe shampoo, conditioner and a dryer. The investment you put into your equipment will pay for itself as your professional grooming expenses are reduced or eliminated altogether.",
   },
   {
-    question: 'My dog is terrified to go to the groomers. Will this course help?',
-    answerHtml:
+    heading: 'My dog is terrified to go to the groomers. Will this course help?',
+    body:
       'Grooming your dog may be the perfect solution for you if your dog is uncomfortable going to the groomer. You’ll be able to control the environment so your dog feels comfortable and you can give your dog lots of breaks if needed. The course will walk you through all the steps to get your dog comfortable with the grooming process.',
   },
   {
-    question: 'How can I determine if I have sufficient physical strength to groom my own dog?',
-    answerHtml:
+    heading: 'How can I determine if I have sufficient physical strength to groom my own dog?',
+    body:
       'You’ll want to have good grip strength for tool handling and be comfortable standing for longer periods. You’ll learn great tips in the course to set up an ergonomic and comfortable grooming station for you and your pet.',
   },
   {
-    question: 'I have another dog with a different coat type. Will this course teach me everything I need to know?',
-    answerHtml:
+    heading: 'I have another dog with a different coat type. Will this course teach me everything I need to know?',
+    body:
       'Paw Parent Academy has a unique course for each coat type. You’ll want to review the courses and choose one that aligns with your dog’s coat. If you need help choosing simply email <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses we offer a special discount. Just reach out to us for more details!',
   },
 ];

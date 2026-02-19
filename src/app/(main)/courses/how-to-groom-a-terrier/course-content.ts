@@ -12,7 +12,7 @@ import module6 from './images/modules-6.jpg';
 import module7 from './images/modules-bonus-7.jpg';
 import roxyPupStar from './images/terrier-pup-star.jpg';
 import fitChecklistImage from './images/terrier.jpg';
-import type { AccordionItem } from '@/components/AccordionGroup';
+import type { AccordionItem } from '@/components/accordionX';
 
 export const courseMetadata = {
   title: 'How to Groom a Terrier',
@@ -150,38 +150,38 @@ export const modules = [
 
 export const faqItems: AccordionItem[] = [
   {
-    question: 'Do I need prior experience?',
-    answerHtml:
+    heading: 'Do I need prior experience?',
+    body:
       'Not at all! This course is perfect for paw parents of any skill level. You can learn how to groom your Terrier, even if you’ve never groomed a dog before. There will be no complicated terminology or techniques skipped over. Plus, you can watch each technique as many times as you need to feel confident!',
   },
   {
-    question: 'Is this course appropriate for all terriers?',
-    answerHtml:
+    heading: 'Is this course appropriate for all terriers?',
+    body:
       'This course is ideal for learning how to handstrip wire-coated terriers, like Border Terriers or Cairn Terriers. These breeds have tough, wiry coats that require handstripping to maintain their health and appearance. These techniques can be applied to any wire-coated terrier. However, some terrier breeds, like Schnauzers or Westies, have specific breed styles.',
   },
   {
-    question: 'Will this course teach me how to groom a terrier mix?',
-    answerHtml:
+    heading: 'Will this course teach me how to groom a terrier mix?',
+    body:
       "This course will teach you how to groom a Terrier mix with a harsh wire coat. We'll cover the process of handstripping, which is the most effective way to maintain the texture and health of a wire-haired coat. You’ll learn step-by-step techniques for safely and efficiently handstripping, so you can keep your terrier mix looking sharp and well-groomed!",
   },
   {
-    question: 'What is handstripping?',
-    answerHtml:
+    heading: 'What is handstripping?',
+    body:
       "Handstripping is the best way to groom your dog’s wire coat. It involves gently pulling out dead hair using a special tool called a hand-stripping knife. This process helps maintain the rough texture of the coat, keeping it healthy and looking great. Unlike clipping, which can soften the coat, handstripping preserves the unique texture of your terrier's coat. ",
   },
   {
-    question: 'How much will it cost to buy the equipment to groom my dog?',
-    answerHtml:
+    heading: 'How much will it cost to buy the equipment to groom my dog?',
+    body:
       "The amount you invest in your grooming setup depends on how much of the grooming process you want to handle yourself. If you plan to handstrip your dog’s coat, you'll need handstripping knives. If you also want to trim your dog’s paw pads, you'll need trimmers. Your investment in tools will pay off over time as you reduce or eliminate your professional grooming expenses. ",
   },
   {
-    question: 'My dog is afraid of going to the groomer. Will this course help?',
-    answerHtml:
+    heading: 'My dog is afraid of going to the groomer. Will this course help?',
+    body:
       'If your dog struggles with visiting the groomer, grooming at home could be an ideal solution. You’ll be able to create a calm, familiar environment where your dog feels safe, and take breaks whenever necessary. The course will provide step-by-step guidance to help you ease your dog into the grooming process and make it a more comfortable experience for both of you.',
   },
   {
-    question: 'I have more than one dog. Will this course teach me everything I need to know for different coat types?',
-    answerHtml:
+    heading: 'I have more than one dog. Will this course teach me everything I need to know for different coat types?',
+    body:
       'While this course focuses on the specific techniques used to groom wire-haired Terriers, Paw Parent Academy offers a unique course for each coat type. Be sure to review the courses and choose the one that best matches your dog’s coat. If you need assistance in selecting the right course, feel free to email us at <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses, we offer a special discount—just reach out to us for more details!',
   },
 ];

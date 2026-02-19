@@ -1,28 +1,24 @@
 import type { Metadata } from 'next';
 
-import AboutHero from './AboutHeroSection';
-import MissionSection from './MissionSection';
-import StatsSection from './StatsSection';
-import TeamSection from './TeamSection';
-import CTASection from '@/components/CTASection';
+import { HeroSection } from './_components/heroSection';
+import { TeamSection } from './_components/teamSection';
+import { StatsSection } from '../../../components/statsSection';
+import type { PageComponent } from '@/app/serverComponent';
+import { CTASection } from '@/components/ctaSectionX';
 
 export const metadata: Metadata = {
-  title: 'About Paw Parent Academy | Our Mission to Empower Paw Parents',
-  description:
-    'Meet the grooming experts behind Paw Parent Academy and learn how our mission, team, and values help you confidently groom your dog at home.',
-  alternates: {
-    canonical: 'https://www.pawparentacademy.com/about',
-  },
+  title: 'Our Mission to Empower Paw Parents',
+  description: 'Meet the grooming experts behind Paw Parent Academy and learn how our mission, team, and values help you confidently groom your dog at home.',
+  alternates: { canonical: '/about' },
 };
 
-export default function AboutPage() {
-  return (
-    <>
-      <AboutHero />
-      <MissionSection />
-      <TeamSection />
-      <StatsSection />
-      <CTASection />
-    </>
-  );
-}
+const AboutPage: PageComponent = () => (
+  <>
+    <HeroSection />
+    <TeamSection />
+    <StatsSection />
+    <CTASection />
+  </>
+);
+
+export default AboutPage;

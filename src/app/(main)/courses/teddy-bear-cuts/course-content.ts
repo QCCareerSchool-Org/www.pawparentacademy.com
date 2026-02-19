@@ -13,7 +13,7 @@ import module8 from './images/modules-8.jpg';
 import checklistImage from './images/Pepe communication.jpg';
 import pepePupStar from './images/pepe-pupstar.jpg';
 import heroImage from './images/plush-coats-no-bg.jpg';
-import type { AccordionItem } from '@/components/AccordionGroup';
+import type { AccordionItem } from '@/components/accordionX';
 
 export const courseMetadata = {
   title: 'Teddy Bear Cuts',
@@ -160,28 +160,28 @@ export const modules = [
 
 export const faqItems: AccordionItem[] = [
   {
-    question: 'What is a teddy bear cut?',
-    answerHtml: "A teddy bear cut is a popular, low-maintenance haircut perfect for fluffy-coated dogs like Shih Tzus, Pomeranians, Havanese and Biewer Terriers. This cute and cuddly look features a round teddy bear face and fluffy paws with a neatly clipped body, keeping your pup cute, comfortable and easy to groom. In this course, you'll learn everything from how to cut a teddy bear face to shaping those adorable round feet!",
+    heading: 'What is a teddy bear cut?',
+    body: "A teddy bear cut is a popular, low-maintenance haircut perfect for fluffy-coated dogs like Shih Tzus, Pomeranians, Havanese and Biewer Terriers. This cute and cuddly look features a round teddy bear face and fluffy paws with a neatly clipped body, keeping your pup cute, comfortable and easy to groom. In this course, you'll learn everything from how to cut a teddy bear face to shaping those adorable round feet!",
   },
   {
-    question: 'Which breeds are a good fit for this course?',
-    answerHtml: "Any small breed with a soft, fluffy, long-growing coat will look absolutely adorable with a teddy bear cut! For instance, the techniques taught in this course are ideal for achieving a charming Shih Tzu teddy bear cut. Breeds like Shih Tzus, Pomeranians, Havanese, Lhasa Apsos, and Biewer Terriers are all perfect candidates for this grooming style, making this course a great fit for anyone with a fluffy pup! If you're unsure whether this is the right course for your dog, feel free to email us at <a href=\"mailto:info@pawparentacademy.com\">info@pawparentacademy.com</a>. We'll help you choose the perfect course!",
+    heading: 'Which breeds are a good fit for this course?',
+    body: "Any small breed with a soft, fluffy, long-growing coat will look absolutely adorable with a teddy bear cut! For instance, the techniques taught in this course are ideal for achieving a charming Shih Tzu teddy bear cut. Breeds like Shih Tzus, Pomeranians, Havanese, Lhasa Apsos, and Biewer Terriers are all perfect candidates for this grooming style, making this course a great fit for anyone with a fluffy pup! If you're unsure whether this is the right course for your dog, feel free to email us at <a href=\"mailto:info@pawparentacademy.com\">info@pawparentacademy.com</a>. We'll help you choose the perfect course!",
   },
   {
-    question: 'Do I need prior experience?',
-    answerHtml: 'Not at all! You can learn how to give your dog a teddy bear cut with no prior experience grooming dogs. There will be no complicated terminology or techniques skipped over—plus you\'ll be able to watch each technique as often as you like.',
+    heading: 'Do I need prior experience?',
+    body: 'Not at all! You can learn how to give your dog a teddy bear cut with no prior experience grooming dogs. There will be no complicated terminology or techniques skipped over—plus you\'ll be able to watch each technique as often as you like.',
   },
   {
-    question: 'How much will it cost to buy the equipment to groom my dog?',
-    answerHtml: "What you invest in your grooming setup depends on how much of the groom you'd like to do. For instance, if you're going to complete the trim on your pet you'll need to purchase clippers and shears. The investment you put into your equipment will pay for itself as your professional grooming expenses are reduced or eliminated altogether.",
+    heading: 'How much will it cost to buy the equipment to groom my dog?',
+    body: "What you invest in your grooming setup depends on how much of the groom you'd like to do. For instance, if you're going to complete the trim on your pet you'll need to purchase clippers and shears. The investment you put into your equipment will pay for itself as your professional grooming expenses are reduced or eliminated altogether.",
   },
   {
-    question: 'My dog is anxious about grooming. Can this course help?',
-    answerHtml: 'If your dog feels afraid or anxious at the groomer, grooming at home could be the ideal solution. You\'ll have control over the environment, allowing your dog to feel at ease, and you can take plenty of breaks if needed. This course will guide you through every step of the process, from nail trims to achieving the perfect teddy bear cut, helping your dog feel more relaxed and comfortable with grooming.',
+    heading: 'My dog is anxious about grooming. Can this course help?',
+    body: 'If your dog feels afraid or anxious at the groomer, grooming at home could be the ideal solution. You\'ll have control over the environment, allowing your dog to feel at ease, and you can take plenty of breaks if needed. This course will guide you through every step of the process, from nail trims to achieving the perfect teddy bear cut, helping your dog feel more relaxed and comfortable with grooming.',
   },
   {
-    question: 'What if I have another dog with a different coat type?',
-    answerHtml: 'Paw Parent Academy has a unique course for each coat type. You\'ll want to review the courses and choose one that aligns with your dog\'s coat. If you need help choosing, simply email <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses, we offer a special discount—just reach out to us for more details!',
+    heading: 'What if I have another dog with a different coat type?',
+    body: 'Paw Parent Academy has a unique course for each coat type. You\'ll want to review the courses and choose one that aligns with your dog\'s coat. If you need help choosing, simply email <a href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a>. Plus, if you enroll in multiple courses, we offer a special discount—just reach out to us for more details!',
   },
 ];
 

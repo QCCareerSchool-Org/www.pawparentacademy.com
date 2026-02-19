@@ -1,5 +1,5 @@
 import styles from './FaqSection.module.scss';
-import AccordionGroup, { type AccordionItem } from '@/components/AccordionGroup';
+import AccordionGroup, { type AccordionItem } from '@/components/accordionX';
 
 interface FaqSectionProps {
   items: AccordionItem[];

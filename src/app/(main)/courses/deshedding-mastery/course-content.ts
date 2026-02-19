@@ -7,7 +7,7 @@ import module2Image from './images/module-2.jpg';
 import bonusModuleImage from './images/modules-bonus.jpg';
 import fitChecklistImge from './images/Ollie deshed.jpg';
 import OlliePupStar from './images/ollie-pup-star.jpg';
-import type { AccordionItem } from '@/components/AccordionGroup';
+import type { AccordionItem } from '@/components/accordionX';
 
 export const courseMetadata = {
   title: 'Deshedding Mastery',
@@ -113,33 +113,33 @@ export const modules = [
 
 export const faqItems: AccordionItem[] = [
   {
-    question: 'Why is my dog shedding so much?',
-    answerHtml:
+    heading: 'Why is my dog shedding so much?',
+    body:
       "<p>Regular shedding is your dog's natural way of getting rid of old or damaged fur. It helps regulate body temperature, keep the coat healthy, and adapt to seasonal changes.</p>",
   },
   {
-    question: 'Which breeds is this course suitable for?',
-    answerHtml:
+    heading: 'Which breeds is this course suitable for?',
+    body:
       '<p>This course is perfect for dogs with thick double coats such as Australian Shepherds, Golden Retrievers, Bernese Mountain Dogs, and similar breeds.</p>',
   },
   {
-    question: 'How much will it cost to buy the equipment to groom my dog?',
-    answerHtml:
+    heading: 'How much will it cost to buy the equipment to groom my dog?',
+    body:
       "<p>That's up to you! A small selection of brushes and deshedding tools is all you need to master the process. You may choose to invest in a grooming table, but even a basic toolkit will save money versus frequent salon visits.</p>",
   },
   {
-    question: 'My dog is terrified to go to the groomers. Will this course help?',
-    answerHtml:
+    heading: 'My dog is terrified to go to the groomers. Will this course help?',
+    body:
       '<p>Yes. Grooming at home lets you control the environment so your dog stays comfortable. You can move at their pace, add breaks, and keep the experience positive with the tips shared in the course.</p>',
   },
   {
-    question: 'How can I determine if I have sufficient physical strength to groom my own dog?',
-    answerHtml:
+    heading: 'How can I determine if I have sufficient physical strength to groom my own dog?',
+    body:
       '<p>You will want solid grip strength for brush handling and to feel comfortable standing for longer sessions. The course shares ergonomic setup advice so you and your pup stay comfortable.</p>',
   },
   {
-    question: 'I have another dog with a different coat type. Will this course teach me everything I need to know?',
-    answerHtml:
+    heading: 'I have another dog with a different coat type. Will this course teach me everything I need to know?',
+    body:
       "<p>Paw Parent Academy has a unique course for each coat type. Email <a href='mailto:info@pawparentacademy.com'>info@pawparentacademy.com</a> for guidance and bundle discounts if you enroll in more than one course.</p>",
   },
 ];
