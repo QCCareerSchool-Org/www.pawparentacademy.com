@@ -1,0 +1,53 @@
+.anchor {
+  position: relative;
+  top: -110px;
+}
+
+.listWrap ul {
+  padding-left: 1.25rem;
+  margin-bottom: 0;
+  color: #495057;
+}
+
+.listWrap li + li {
+  margin-top: 0.5rem;
+}
+
+.formCard {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  box-shadow: 0 25px 70px rgba(13, 19, 33, 0.12);
+  backdrop-filter: blur(6px);
+}
+
+.priceStrike {
+  text-decoration: line-through;
+  color: #c05252;
+  font-weight: 700;
+}
+
+.freeText {
+  color: var(--brand-teal);
+  font-weight: 800;
+}
+
+@media (max-width: 991.98px) {
+  .hero {
+    padding: 3rem 0;
+  }
+
+  .anchor {
+    top: -80px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .formCard {
+    padding: 2rem;
+  }
+
+  .formImageWrap {
+    margin-bottom: 1rem;
+  }
+}

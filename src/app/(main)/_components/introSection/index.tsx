@@ -1,10 +1,7 @@
-import type { StaticImageData } from 'next/image';
-import Image from 'next/image';
 import type { FC } from 'react';
 
-import valueImage3 from './images/bond-1.jpg';
-import valueImage1 from './images/save-2.jpg';
-import valueImage2 from './images/skillled-1.jpg';
+import { ValueProps } from '@/components/valueProps';
+
 // import styles from './index.module.scss';
 
 export const IntroSection: FC = () => (
@@ -13,43 +10,7 @@ export const IntroSection: FC = () => (
       <p className="eyebrow">Step-by-Step Online Training</p>
       <h2>Designed for Pet Parents</h2>
       <p className="mb-5">Grooming your dog at home has never been easier—or more rewarding! With our courses, you'll save money on expensive grooming appointments, learn professional techniques from an award-winning groomer, and deepen the bond with your furry best friend. Designed for loving pet parents, each step-by-step course includes coat-specific guidance to ensure your dog looks and feels their best, all while creating a calm, stress-free grooming experience.</p>
-      <div className="row g-4">
-        {valueProps.map(v => (
-          <div key={v.title} className="col-12 col-md-4">
-            <Image src={v.image} alt={v.alt} sizes="(min-width: 1200px) 280px, (min-width: 768px) 240px, 85vw" className="img-fluid rounded-4 mb-4" />
-            <h3 className="h4">{v.title}</h3>
-            <p>{v.description}</p>
-          </div>
-        ))}
-      </div>
+      <ValueProps />
     </div>
   </section>
 );
-
-interface ValueProp {
-  title: string;
-  description: string;
-  image: string | StaticImageData;
-  alt: string;
-}
-
-const valueProps: ValueProp[] = [
-  {
-    title: 'Save Money',
-    description: 'Cut down on expensive grooming bills and enjoy the convenience of grooming from home.',
-    image: valueImage1,
-    alt: 'Yorkie with a piggy bank',
-  },
-  {
-    title: 'Learn a New Skill',
-    description: 'Master step-by-step grooming techniques tailored to your dog\'s breed.',
-    image: valueImage2,
-    alt: 'Groomer trimming a Shih Tzu',
-  },
-  {
-    title: 'Bond with Your Pet',
-    description: 'Create a stress-free grooming routine that brings you closer to your pet.',
-    image: valueImage3,
-    alt: 'Dog owner hugging a golden retriever',
-  },
-];

@@ -191,15 +191,6 @@ export const faqItems: AccordionItem[] = [
   },
 ];
 
-export const leadMagnetContent = {
-  eyebrow: 'Start Saving with Paw Parent Academy',
-  heading: 'Grab a $50 Discount Now!',
-  description:
-    'Join hundreds of pet parents learning to groom their dogs safely and affordably at home. Get your discount today!',
-  disclaimer:
-    'I agree to receive emails from Paw Parent Academy including promotions and tips for pet parents. Unsubscribe anytime!',
-};
-
 export const videoSchema = {
   '@context': 'http://schema.org/',
   '@type': 'VideoObject',

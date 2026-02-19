@@ -1,19 +1,6 @@
 import type { Metadata } from 'next';
 
-import {
-  courseMetadata,
-  courseSchema,
-  faqItems,
-  featureHighlights,
-  fitChecklistContent,
-  heroContent,
-  leadMagnetContent,
-  mascotSpotlight,
-  modules,
-  overviewContent,
-  videoSample,
-  videoSchema,
-} from './course-content';
+import { courseMetadata, courseSchema, faqItems, featureHighlights, fitChecklistContent, heroContent, mascotSpotlight, modules, overviewContent, videoSample, videoSchema } from './course-content';
 import CourseFAQ from '@/components/coursePageX/CourseFAQ';
 import CourseFeatureGrid from '@/components/coursePageX/CourseFeatureGrid';
 import CourseFitChecklist from '@/components/coursePageX/CourseFitChecklist';
@@ -22,8 +9,8 @@ import CourseMascotSpotlight from '@/components/coursePageX/CourseMascotSpotligh
 import CourseModulesCarousel from '@/components/coursePageX/CourseModulesCarousel';
 import CourseOverviewIntro from '@/components/coursePageX/CourseOverviewIntro';
 import CourseVideoCTA from '@/components/coursePageX/CourseVideoCTA';
-import LeadMagnetForm from '@/components/coursePageX/LeadMagnetForm';
 import MoneyBackBanner from '@/components/coursePageX/MoneyBackBanner';
+import { LeadMagnetSection } from '@/components/leadMagnetSection';
 
 export const metadata: Metadata = {
   title: `${courseMetadata.title} | Paw Parent Academy`,
@@ -76,7 +63,7 @@ export default function HowToGroomAGoldenRetrieverCoursePage() {
       />
       <MoneyBackBanner />
       <CourseFAQ heading="Frequently Asked Questions" items={faqItems} />
-      <LeadMagnetForm {...leadMagnetContent} />
+      <LeadMagnetSection />
       <CourseStructuredData />
     </>
   );

@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 
 import { Hero } from './_components/hero';
-import { categories } from './data';
+import { faqSectionDetails } from './data';
 import { Schema } from './schema';
 import type { PageComponent } from '@/app/serverComponent';
-import { Accordion } from '@/components/accordionX';
 import { CTASection } from '@/components/ctaSectionX';
+import { FAQSection } from '@/components/faqSection';
 
 export const metadata: Metadata = {
   title: 'Frequently Asked Questions',
@@ -16,21 +16,9 @@ export const metadata: Metadata = {
 const FAQPage: PageComponent = () => (
   <>
     <Hero />
-    {categories.map((section, index) => {
+    {faqSectionDetails.map((details, index) => {
       const className = index % 2 === 0 ? 'bg-light' : '';
-      return (
-        <section key={section.id} id={section.id} className={className}>
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-12 col-lg-8">
-                <h3 className="text-center">{section.title}</h3>
-                {section.description && <p className="mt-2 mb-4 text-muted text-center">{section.description}</p>}
-                <Accordion items={section.items} />
-              </div>
-            </div>
-          </div>
-        </section>
-      );
+      return <FAQSection key={details.id} id={details.id} className={className} title={details.title} text={details.description} faqItems={details.items} />;
     })}
     <CTASection />
     <Schema />

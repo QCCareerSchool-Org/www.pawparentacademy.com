@@ -9,7 +9,7 @@ import { Overlay } from '@/components/overlay';
 export const CTASection: FC = () => (
   <section className="bg-dark text-white">
     <BackgroundImage src={yorkie} />
-    <Overlay backgroundColor="rgba(0,0,0,0.85)" />
+    <Overlay background="rgba(0,0,0,0.85)" />
     <div className="container">
       <div className="row justify-content-center text-center">
         <div className="col-12 col-md-10 col-lg-8">

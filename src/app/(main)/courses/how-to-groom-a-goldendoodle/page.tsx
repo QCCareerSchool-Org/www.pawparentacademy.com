@@ -22,7 +22,7 @@ import CourseMascotSpotlight from '@/components/coursePageX/CourseMascotSpotligh
 import CourseModulesCarousel from '@/components/coursePageX/CourseModulesCarousel';
 import CourseOverviewIntro from '@/components/coursePageX/CourseOverviewIntro';
 import CourseVideoCTA from '@/components/coursePageX/CourseVideoCTA';
-import LeadMagnetForm from '@/components/coursePageX/LeadMagnetForm';
+import LeadMagnetForm from '@/components/leadMagnetSection';
 import MoneyBackBanner from '@/components/coursePageX/MoneyBackBanner';
 
 export const metadata: Metadata = {

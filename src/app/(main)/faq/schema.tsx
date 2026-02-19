@@ -1,13 +1,13 @@
 import type { FC, ReactNode } from 'react';
 import type { FAQPage, Question, WithContext } from 'schema-dts';
 
-import { categories } from './data';
+import { faqSectionDetails } from './data';
 
 export const Schema: FC = async () => {
   const faqPage: WithContext<FAQPage> = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    'mainEntity': await Promise.all(categories.flatMap(section => section.items).map(async (item): Promise<Question> => ({
+    'mainEntity': await Promise.all(faqSectionDetails.flatMap(section => section.items).map(async (item): Promise<Question> => ({
       '@type': 'Question',
       'name': item.heading,
       'acceptedAnswer': {
