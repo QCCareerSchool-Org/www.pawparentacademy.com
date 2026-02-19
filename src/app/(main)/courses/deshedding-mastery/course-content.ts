@@ -7,7 +7,7 @@ import module2Image from './images/module-2.jpg';
 import bonusModuleImage from './images/modules-bonus.jpg';
 import fitChecklistImge from './images/Ollie deshed.jpg';
 import OlliePupStar from './images/ollie-pup-star.jpg';
-import type { AccordionItem } from '@/components/accordionX';
+import type { AccordionItem } from '@/components/accordion';
 
 export const courseMetadata = {
   title: 'Deshedding Mastery',

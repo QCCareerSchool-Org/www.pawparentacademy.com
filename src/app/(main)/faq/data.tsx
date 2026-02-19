@@ -4,7 +4,7 @@ interface FaqSectionDetail {
   id: string;
   title: string;
   description?: string;
-  items: FAQItem[];
+  faqItems: FAQItem[];
 }
 
 export const faqSectionDetails: FaqSectionDetail[] = [
@@ -12,7 +12,7 @@ export const faqSectionDetails: FaqSectionDetail[] = [
     id: 'learning',
     title: 'Learning with Paw Parent Academy',
     description: 'Learn more about our school, explore how our online dog grooming courses work, and find out about our no-risk Money-Back Guarantee.',
-    items: [
+    faqItems: [
       {
         question: 'Why should I enroll with Paw Parent Academy?',
         answer: <p>At Paw Parent Academy, we're dedicated to helping dog owners confidently groom their pets. Our courses are designed for busy pet parents—no experience needed! Developed in collaboration with an industry-leading groomer, our step-by-step video tutorials provide expert guidance to ensure you're learning from the very best. With lifetime access, you can learn at your own pace and give your dog the best care.</p>,
@@ -58,7 +58,7 @@ export const faqSectionDetails: FaqSectionDetail[] = [
     id: 'choosing',
     title: 'Choosing a Course',
     description: 'Discover the key factors to consider when selecting the perfect online dog grooming course for you and your furry friend. Learn how to find a course that fits your dog\'s breed, coat type, and temperament while matching your grooming goals.',
-    items: [
+    faqItems: [
       {
         question: 'How do I choose which course to take?',
         answer: <p>Getting started is easy! Simply visit our <a className="link-brand-pink" href="https://www.pawparentacademy.com/courses" target="_blank" rel="noreferrer"><strong>Courses</strong></a> page and find the course that best suits your dog's needs based on coat type. Each course page includes information about the coat type covered in the course, along with examples of popular breeds that are well suited to that course. If you don't see your dog's breed listed, don't worry! The grooming techniques will still apply. If you're unsure, send an email to <a className="link-brand-pink" href="mailto:info@pawparentacademy.com">info@pawparentacademy.com</a> and we'll help you find the right course for your needs.</p>,
@@ -84,7 +84,7 @@ export const faqSectionDetails: FaqSectionDetail[] = [
   {
     id: 'completing',
     title: 'Completing the Course',
-    items: [
+    faqItems: [
       {
         question: 'What tools will I need to complete the course?',
         answer: <p>Your course will provide an in-depth overview of exactly what you'll need to groom your dog. What you purchase will also depend on how much of the grooming process you want to complete. You can choose to stick to nail trims and maintenance between grooms or take on the full grooming process—it's entirely up to you!</p>,

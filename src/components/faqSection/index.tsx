@@ -1,7 +1,8 @@
 import type { FC, ReactNode } from 'react';
 
-import type { AccordionItem } from '../accordionX';
-import { Accordion } from '../accordionX';
+import type { AccordionItem } from '../accordion';
+import { Accordion } from '../accordion';
+import { FAQSchema } from '@/components/faqSchema';
 
 export interface FAQItem {
   question: string;
@@ -30,6 +31,7 @@ export const FAQSection: FC<Props> = props => {
           </div>
         </div>
       </div>
+      <FAQSchema faqItems={props.faqItems} />
     </section>
   );
 };

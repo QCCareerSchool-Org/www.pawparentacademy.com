@@ -6,8 +6,8 @@ import desheddingThumb from './images/deshedding--thumb.jpg';
 import nailsThumb from './images/nails-thumb-2.jpg';
 import pawsitiveThumb from './images/pawsitive-thumb-no-bg.jpg';
 import PupPlaybooksHero from './PupPlaybooksHero';
-import CourseFeature from '@/components/courseFeatureX';
-import CoursesGrid from '@/components/coursesGridX';
+import CourseFeature from '@/components/courseFeature';
+import CoursesGrid from '@/components/coursesGrid';
 
 export const metadata: Metadata = {
   title: 'Dog Grooming Courses | Paw Parent Academy',

@@ -2,9 +2,8 @@ import type { Metadata } from 'next';
 
 import { Hero } from './_components/hero';
 import { faqSectionDetails } from './data';
-import { Schema } from './schema';
 import type { PageComponent } from '@/app/serverComponent';
-import { CTASection } from '@/components/ctaSectionX';
+import { CTASection } from '@/components/ctaSection';
 import { FAQSection } from '@/components/faqSection';
 
 export const metadata: Metadata = {
@@ -18,10 +17,9 @@ const FAQPage: PageComponent = () => (
     <Hero />
     {faqSectionDetails.map((details, index) => {
       const className = index % 2 === 0 ? 'bg-light' : '';
-      return <FAQSection key={details.id} id={details.id} className={className} title={details.title} text={details.description} faqItems={details.items} />;
+      return <FAQSection key={details.id} id={details.id} className={className} title={details.title} text={details.description} faqItems={details.faqItems} />;
     })}
     <CTASection />
-    <Schema />
   </>
 );
 

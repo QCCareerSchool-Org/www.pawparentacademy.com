@@ -13,7 +13,7 @@ import module8 from './images/modules-bonus.jpg';
 import yorkieChecklist from './images/yorkie-checklist.jpg';
 import heroImage from './images/yorkie-coats-no-bg.jpg';
 import yorkiePupStar from './images/yorkie-pup-star.jpg';
-import type { AccordionItem } from '@/components/accordionX';
+import type { AccordionItem } from '@/components/accordion';
 
 export const courseMetadata = {
   title: 'How to Groom a Yorkie',

@@ -7,7 +7,7 @@ import { IntroSection } from './_components/introSection';
 import { MentorSpotlight } from './_components/mentorSpotlightSection';
 import { SafetySection } from './_components/safetySection';
 import { TestimonialsSection } from './_components/testimonialsSection';
-import { CTASection } from '@/components/ctaSectionX';
+import { CTASection } from '@/components/ctaSection';
 import { StatsSection } from '@/components/statsSection';
 import { getServerData } from '@/lib/getServerData';
 

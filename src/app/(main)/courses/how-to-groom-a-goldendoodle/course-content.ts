@@ -13,7 +13,7 @@ import module6 from './images/module-6.jpg';
 import module7 from './images/module-7.jpg';
 import module8 from './images/module-8.jpg';
 import remyPupStar from './images/remy-pup-star.jpg';
-import type { AccordionItem } from '@/components/accordionX';
+import type { AccordionItem } from '@/components/accordion';
 
 export const courseMetadata = {
   title: 'How to Groom a Goldendoodle',

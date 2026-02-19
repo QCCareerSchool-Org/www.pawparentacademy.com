@@ -13,7 +13,7 @@ import module5Image from './images/module-5.jpg';
 import module6Image from './images/module-6.jpg';
 import module7Image from './images/module-7.jpg';
 import module8Image from './images/module-bonus.jpg';
-import type { AccordionItem } from '@/components/accordionX';
+import type { AccordionItem } from '@/components/accordion';
 
 export const courseMetadata = {
   title: 'How to Groom a Golden Retriever',

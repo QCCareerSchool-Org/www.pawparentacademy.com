@@ -1,18 +1,22 @@
 import type { FC, ReactNode } from 'react';
 import type { FAQPage, Question, WithContext } from 'schema-dts';
 
-import { faqSectionDetails } from './data';
+import type { FAQItem } from '@/components/faqSection';
 
-export const Schema: FC = async () => {
+interface Props {
+  faqItems: FAQItem[];
+}
+
+export const FAQSchema: FC<Props> = async ({ faqItems }) => {
   const faqPage: WithContext<FAQPage> = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    'mainEntity': await Promise.all(faqSectionDetails.flatMap(section => section.items).map(async (item): Promise<Question> => ({
+    'mainEntity': await Promise.all(faqItems.map(async (faqItem): Promise<Question> => ({
       '@type': 'Question',
-      'name': item.heading,
+      'name': faqItem.question,
       'acceptedAnswer': {
         '@type': 'Answer',
-        'text': await sanitize(item.body),
+        'text': await sanitize(faqItem.answer),
       },
     }))),
   };

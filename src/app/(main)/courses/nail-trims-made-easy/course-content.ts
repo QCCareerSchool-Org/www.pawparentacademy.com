@@ -7,7 +7,7 @@ import module2Image from './images/module-2.jpg';
 import module3Image from './images/module-3.jpg';
 import module4Image from './images/module-bonus.jpg';
 import fitChecklistImage from './images/nail-trimming.jpg';
-import type { AccordionItem } from '@/components/accordionX';
+import type { AccordionItem } from '@/components/accordion';
 
 export const courseMetadata = {
   title: 'Nail Trims Made Easy',

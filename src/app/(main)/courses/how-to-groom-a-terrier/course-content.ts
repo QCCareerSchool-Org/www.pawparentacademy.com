@@ -12,7 +12,7 @@ import module6 from './images/modules-6.jpg';
 import module7 from './images/modules-bonus-7.jpg';
 import roxyPupStar from './images/terrier-pup-star.jpg';
 import fitChecklistImage from './images/terrier.jpg';
-import type { AccordionItem } from '@/components/accordionX';
+import type { AccordionItem } from '@/components/accordion';
 
 export const courseMetadata = {
   title: 'How to Groom a Terrier',

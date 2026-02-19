@@ -7,7 +7,7 @@ import module1Image from './images/module-1.jpg';
 import module2Image from './images/module-2.jpg';
 import bonusModuleImage from './images/module-bonus.jpg';
 import archerPupStar from './images/pup-star-archer.jpg';
-import type { AccordionItem } from '@/components/accordionX';
+import type { AccordionItem } from '@/components/accordion';
 
 export const courseMetadata = {
   title: 'Paws-itive Grooming',

@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
-import type { AccordionItem } from '@/components/accordionX';
-import { Accordion } from '@/components/accordionX';
+import type { AccordionItem } from '@/components/accordion';
+import { Accordion } from '@/components/accordion';
 
 interface CourseFAQProps {
   heading: string;

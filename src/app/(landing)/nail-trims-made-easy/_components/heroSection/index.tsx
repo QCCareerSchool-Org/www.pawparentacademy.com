@@ -21,7 +21,7 @@ export const HeroSection: FC = () => (
               <Image src={formImage} alt="Limited time only!" priority className="img-fluid mb-2" />
               <h2 className="h4 mb-2">Get the &ldquo;NAIL TRIMS&rdquo; Pup Playbook for <span className={styles.priceStrike}>$39</span> <span className={styles.freeText}>Free</span></h2>
               <p className="text-muted mb-3">Learn stress-free techniques to keep your pup's paws healthy at home!</p>
-              <Form />
+              <Form buttonText="Yes! I Want Stree-Free Nail Trims!" successMessage="" />
             </div>
           </div>
         </div>

@@ -1,8 +1,8 @@
 import type { ReactNode } from 'react';
 
 import SimpleLogoNavbar from './SimpleLogoNavbar';
-import BootstrapClient from '@/components/BootstrapClient';
-import Footer from '@/components/footerX';
+import BootstrapClient from '@/components/bootstrapClientX';
+import Footer from '@/components/footer';
 
 export default function NailTrimsLayout({ children }: { children: ReactNode }) {
   return (

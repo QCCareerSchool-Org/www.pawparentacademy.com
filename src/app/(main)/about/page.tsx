@@ -4,7 +4,7 @@ import { HeroSection } from './_components/heroSection';
 import { TeamSection } from './_components/teamSection';
 import { StatsSection } from '../../../components/statsSection';
 import type { PageComponent } from '@/app/serverComponent';
-import { CTASection } from '@/components/ctaSectionX';
+import { CTASection } from '@/components/ctaSection';
 
 export const metadata: Metadata = {
   title: 'Our Mission to Empower Paw Parents',

@@ -12,7 +12,7 @@ import module2Image from './images/module-space.jpg';
 import module6Image from './images/modules-bathing.jpg';
 import fitChecklistImage from './images/pug-nadia.jpg';
 import chumleyPupStar from './images/pug-pup-star.jpg';
-import type { AccordionItem } from '@/components/accordionX';
+import type { AccordionItem } from '@/components/accordion';
 
 export const courseMetadata = {
   title: 'How to Groom a Pug',

@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
 
 import { courseMetadata, courseSchema, faqItems, featureHighlights, fitChecklistContent, heroContent, mascotSpotlight, modules, overviewContent, videoSample, videoSchema } from './course-content';
-import CourseFAQ from '@/components/coursePageX/CourseFAQ';
-import CourseFeatureGrid from '@/components/coursePageX/CourseFeatureGrid';
-import CourseFitChecklist from '@/components/coursePageX/CourseFitChecklist';
-import CourseHero from '@/components/coursePageX/CourseHero';
-import CourseMascotSpotlight from '@/components/coursePageX/CourseMascotSpotlight';
-import CourseModulesCarousel from '@/components/coursePageX/CourseModulesCarousel';
-import CourseOverviewIntro from '@/components/coursePageX/CourseOverviewIntro';
-import CourseVideoCTA from '@/components/coursePageX/CourseVideoCTA';
-import MoneyBackBanner from '@/components/coursePageX/MoneyBackBanner';
+import CourseFAQ from '@/components/coursePage/CourseFAQ';
+import CourseFeatureGrid from '@/components/coursePage/CourseFeatureGrid';
+import CourseFitChecklist from '@/components/coursePage/CourseFitChecklist';
+import CourseHero from '@/components/coursePage/CourseHero';
+import CourseMascotSpotlight from '@/components/coursePage/CourseMascotSpotlight';
+import CourseModulesCarousel from '@/components/coursePage/CourseModulesCarousel';
+import CourseOverviewIntro from '@/components/coursePage/CourseOverviewIntro';
+import CourseVideoCTA from '@/components/coursePage/CourseVideoCTA';
+import MoneyBackBanner from '@/components/coursePage/MoneyBackBanner';
 import { LeadMagnetSection } from '@/components/leadMagnetSection';
 
 export const metadata: Metadata = {

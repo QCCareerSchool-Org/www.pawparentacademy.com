@@ -13,7 +13,7 @@ import module8 from './images/modules-8.jpg';
 import checklistImage from './images/Pepe communication.jpg';
 import pepePupStar from './images/pepe-pupstar.jpg';
 import heroImage from './images/plush-coats-no-bg.jpg';
-import type { AccordionItem } from '@/components/accordionX';
+import type { AccordionItem } from '@/components/accordion';
 
 export const courseMetadata = {
   title: 'Teddy Bear Cuts',

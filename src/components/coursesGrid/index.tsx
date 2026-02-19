@@ -1,7 +1,7 @@
 import React from 'react';
 
-import type { CourseFeatureProps } from '../courseFeatureX';
-import CourseFeature from '../courseFeatureX';
+import type { CourseFeatureProps } from '../courseFeature';
+import CourseFeature from '../courseFeature';
 import styles from './styles.module.scss';
 
 export interface CoursesGridProps {
