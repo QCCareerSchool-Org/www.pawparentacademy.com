@@ -27,6 +27,8 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.mts",
+    "eslint.config.mjs",
+    "postcss.config.mjs",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"
   ],

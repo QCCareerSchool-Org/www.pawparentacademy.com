@@ -8,9 +8,9 @@ const nextConfig: NextConfig = {
   },
   reactCompiler: true,
   images: {
-    domains: [
-      'kajabi-storefronts-production.kajabi-cdn.com',
-      'kajabi-app-assets.kajabi-cdn.com',
+    remotePatterns: [
+      { protocol: 'https', hostname: 'kajabi-storefronts-production.kajabi-cdn.com' },
+      { protocol: 'https', hostname: 'kajabi-app-assets.kajabi-cdn.com' },
     ],
   },
 };

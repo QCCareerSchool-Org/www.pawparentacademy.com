@@ -8,9 +8,7 @@ const emailAddress = 'info@pawparentacademy.com';
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'Learn how Paw Parent Academy collects, protects, and uses your personal information across our grooming education products.',
-  alternates: {
-    canonical: '/privacy-policy',
-  },
+  alternates: { canonical: '/privacy-policy' },
 };
 
 const PrivacyPolicyPage: PageComponent = () => (

@@ -1,7 +1,22 @@
 import type { Metadata } from 'next';
 import { Lato } from 'next/font/google';
+import { cookies } from 'next/headers';
 import type { FC, PropsWithChildren } from 'react';
+import { Suspense } from 'react';
+import { ToastContainer } from 'react-toastify';
 
+import styles from './layout.module.scss';
+import { LayoutClient } from './layoutClient';
+import { isUserValues } from '@/domain/userValues';
+import { getServerData } from '@/lib/getServerData';
+import { decodeJwt } from '@/lib/jwt';
+import { Provider } from '@/providers';
+import { Bing } from '@/scripts/bing';
+import { Brevo } from '@/scripts/brevo';
+import { Facebook } from '@/scripts/facebook';
+import { GoogleAnalytics } from '@/scripts/googleAnalytics';
+import { OptInMonster } from '@/scripts/optInMonster';
+import { Tiktok } from '@/scripts/tiktok';
 import './globals.scss';
 
 const lato = Lato({
@@ -20,14 +35,30 @@ export const metadata: Metadata = {
   icons: { icon: '/favicon.ico' },
 };
 
-const RootLayout: FC<PropsWithChildren> = ({ children }) => {
+const RootLayout: FC<PropsWithChildren> = async ({ children }) => {
+  const { clientIp } = await getServerData();
+  const jwt = (await cookies()).get('user')?.value;
+  const result = jwt ? await decodeJwt(jwt) : undefined;
+  const raw = result?.success ? result.value : undefined;
+  const userValues = raw && isUserValues(raw) ? raw : undefined;
+
   return (
     <html lang="en" className={lato.variable}>
       <head>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {process.env.GOOGLE_ANALYTICS_ID && <GoogleAnalytics id={process.env.GOOGLE_ANALYTICS_ID} adsId={process.env.GOOGLE_ADS_ID} userValues={userValues} />}
+        {process.env.BREVO_CLIENT_KEY && <Brevo clientKey={process.env.BREVO_CLIENT_KEY} userValues={userValues} />}
+        {process.env.NEXT_PUBLIC_FACEBOOK_ID && <Facebook id={process.env.NEXT_PUBLIC_FACEBOOK_ID} userValues={userValues} />}
+        {process.env.TIKTOK_ID && <Tiktok id={process.env.TIKTOK_ID} />}
+        {process.env.BING_ID && <Bing id={process.env.BING_ID} userValues={userValues} />}
       </head>
       <body>
-        {children}
+        <Provider userValues={userValues} clientIp={clientIp}>
+          {children}
+        </Provider>
+        <OptInMonster />
+        <Suspense><LayoutClient /></Suspense>
+        <ToastContainer pauseOnFocusLoss pauseOnHover position="top-center" className={styles.toastContainer} />
       </body>
     </html>
   );
