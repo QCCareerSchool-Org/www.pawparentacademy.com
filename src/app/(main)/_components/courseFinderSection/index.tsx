@@ -3,24 +3,19 @@ import Link from 'next/link';
 import type { FC } from 'react';
 
 import teddyBear from './images/teddy-bear.webp';
-import type { PriceQuery } from '@/lib/fetchPrice';
+import type { CourseCode } from '@/domain/courseCode';
 import { fetchPrice } from '@/lib/fetchPrice';
 import { formatPrice } from '@/lib/formatPrice';
-// import styles from './index.module.scss';
 
 interface Props {
   countryCode: string;
   provinceCode: string | null;
 }
 
-const courses = [ 'TB' ];
+const courses: CourseCode[] = [ 'tb' ];
 
 export const CourseFinderSection: FC<Props> = async ({ countryCode, provinceCode }) => {
-  const priceQuery: PriceQuery = { courses, countryCode, options: { school: 'Paw Parent Academy' } };
-  if (provinceCode) {
-    priceQuery.provinceCode = provinceCode;
-  }
-  const price = await fetchPrice(priceQuery);
+  const price = await fetchPrice(courses, countryCode, provinceCode);
 
   return (
     <section className="bg-light">

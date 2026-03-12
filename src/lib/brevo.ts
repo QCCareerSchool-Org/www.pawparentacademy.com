@@ -3,8 +3,8 @@ export interface BrevoProperties {
   LASTNAME?: string;
   COUNTRY_CODE?: string;
   PROVINCE_CODE?: string;
-  STATUS_DESIGN_LEAD?: true;
-  STATUS_DESIGN_STUDENT?: true;
+  STATUS_PET_LEAD?: true;
+  STATUS_PET_STUDENT?: true;
 }
 
 declare global {
@@ -26,7 +26,7 @@ export const brevoPageview = (title: string, url: string, path: string): void =>
 };
 
 export const brevoIdentifyLead = (emailAddress: string, countryCode: string | null, provinceCode: string | null, firstName: string | null, lastName: string | null): void => {
-  const properties: BrevoProperties = { STATUS_DESIGN_LEAD: true };
+  const properties: BrevoProperties = { STATUS_PET_LEAD: true };
   if (countryCode) {
     properties.COUNTRY_CODE = countryCode;
   }
@@ -48,6 +48,6 @@ export const brevoIdentifyStudent = (emailAddress: string, countryCode?: string,
     LASTNAME: lastName,
     COUNTRY_CODE: countryCode,
     PROVINCE_CODE: provinceCode,
-    STATUS_DESIGN_STUDENT: true,
+    STATUS_PET_STUDENT: true,
   });
 };

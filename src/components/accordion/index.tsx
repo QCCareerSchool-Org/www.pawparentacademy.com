@@ -3,8 +3,6 @@
 import type { FC, ReactNode } from 'react';
 import BoostrapAccordion from 'react-bootstrap/Accordion';
 
-// import styles from './styles.module.scss';
-
 export interface AccordionItem {
   heading: string;
   body: ReactNode;

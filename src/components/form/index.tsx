@@ -1,6 +1,6 @@
 'use client';
 
-import type { FC, FormEventHandler } from 'react';
+import type { FC, SubmitEventHandler } from 'react';
 import { useId, useReducer } from 'react';
 
 import type { State } from './state';
@@ -20,7 +20,7 @@ export const Form: FC<Props> = ({ buttonText, disclaimer }) => {
   const id = useId();
   const [ state, dispatch ] = useReducer(reducer, defaultState);
 
-  const handleSubmit: FormEventHandler = e => {
+  const handleSubmit: SubmitEventHandler = e => {
     e.preventDefault();
     if (state.formState === 'submitting') {
       return;

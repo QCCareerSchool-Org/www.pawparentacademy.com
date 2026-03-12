@@ -418,7 +418,7 @@ export const schnauzerHaircutsPost: BlogPost = {
       'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/e486a4e-383b-780-ad70-f0ac544de7_schnauzer_haircut_feature_image.jpg',
   heroImageAlt:
       'Close-up portrait of a Schnauzer with freshly trimmed beard and brows in a classic haircut style.',
-  tags: [ 'DIY Dog Grooming', 'DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools' ],
+  tags: [ 'DIY Dog Grooming', 'DIY Grooming', 'Dog Grooming Tools', 'Dog Grooming' ],
   publishedOn: 'Aug 22, 2025',
   canonicalUrl:
       'https://www.pawparentacademy.com/blog/14-schnauzer-haircuts-and-grooming-styles',

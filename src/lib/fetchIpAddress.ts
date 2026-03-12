@@ -3,10 +3,10 @@ import { failure, success } from 'generic-result-type';
 
 const url = 'https://api64.ipify.org/?format=json';
 
-export const fetchIpAddress = async (controller?: AbortController): Promise<Result<string>> => {
+export const fetchIpAddress = async (signal?: AbortSignal): Promise<Result<string>> => {
   try {
     const response = await fetch(url, {
-      signal: controller?.signal,
+      signal,
     });
 
     if (!response.ok) {
@@ -21,7 +21,7 @@ export const fetchIpAddress = async (controller?: AbortController): Promise<Resu
     return success(json.ip);
 
   } catch (err: unknown) {
-    if (!controller?.signal.aborted) {
+    if (!signal?.aborted) {
       console.error(err);
     }
     return failure(err instanceof Error ? err : Error(String(err)));

@@ -17,7 +17,7 @@ const FAQPage: PageComponent = () => (
     <Hero />
     {faqSectionDetails.map((details, index) => {
       const className = index % 2 === 0 ? 'bg-light' : '';
-      return <FAQSection key={details.id} id={details.id} className={className} title={details.title} text={details.description} faqItems={details.faqItems} />;
+      return <FAQSection key={details.id} id={details.id} className={className} title={details.title} text={details.description} items={details.faqItems} />;
     })}
     <CTASection />
   </>

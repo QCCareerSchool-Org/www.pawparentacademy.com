@@ -1,8 +1,9 @@
 import type { FC, ReactNode } from 'react';
+import { memo, useMemo } from 'react';
 
 import type { AccordionItem } from '../accordion';
 import { Accordion } from '../accordion';
-import { FAQSchema } from '@/components/faqSchema';
+import { FAQPageJsonLD } from '@/components/jsonLd/faqPage';
 
 export interface FAQItem {
   question: string;
@@ -10,28 +11,32 @@ export interface FAQItem {
 }
 
 interface Props {
-  id: string;
+  id?: string;
   className?: string;
-  title: string;
+  title?: string;
   text?: string;
-  faqItems: FAQItem[];
+  items: FAQItem[];
 }
 
-export const FAQSection: FC<Props> = props => {
-  const accordionItems: AccordionItem[] = props.faqItems.map(f => ({ heading: f.question, body: f.answer }));
+export const FAQSection: FC<Props> = memo(({ id = 'faq', className, title = 'Frequently Asked Questions', text, items }) => {
+  const accordionItems: AccordionItem[] = useMemo(() => {
+    return items.map(f => ({ heading: f.question, body: f.answer }));
+  }, [ items ]);
 
   return (
-    <section key={props.id} id={props.id} className={props.className}>
+    <section id={id} className={className}>
       <div className="container">
+        <h2 className="text-center mb-4">{title}</h2>
         <div className="row justify-content-center">
           <div className="col-12 col-lg-8">
-            <h3 className="text-center">{props.title}</h3>
-            {props.text && <p className="mt-2 mb-4 text-muted text-center">{props.text}</p>}
+            {text && <p className=" text-muted text-center mb-4">{text}</p>}
             <Accordion items={accordionItems} />
           </div>
         </div>
       </div>
-      <FAQSchema faqItems={props.faqItems} />
+      <FAQPageJsonLD items={items} />
     </section>
   );
-};
+});
+
+FAQSection.displayName = 'FAQSection';

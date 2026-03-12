@@ -1,13 +1,14 @@
-import type { Metadata } from 'next';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
 import { blogPosts, getBlogPostBySlug } from '../blog-posts';
 import styles from './BlogArticle.module.scss';
+import type { GenerateMetadata, PageComponent } from '@/app/serverComponent';
 
-interface BlogArticlePageProps {
-  params: Promise<{ slug: string }>;
-}
+// eslint-disable-next-line @typescript-eslint/consistent-type-definitions
+type Params = {
+  slug: string;
+};
 
 const fallbackArticleHtml = '<p>New article coming soon. Check back shortly!</p>';
 
@@ -15,7 +16,7 @@ export function generateStaticParams() {
   return blogPosts.map(({ slug }) => ({ slug }));
 }
 
-export async function generateMetadata({ params }: BlogArticlePageProps): Promise<Metadata> {
+export const generateMetadata: GenerateMetadata<Params> = async ({ params }) => {
   const { slug } = await params;
   const post = getBlogPostBySlug(slug);
 
@@ -30,27 +31,13 @@ export async function generateMetadata({ params }: BlogArticlePageProps): Promis
   return {
     title: post.title,
     description,
-    alternates: {
-      canonical,
-    },
-    openGraph: {
-      type: 'article',
-      title: post.title,
-      description,
-      url: canonical,
-      tags: post.tags,
-      images: heroImage ? [ { url: heroImage } ] : undefined,
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: post.title,
-      description,
-      images: heroImage ? [ heroImage ] : undefined,
-    },
+    alternates: { canonical },
+    openGraph: { type: 'article', title: post.title, description, url: canonical, tags: post.tags, images: heroImage ? [ { url: heroImage } ] : undefined },
+    twitter: { card: 'summary_large_image', title: post.title, description, images: heroImage ? [ heroImage ] : undefined },
   };
-}
+};
 
-export default async function BlogArticlePage({ params }: BlogArticlePageProps) {
+const BlogArticlePage: PageComponent<Params> = async ({ params }) => {
   const { slug } = await params;
   const post = getBlogPostBySlug(slug);
 
@@ -67,11 +54,7 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
       <header className={styles.header}>
         <h2 className={styles.title}>{post.title}</h2>
         <div className={styles.tags}>
-          {post.tags.map(tag => (
-            <span className={styles.tag} key={`${post.slug}-${tag}`}>
-              {tag}
-            </span>
-          ))}
+          {post.tags.map(tag => <span className={styles.tag} key={`${post.slug}-${tag}`}>{tag}</span>)}
         </div>
         <span className={styles.date}>{post.publishedOn}</span>
       </header>
@@ -85,4 +68,6 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
       <section className={styles.content} dangerouslySetInnerHTML={{ __html: contentHtml }} />
     </article>
   );
-}
+};
+
+export default BlogArticlePage;

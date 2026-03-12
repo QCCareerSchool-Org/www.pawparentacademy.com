@@ -25,7 +25,7 @@ export default function NailTrimsMadeEasyPage() {
           <ValueProps />
         </div>
       </section>
-      <FAQSection id="faq" className="bg-light" title="FAQs" text="Everything you need to know before you start trimming from home." faqItems={faqItems} />
+      <FAQSection id="faq" className="bg-light" title="FAQs" text="Everything you need to know before you start trimming from home." items={faqItems} />
       <CTASection />
     </>
   );

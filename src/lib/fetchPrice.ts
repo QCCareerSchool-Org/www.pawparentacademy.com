@@ -3,6 +3,7 @@ import 'server-only';
 import type { Result } from 'generic-result-type';
 import { failure, success } from 'generic-result-type';
 
+import type { CourseCode } from '@/domain/courseCode';
 import type { CurrencyCode } from '@/domain/currencyCode';
 import type { Price } from '@/domain/price';
 import { isPrice } from '@/domain/price';
@@ -10,31 +11,28 @@ import type { School } from '@/domain/school';
 
 const pricesUrl = process.env.PRICES_ENDPOINT;
 
-export const fetchPrice = async (priceQuery: PriceQuery, controller?: AbortController): Promise<Result<Price>> => {
+export const fetchPrice = async (courses: CourseCode[], countryCode: string, provinceCode: string | null, signal?: AbortSignal): Promise<Result<Price>> => {
   try {
-    const url = `${pricesUrl}?${createQuerystring(priceQuery)}`;
-    console.log(url);
+    const priceQuery: PriceQuery = { countryCode, provinceCode: provinceCode ?? undefined, courses };
 
+    const url = `${pricesUrl}?${createQuerystring(priceQuery)}`;
     const response = await fetch(url, {
       headers: { 'X-API-Version': '2' },
-      signal: controller?.signal,
+      signal,
     });
 
     if (!response.ok) {
-      console.log(await response.text());
       throw Error(response.statusText);
     }
 
     const responseBody: unknown = await response.json();
-    console.log(responseBody);
     if (!isPrice(responseBody)) {
       throw Error('Unexpected response');
     }
 
     return success(responseBody);
   } catch (err) {
-    console.log(err);
-    if (!controller?.signal.aborted) {
+    if (!signal?.aborted) {
       console.error(err);
     }
     return failure(err instanceof Error ? err : Error(String(err)));
@@ -50,7 +48,6 @@ const createQuerystring = (priceQuery: PriceQuery): string => {
 
   let i = 0;
   for (const c of priceQuery.courses) {
-    console.log('adding', c);
     urlSearchParams.append(`courses[${i++}]`, c);
   }
 
