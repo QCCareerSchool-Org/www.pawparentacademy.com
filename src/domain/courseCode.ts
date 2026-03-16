@@ -73,15 +73,15 @@ const workloads = {
 const enrollmentBaseUrl = 'https://enroll.pawparentacademy.com';
 
 const enrollmentUrls = {
-  nt: `${enrollmentBaseUrl}/courses/nail-trims-made-easy`,
-  dm: `${enrollmentBaseUrl}/courses/deshedding-mastery`,
-  pg: `${enrollmentBaseUrl}/courses/paws-itive-grooming`,
-  gd: `${enrollmentBaseUrl}/courses/how-to-groom-a-goldendoodle`,
-  tb: `${enrollmentBaseUrl}/courses/teddy-bear-cuts`,
-  yk: `${enrollmentBaseUrl}/courses/how-to-groom-a-yorkie`,
-  tr: `${enrollmentBaseUrl}/courses/how-to-groom-a-terrier`,
-  gr: `${enrollmentBaseUrl}/courses/how-to-groom-a-golden-retriever`,
-  pu: `${enrollmentBaseUrl}/courses/how-to-groom-a-pug`,
+  nt: `${enrollmentBaseUrl}/NT`,
+  dm: `${enrollmentBaseUrl}/DM`,
+  pg: `${enrollmentBaseUrl}/PG`,
+  gd: `${enrollmentBaseUrl}/GD`,
+  tb: `${enrollmentBaseUrl}/TB`,
+  yk: `${enrollmentBaseUrl}/YK`,
+  tr: `${enrollmentBaseUrl}/TR`,
+  gr: `${enrollmentBaseUrl}/GR`,
+  pu: `${enrollmentBaseUrl}/PU`,
 } as const satisfies Readonly<Record<CourseCode, string>>;
 
 export const getCourseName = (c: CourseCode): string => {
