@@ -3,6 +3,7 @@
   box-shadow: 0 2px 0 rgba(0,0,0,0.06);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  flex-shrink: 0;
 }
 
 .navbar {
@@ -33,6 +34,7 @@
 
 .toggler {
   border: 0;
+  outline: none;
   padding: 0.5rem;
   box-shadow: none;
 }

@@ -7,12 +7,12 @@ import { BackgroundImage } from '@/components/backgroundImage';
 
 export const HeroSection: FC = () => (
   <section className={`bg-primary text-white ${styles.section}`}>
-    <BackgroundImage src={heroImage} />
+    <BackgroundImage src={heroImage} priority />
     <div className="container">
       <div className="row justify-content-start">
         <div className="col-12 col-lg-9">
-          <h1>Be Your Dog's Favorite Groomer</h1>
-          <p className="lead mb-5">Learn How to Groom Your Dog From Home Today!</p>
+          <h1 className="text-shadow">Be Your Dog's Favorite Groomer</h1>
+          <p className="lead text-shadow mb-5">Learn How to Groom Your Dog From Home Today!</p>
           <Link href="/courses" className="btn btn-lg btn-secondary">Explore Courses</Link>
         </div>
       </div>

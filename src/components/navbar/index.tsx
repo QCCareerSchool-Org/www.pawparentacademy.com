@@ -3,30 +3,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import type { FC } from 'react';
 import { useEffect, useRef, useState } from 'react';
 
 import styles from './index.module.scss';
 import logo from '@/images/ppa-full-logo.jpg';
 
-const courseLinks = [
-  { href: '/courses/how-to-groom-a-goldendoodle', label: 'How to Groom a Goldendoodle' },
-  { href: '/courses/teddy-bear-cuts', label: 'Teddy Bear Cuts' },
-  { href: '/courses/how-to-groom-a-yorkie', label: 'How to Groom a Yorkie' },
-  { href: '/courses/how-to-groom-a-terrier', label: 'How to Groom a Terrier' },
-  { href: '/courses/how-to-groom-a-golden-retriever', label: 'How to Groom a Golden Retriever' },
-  { href: '/courses/how-to-groom-a-pug', label: 'How to Groom a Pug' },
-  { href: '/courses/nail-trims-made-easy', label: 'Nail Trims Made Easy' },
-  { href: '/courses/deshedding-mastery', label: 'Deshedding Mastery' },
-  { href: '/courses/paws-itive-grooming', label: 'Paws-itive Grooming' },
-];
-
-const links = [
-  { href: '/faq', label: 'FAQ' },
-  { href: '/about', label: 'About' },
-  { href: '/blog', label: 'Blog' },
-];
-
-export default function Navbar() {
+export const Navbar: FC = () => {
   const pathname = usePathname();
   const [ isCoursesOpen, setIsCoursesOpen ] = useState(false);
   const dropdownRef = useRef<HTMLLIElement>(null);
@@ -77,10 +60,9 @@ export default function Navbar() {
           <div className="collapse navbar-collapse justify-content-end" id="mainNav">
             <ul className={`navbar-nav ${styles.navList}`}>
               <li className={`nav-item ${styles.dropdown} ${isCoursesOpen ? styles.dropdownOpen : ''}`.trim()} ref={dropdownRef}>
-                <button type="button" className={`nav-link ${styles.dropdownToggle} ${isCoursesActive ? 'active' : ''}`.trim()} aria-expanded={isCoursesOpen} aria-haspopup="true" aria-controls={dropdownMenuId} onClick={handleDropdownClick}>
+                <button type="button" className={`nav-link text-shadow ${styles.dropdownToggle} ${isCoursesActive ? 'active' : ''}`.trim()} aria-expanded={isCoursesOpen} aria-haspopup="true" aria-controls={dropdownMenuId} onClick={handleDropdownClick}>
                   Courses<span aria-hidden="true" className={styles.dropdownCaret} />
                 </button>
-
                 <div className={`${styles.dropdownMenu} ${isCoursesOpen ? styles.dropdownMenuOpen : ''}`.trim()} role="menu" id={dropdownMenuId}>
                   <ul className={styles.dropdownList}>
                     {courseLinks.map(({ href, label }) => (
@@ -93,11 +75,11 @@ export default function Navbar() {
                 </div>
               </li>
               {links.map(({ href, label }) => {
-                const isActive = pathname === href || pathname === `${href}/`;
+                const isActive = pathname.startsWith(href);
 
                 return (
                   <li className="nav-item" key={href}>
-                    <Link href={href} className={`nav-link ${isActive ? 'active' : ''}`.trim()}>{label}</Link>
+                    <Link href={href} className={`nav-link text-shadow ${isActive ? 'active' : ''}`.trim()}>{label}</Link>
                   </li>
                 );
               })}
@@ -107,4 +89,22 @@ export default function Navbar() {
       </nav>
     </header>
   );
-}
+};
+
+const courseLinks = [
+  { href: '/courses/how-to-groom-a-goldendoodle', label: 'How to Groom a Goldendoodle' },
+  { href: '/courses/teddy-bear-cuts', label: 'Teddy Bear Cuts' },
+  { href: '/courses/how-to-groom-a-yorkie', label: 'How to Groom a Yorkie' },
+  { href: '/courses/how-to-groom-a-terrier', label: 'How to Groom a Terrier' },
+  { href: '/courses/how-to-groom-a-golden-retriever', label: 'How to Groom a Golden Retriever' },
+  { href: '/courses/how-to-groom-a-pug', label: 'How to Groom a Pug' },
+  { href: '/courses/nail-trims-made-easy', label: 'Nail Trims Made Easy' },
+  { href: '/courses/deshedding-mastery', label: 'Deshedding Mastery' },
+  { href: '/courses/paws-itive-grooming', label: 'Paws-itive Grooming' },
+];
+
+const links = [
+  { href: '/faq', label: 'FAQ' },
+  { href: '/about', label: 'About' },
+  { href: '/blog', label: 'Blog' },
+];

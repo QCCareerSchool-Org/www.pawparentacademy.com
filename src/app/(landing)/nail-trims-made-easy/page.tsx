@@ -2,10 +2,10 @@ import type { Metadata } from 'next';
 
 import { CTASection } from './_components/ctaSection';
 import { HeroSection } from './_components/heroSection';
-import { MentorSpotlight } from '@/app/(main)/_components/mentorSpotlightSection';
-import { TestimonialsSection } from '@/app/(main)/_components/testimonialsSection';
 import type { FAQItem } from '@/components/faqSection';
 import { FAQSection } from '@/components/faqSection';
+import { MentorSpotlight } from '@/components/mentorSpotlightSection';
+import { TestimonialsSection } from '@/components/testimonialsSection';
 import { ValueProps } from '@/components/valueProps';
 
 export const metadata: Metadata = {

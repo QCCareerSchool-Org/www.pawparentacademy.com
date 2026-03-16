@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styles from './not-found.module.scss';
 import type { PageComponent } from './serverComponent';
 import pinkLogoIcon from '@/app/pink-logo-icon.png';
+import './main.scss';
 
 const NotFoundPage: PageComponent = () => (
   <section className={styles.notFoundSection}>

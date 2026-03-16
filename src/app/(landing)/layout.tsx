@@ -1,16 +1,16 @@
-import type { ReactNode } from 'react';
+import type { LayoutComponent } from '../serverComponent';
+import { Header } from './_components/header';
+import { BootstrapClient } from '@/components/bootstrapClient';
+import { Footer } from '@/components/footer';
+import '../main.scss';
 
-import SimpleLogoNavbar from './SimpleLogoNavbar';
-import BootstrapClient from '@/components/bootstrapClientX';
-import Footer from '@/components/footer';
+const LandingLayout: LayoutComponent = ({ children }) => (
+  <>
+    <Header />
+    <main>{children}</main>
+    <Footer />
+    <BootstrapClient />
+  </>
+);
 
-export default function NailTrimsLayout({ children }: { children: ReactNode }) {
-  return (
-    <>
-      <SimpleLogoNavbar />
-      <main>{children}</main>
-      <Footer />
-      <BootstrapClient />
-    </>
-  );
-}
+export default LandingLayout;

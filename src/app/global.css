@@ -1,0 +1,63 @@
+:root {
+  --background: #ffffff;
+  --foreground: #202020;
+
+  /* brand colors */
+  --brand-teal: #10C4C4;
+  --brand-pink: #ff4158;
+
+  /* typography */
+  --font-sans: 'Lato', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* make headings heavier */
+  --heading-weight-heavy: 900;
+  --heading-weight-bold: 700;
+  --muted: #6b7280;
+
+  --qc-text-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+
+  --qc-section-padding: 2rem;
+  @media only screen and (min-width: 576px) {
+    --qc-section-padding: 3rem;
+  }
+  @media only screen and (min-width: 768px) {
+    --qc-section-padding: 3.5rem;
+  }
+  @media only screen and (min-width: 992px) {
+    --qc-section-padding: 4rem;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+
+  --headings-font-weight: 700;
+}
+
+html, body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+section, .section {
+  padding: var(--qc-section-padding) 0;
+  position: relative; /* in case we use a cover image */
+  overflow: hidden; /* in case we use a cover image */
+}
+
+/* so that if we use a cover image, the content will display on top */
+section > div.container {
+  position: relative; 
+}
+
+/* override the section that react-toastify uses */
+section.Toastify {
+  padding: 0;
+}

@@ -4,11 +4,11 @@ import type { PageComponent } from '../serverComponent';
 import { CourseFinderSection } from './_components/courseFinderSection';
 import { HeroSection } from './_components/heroSection';
 import { IntroSection } from './_components/introSection';
-import { MentorSpotlight } from './_components/mentorSpotlightSection';
 import { SafetySection } from './_components/safetySection';
-import { TestimonialsSection } from './_components/testimonialsSection';
 import { CTASection } from '@/components/ctaSection';
+import { MentorSpotlight } from '@/components/mentorSpotlightSection';
 import { StatsSection } from '@/components/statsSection';
+import { TestimonialsSection } from '@/components/testimonialsSection';
 import { getServerData } from '@/lib/getServerData';
 
 const title = 'Learn to Groom Your Dog at Home';

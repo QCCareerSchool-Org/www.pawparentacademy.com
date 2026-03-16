@@ -1,38 +1,3 @@
-:root {
-  --background: #ffffff;
-  --foreground: #202020;
-
-  /* brand colors */
-  --brand-teal: #10C4C4;
-  --brand-pink: #ff4158;
-
-  /* typography */
-  --font-sans: 'Lato', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-
-  /* make headings heavier */
-  --heading-weight-heavy: 900;
-  --heading-weight-bold: 700;
-  --muted: #6b7280;
-
-  --qc-section-padding: 2rem;
-  @media only screen and (min-width: 576px) {
-    --qc-section-padding: 3rem;
-  }
-  @media only screen and (min-width: 768px) {
-    --qc-section-padding: 3.5rem;
-  }
-  @media only screen and (min-width: 992px) {
-    --qc-section-padding: 4rem;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-
-  --headings-font-weight: 700;
-}
-
 [data-bs-theme="dark"] {
   --bs-body-text: #ededed; // Overrides the blue primary with green in dark mode
   --bs-body-bg: #0a0a0a;    // Changes the background
@@ -163,18 +128,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "../../node_modules/bootstrap/scss/utilities/api";
 
-
-section, .section {
-  padding: var(--qc-section-padding) 0;
-  position: relative; /* in case we use a cover image */
-  overflow: hidden; /* in case we use a cover image */
-}
-
-/* so that if we use a cover image, the content will display on top */
-section > div.container {
-  position: relative; 
-}
-
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: var(--headings-font-weight);
@@ -200,189 +153,13 @@ h1, h2, h3, h4, h5, h6,
 .gy-s { --bs-gutter-y: var(--qc-section-padding); }
 .g-s { --bs-gutter-x: var(--qc-section-padding); --bs-gutter-y: var(--qc-section-padding); }
 
+.text-shadow { text-shadow: var(--qc-text-shadow); }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// body {
-//   color: var(--foreground);
-//   background: var(--background);
-//   font-family: var(--font-sans);
-// }
-
-// /* headings (branding) */
-// h1, h2, h3, h4, h5, h6 {
-//   font-family: var(--font-sans);
-//   margin: 0 0 0.6rem 0;
-//   color: var(--foreground);
-//   line-height: 1.06;
-//   letter-spacing: -0.01em;
-//   text-rendering: optimizeLegibility;
-//   -webkit-font-smoothing: antialiased;
-// }
-
-// /* sizes chosen to roughly match original layout */
-// h1, .h1 {
-//   font-size: clamp(2.75rem, 5.75vw, 4.50rem);
-//   line-height: 1.05;
-//   font-weight: 800;
-//   margin-bottom: 1rem;
-//   margin-top: 3rem;
-// }
-// h2, .h2 {
-//   font-size: clamp(1.75rem, 3.5vw, 2.8rem);
-//   font-weight: 700;
-//   line-height: 1.2;
-//   margin-top: 0.75rem;
-// }
-
-// /* Force heavier headings globally to ensure visual weight across components */
-// h1, h2 {
-//   font-weight: 700 !important;
-// }
-// h3, .h3 {
-//   font-weight: var(--heading-weight-bold);
-//   font-size: clamp(1.5rem, 2.6vw, 2rem);
-//   line-height: 1.3;
-// }
-
-// /* optional utility for explicitly bold headings */
-// .heading-strong { font-weight: var(--heading-weight-heavy) !important; }
-
-// /* utility / brand classes */
-// .heading-accent, .text-accent {
-//   color: var(--brand-teal) !important;
-//   font-weight: var(--heading-weight-bold);
-// }
-
-// .header-secondary {
-//   color: var(--brand-teal);
-//   font-weight: var(--heading-weight-bold);
-// }
-
-// .link-brand-pink {
-//   color: var(--brand-pink) !important;
-//   font-weight: 400;
-//   text-decoration: none;
-// }
-
-// .link-brand-pink:hover,
-// .link-brand-pink:focus {
-//   color: #ff6b79 !important;
-// }
-
-// /* body text */
-// p, li {
-//   font-weight: 400;
-//   line-height: 1.65;
-//   color: var(--body-text);
-// }
-
-// /* small helpers */
-// .lead{font-size:1.0625rem;color:#374151}
-// .text-muted{color:var(--muted)}
-// .text-dark { color: #111111 !important; }
-// .btn-pill-primary {
-//   --btn-pill-scale: 1;
-//   --btn-pill-padding-y: 0.85rem;
-//   --btn-pill-padding-x: 1.35rem;
-//   --btn-pill-font-size: 1rem;
-//   display: inline-flex;
-//   justify-content: center;
-//   align-items: center;
-//   background-color: var(--brand-teal);
-//   color: #fff !important;
-//   border-radius: 999px;
-//   padding: calc(var(--btn-pill-padding-y) * var(--btn-pill-scale))
-//     calc(var(--btn-pill-padding-x) * var(--btn-pill-scale));
-//   font-weight: 700;
-//   font-size: calc(var(--btn-pill-font-size) * var(--btn-pill-scale));
-//   text-transform: none;
-//   text-decoration: none;
-//   box-shadow: 0 2px 10px rgba(11, 102, 102, 0.18);
-//   transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
-// }
-
-// .btn-pill-primary:hover,
-// .btn-pill-primary:focus {
-//   background-color: #13EBEB;
-//   color: #fff !important;
-// }
-
-// .btn-pill-pink,
-// .article-body .button {
-//   --btn-pill-scale: 1;
-//   --btn-pill-padding-y: 0.65rem;
-//   --btn-pill-padding-x: 1.35rem;
-//   --btn-pill-font-size: 0.95rem;
-//   display: inline-flex;
-//   justify-content: center;
-//   align-items: center;
-//   background-color: #fd3a58;
-//   color: #fff !important;
-//   border-radius: 999px;
-//   border: none;
-//   outline: none;
-//   padding: calc(var(--btn-pill-padding-y) * var(--btn-pill-scale))
-//     calc(var(--btn-pill-padding-x) * var(--btn-pill-scale));
-//   font-weight: 700;
-//   font-size: calc(var(--btn-pill-font-size) * var(--btn-pill-scale));
-//   text-transform: none;
-//   text-decoration: none;
-//   box-shadow: 0 8px 18px rgba(255, 65, 88, 0.2);
-//   transition:
-//     background-color 0.2s ease,
-//     color 0.2s ease,
-//     transform 0.2s ease,
-//     box-shadow 0.2s ease;
-// }
-
-// .btn-pill-pink:hover,
-// .btn-pill-pink:focus,
-// .article-body .button:hover,
-// .article-body .button:focus {
-//   background-color: #ff5c70;
-//   color: #fff !important;
-//   transform: translateY(-1px);
-//   box-shadow: 0 12px 24px rgba(255, 65, 88, 0.25);
-// }
-
-// .btn-pill-pink:focus-visible,
-// .article-body .button:focus-visible {
-//   outline: 2px solid rgba(255, 65, 88, 0.35);
-//   outline-offset: 3px;
-// }
-
-// .subtitle-teal {
-//   color: var(--brand-teal);
-//   font-weight: 700;
-// }
-
-// .teal-text {
-//   color: var(--brand-teal);
-// }
-
-// /* link reset */
-// a { color: inherit; text-decoration: none; }
-
+.btn { letter-spacing: 1px; }
+.btn-primary:not(:hover),
+.btn-secondary:not(:hover) {
+  text-shadow: var(--qc-text-shadow);
+}
 
 .btn-primary {
   --bs-btn-color: white;
@@ -466,7 +243,6 @@ h1, h2, h3, h4, h5, h6,
 
 .accordion-body > *:last-child { margin-bottom: 0 }
 
-/* override the section that react-toastify uses */
-section.Toastify {
-  padding: 0;
+.navbar-toggler:hover {
+  box-shadow: none;
 }

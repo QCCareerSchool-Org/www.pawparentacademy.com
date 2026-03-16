@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import type { FC } from 'react';
 
-import styles from './SimpleLogoNavbar.module.scss';
+import styles from './index.module.scss';
 import logo from '@/images/ppa-full-logo.jpg';
 
-export default function SimpleLogoNavbar() {
+export const Header: FC = () => {
   return (
     <header className={styles.header} role="banner">
       <div className="container">
@@ -16,4 +17,4 @@ export default function SimpleLogoNavbar() {
       </div>
     </header>
   );
-}
+};

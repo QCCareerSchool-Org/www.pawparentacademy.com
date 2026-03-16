@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 
-export default function BootstrapClient() {
+export const BootstrapClient = () => {
   useEffect(() => {
     // dynamically load bootstrap JS bundle on client only
     // TypeScript: runtime-only import without types, ignore missing declaration
@@ -11,4 +11,4 @@ export default function BootstrapClient() {
   }, []);
 
   return null;
-}
+};
