@@ -1,0 +1,137 @@
+import type { Metadata } from 'next';
+import { headers } from 'next/headers';
+import Image from 'next/image';
+import { redirect } from 'next/navigation';
+
+import AlexSignatureImage from './alex-myers.png';
+import { Processing } from './processing';
+import type { PageComponent } from '@/app/serverComponent';
+import { EmailLink } from '@/components/emailLink';
+import { EnrollmentDetails } from '@/components/enrollmentDetails';
+import { SetCookie } from '@/components/setCookie';
+import { TelephoneLink } from '@/components/telephoneLink';
+import type { UserValues } from '@/domain/userValues';
+import { addToIDevAffiliate } from '@/lib/addToIDevAffiliate';
+import { createBrevoContact } from '@/lib/brevoAPI';
+import { fbPostPurchase } from '@/lib/facebookConversionAPI';
+import { fetchEnrollment } from '@/lib/fetchEnrollment';
+import { getParam } from '@/lib/getParam';
+import { getServerData } from '@/lib/getServerData';
+import { createJwt } from '@/lib/jwt';
+import { sendEnrollmentEmail } from '@/lib/sendEnrollmentEmail';
+
+const brevoStudentListId = 14;
+
+export const metadata: Metadata = {
+  title: 'Thank You for Enrolling with Paw Parent Academy!',
+  alternates: { canonical: '/welcome-to-the-school' },
+};
+
+const WelcomeToTheSchoolPage: PageComponent = async props => {
+  const { date, fbc, fbp, userValues } = await getServerData(props.searchParams);
+  const searchParams = await props.searchParams;
+  const enrollmentIdParam = getParam(searchParams.enrollmentId);
+  const codeParam = getParam(searchParams.code);
+
+  if (typeof enrollmentIdParam === 'undefined' || typeof codeParam === 'undefined') {
+    redirect('/');
+  }
+
+  const enrollmentId = parseInt(enrollmentIdParam, 10);
+  if (isNaN(enrollmentId)) {
+    redirect('/');
+  }
+
+  const enrollmentResult = await fetchEnrollment(enrollmentId, codeParam);
+
+  if (!enrollmentResult.success) {
+    redirect('/');
+  }
+
+  const enrollment = enrollmentResult.value;
+
+  if (!enrollment.success) {
+    redirect('/');
+  }
+
+  let jwt: string | null = null;
+
+  if (!enrollment.emailed) {
+    const headerList = await headers();
+    const ipAddress = headerList.get('x-real-ip');
+    const userAgent = headerList.get('user-agent');
+
+    // send email
+    const emailResult = await sendEnrollmentEmail(enrollmentId, codeParam);
+    if (!emailResult.success) {
+      console.error(emailResult.error);
+    }
+
+    // create Brevo contact
+    try {
+      await createBrevoContact(enrollment.emailAddress, enrollment.firstName, enrollment.lastName, enrollment.countryCode, enrollment.provinceCode, { STATUS_PET_STUDENT: true }, [ brevoStudentListId ]);
+    } catch (err) {
+      console.error(err);
+    }
+
+    // iDevAffiliate
+    try {
+      await addToIDevAffiliate(enrollment, ipAddress);
+    } catch (err) {
+      console.error(err);
+    }
+
+    // Facebook
+    if (enrollment.transactionTime === null || new Date(date).getTime() - enrollment.transactionTime.getTime() < 7 * 24 * 60 * 60 * 1000) {
+      try {
+        const source = 'https://www.pawparentacademy.com/welcome-to-the-school';
+        await fbPostPurchase(enrollment, source, ipAddress, userAgent, fbc, fbp);
+      } catch (err) {
+        console.error(err);
+      }
+    }
+
+    const newUserValues: UserValues = {
+      ...userValues,
+      emailAddress: enrollment.emailAddress,
+      firstName: enrollment.firstName,
+      lastName: enrollment.lastName,
+      telephoneNumber: enrollment.telephoneNumber,
+      city: enrollment.city,
+      countryCode: enrollment.countryCode,
+    };
+    if (enrollment.provinceCode) {
+      newUserValues.provinceCode = enrollment.provinceCode;
+    }
+    jwt = await createJwt(newUserValues);
+  }
+
+  return (
+    <>
+      {jwt && <SetCookie name="user" value={jwt} domain="pawparentacademy.com" />}
+      <section>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12 col-lg-10">
+              <h1 className="h2 mb-3">Thank You for Enrolling with Paw Parent Academy!</h1>
+              <p>Your enrollment has been received and will be processed quickly. You will receive an email within the next business day containing login information to your online student center. If you don't see an email from us, please check your spam folder.</p>
+              <p>If you have any questions regarding the course, or if you want to discuss your goals, our friendly and knowledgeable student support advisors are available 7 days a week by email at <EmailLink /> or by phone at <span style={{ whiteSpace: 'nowrap' }}><TelephoneLink countryCode={enrollment.countryCode} /></span>. We would be delighted to speak with you and assist you in any way we can. We hope your learning experience with us will be enjoyable, interesting, and valuable.</p>
+              <p>Remember, we want to develop a personal relationship with you and be readily available for you whenever you need us.</p>
+              <p><strong>Best of luck with your studies!</strong></p>
+              <p>Sincerely,</p>
+              <Image
+                src={AlexSignatureImage}
+                alt="Alex Myers"
+                style={{ maxWidth: '100%', height: 'auto', marginBottom: '0.5rem' }}
+              /><br /><div style={{ marginTop: -14 }}>Director<br /><strong>QC Career School</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <EnrollmentDetails enrollment={enrollment} />
+      <Processing enrollment={enrollment} />
+    </>
+  );
+};
+
+export default WelcomeToTheSchoolPage;

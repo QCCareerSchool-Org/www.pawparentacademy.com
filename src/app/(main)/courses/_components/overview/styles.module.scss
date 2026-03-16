@@ -1,0 +1,22 @@
+.content {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 575.98px) {
+  .section {
+    padding-top: 2.5rem;
+  }
+}
+
+.ctaWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.ctaButton {
+  width: 60%;
+  max-width: 17rem;
+}

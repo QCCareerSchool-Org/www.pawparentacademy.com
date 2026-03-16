@@ -1,6 +1,6 @@
-import BootstrapClient from '@/components/BootstrapClient';
-import Footer from '@/components/Footer';
-import Navbar from '@/components/Navbar';
+import BootstrapClient from '@/components/bootstrapClientX';
+import Footer from '@/components/footer';
+import Navbar from '@/components/navbar';
 
 export const metadata = {
   title: 'Paw Parent Academy',

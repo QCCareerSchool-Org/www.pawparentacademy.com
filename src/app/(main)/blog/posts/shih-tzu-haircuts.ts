@@ -84,7 +84,7 @@ const shihTzuHaircutsHtml = String.raw`
 <p><span style="font-weight: 400;">Shih Tzus are beloved for their luxurious, flowing coats and expressive faces. But as any owner knows, that beauty comes at a cost: grooming. Whether you're interested in a stylish lion cut or a low-maintenance puppy cut, choosing the right style and learning to maintain it at home can save time, money, and stress. This all-in-one guide covers the most popular Shih Tzu haircuts in 2025, complete with photos, grooming schedules, and expert DIY tips to help you keep your pup looking their best.</span></p>
 <p><span style="font-weight: 400;">Discover the best Shih Tzu haircuts and learn how to groom your Shih Tzu at home with expert tips, style guides, and easy DIY techniques!</span></p>
 <h2><span style="font-weight: 400;">The 16 Most Popular Shih Tzu Haircuts and What They Mean</span></h2>
-<p><span style="font-weight: 400;">Ready to explore the world of Shih Tzu hair styles? Below are the most beloved haircuts, broken down by season to help you choose what works best for your climate, lifestyle, and dog’s comfort.</span></p>
+<p><span style="font-weight: 400;">Ready to explore the world of Shih Tzu hair styles? Below are the most beloved haircuts, broken down by season to help you choose what works best for your climate, lifestyle, and dog's comfort.</span></p>
 <h3 id="summer-shih-tzu-haircuts">Top 12 Summer Shih Tzu Haircuts</h3>
 <p>Shorter cuts help your pup stay cool and reduce matting during hotter months.</p>
 <div>
@@ -117,7 +117,7 @@ const shihTzuHaircutsHtml = String.raw`
 </ul>
 <div class="box">
 <h2 class="h4">Love The Look Of The Adorable Teddy Bear Haircut?</h2>
-<p>Learn how to create this fluffy, rounded style step-by-step with Paw Parent Academy’s Teddy Bear Cuts Course—perfect for beginners and pet parents alike. Enroll today and start grooming your pup like a pro from the comfort of home!</p>
+<p>Learn how to create this fluffy, rounded style step-by-step with Paw Parent Academy's Teddy Bear Cuts Course—perfect for beginners and pet parents alike. Enroll today and start grooming your pup like a pro from the comfort of home!</p>
 <a href="https://www.pawparentacademy.com/courses/teddy-bear-cuts" class="button">View Course</a></div>
 <h4>5. The All-Over Cut</h4>
 <p><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/0c20315-56f-5115-534d-266a35730db5_shih_tzu_all_over_haircut.jpg" alt="Shih Tzu with an all-over haircut looking up eagerly for a treat, featuring an even, low-maintenance trim that keeps the coat short and tidy—ideal for warm weather and easy at-home grooming."></p>
@@ -140,7 +140,7 @@ const shihTzuHaircutsHtml = String.raw`
 <li style="font-weight: 400;"><span style="font-weight: 400;">Playful and balanced style</span></li>
 </ul>
 <h4>8.&nbsp;Short in the Middle + Long on the Ends</h4>
-<p><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/d48745c-27b8-0fd-54f8-60cff16efa63_shih_tzu_short_in_the_middle_long_on_the_ends_cut.jpg" alt="Shih Tzu with a unique haircut that’s short through the body and long on the ears, tail, and topknot—highlighting a stylish, high-contrast grooming look ideal for showing off the breed’s natural elegance."></p>
+<p><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/d48745c-27b8-0fd-54f8-60cff16efa63_shih_tzu_short_in_the_middle_long_on_the_ends_cut.jpg" alt="Shih Tzu with a unique haircut that's short through the body and long on the ears, tail, and topknot—highlighting a stylish, high-contrast grooming look ideal for showing off the breed's natural elegance."></p>
 <ul>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Trimmed torso with feathered legs and tail</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Ideal for showy winter style</span></li>
@@ -163,7 +163,7 @@ const shihTzuHaircutsHtml = String.raw`
 <li style="font-weight: 400;"><span style="font-weight: 400;">Often used in competitive grooming or dog shows</span></li>
 </ul>
 <h4>12. The Square Head Cut</h4>
-<p><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/3af34e-307-5a3-77fc-2482fd86b6a1_shih_tzu_square_head_cut.jpg" alt="Shih Tzu with a square head haircut, featuring a fluffy, sculpted face and even body trim—showcasing a bold, geometric grooming style that highlights the breed’s expressive features."></p>
+<p><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/3af34e-307-5a3-77fc-2482fd86b6a1_shih_tzu_square_head_cut.jpg" alt="Shih Tzu with a square head haircut, featuring a fluffy, sculpted face and even body trim—showcasing a bold, geometric grooming style that highlights the breed's expressive features."></p>
 <ul>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Stylized, boxy face cut with short body</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Trendy, but higher in maintenance</span></li>
@@ -196,7 +196,7 @@ const shihTzuHaircutsHtml = String.raw`
 <h4>4. The Show Cut</h4>
 <p><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/88b50d-7027-b872-8502-51753c8ff3e0_shih_tzu_show_haircut.jpg" alt="Shih Tzu with a full show haircut, featuring a long, flowing coat and perfectly groomed face—an elegant and traditional style often seen in dog competitions and breed showcases."></p>
 <h2><span style="font-weight: 400;">Does Your Shih Tzu Dislike Being Brushed?</span></h2>
-<p><span style="font-weight: 400;">You’re not alone—many dogs find grooming stressful, but it doesn’t have to be. Here are some ways to help your pup embrace the brush:</span></p>
+<p><span style="font-weight: 400;">You're not alone—many dogs find grooming stressful, but it doesn't have to be. Here are some ways to help your pup embrace the brush:</span></p>
 <ul>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Start slowly, using treats and praise</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Use a <a href="https://www.google.com/aclk?sa=l&amp;ai=DChcSEwiX2vG3tLWNAxUENwgFHfWmDMAYABAJGgJtZA&amp;co=1&amp;gclid=CjwKCAjw87XBBhBIEiwAxP3_A15pRxUnF1NjfyximpEfytzGkOQcpCnbmQ0CH22kwqqw5OFrRAJ76hoCPTEQAvD_BwE&amp;category=acrcp_v1_0&amp;sig=AOD64_3oUkUpg3OCzoJxi-29Y2esC3gJLA&amp;q&amp;adurl&amp;ved=2ahUKEwiK6Ou3tLWNAxXarokEHZuqIGgQ0Qx6BAgvEAE" target="_blank" rel="noopener noreferrer">gentle slicker</a> or <a href="https://chrischristensen.com/blog/brush-guide-pin-brushes/?srsltid=AfmBOoqWzrODBEfKUPnDiBp0s1Q1BkrYeoEzwDf0OTBdL7ahcIY5mv9a" target="_blank" rel="noopener noreferrer">pin brush</a> to avoid discomfort</span></li>
@@ -221,14 +221,14 @@ const shihTzuHaircutsHtml = String.raw`
 <li style="font-weight: 400;"><b>Choose</b><span style="font-weight: 400;">: Medium-Length Puppy Cut, Lamb Leg Cut</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Look for hypoallergenic shampoos and soft brushes</span></li>
 </ul>
-<h2><span style="font-weight: 400;">How to Get That Teddy Bear Shih Tzu Haircut Face—Even if You’re a Beginner</span></h2>
-<p><span style="font-weight: 400;">The Teddy Bear Cut is arguably the most requested Goldendoodle grooming style—and with good reason! It creates a soft, plush look that highlights your dog’s expressive face.&nbsp;</span></p>
+<h2><span style="font-weight: 400;">How to Get That Teddy Bear Shih Tzu Haircut Face—Even if You're a Beginner</span></h2>
+<p><span style="font-weight: 400;">The Teddy Bear Cut is arguably the most requested Goldendoodle grooming style—and with good reason! It creates a soft, plush look that highlights your dog's expressive face.&nbsp;</span></p>
 <p><span style="font-weight: 400;">To get it right, trim the muzzle into a gentle, rounded shape, keep the cheeks slightly puffed to balance the roundness, and round off the top of the head while blending into the ears. Thinning shears are key for creating a seamless finish.&nbsp;</span></p>
 <p><span style="font-weight: 400;">If you're looking for detailed guidance on achieving this look at home, Paw Parent Academy offers an online DIY Teddy Bear Cut course with step-by-step video tutorials and expert tips designed specifically for beginners.</span></p>
 <h2 id="step-by-step">Step-by-Step Guide: How to Give Your Shih Tzu a Haircut at Home</h2>
 <p><span style="font-weight: 400;"><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/411a65e-185b-246-30b-576daaaf07b_step_by_step_guide_how_to_give_your_shih_tzu_a_haircut_at_home.png" alt="Title image for a step-by-step guide on how to give your Shih Tzu a haircut at home, featuring grooming scissors and a house icon—designed to help pet parents confidently groom their dog themselves."></span></p>
 <p><span style="font-weight: 400;">Learn how to safely and effectively groom your Shih Tzu at home with this simple, beginner-friendly guide.</span></p>
-<h3><span style="font-weight: 400;">Tools You’ll Need</span></h3>
+<h3><span style="font-weight: 400;">Tools You'll Need</span></h3>
 <p><span style="font-weight: 400;">Before you begin, make sure you have all the right tools to keep your grooming session safe and successful.</span></p>
 <ol>
 <li style="font-weight: 400;"><b>Slicker brushes</b><span style="font-weight: 400;"> (softer + medium firm)</span></li>
@@ -273,7 +273,7 @@ const shihTzuHaircutsHtml = String.raw`
 <li style="font-weight: 400;"><span style="font-weight: 400;">Ignoring tear stains—wipe daily with a safe remover.</span></li>
 </ul>
 <h2 id="grooming-schedule">Grooming Schedule for Your Shih Tzu (by Style)</h2>
-<p><span style="font-weight: 400;">Not all styles require the same upkeep—use this guide to keep your Shih Tzu’s haircut fresh and healthy.</span></p>
+<p><span style="font-weight: 400;">Not all styles require the same upkeep—use this guide to keep your Shih Tzu's haircut fresh and healthy.</span></p>
 <h3><span style="font-weight: 400;">Every 1-2 Weeks</span></h3>
 <ul>
 <li>Top Knot Show Cut<span style="font-weight: 400;"> (weekly grooming + show prep trims)</span></li>
@@ -308,7 +308,7 @@ const shihTzuHaircutsHtml = String.raw`
 <h2 id="products-tools">Must-Have Products &amp; Tools for Grooming a Shih Tzu at Home</h2>
 <p><span style="font-weight: 400;">To make grooming easier and more effective, here are some top-rated tools and supplies:</span></p>
 <p><span style="font-weight: 400;"><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/b2ce476-5b4f-7f47-0ab-4347d82cc712_products_and_tools_for_grooming_a_shih_tzu_infographic.jpg" alt="Infographic titled “Products &amp; Tools for Grooming a Shih Tzu,” listing essential items such as slicker brushes, metal combs, brushing conditioner spray, cordless clippers, rounded-tip grooming scissors, dog-safe shampoo and conditioner, pet ear wipes, dog toothpaste and toothbrush, high-velocity dryer, microfiber towel, and quick drying aid—ideal for Shih Tzu grooming at home."></span></p>
-<h2><span style="font-weight: 400;">Groomer’s Insights for Shih Tzu Care</span></h2>
+<h2><span style="font-weight: 400;">Groomer's Insights for Shih Tzu Care</span></h2>
 <p><span style="font-weight: 400;">Want to groom like a pro? Follow these insider tips:</span></p>
 <ul>
 <li style="font-weight: 400;"><b>Brushing = Bonding</b><span style="font-weight: 400;">: Turn daily brushing into quality time.</span></li>
@@ -328,7 +328,7 @@ const shihTzuHaircutsHtml = String.raw`
 <li style="font-weight: 400;"><span style="font-weight: 400;">Save HUNDREDS in grooming costs!</span></li>
 </ul>
 <div class="box">
-<h2 class="h4">Transform Your Dog’s Look with The Irresistibly Fluffy Teddy Bear Cut!</h2>
+<h2 class="h4">Transform Your Dog's Look with The Irresistibly Fluffy Teddy Bear Cut!</h2>
 <p>Our Teddy Bear Cuts Course teaches you exactly how to master this adorable style with easy, step-by-step video guidance. Enroll today and start grooming with confidence—right from home, no experience needed.</p>
 <a href="https://www.pawparentacademy.com/courses/teddy-bear-cuts" class="button">Get Started</a></div>
 <h2 id="faqs">FAQs About Shih Tzu Haircuts</h2>
@@ -336,11 +336,11 @@ const shihTzuHaircutsHtml = String.raw`
 <p><span style="font-weight: 400;">It depends on your lifestyle. The Puppy Cut and Teddy Bear Cut are the most popular all-around styles.</span></p>
 <h3><span style="font-weight: 400;">How often should I groom my Shih Tzu?</span></h3>
 <p><span style="font-weight: 400;">Brush daily. Full grooming depends on cut—every 3 to 6 weeks.</span></p>
-<h3><span style="font-weight: 400;">How short should I cut my Shih Tzu’s hair?</span></h3>
+<h3><span style="font-weight: 400;">How short should I cut my Shih Tzu's hair?</span></h3>
 <p><span style="font-weight: 400;">Anywhere from ½ to 2 inches is common, depending on the style.</span></p>
-<h3><span style="font-weight: 400;">What’s the best haircut for summer?</span></h3>
+<h3><span style="font-weight: 400;">What's the best haircut for summer?</span></h3>
 <p><span style="font-weight: 400;">The Summer Cut or Lion Cut keeps dogs coolest.</span></p>
-<h3><span style="font-weight: 400;">Should you trim hair around a Shih Tzu’s eyes?</span></h3>
+<h3><span style="font-weight: 400;">Should you trim hair around a Shih Tzu's eyes?</span></h3>
 <p><span style="font-weight: 400;">Yes, but use blunt scissors or visit a groomer to avoid injury.</span></p>
 <h3><span style="font-weight: 400;">Can I give my Shih Tzu a lion cut at home?</span></h3>
 <p><span style="font-weight: 400;">Yes, with the right tools and patience—practice first on body areas.</span></p>
@@ -354,16 +354,11 @@ const shihTzuHaircutsHtml = String.raw`
 export const shihTzuHaircutsPost: BlogPost = {
   slug: 'shih-tzu-haircuts',
   title: 'Shih Tzu Haircuts: The Complete Guide to Popular Styles in 2025',
-  excerpt:
-    'Lookbook + DIY roadmap for choosing, maintaining, and safely trimming every Shih Tzu haircut style this year.',
-  description:
-    'Looking for the perfect Shih Tzu haircut? This guide breaks down popular styles and teaches you how to groom your Shih Tzu at home with expert-approved tips.',
-  imageUrl:
-    'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/becc87-3e62-10b7-d683-8afea0e3321e_shih_tzu_haircuts_feature_image.jpg',
-  heroImage:
-    'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/becc87-3e62-10b7-d683-8afea0e3321e_shih_tzu_haircuts_feature_image.jpg',
-  heroImageAlt:
-    'Close-up of a Shih Tzu with a neatly groomed haircut that showcases a classic face trim style.',
+  excerpt: 'Lookbook + DIY roadmap for choosing, maintaining, and safely trimming every Shih Tzu haircut style this year.',
+  description: 'Looking for the perfect Shih Tzu haircut? This guide breaks down popular styles and teaches you how to groom your Shih Tzu at home with expert-approved tips.',
+  imageUrl: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/becc87-3e62-10b7-d683-8afea0e3321e_shih_tzu_haircuts_feature_image.jpg',
+  heroImage: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/becc87-3e62-10b7-d683-8afea0e3321e_shih_tzu_haircuts_feature_image.jpg',
+  heroImageAlt: 'Close-up of a Shih Tzu with a neatly groomed haircut that showcases a classic face trim style.',
   tags: [ 'DIY Dog Grooming', 'DIY Grooming', 'Dog Grooming' ],
   publishedOn: 'May 22, 2025',
   canonicalUrl: 'https://www.pawparentacademy.com/blog/shih-tzu-haircuts',

@@ -1,12 +1,16 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  sassOptions: {
+    quietDeps: true, // hide deprecation warnings from node_modules
+    // If your sass-loader / Sass version supports it, you can also do:
+    silenceDeprecations: [ 'import', 'global-builtin' ],
+  },
   reactCompiler: true,
   images: {
-    domains: [
-      'kajabi-storefronts-production.kajabi-cdn.com',
-      'kajabi-app-assets.kajabi-cdn.com',
+    remotePatterns: [
+      { protocol: 'https', hostname: 'kajabi-storefronts-production.kajabi-cdn.com' },
+      { protocol: 'https', hostname: 'kajabi-app-assets.kajabi-cdn.com' },
     ],
   },
 };
