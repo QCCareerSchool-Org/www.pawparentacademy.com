@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import type { FC } from 'react';
 
 import styles from './index.module.scss';
 import whiteLogoIcon from '@/images/ppa-logo.jpg';
 
-export default function Footer() {
+export const Footer: FC = () => {
   return (
     <footer className={styles.footer}>
       <div className="container">
@@ -39,7 +40,7 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+};
 
 const socialLinks = [
   {

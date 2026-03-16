@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 import { Lato } from 'next/font/google';
 import { cookies } from 'next/headers';
-import type { FC, PropsWithChildren } from 'react';
 import { Suspense } from 'react';
 import { ToastContainer } from 'react-toastify';
 
 import styles from './layout.module.scss';
 import { LayoutClient } from './layoutClient';
+import type { LayoutComponent } from './serverComponent';
 import { isUserValues } from '@/domain/userValues';
 import { getServerData } from '@/lib/getServerData';
 import { decodeJwt } from '@/lib/jwt';
@@ -17,7 +17,7 @@ import { Facebook } from '@/scripts/facebook';
 import { GoogleAnalytics } from '@/scripts/googleAnalytics';
 import { OptInMonster } from '@/scripts/optInMonster';
 import { Tiktok } from '@/scripts/tiktok';
-import './globals.scss';
+import './global.css';
 
 const lato = Lato({
   weight: [ '300', '400', '700', '900' ],
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   icons: { icon: '/favicon.ico' },
 };
 
-const RootLayout: FC<PropsWithChildren> = async ({ children }) => {
+const RootLayout: LayoutComponent = async ({ children }) => {
   const { clientIp } = await getServerData();
   const jwt = (await cookies()).get('user')?.value;
   const result = jwt ? await decodeJwt(jwt) : undefined;
