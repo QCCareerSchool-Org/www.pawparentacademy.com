@@ -1,12 +1,13 @@
 import type { FC, ReactNode } from 'react';
-import { memo, useMemo } from 'react';
+import { memo } from 'react';
 
-import type { AccordionItem } from '../accordion';
-import { Accordion } from '../accordion';
+import type { AccordionItem } from '@/components/accordion';
+import { Accordion } from '@/components/accordion';
 import { FAQPageJsonLD } from '@/components/jsonLd/faqPage';
 
 export interface FAQItem {
   question: string;
+  /** We can't use client components like next/link here */
   answer: ReactNode;
 }
 
@@ -19,9 +20,7 @@ interface Props {
 }
 
 export const FAQSection: FC<Props> = memo(({ id = 'faq', className, title = 'Frequently Asked Questions', text, items }) => {
-  const accordionItems: AccordionItem[] = useMemo(() => {
-    return items.map(f => ({ heading: f.question, body: f.answer }));
-  }, [ items ]);
+  const accordionItems: AccordionItem[] = items.map(f => ({ heading: f.question, body: f.answer }));
 
   return (
     <section id={id} className={className}>

@@ -1,8 +1,8 @@
 import type { FC, ReactNode } from 'react';
 import type { FAQPage, Question, WithContext } from 'schema-dts';
 
-import { withSuspense } from '../withSuspense';
 import type { FAQItem } from '@/components/faqSection';
+import { withSuspense } from '@/components/withSuspense';
 
 interface Props {
   items: FAQItem[];
