@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import styles from './BlogCard.module.scss';
-import type { BlogPost } from '../../blog-posts';
+import type { BlogPost } from '../../posts';
 
 interface BlogCardProps {
   post: BlogPost;

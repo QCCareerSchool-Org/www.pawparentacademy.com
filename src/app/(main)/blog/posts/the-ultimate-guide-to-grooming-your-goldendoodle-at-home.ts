@@ -1,4 +1,4 @@
-import type { BlogPost } from '../types';
+import type { BlogPost } from '../posts';
 
 const goldendoodleGroomingGuideHtml = String.raw`
 <style>

@@ -4,7 +4,7 @@ import type { PageComponent } from '@/app/serverComponent';
 import { EmailLink } from '@/components/emailLink';
 
 export const metadata: Metadata = {
-  title: 'Contact Paw Parent Academy | Get in Touch',
+  title: 'Get in Touch',
   description: 'Need help with our grooming courses? Reach Paw Parent Academy for support and quick answers via email.',
   alternates: { canonical: '/contact' },
 };

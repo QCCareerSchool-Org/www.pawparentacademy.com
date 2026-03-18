@@ -35,6 +35,8 @@
   --headings-font-weight: 700;
 }
 
+html { overflow-y: scroll; }
+
 html, body {
   display: flex;
   flex-direction: column;

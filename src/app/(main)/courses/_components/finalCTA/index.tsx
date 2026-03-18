@@ -19,8 +19,9 @@ interface Props {
 
 export const CourseFinalCTA: FC<Props> = props => {
   const overlayColor = props.overlayColor ?? 'rgba(0, 0, 0, 0.8)';
+
   return (
-    <section className={styles.ctaHero}>
+    <section>
       <BackgroundImage src={props.backgroundImage} />
       <Overlay background={overlayColor} />
       <div className="container">
@@ -30,7 +31,7 @@ export const CourseFinalCTA: FC<Props> = props => {
               {props.eyebrow && <p className={`text-uppercase mb-2 ${styles.eyebrow}`}>{props.eyebrow}</p>}
               <h2 className="text-white mb-3">{props.heading}</h2>
               {props.description && <p className="text-white mb-4">{props.description}</p>}
-              <Link href={getEnrollmentUrl(props.courseCode)} className="btn btn-primary">Enroll Now</Link>
+              <Link href={getEnrollmentUrl(props.courseCode)} className="btn btn-primary btn-lg">Enroll Now</Link>
             </div>
           </div>
         </div>

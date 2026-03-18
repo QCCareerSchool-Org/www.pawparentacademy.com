@@ -10,7 +10,7 @@ export interface CourseModuleInfo {
   title: string;
   subtitle: string;
   description: string;
-  image: string | StaticImageData;
+  image: StaticImageData;
 }
 
 interface Props {
