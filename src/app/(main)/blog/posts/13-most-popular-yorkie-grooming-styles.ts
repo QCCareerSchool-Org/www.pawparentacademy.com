@@ -259,7 +259,7 @@ const yorkieGroomingStylesHtml = String.raw`
 <p><span style="font-weight: 400;">Borrowed from the Schnauzer breed, this cut features a short body with longer leg and face hair.</span></p>
 <ul>
 <li style="font-weight: 400;"><b>Best for</b><span style="font-weight: 400;">: Male Yorkie haircuts and confident dogs</span></li>
-<li style="font-weight: 400;"><b>Maintenance</b><span style="font-weight: 400;">: Moderate; every 4–5 weeks</span></li>
+<li style="font-weight: 400;"><b>Maintenance</b><span style="font-weight: 400;">: Moderate; every 4 to 5 weeks</span></li>
 <li style="font-weight: 400;"><b>Style tip</b><span style="font-weight: 400;">: Shape the “beard” and eyebrows for extra flair</span></li>
 </ul>
 <h3><span style="font-weight: 400;">6. Westie Cut</span></h3>
@@ -275,7 +275,7 @@ const yorkieGroomingStylesHtml = String.raw`
 <p><span style="font-weight: 400;">Give your Yorkie some volume with a layered finish.</span></p>
 <ul>
 <li style="font-weight: 400;"><b>Best for</b><span style="font-weight: 400;">: Fashion-forward dogs (and owners!)</span></li>
-<li style="font-weight: 400;"><b>Maintenance</b><span style="font-weight: 400;">: Trim every 4–5 weeks</span></li>
+<li style="font-weight: 400;"><b>Maintenance</b><span style="font-weight: 400;">: Trim every 4 to 5 weeks</span></li>
 <li style="font-weight: 400;"><b>Style tip</b><span style="font-weight: 400;">: Use thinning shears for a natural blend</span></li>
 </ul>
 <h3><span style="font-weight: 400;">8. Medium-Length Trim</span></h3>
@@ -291,7 +291,7 @@ const yorkieGroomingStylesHtml = String.raw`
 <p><span style="font-weight: 400;">Ideal for breed purists and owners who love brushing.</span></p>
 <ul>
 <li style="font-weight: 400;"><b>Best for</b><span style="font-weight: 400;">: Patient pups and parents</span></li>
-<li style="font-weight: 400;"><b>Maintenance</b><span style="font-weight: 400;">: Daily brushing; trims every 6–8 weeks</span></li>
+<li style="font-weight: 400;"><b>Maintenance</b><span style="font-weight: 400;">: Daily brushing; trims every 6 to 8 weeks</span></li>
 <li style="font-weight: 400;"><b>Style tip</b><span style="font-weight: 400;">: Keep a detangling spray on hand!</span></li>
 </ul>
 <h3><span style="font-weight: 400;">10. Short Yorkie Haircut</span></h3>
@@ -299,7 +299,7 @@ const yorkieGroomingStylesHtml = String.raw`
 <p><span style="font-weight: 400;">Practical, breezy, and oh-so-easy.</span></p>
 <ul>
 <li style="font-weight: 400;"><b>Best for</b><span style="font-weight: 400;">: Summer, travel, or busy families</span></li>
-<li style="font-weight: 400;"><b>Maintenance</b><span style="font-weight: 400;">: Every 3–4 weeks</span></li>
+<li style="font-weight: 400;"><b>Maintenance</b><span style="font-weight: 400;">: Every 3 to 4 weeks</span></li>
 <li style="font-weight: 400;"><b>Style tip</b><span style="font-weight: 400;">: Pair with short nails and ear trims for a clean look</span></li>
 </ul>
 <h3><span style="font-weight: 400;">11. Designer Cut</span></h3>
@@ -333,28 +333,28 @@ const yorkieGroomingStylesHtml = String.raw`
 <h4 data-start="689" data-end="717">Popular choices include:</h4>
 <ul data-start="718" data-end="884">
 <li data-start="718" data-end="784">
-<p data-start="720" data-end="784"><strong data-start="720" data-end="737">Schnauzer Cut</strong> – for that masculine beard and defined shape</p>
+<p data-start="720" data-end="784"><strong data-start="720" data-end="737">Schnauzer Cut</strong>—for that masculine beard and defined shape</p>
 </li>
 <li data-start="785" data-end="837">
-<p data-start="787" data-end="837"><strong data-start="787" data-end="801">Westie Cut</strong> – offers a tidy, alert appearance</p>
+<p data-start="787" data-end="837"><strong data-start="787" data-end="801">Westie Cut</strong>—offers a tidy, alert appearance</p>
 </li>
 <li data-start="838" data-end="884">
-<p data-start="840" data-end="884"><strong data-start="840" data-end="854">Short Trim</strong> – low-maintenance and clean</p>
+<p data-start="840" data-end="884"><strong data-start="840" data-end="854">Short Trim</strong>—low-maintenance and clean</p>
 </li>
 </ul>
-<p data-start="886" data-end="1004"><strong data-start="886" data-end="902">Maintenance:</strong> Every 4–6 weeks<br data-start="918" data-end="921"> <strong data-start="921" data-end="935">Style Tip:</strong> Keep lines sharp and defined to emphasize a strong, tailored finish.</p>
+<p data-start="886" data-end="1004"><strong data-start="886" data-end="902">Maintenance:</strong> Every 4 to 6 weeks<br data-start="918" data-end="921"> <strong data-start="921" data-end="935">Style Tip:</strong> Keep lines sharp and defined to emphasize a strong, tailored finish.</p>
 <h3 data-start="1006" data-end="1037">🎀 Female Yorkie Haircuts</h3>
 <p data-start="1038" data-end="1112">Feminine grooming styles often focus on softness, length, and accessories.</p>
 <h4 data-start="1114" data-end="1142">Popular choices include:</h4>
 <ul data-start="1143" data-end="1305">
 <li data-start="1143" data-end="1196">
-<p data-start="1145" data-end="1196"><strong data-start="1145" data-end="1157">Top Knot</strong> – an iconic look with bows and bands</p>
+<p data-start="1145" data-end="1196"><strong data-start="1145" data-end="1157">Top Knot</strong>—an iconic look with bows and bands</p>
 </li>
 <li data-start="1197" data-end="1240">
-<p data-start="1199" data-end="1240"><strong data-start="1199" data-end="1214">Layered Cut</strong> – adds volume and flair</p>
+<p data-start="1199" data-end="1240"><strong data-start="1199" data-end="1214">Layered Cut</strong>—adds volume and flair</p>
 </li>
 <li data-start="1241" data-end="1305">
-<p data-start="1243" data-end="1305"><strong data-start="1243" data-end="1262">Long Hair Style</strong> – glamorous and elegant for show or home</p>
+<p data-start="1243" data-end="1305"><strong data-start="1243" data-end="1262">Long Hair Style</strong>—glamorous and elegant for show or home</p>
 </li>
 </ul>
 <p data-start="1307" data-end="1467"><strong data-start="1307" data-end="1323">Maintenance:</strong> More frequent brushing and accessories upkeep<br data-start="1369" data-end="1372"> <strong data-start="1372" data-end="1386">Style Tip:</strong> Add soft bows or clips to enhance the delicate look without tugging on the hair.</p>
@@ -392,8 +392,8 @@ const yorkieGroomingStylesHtml = String.raw`
 <h3><span style="font-weight: 400;">How Often Should You Do a Full Groom On a Yorkie?</span></h3>
 <p><span style="font-weight: 400;">The answer depends on the style:</span></p>
 <ul>
-<li style="font-weight: 400;"><b>Short Yorkie haircuts</b><span style="font-weight: 400;"> (like the Puppy Cut): trim every 4–6 weeks</span></li>
-<li style="font-weight: 400;"><b>Long hair Yorkie</b><span style="font-weight: 400;"> styles: daily brushing + trims every 6–8 weeks</span></li>
+<li style="font-weight: 400;"><b>Short Yorkie haircuts</b><span style="font-weight: 400;"> (like the Puppy Cut): trim every 4 to 6 weeks</span></li>
+<li style="font-weight: 400;"><b>Long hair Yorkie</b><span style="font-weight: 400;"> styles: daily brushing + trims every 6 to 8 weeks</span></li>
 <li style="font-weight: 400;"><b>Active lifestyles</b><span style="font-weight: 400;">: shorter styles work best for pups who love to play</span></li>
 <li style="font-weight: 400;"><b>Seasonal changes</b><span style="font-weight: 400;">: consider shorter cuts in summer, longer in winter</span></li>
 </ul>
@@ -404,15 +404,15 @@ const yorkieGroomingStylesHtml = String.raw`
 <h2 id="home-grooming-kit">What You'll Need to Groom Your Yorkie at Home</h2>
 <p><span style="font-weight: 400;">Before you get trimming, make sure you've got the right gear:</span></p>
 <ul>
-<li style="font-weight: 400;"><a href="https://www.amazon.com/dog-grooming-table/s?k=dog+grooming+table" target="_blank" rel="noopener noreferrer"><b>Grooming table</b></a><span style="font-weight: 400;"> – Gives you a stable workspace and keeps your Yorkie secure.</span></li>
-<li style="font-weight: 400;"><a href="https://www.petedge.com/pet-clippers-blades/dog-clippers/adjustable-blade-clippers?srsltid=AfmBOorzzjzIf6SUWRxrUokYlgt5J2fXG1eklIQWrQ9_oYoa88qxCw9H" target="_blank" rel="noopener noreferrer"><b>Dog clippers with adjustable blades</b></a><span style="font-weight: 400;"> – Essential for even body work and tidy leg lines.</span></li>
-<li style="font-weight: 400;"><a href="https://www.amazon.com/blunt-scissors-dogs/s?k=blunt+scissors+for+dogs" target="_blank" rel="noopener noreferrer"><b>Blunt-tipped scissors</b></a><span style="font-weight: 400;"> – Keeps sensitive areas safe while you refine details.</span></li>
-<li style="font-weight: 400;"><a href="https://www.amazon.com/metal-dog-comb/s?k=metal+dog+comb" target="_blank" rel="noopener noreferrer"><b>Metal comb</b></a><span style="font-weight: 400;"> – Reaches down to the skin to detect tangles before trimming.</span></li>
-<li style="font-weight: 400;"><a href="https://www.amazon.com/slicker-brushes-dogs/s?k=slicker+brushes+for+dogs" target="_blank" rel="noopener noreferrer"><b>Slicker brush</b></a><span style="font-weight: 400;"> – Lifts loose hair and preps the coat for clipping.</span></li>
-<li style="font-weight: 400;"><a href="https://www.pawparentacademy.com/blog/best-dog-shampoo-for-itchy-skin-allergies-and-odor" target="_blank" rel="noopener noreferrer"><b>Dog-safe shampoo and conditioner</b></a><span style="font-weight: 400;"> – Keeps silky coats soft, clean, and conditioned.</span></li>
-<li style="font-weight: 400;"><a href="https://www.amazon.com/Best-Sellers-Dog-Grooming-Clippers/zgbs/pet-supplies/3024205011" target="_blank" rel="noopener noreferrer"><b>Nail grinder or clippers</b></a><span style="font-weight: 400;"> – Maintains healthy paws between trims.</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Treats, a towel, and patience</span><span style="font-weight: 400;"> – Positive reinforcement keeps sessions calm and rewarding.</span></li>
-<li style="font-weight: 400;"><a href="https://www.amazon.com/hair-dryer-dogs/s?k=hair+dryer+for+dogs&amp;rh=p_85%3A2470955011" target="_blank" rel="noopener noreferrer"><b>Optional: high-velocity dryer</b></a><span style="font-weight: 400;"> – Speeds up drying and fluffs coats for finishing.</span></li>
+<li style="font-weight: 400;"><a href="https://www.amazon.com/dog-grooming-table/s?k=dog+grooming+table" target="_blank" rel="noopener noreferrer"><b>Grooming table</b></a><span style="font-weight: 400;">—Gives you a stable workspace and keeps your Yorkie secure.</span></li>
+<li style="font-weight: 400;"><a href="https://www.petedge.com/pet-clippers-blades/dog-clippers/adjustable-blade-clippers?srsltid=AfmBOorzzjzIf6SUWRxrUokYlgt5J2fXG1eklIQWrQ9_oYoa88qxCw9H" target="_blank" rel="noopener noreferrer"><b>Dog clippers with adjustable blades</b></a><span style="font-weight: 400;">—Essential for even body work and tidy leg lines.</span></li>
+<li style="font-weight: 400;"><a href="https://www.amazon.com/blunt-scissors-dogs/s?k=blunt+scissors+for+dogs" target="_blank" rel="noopener noreferrer"><b>Blunt-tipped scissors</b></a><span style="font-weight: 400;">—Keeps sensitive areas safe while you refine details.</span></li>
+<li style="font-weight: 400;"><a href="https://www.amazon.com/metal-dog-comb/s?k=metal+dog+comb" target="_blank" rel="noopener noreferrer"><b>Metal comb</b></a><span style="font-weight: 400;">—Reaches down to the skin to detect tangles before trimming.</span></li>
+<li style="font-weight: 400;"><a href="https://www.amazon.com/slicker-brushes-dogs/s?k=slicker+brushes+for+dogs" target="_blank" rel="noopener noreferrer"><b>Slicker brush</b></a><span style="font-weight: 400;">—Lifts loose hair and preps the coat for clipping.</span></li>
+<li style="font-weight: 400;"><a href="https://www.pawparentacademy.com/blog/best-dog-shampoo-for-itchy-skin-allergies-and-odor" target="_blank" rel="noopener noreferrer"><b>Dog-safe shampoo and conditioner</b></a><span style="font-weight: 400;">—Keeps silky coats soft, clean, and conditioned.</span></li>
+<li style="font-weight: 400;"><a href="https://www.amazon.com/Best-Sellers-Dog-Grooming-Clippers/zgbs/pet-supplies/3024205011" target="_blank" rel="noopener noreferrer"><b>Nail grinder or clippers</b></a><span style="font-weight: 400;">—Maintains healthy paws between trims.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Treats, a towel, and patience</span><span style="font-weight: 400;">—Positive reinforcement keeps sessions calm and rewarding.</span></li>
+<li style="font-weight: 400;"><a href="https://www.amazon.com/hair-dryer-dogs/s?k=hair+dryer+for+dogs&amp;rh=p_85%3A2470955011" target="_blank" rel="noopener noreferrer"><b>Optional: high-velocity dryer</b></a><span style="font-weight: 400;">—Speeds up drying and fluffs coats for finishing.</span></li>
 </ul>
 <p><span style="font-weight: 400;"><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/3e0dd2-f0d-8eb4-00ca-15c8a5b3f7f_at-home_grooming_essentials_for_grooming_a_yorkie_infographic.png" alt="Infographic showing essential tools for grooming a Yorkie at home, including items needed for short Yorkie haircuts and silky coat maintenance."></span></p>
 <h2 id="step-by-step">Step-by-Step Guide for a Simple Yorkie Cut</h2>
@@ -487,7 +487,7 @@ const yorkieGroomingStylesHtml = String.raw`
 <h3><span style="font-weight: 400;">How short can I cut my Yorkie's hair?</span></h3>
 <p><span style="font-weight: 400;">You can go as short as 1/2 inch, especially in hot weather, but avoid shaving too close to prevent skin irritation.</span></p>
 <h3><span style="font-weight: 400;">How often should I groom a Yorkie?</span></h3>
-<p><span style="font-weight: 400;">Every 4–6 weeks for trims and weekly brushing, depending on the cut.</span></p>
+<p><span style="font-weight: 400;">Every 4 to 6 weeks for trims and weekly brushing, depending on the cut.</span></p>
 <h3><span style="font-weight: 400;">Is it better to trim or shave a Yorkie?</span></h3>
 <p><span style="font-weight: 400;">Trimming is generally preferred; shaving can damage hair texture and cause skin sensitivity.</span></p>
 <h3><span style="font-weight: 400;">Can I groom my Yorkie at home?</span></h3>
@@ -498,19 +498,13 @@ const yorkieGroomingStylesHtml = String.raw`
 export const yorkieGroomingStylesPost: BlogPost = {
   slug: '13-most-popular-yorkie-grooming-styles',
   title: 'The 13 Most Popular Yorkie Grooming Styles',
-  excerpt:
-      'Find 13 Yorkie haircut ideas plus maintenance tips, seasonal advice, and DIY grooming steps for silky coats.',
-  description:
-      'Explore the 13 most popular Yorkie grooming styles with pictures, tool lists, maintenance timelines, and expert-backed DIY grooming advice.',
-  imageUrl:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/31f64ff-4afd-dbec-5b8-806523717606_yorkie_grooming_styles_feature_image.jpg',
-  heroImage:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/31f64ff-4afd-dbec-5b8-806523717606_yorkie_grooming_styles_feature_image.jpg',
-  heroImageAlt:
-      'Happy Yorkie outdoors with a fresh haircut, showcasing one of the popular Yorkie grooming styles.',
+  excerpt: 'Find 13 Yorkie haircut ideas plus maintenance tips, seasonal advice, and DIY grooming steps for silky coats.',
+  description: 'Explore the 13 most popular Yorkie grooming styles with pictures, tool lists, maintenance timelines, and expert-backed DIY grooming advice.',
+  imageUrl: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/31f64ff-4afd-dbec-5b8-806523717606_yorkie_grooming_styles_feature_image.jpg',
+  heroImage: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/31f64ff-4afd-dbec-5b8-806523717606_yorkie_grooming_styles_feature_image.jpg',
+  heroImageAlt: 'Happy Yorkie outdoors with a fresh haircut, showcasing one of the popular Yorkie grooming styles.',
   tags: [ 'DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools' ],
   publishedOn: 'Jul 14, 2025',
-  canonicalUrl:
-      'https://www.pawparentacademy.com/blog/13-most-popular-yorkie-grooming-styles',
+  canonicalUrl: 'https://www.pawparentacademy.com/blog/13-most-popular-yorkie-grooming-styles',
   contentHtml: yorkieGroomingStylesHtml,
 };
