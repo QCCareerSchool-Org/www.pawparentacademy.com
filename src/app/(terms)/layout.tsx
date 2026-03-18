@@ -1,5 +1,5 @@
 import type { LayoutComponent } from '../serverComponent';
-import './style.css';
+import './terms.css';
 
 const TermsLayout: LayoutComponent = ({ children }) => (
   <>{children}</>
