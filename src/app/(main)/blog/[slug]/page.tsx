@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
-import { blogPosts, getBlogPostBySlug } from '../blog-posts';
+import { blogPosts, getBlogPostBySlug } from '../posts';
 import styles from './BlogArticle.module.scss';
 import type { GenerateMetadata, PageComponent } from '@/app/serverComponent';
 

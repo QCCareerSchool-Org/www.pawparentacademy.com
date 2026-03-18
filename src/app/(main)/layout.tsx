@@ -5,11 +5,6 @@ import { Navbar } from '@/components/navbar';
 import { BrevoConversations } from '@/scripts/brevoConversations';
 import '../main.scss';
 
-export const metadata = {
-  title: 'Paw Parent Academy',
-  description: 'Learn to groom your dog at home',
-};
-
 const MainLayout: LayoutComponent = ({ children }) => (
   <>
     <Navbar />

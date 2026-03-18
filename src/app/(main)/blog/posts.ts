@@ -10,7 +10,28 @@ import { schnauzerHaircutsPost } from './posts/schnauzer-haircuts-and-grooming-s
 import { shihTzuHaircutsPost } from './posts/shih-tzu-haircuts';
 import { goldendoodleGroomingGuidePost } from './posts/the-ultimate-guide-to-grooming-your-goldendoodle-at-home';
 import { huskyGroomingGuidePost } from './posts/the-ultimate-husky-grooming-guide';
-import type { BlogPost } from './types';
+
+export const tags = [ 'DIY Dog Grooming', 'DIY Grooming', 'Dog Grooming Tools', 'Dog Nail Trimming', 'Breed Guides', 'Dog Grooming', 'Dog Bathing' ] as const;
+
+export type Tag = typeof tags[number];
+
+export const featuredTags: Tag[] = [ 'DIY Dog Grooming', 'DIY Grooming', 'Dog Grooming Tools', 'Dog Nail Trimming', 'Breed Guides' ] as const;
+
+export type FeaturedTag = typeof featuredTags[number];
+
+export interface BlogPost {
+  slug: string;
+  title: string;
+  excerpt: string;
+  description?: string;
+  imageUrl: string;
+  heroImage?: string;
+  heroImageAlt?: string;
+  tags: Tag[];
+  publishedOn: string;
+  canonicalUrl?: string;
+  contentHtml?: string;
+}
 
 export const blogPosts: BlogPost[] = [
   shihTzuHaircutsPost,
@@ -27,8 +48,6 @@ export const blogPosts: BlogPost[] = [
   yorkieGroomingStylesPost,
 ];
 
-export function getBlogPostBySlug(slug: string) {
+export const getBlogPostBySlug = (slug: string) => {
   return blogPosts.find(post => post.slug === slug);
-}
-
-export type { BlogPost } from './types';
+};

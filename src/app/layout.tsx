@@ -29,7 +29,7 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: {
     template: '%s - Paw Parent Academy',
-    absolute: 'Paw Parent Academy',
+    default: 'Paw Parent Academy',
   },
   description: 'Learn to groom your dog at home',
   icons: { icon: '/favicon.ico' },
