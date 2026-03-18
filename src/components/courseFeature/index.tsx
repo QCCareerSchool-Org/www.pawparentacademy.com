@@ -30,7 +30,7 @@ export const CourseFeature: FC<Props> = async ({ courseCode, countryCode, provin
           <h3>{title}</h3>
           {data.subtitle && <p className="mb-3 mt-3 text-dark"><strong>{data.subtitle}</strong></p>}
           <p>{getCourseDescription(courseCode)}</p>
-          {data.greatFor && <p><span className="text-dark"><strong>Great For:</strong></span>{data.greatFor}</p>}
+          {data.greatFor && <p><span className="text-dark"><strong>Great For:</strong></span> {data.greatFor}</p>}
           {subjects && subjects.length > 0 && (
             <>
               <p className="text-dark"><strong>Highlights:</strong></p>
