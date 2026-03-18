@@ -40,7 +40,6 @@ export const fetchPrice = async (courses: CourseCode[], countryCode: string, pro
 };
 
 const createQuerystring = (priceQuery: PriceQuery): string => {
-  console.log('pricequery', priceQuery);
   const urlSearchParams = new URLSearchParams({
     countryCode: priceQuery.countryCode,
     provinceCode: priceQuery.provinceCode ?? '',
