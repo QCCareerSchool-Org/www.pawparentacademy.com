@@ -23,10 +23,8 @@ export const MentorSpotlight: FC = () => (
             </div>
           </article>
         </div>
-        <div className="col-12 col-lg-6 d-flex align-items-end">
-          <div>
-            <Image src={nadia} alt="Nadia Bongelli smiling with a dog" className="img-fluid" style={{ maxWidth: 540 }} />
-          </div>
+        <div className="col-12 col-lg-6 d-flex align-items-end justify-content-center">
+          <Image src={nadia} alt="Nadia Bongelli smiling with a dog" className="img-fluid" style={{ maxWidth: 'calc(min(100%,540px)' }} />
         </div>
       </div>
     </div>
