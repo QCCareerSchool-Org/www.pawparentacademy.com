@@ -34,7 +34,7 @@ export const CourseOverview: FC<Props> = props => {
         </div>
         <CourseOverviewCarousel modules={props.modules} />
         <div className={styles.ctaWrap}>
-          <Link className="btn btn-secondary btn-lg rounded-pill" href={getEnrollmentUrl(props.courseCode)}>Enroll Now{props.price && <> ({props.price})</>}</Link>
+          <Link className="btn btn-secondary btn-lg" href={getEnrollmentUrl(props.courseCode)}>Enroll Now{props.price && <> ({props.price})</>}</Link>
         </div>
       </div>
     </section>

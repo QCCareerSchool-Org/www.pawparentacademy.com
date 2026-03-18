@@ -17,7 +17,7 @@ const ContactPage: PageComponent = () => (
           <h1 className="h2">Get in Touch with Paw Parent Academy!</h1>
           <p className="lead">Have questions about our grooming courses?</p>
           <p className="mb-4">We're here to help! Whether you need support, have inquiries, or just want to say hello, we'd love to hear from you. Reach us at <EmailLink />.</p>
-          <EmailLink className="btn btn-primary rounded-pill" text="Email Us" />
+          <EmailLink className="btn btn-primary" text="Email Us" />
         </div>
       </div>
     </div>
