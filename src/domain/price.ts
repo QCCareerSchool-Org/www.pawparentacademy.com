@@ -62,7 +62,7 @@ export type CoursePrice = {
 } & PriceDetails;
 
 export const isPrice = (obj: unknown): obj is Price => {
-  const result = obj !== null && typeof obj === 'object' &&
+  return obj !== null && typeof obj === 'object' &&
     'countryCode' in obj && typeof obj.countryCode === 'string' &&
     (('provinceCode' in obj && (typeof obj.provinceCode === 'string' || typeof obj.provinceCode === 'undefined')) || !('provinceCode' in obj)) &&
     'currency' in obj && isCurrency(obj.currency) &&
@@ -75,30 +75,20 @@ export const isPrice = (obj: unknown): obj is Price => {
     (('promoCode' in obj && (typeof obj.promoCode === 'string' || typeof obj.promoCode === 'undefined')) || !('promoCode' in obj)) &&
     'courses' in obj && Array.isArray(obj.courses) && obj.courses.every(isCoursePrice) &&
     isPriceDetails(obj);
-
-  if (!result) {
-    console.log('isPrice', result, obj);
-  }
-  return result;
 };
 
 const isCoursePrice = (obj: unknown): obj is CoursePrice => {
-  const result = obj !== null && typeof obj === 'object' &&
+  return obj !== null && typeof obj === 'object' &&
     'code' in obj && typeof obj.code === 'string' &&
     'name' in obj && typeof obj.name === 'string' &&
     'primary' in obj && typeof obj.primary === 'boolean' &&
     'free' in obj && typeof obj.free === 'boolean' &&
     'discountMessage' in obj && (typeof obj.discountMessage === 'string' || obj.discountMessage === null) &&
     isPriceDetails(obj);
-
-  if (!result) {
-    console.log('isCoursePrice', result, obj);
-  }
-  return result;
 };
 
 const isPriceDetails = (obj: unknown): obj is PriceDetails => {
-  const result = obj !== null && typeof obj === 'object' &&
+  return obj !== null && typeof obj === 'object' &&
     'cost' in obj && typeof obj.cost === 'number' &&
     'multiCourseDiscount' in obj && typeof obj.multiCourseDiscount === 'number' &&
     'promoDiscount' in obj && typeof obj.promoDiscount === 'number' &&
@@ -106,26 +96,16 @@ const isPriceDetails = (obj: unknown): obj is PriceDetails => {
     'discountedCost' in obj && typeof obj.discountedCost === 'number' &&
     'plans' in obj && isPlans(obj.plans) &&
     'shipping' in obj && typeof obj.shipping === 'number';
-
-  if (!result) {
-    console.log('isPriceDetails', result, obj);
-  }
-  return result;
 };
 
 const isPlans = (obj: unknown): obj is { full: Plan; part: Plan } => {
-  const result = obj !== null && typeof obj === 'object' &&
+  return obj !== null && typeof obj === 'object' &&
     (('full' in obj && isPlan(obj.full)) || !('full' in obj)) &&
     (('part' in obj && isPlan(obj.part)) || !('part' in obj));
-
-  if (!result) {
-    console.log('isPlans', result, obj);
-  }
-  return result;
 };
 
 const isPlan = (obj: unknown): obj is Plan => {
-  const result = obj !== null && typeof obj === 'object' &&
+  return obj !== null && typeof obj === 'object' &&
     'discount' in obj && typeof obj.discount === 'number' &&
     'deposit' in obj && typeof obj.deposit === 'number' &&
     'installmentSize' in obj && typeof obj.installmentSize === 'number' &&
@@ -134,9 +114,4 @@ const isPlan = (obj: unknown): obj is Plan => {
     'total' in obj && typeof obj.total === 'number' &&
     'originalDeposit' in obj && typeof obj.originalDeposit === 'number' &&
     'originalInstallments' in obj && typeof obj.originalInstallments === 'number';
-
-  if (!result) {
-    console.log('isPlan', result, obj);
-  }
-  return result;
 };
