@@ -111,7 +111,7 @@ const shihTzuHaircutsHtml = String.raw`
 <h4><span style="font-weight: 400;"><b>4. The Teddy Bear Cut</b></span></h4>
 <p><img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/3131bd-e5fe-1edc-a64c-687475e0e4_shih_tzu_teddy_bear_cut.jpg" alt="Shih Tzu receiving a gentle comb-through on a red background, featuring the signature rounded face and fluffy body of a teddy bear Shih Tzu haircut—one of the most popular and adorable grooming styles for this breed."></p>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Round face with soft, even body length (1–2 inches)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Round face with soft, even body length (1 to 2 inches)</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Signature style with a plush, huggable look</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Great for year-round style; moderate maintenance</span></li>
 </ul>
@@ -200,7 +200,7 @@ const shihTzuHaircutsHtml = String.raw`
 <ul>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Start slowly, using treats and praise</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Use a <a href="https://www.google.com/aclk?sa=l&amp;ai=DChcSEwiX2vG3tLWNAxUENwgFHfWmDMAYABAJGgJtZA&amp;co=1&amp;gclid=CjwKCAjw87XBBhBIEiwAxP3_A15pRxUnF1NjfyximpEfytzGkOQcpCnbmQ0CH22kwqqw5OFrRAJ76hoCPTEQAvD_BwE&amp;category=acrcp_v1_0&amp;sig=AOD64_3oUkUpg3OCzoJxi-29Y2esC3gJLA&amp;q&amp;adurl&amp;ved=2ahUKEwiK6Ou3tLWNAxXarokEHZuqIGgQ0Qx6BAgvEAE" target="_blank" rel="noopener noreferrer">gentle slicker</a> or <a href="https://chrischristensen.com/blog/brush-guide-pin-brushes/?srsltid=AfmBOoqWzrODBEfKUPnDiBp0s1Q1BkrYeoEzwDf0OTBdL7ahcIY5mv9a" target="_blank" rel="noopener noreferrer">pin brush</a> to avoid discomfort</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Keep sessions short (5–10 minutes) at first</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Keep sessions short (5 to 10 minutes) at first</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Try brushing after exercise, when your dog is calmer</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Incorporate brushing into a daily routine for bonding</span></li>
 </ul>
