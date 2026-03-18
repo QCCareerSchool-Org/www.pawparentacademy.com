@@ -30,7 +30,7 @@ export const CourseHero: FC<Props> = props => (
               {props.supportingPoints.map((point, i) => <li key={i}>{point}</li>)}
             </ul>
           )}
-          <Link href={getEnrollmentUrl(props.courseCode)} className="btn btn-primary">Enroll Now{props.price && <> ({props.price})</>}</Link>
+          <Link href={getEnrollmentUrl(props.courseCode)} className="btn btn-secondary">Enroll Now{props.price && <> ({props.price})</>}</Link>
         </div>
       </div>
     </div>
