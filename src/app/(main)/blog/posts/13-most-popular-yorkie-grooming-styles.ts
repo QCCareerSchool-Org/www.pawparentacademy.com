@@ -498,19 +498,13 @@ const yorkieGroomingStylesHtml = String.raw`
 export const yorkieGroomingStylesPost: BlogPost = {
   slug: '13-most-popular-yorkie-grooming-styles',
   title: 'The 13 Most Popular Yorkie Grooming Styles',
-  excerpt:
-      'Find 13 Yorkie haircut ideas plus maintenance tips, seasonal advice, and DIY grooming steps for silky coats.',
-  description:
-      'Explore the 13 most popular Yorkie grooming styles with pictures, tool lists, maintenance timelines, and expert-backed DIY grooming advice.',
-  imageUrl:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/31f64ff-4afd-dbec-5b8-806523717606_yorkie_grooming_styles_feature_image.jpg',
-  heroImage:
-      'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/31f64ff-4afd-dbec-5b8-806523717606_yorkie_grooming_styles_feature_image.jpg',
-  heroImageAlt:
-      'Happy Yorkie outdoors with a fresh haircut, showcasing one of the popular Yorkie grooming styles.',
+  excerpt: 'Find 13 Yorkie haircut ideas plus maintenance tips, seasonal advice, and DIY grooming steps for silky coats.',
+  description: 'Explore the 13 most popular Yorkie grooming styles with pictures, tool lists, maintenance timelines, and expert-backed DIY grooming advice.',
+  imageUrl: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/31f64ff-4afd-dbec-5b8-806523717606_yorkie_grooming_styles_feature_image.jpg',
+  heroImage: 'https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147920598/images/31f64ff-4afd-dbec-5b8-806523717606_yorkie_grooming_styles_feature_image.jpg',
+  heroImageAlt: 'Happy Yorkie outdoors with a fresh haircut, showcasing one of the popular Yorkie grooming styles.',
   tags: [ 'DIY Grooming', 'Dog Grooming', 'Dog Grooming Tools' ],
   publishedOn: 'Jul 14, 2025',
-  canonicalUrl:
-      'https://www.pawparentacademy.com/blog/13-most-popular-yorkie-grooming-styles',
+  canonicalUrl: 'https://www.pawparentacademy.com/blog/13-most-popular-yorkie-grooming-styles',
   contentHtml: yorkieGroomingStylesHtml,
 };
