@@ -5,10 +5,7 @@ const url = 'https://api64.ipify.org/?format=json';
 
 export const fetchIpAddress = async (signal?: AbortSignal): Promise<Result<string>> => {
   try {
-    const response = await fetch(url, {
-      signal,
-    });
-
+    const response = await fetch(url, { signal });
     if (!response.ok) {
       throw Error(response.statusText);
     }
@@ -20,11 +17,11 @@ export const fetchIpAddress = async (signal?: AbortSignal): Promise<Result<strin
 
     return success(json.ip);
 
-  } catch (err: unknown) {
+  } catch (err) {
     if (!signal?.aborted) {
       console.error(err);
     }
-    return failure(err instanceof Error ? err : Error(String(err)));
+    return err instanceof Error ? failure(err) : failure(Error(String(err)));
   }
 };
 
