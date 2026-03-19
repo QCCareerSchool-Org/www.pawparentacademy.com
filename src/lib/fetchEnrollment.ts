@@ -6,13 +6,11 @@ import { isRawEnrollment } from '@/domain/enrollment';
 
 const enrollmentsUrl = process.env.ENROLLMENT_ENDPOINT;
 
-export const fetchEnrollment = async (id: number, code: string, controller?: AbortController): Promise<Result<Enrollment>> => {
+export const fetchEnrollment = async (id: number, code: string, signal?: AbortSignal): Promise<Result<Enrollment>> => {
   try {
     const url = `${enrollmentsUrl}/${id}?code=${encodeURIComponent(code)}`;
 
-    const response = await fetch(url, {
-      signal: controller?.signal,
-    });
+    const response = await fetch(url, { signal });
 
     if (!response.ok) {
       throw Error(response.statusText);
@@ -20,7 +18,7 @@ export const fetchEnrollment = async (id: number, code: string, controller?: Abo
 
     const responseBody: unknown = await response.json();
     if (!isRawEnrollment(responseBody)) {
-      return failure(Error('Unexpected response'));
+      throw Error('Unexpected response');
     }
 
     return success({
@@ -29,7 +27,7 @@ export const fetchEnrollment = async (id: number, code: string, controller?: Abo
       paymentDate: new Date(responseBody.paymentDate),
     });
   } catch (err) {
-    if (!controller?.signal.aborted) {
+    if (!signal?.aborted) {
       console.error(err);
     }
     return failure(err instanceof Error ? err : Error(String(err)));
