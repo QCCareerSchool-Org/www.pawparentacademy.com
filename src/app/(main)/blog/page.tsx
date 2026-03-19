@@ -6,6 +6,7 @@ import type { PageComponent } from '@/app/serverComponent';
 
 export const metadata: Metadata = {
   title: 'Blog',
+  alternates: { canonical: '/blog' },
 };
 
 const BlogIndexPage: PageComponent = () => <Blog posts={blogPosts} featuredTags={featuredTags} />;
