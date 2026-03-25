@@ -15,6 +15,7 @@ export const fetchEnrollment = async (id: number, code: string, signal?: AbortSi
 
     const responseBody: unknown = await response.json();
     if (!isRawEnrollment(responseBody)) {
+      console.error(responseBody);
       throw Error('Unexpected response');
     }
 
