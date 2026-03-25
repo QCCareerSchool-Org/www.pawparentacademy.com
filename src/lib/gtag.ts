@@ -1,3 +1,4 @@
+/* eslint-disable custom/no-window-outside-effects */
 import { Big } from 'big.js';
 
 import type { Enrollment } from '@/domain/enrollment';
@@ -119,7 +120,7 @@ export const gaSale = (enrollment: Enrollment): void => {
 
   // Google Ads sale conversion
   gaEvent('conversion', {
-    send_to: 'AW-1071836607/dnxcCMKIuVkQv9uL_wM', // eslint-disable-line camelcase
+    send_to: 'AW-1071836607/xFpdCJ3DpW8Qv9uL_wM', // eslint-disable-line camelcase
     value: parseFloat(Big(enrollment.cost).times(priceModifier).toFixed(2)),
     currency: enrollment.currencyCode,
     transaction_id: enrollment.id.toString(), // eslint-disable-line camelcase

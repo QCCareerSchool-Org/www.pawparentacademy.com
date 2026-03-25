@@ -1,4 +1,5 @@
-export interface BrevoProperties {
+/* eslint-disable custom/no-window-outside-effects */
+interface Properties {
   FIRSTNAME?: string;
   LASTNAME?: string;
   COUNTRY_CODE?: string;
@@ -11,7 +12,7 @@ declare global {
   interface Window {
     sendinblue?: {
       page: (...args: unknown[]) => void;
-      identify: (emailAddress: string, properties: BrevoProperties) => void;
+      identify: (emailAddress: string, properties: Properties) => void;
     };
   }
 }
@@ -26,7 +27,7 @@ export const brevoPageview = (title: string, url: string, path: string): void =>
 };
 
 export const brevoIdentifyLead = (emailAddress: string, countryCode: string | null, provinceCode: string | null, firstName: string | null, lastName: string | null): void => {
-  const properties: BrevoProperties = { STATUS_PET_LEAD: true };
+  const properties: Properties = { STATUS_PET_LEAD: true };
   if (countryCode) {
     properties.COUNTRY_CODE = countryCode;
   }
@@ -39,6 +40,7 @@ export const brevoIdentifyLead = (emailAddress: string, countryCode: string | nu
   if (lastName) {
     properties.LASTNAME = lastName;
   }
+
   window.sendinblue?.identify(emailAddress, properties);
 };
 

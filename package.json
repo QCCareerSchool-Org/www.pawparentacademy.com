@@ -1,6 +1,6 @@
 {
   "name": "www-pawparentacademy-com",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "private": true,
   "scripts": {
     "dev": "next dev --webpack",
@@ -17,14 +17,15 @@
     "big.js": "^7.0.1",
     "bootstrap": "^5.3.8",
     "generic-result-type": "^2.3.0",
-    "jose": "^6.2.1",
+    "jose": "^6.2.2",
     "next": "16.2.0",
     "qs": "^6.15.0",
     "react": "19.2.4",
     "react-bootstrap": "^2.10.10",
     "react-dom": "19.2.4",
     "react-google-recaptcha-v3": "^1.11.0",
-    "react-toastify": "^11.0.5"
+    "react-toastify": "^11.0.5",
+    "use-window-listener": "^1.1.1"
   },
   "devDependencies": {
     "@eslint/compat": "^2.0.3",
@@ -48,7 +49,7 @@
     "@types/react-dom": "19.2.3",
     "@types/webpack": "^5.28.5",
     "babel-plugin-react-compiler": "1.0.0",
-    "baseline-browser-mapping": "^2.10.0",
+    "baseline-browser-mapping": "^2.10.9",
     "eslint": "^9.39.4",
     "eslint-config-next": "16.2.0",
     "eslint-import-resolver-typescript": "^4.4.4",
@@ -65,7 +66,7 @@
     "sass": "^1.98.0",
     "schema-dts": "^1.1.5",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.57.0"
+    "typescript-eslint": "^8.57.1"
   },
   "overrides": {
     "@types/react": "19.2.14",

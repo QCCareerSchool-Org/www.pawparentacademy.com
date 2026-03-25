@@ -1,6 +1,7 @@
 'use client';
 
-import Image, { type StaticImageData } from 'next/image';
+import type { StaticImageData } from 'next/image';
+import Image from 'next/image';
 import type { FC } from 'react';
 import { useEffect, useState } from 'react';
 

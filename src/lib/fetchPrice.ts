@@ -1,5 +1,3 @@
-import 'server-only';
-
 import type { Result } from 'generic-result-type';
 import { failure, success } from 'generic-result-type';
 import qs from 'qs';
@@ -10,7 +8,8 @@ import type { Price } from '@/domain/price';
 import { isPrice } from '@/domain/price';
 import type { School } from '@/domain/school';
 
-const pricesUrl = process.env.PRICES_ENDPOINT;
+const endpoint = process.env.PRICES_ENDPOINT;
+const headers = { 'X-API-Version': '2' };
 
 export const fetchPrice = async (
   courses: CourseCode[],
@@ -21,13 +20,9 @@ export const fetchPrice = async (
 ): Promise<Result<Price>> => {
   try {
     const priceQuery: PriceQuery = { countryCode, provinceCode: provinceCode ?? undefined, courses, options };
+    const url = `${endpoint}?${qs.stringify(priceQuery)}`;
 
-    const url = `${pricesUrl}?${qs.stringify(priceQuery)}`;
-    const response = await fetch(url, {
-      headers: { 'X-API-Version': '2' },
-      signal,
-    });
-
+    const response = await fetch(url, { headers, signal });
     if (!response.ok) {
       throw Error(response.statusText);
     }

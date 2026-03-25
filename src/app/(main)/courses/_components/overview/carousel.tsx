@@ -51,6 +51,7 @@ export const CourseOverviewCarousel: FC<Props> = props => {
     delayRef.current = INTERACTION_DELAY;
 
     if (timerRef.current !== null) {
+      // eslint-disable-next-line custom/no-window-outside-effects
       window.clearTimeout(timerRef.current);
       timerRef.current = null;
     }

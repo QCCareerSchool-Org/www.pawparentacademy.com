@@ -4,7 +4,8 @@ import type { FC } from 'react';
 
 import { CourseOverviewCarousel } from './carousel';
 import styles from './styles.module.scss';
-import { type CourseCode, getEnrollmentUrl } from '@/domain/courseCode';
+import type { CourseCode } from '@/domain/courseCode';
+import { getEnrollmentUrl } from '@/domain/courseCode';
 
 export interface CourseModuleInfo {
   title: string;
