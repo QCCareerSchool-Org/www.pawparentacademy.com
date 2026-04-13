@@ -17,7 +17,6 @@ import module1Image from './_images/module-1.jpg';
 import module2Image from './_images/module-2.jpg';
 import bonusModuleImage from './_images/module-bonus.jpg';
 import archerPupStar from './_images/pup-star-archer.jpg';
-import type { PageComponent } from '@/app/serverComponent';
 import type { FAQItem } from '@/components/faqSection';
 import { FAQSection } from '@/components/faqSection';
 import { CourseJsonLd } from '@/components/jsonLd/course';
@@ -26,6 +25,7 @@ import { getCourseDescription, getCourseName, getCourseUrl } from '@/domain/cour
 import { fetchPrice } from '@/lib/fetchPrice';
 import { formatPrice } from '@/lib/formatPrice';
 import { getServerData } from '@/lib/getServerData';
+import type { PageComponent } from '@/serverComponent';
 
 const courseCode: CourseCode = 'pg';
 const title = getCourseName(courseCode);

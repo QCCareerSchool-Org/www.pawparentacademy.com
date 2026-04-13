@@ -20,7 +20,6 @@ import module8 from './_images/modules-8.jpg';
 import fitChecklistImage from './_images/pepe-communication.jpg';
 import pepePupStar from './_images/pepe-pupstar.jpg';
 import heroImage from './_images/plush-coats-no-bg.jpg';
-import type { PageComponent } from '@/app/serverComponent';
 import { EmailLink } from '@/components/emailLink';
 import type { FAQItem } from '@/components/faqSection';
 import { FAQSection } from '@/components/faqSection';
@@ -30,6 +29,7 @@ import { getCourseDescription, getCourseName, getCourseUrl } from '@/domain/cour
 import { fetchPrice } from '@/lib/fetchPrice';
 import { formatPrice } from '@/lib/formatPrice';
 import { getServerData } from '@/lib/getServerData';
+import type { PageComponent } from '@/serverComponent';
 
 const courseCode: CourseCode = 'tb';
 const title = getCourseName(courseCode);

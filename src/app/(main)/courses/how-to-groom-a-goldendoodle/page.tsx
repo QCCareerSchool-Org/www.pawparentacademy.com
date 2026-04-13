@@ -20,7 +20,6 @@ import module6 from './_images/module-6.jpg';
 import module7 from './_images/module-7.jpg';
 import module8 from './_images/module-8.jpg';
 import remyPupStar from './_images/remy-pup-star.jpg';
-import type { PageComponent } from '@/app/serverComponent';
 import { EmailLink } from '@/components/emailLink';
 import type { FAQItem } from '@/components/faqSection';
 import { FAQSection } from '@/components/faqSection';
@@ -30,6 +29,7 @@ import { getCourseDescription, getCourseName, getCourseUrl } from '@/domain/cour
 import { fetchPrice } from '@/lib/fetchPrice';
 import { formatPrice } from '@/lib/formatPrice';
 import { getServerData } from '@/lib/getServerData';
+import type { PageComponent } from '@/serverComponent';
 
 const courseCode: CourseCode = 'gd';
 const title = getCourseName(courseCode);

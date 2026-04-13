@@ -1,4 +1,4 @@
-import type { PageComponent } from '@/app/serverComponent';
+import type { PageComponent } from '@/serverComponent';
 
 const TermsPage: PageComponent = () => (
   <section>

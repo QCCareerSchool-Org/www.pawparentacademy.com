@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 
 import { Hero } from './_components/hero';
 import { faqSectionDetails } from './data';
-import type { PageComponent } from '@/app/serverComponent';
 import { CTASection } from '@/components/ctaSection';
 import { FAQSection } from '@/components/faqSection';
+import type { PageComponent } from '@/serverComponent';
 
 export const metadata: Metadata = {
   title: 'Frequently Asked Questions',

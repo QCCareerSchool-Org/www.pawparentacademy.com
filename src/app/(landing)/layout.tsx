@@ -1,4 +1,4 @@
-import type { LayoutComponent } from '../serverComponent';
+import type { LayoutComponent } from '../../serverComponent';
 import { Header } from './_components/header';
 import { BootstrapClient } from '@/components/bootstrapClient';
 import { Footer } from '@/components/footer';
