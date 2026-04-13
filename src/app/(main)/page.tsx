@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import type { PageComponent } from '../serverComponent';
+import type { PageComponent } from '../../serverComponent';
 import { CourseFinderSection } from './_components/courseFinderSection';
 import { HeroSection } from './_components/heroSection';
 import { IntroSection } from './_components/introSection';

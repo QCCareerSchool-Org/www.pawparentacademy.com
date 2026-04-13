@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 import { Blog } from './blog';
 import { blogPosts, featuredTags } from './posts';
-import type { PageComponent } from '@/app/serverComponent';
+import type { PageComponent } from '@/serverComponent';
 
 export const metadata: Metadata = {
   title: 'Blog',

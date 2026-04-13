@@ -19,7 +19,6 @@ import module6 from './_images/modules-6.jpg';
 import module7 from './_images/modules-bonus-7.jpg';
 import roxyPupStar from './_images/terrier-pup-star.jpg';
 import fitChecklistImage from './_images/terrier.jpg';
-import type { PageComponent } from '@/app/serverComponent';
 import { EmailLink } from '@/components/emailLink';
 import type { FAQItem } from '@/components/faqSection';
 import { FAQSection } from '@/components/faqSection';
@@ -29,6 +28,7 @@ import { getCourseDescription, getCourseName, getCourseUrl } from '@/domain/cour
 import { fetchPrice } from '@/lib/fetchPrice';
 import { formatPrice } from '@/lib/formatPrice';
 import { getServerData } from '@/lib/getServerData';
+import type { PageComponent } from '@/serverComponent';
 
 const courseCode: CourseCode = 'tr';
 const title = getCourseName(courseCode);

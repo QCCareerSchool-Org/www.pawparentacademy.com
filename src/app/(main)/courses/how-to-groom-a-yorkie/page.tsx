@@ -20,7 +20,6 @@ import module8 from './_images/modules-bonus.jpg';
 import fitChecklistImage from './_images/yorkie-checklist.jpg';
 import heroImage from './_images/yorkie-coats-no-bg.jpg';
 import yorkiePupStar from './_images/yorkie-pup-star.jpg';
-import type { PageComponent } from '@/app/serverComponent';
 import { EmailLink } from '@/components/emailLink';
 import type { FAQItem } from '@/components/faqSection';
 import { FAQSection } from '@/components/faqSection';
@@ -30,6 +29,7 @@ import { getCourseDescription, getCourseName, getCourseUrl } from '@/domain/cour
 import { fetchPrice } from '@/lib/fetchPrice';
 import { formatPrice } from '@/lib/formatPrice';
 import { getServerData } from '@/lib/getServerData';
+import type { PageComponent } from '@/serverComponent';
 
 const courseCode: CourseCode = 'yk';
 const title = getCourseName(courseCode);

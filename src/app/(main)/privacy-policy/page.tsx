@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
-import type { PageComponent } from '@/app/serverComponent';
 import { EmailLink } from '@/components/emailLink';
+import type { PageComponent } from '@/serverComponent';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',

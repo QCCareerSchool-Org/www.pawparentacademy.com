@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import { HeroSection } from './_components/heroSection';
 import { TeamSection } from './_components/teamSection';
 import { StatsSection } from '../../../components/statsSection';
-import type { PageComponent } from '@/app/serverComponent';
 import { CTASection } from '@/components/ctaSection';
+import type { PageComponent } from '@/serverComponent';
 
 export const metadata: Metadata = {
   title: 'Our Mission to Empower Paw Parents',

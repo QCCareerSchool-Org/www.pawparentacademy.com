@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 
 import { blogPosts, getBlogPostBySlug } from '../posts';
 import styles from './BlogArticle.module.scss';
-import type { GenerateMetadata, PageComponent } from '@/app/serverComponent';
+import type { GenerateMetadata, PageComponent } from '@/serverComponent';
 
 // eslint-disable-next-line @typescript-eslint/consistent-type-definitions
 type Params = {
