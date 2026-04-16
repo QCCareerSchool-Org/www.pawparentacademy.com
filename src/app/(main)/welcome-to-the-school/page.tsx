@@ -19,7 +19,7 @@ import { createJwt } from '@/lib/jwt';
 import { sendEnrollmentEmail } from '@/lib/sendEnrollmentEmail';
 import type { PageComponent } from '@/serverComponent';
 
-const brevoStudentListId = 14;
+const brevoStudentListId = 89;
 
 export const metadata: Metadata = {
   title: 'Thank You for Enrolling with Paw Parent Academy!',
