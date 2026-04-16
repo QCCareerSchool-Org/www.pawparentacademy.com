@@ -5,7 +5,7 @@ import { BrevoClient } from '@getbrevo/brevo';
 
 const apiKey = process.env.BREVO_API_KEY ?? '';
 
-const brevo = new BrevoClient({ apiKey });
+const brevo = new BrevoClient({ apiKey, baseUrl: 'https://proxy.qccareerschool.com/brevo' });
 
 interface CustomAttributes {
   STATUS_PET_LEAD?: boolean;
