@@ -130,7 +130,7 @@ const bestDogNailGrinderHtml = String.raw`
 <p><span style="font-weight: 400;">Using a nail grinder isn't just about convenience—it's about building trust and confidence between you and your dog. By filing gradually and gently, you minimize fear, avoid painful accidents, and make nail care a regular, stress-free part of your grooming routine. For nervous dogs and new pet parents alike, it's a safer, calmer way to keep those paws healthy and happy.</span></p>
 <h2 id="5-best">The 5 Best Dog Nail Grinders of 2025 (Reviewed &amp; Ranked)</h2>
 <p><span style="font-weight: 400;">We've compared and reviewed the most recommended dog nail grinders of the year. Here are the best options for anxious dogs, large breeds, and budget-conscious pet parents.</span></p>
-<h3>&nbsp;<span style="font-weight: 400;">Best Overall—</span><a href="https://www.amazon.com/Dremel-7350-Pet-3-6v-Pet-Grooming-dp-B08YKFJ3FR/dp/B08YKFJ3FR/ref=dp_ob_title_hi?th=1" target="_blank" rel="noopener noreferrer"><span style="font-weight: 400;">Dremel 7300-PT</span></a><span style="font-weight: 400;"> ($33.29 USD)</span></h3>
+<h3>&nbsp;<span style="font-weight: 400;">Best Overall—</span><a href="https://www.amazon.com/Dremel-7350-Pet-3-6v-Pet-Grooming-dp-B08YKFJ3FR/dp/B08YKFJ3FR?th=1&linkCode=ll2&tag=qccareersch09-20&linkId=eda6a68db49ecb84e904f8545a1dbcd6&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer"><span style="font-weight: 400;">Dremel 7300-PT</span></a><span style="font-weight: 400;"> ($33.29 USD)</span></h3>
 <p><span style="font-weight: 400;">The classic go-to for dog owners, the Dremel 7300-PT is cordless, rechargeable, and has two speed settings.</span></p>
 <h4><span style="font-weight: 400;">Why We Love It:</span></h4>
 <p style="padding-left: 30px;"><span style="font-weight: 400;">🧡 Trusted brand with excellent performance</span></p>
@@ -154,7 +154,7 @@ const bestDogNailGrinderHtml = String.raw`
 <h4><span style="font-weight: 400;">Cons:</span></h4>
 <p style="padding-left: 30px;"><span style="font-weight: 400;">❌ Less portable due to the cord</span></p>
 <p style="padding-left: 30px;"><span style="font-weight: 400;">❌ Pricier than some rechargeable models</span></p>
-<h3><span style="font-weight: 400;">Best for Large Dogs—<a href="https://wahlusa.com/shop/grind-smooth-cordless-battery-pet-nail-grinder-05974?srsltid=AfmBOoquHn-jhdByxxC6H7PjTZf-rdlq9aJlXsI9W1vRnptkbEhWCfaE" target="_blank" rel="noopener noreferrer">Wahl Professional Pet Grinder</a> ($47.50 USD)</span></h3>
+<h3><span style="font-weight: 400;">Best for Large Dogs—<a href="https://www.amazon.com/Wahl-Pet-Nail-Grinder-Lightweight/dp/B0GRC5BY3Y?crid=JKX68EF0TII1&dib=eyJ2IjoiMSJ9.NCM6PXdv-HeU6eXXJC31HPmYVJBqGJZ-_lL8kVDeOj9KKoeCswYu-UI_DeWlk4vQ5YAXlnd8i6wIbupkGbJ3D2yg8f2PqNw-OAFgje7IGPxyjxzMat5mob6PAgpGtQ7kYpDGGB7NFHNGtHKpZtg7HKgLYY-WoCJyWipNVUI0_vVyaKwWYJhWnEFELG7TTRp46M674nmNZDWaCDy2D0EXj1V81j7vJa6_2o5QL5ZKvqI.0joqN2VtC87chbuiDvXRxIhOssf39SSE6w1hGow-vHs&dib_tag=se&keywords=Wahl%2BProfessional%2BPet%2BGrinder&qid=1784211735&sprefix=wahl%2Bprofessional%2Bpet%2Bgrinder%2Caps%2C251&sr=8-4&th=1&linkCode=ll2&tag=qccareersch09-20&linkId=346b16eca266b8b1c6cd97b40ec2046d&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer">Wahl Professional Pet Grinder</a> ($47.50 USD)</span></h3>
 <p><span style="font-weight: 400;">This grinder is built for power, making it perfect for large breeds with tough nails.</span></p>
 <h4><span style="font-weight: 400;">Why We Love It:</span></h4>
 <p style="padding-left: 30px;"><span style="font-weight: 400;">🧡 High-torque motor</span></p>
@@ -165,7 +165,7 @@ const bestDogNailGrinderHtml = String.raw`
 <h4><span style="font-weight: 400;">Cons:</span></h4>
 <p style="padding-left: 30px;"><span style="font-weight: 400;">❌ Louder than others</span></p>
 <p style="padding-left: 30px;"><span style="font-weight: 400;">❌ Not as beginner-friendly</span></p>
-<h3><span style="font-weight: 400;">Best for Nervous Dogs—<a href="https://luckytail.com/products/ultimate-pet-nail-grinder?srsltid=AfmBOoplqFay_LOo4DJACPqAvoRkwIlzsuLbdOYZcTsKxWEAPDQlxPae" target="_blank" rel="noopener noreferrer">LuckyTail Nail Grinder</a> ($39.95 USD)</span></h3>
+<h3><span style="font-weight: 400;">Best for Nervous Dogs—<a href="https://www.amazon.com/LuckyTail-Dog-Nail-Grinder-Trimmer/dp/B08P51WYLS?crid=35KJSFM0NB0I8&dib=eyJ2IjoiMSJ9.LvmSfIlYrlu2UcnkHUFXbV0kmOaBPjjsnLOKips1E5uwqTbzaE80VROlu_DX1EoqESxr4AtZzsA_JAZZoSUxccwy-TgAU5mS58B7P1jfBZqnKoIBMpSiynhqdfOBT5KmFFn7Cg7XGtnSnehB8WJPkMIZwW9NqMqZmJxQScgpejzAEI0-hSxNuIcISGeQO9K5rlWFDKffXsaOB_adlOEVBj--zCal5oh1Qzw3jNAm3HY.Xfdjf8HMkhk3moNypJiVV4qpGgAVnkC-9_mx-Sf6dxg&dib_tag=se&keywords=LuckyTail%2BNail%2BGrinder&qid=1784211766&sprefix=luckytail%2Bnail%2Bgrinder%2B%2Caps%2C103&sr=8-1&th=1&linkCode=ll2&tag=qccareersch09-20&linkId=86ced8a39ccf372f72b0084ccf41cc95&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer">LuckyTail Nail Grinder</a> ($39.95 USD)</span></h3>
 <p><span style="font-weight: 400;">With an ergonomic shape and ultra-quiet performance, LuckyTail is a top choice for anxious pets.</span></p>
 <h4><span style="font-weight: 400;">Why We Love It:</span></h4>
 <p style="padding-left: 30px;"><span style="font-weight: 400;">🧡 Extremely quiet</span></p>
@@ -175,7 +175,7 @@ const bestDogNailGrinderHtml = String.raw`
 <p style="padding-left: 30px;"><span style="font-weight: 400;">✔️ LED light for visibility</span></p>
 <h4><span style="font-weight: 400;">Cons:</span></h4>
 <p style="padding-left: 30px;"><span style="font-weight: 400;">❌ Slightly higher price point</span></p>
-<h3><span style="font-weight: 400;">Best Budget Pick—<a href="https://www.amazon.com/Casfuy-Dog-Nail-Grinder-Upgraded/dp/B07PFCLHKR" target="_blank" rel="noopener noreferrer">Casfuy Dog Nail Grinder</a> ($19.99 USD)</span></h3>
+<h3><span style="font-weight: 400;">Best Budget Pick—<a href="https://www.amazon.com/Casfuy-Dog-Nail-Grinder-Upgraded/dp/B07PFCLHKR?th=1&linkCode=ll2&tag=qccareersch09-20&linkId=ede1fec29fe7d693ad84f7005a4b14a3&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer">Casfuy Dog Nail Grinder</a> ($19.99 USD)</span></h3>
 <p><span style="font-weight: 400;">Affordable, effective, and whisper-quiet—this grinder is ideal for pet parents who want quality results without spending a fortune.</span></p>
 <h4><span style="font-weight: 400;">Why We Love It:</span></h4>
 <p style="padding-left: 30px;"><span style="font-weight: 400;">🧡 Under $25 with thousands of positive reviews</span></p>
@@ -269,7 +269,7 @@ const bestDogNailGrinderHtml = String.raw`
 <p><span style="font-weight: 400;">Not all grinders are created equal. These two in particular stand out for their power, durability, and ability to handle large, dense nails efficiently:</span></p>
 <ul>
 <li style="font-weight: 400;"><b>Wahl Professional Grinder</b><span style="font-weight: 400;">—Best overall for thick nails</span></li>
-<li style="font-weight: 400;"><a href="https://www.amazon.com/Dremel-Pawcontrol-7760-PGK-Cordless-Grinder/dp/B07RBNBGMZ" target="_blank" rel="noopener noreferrer"><b>Dremel PawControl</b></a><span style="font-weight: 400;"> ($57.90 USD)—Strong motor with variable speed</span></li>
+<li style="font-weight: 400;"><a href="https://www.amazon.com/Dremel-Pawcontrol-7760-PGK-Cordless-Grinder/dp/B0DJ3JR93D?th=1&linkCode=ll2&tag=qccareersch09-20&linkId=75a8027cec1c63feee72b62cebaeccb8&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer"><b>Dremel PawControl</b></a><span style="font-weight: 400;"> ($57.90 USD)—Strong motor with variable speed</span></li>
 </ul>
 <h3><span style="font-weight: 400;">Tips for Managing Thick Nails</span></h3>
 <p><span style="font-weight: 400;">Big dog nails can be challenging, especially if they've been neglected. Here are some pro tips to make grinding thick nails safer and more manageable:</span></p>
