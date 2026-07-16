@@ -262,10 +262,10 @@ const huskyGroomingGuideHtml = String.raw`
 <h3><span style="font-weight: 400;">Deshedding Tools You'll Need</span></h3>
 <p><span style="font-weight: 400;">These tools are Husky-safe and must-haves for coat maintenance:</span></p>
 <ul>
-<li style="font-weight: 400;"><a href="https://www.amazon.com/undercoat-rake/s?k=undercoat+rake"><b>Undercoat rake</b></a><span style="font-weight: 400;">:</span> <span style="font-weight: 400;">Removes loose undercoat during blowouts</span></li>
-<li style="font-weight: 400;"><a href="https://www.amazon.com/slicker-brushes-dogs/s?k=slicker+brushes+for+dogs"><b>Slicker brush</b></a><span style="font-weight: 400;">: Smooths topcoat and helps detangle</span></li>
-<li style="font-weight: 400;"><a href="https://www.petedge.com/grooming-tools/dog-grooming-combs?srsltid=AfmBOoqpWARY6gc0j4GnG6DR8_LkQ7rpM8Qb3Ow6QPJo-UiXVS8Eh9Vx"><b>Grooming comb</b></a><span style="font-weight: 400;">: Finishes up around ears, legs, and tail</span></li>
-<li style="font-weight: 400;"><a href="https://www.amazon.com/SHELANDY-Stepless-Adjustable-Grooming-Blower/dp/B06WLQPJ58"><b>Blow dryer (dog-safe)</b></a><span style="font-weight: 400;">: Helps lift out dead undercoat after bathing&nbsp;</span></li>
+<li style="font-weight: 400;"><a href="https://www.amazon.com/Pet-Grooming-Tool-Undercoat-Dematting/dp/B0FK6QYCVL?th=1&linkCode=ll2&tag=qccareersch09-20&linkId=6ecc48f7a801287c973b46a6dc593bdb&language=en_US&ref_=as_li_ss_tl"><b>Undercoat rake</b></a><span style="font-weight: 400;">:</span> <span style="font-weight: 400;">Removes loose undercoat during blowouts</span></li>
+<li style="font-weight: 400;"><a href="https://www.amazon.com/Hertzko-Self-Cleaning-Slicker-Brush/dp/B00ZGPI3OY?th=1&linkCode=ll2&tag=qccareersch09-20&linkId=f4a3f1b472ff68cf858dbf03f83f14e2&language=en_US&ref_=as_li_ss_tl"><b>Slicker brush</b></a><span style="font-weight: 400;">: Smooths topcoat and helps detangle</span></li>
+<li style="font-weight: 400;"><a href="https://www.amazon.com/Andis-68550-Stainless-Steel-Knots-Removal/dp/B0C6FTV88X?dib=eyJ2IjoiMSJ9.sLQ22cRZKLwxuEtRaJAHfCXhg3QRzQRifjp4I_THLmvwjXZsubH0OeEEDIcZAurQ1-1qm562-_dhaLsWkNEy3bSm2Gy6Os9bxtOvRlRs1HaAxYqS8rhR5aPgEhAovaPxPOHzJIMsJ9N5PCKBgjPDOPrJ-6z4iuFwSgKYpUyd6NwK24McuplMoKjgskQan6MhLJKeym3ZxQUsbLs6mdyUgrwLGjlpKphz7k17rlRutVU.SUCwckCJYaEIyUu0sBeTSCDmo1t7wQS1w9ILJbGignU&dib_tag=se&keywords=stainless%2Bsteel%2Bdog%2Bcomb&qid=1784206466&sr=8-5&th=1&linkCode=ll2&tag=qccareersch09-20&linkId=437f36787fcac7341e5661d81dec8a60&language=en_US&ref_=as_li_ss_tl"><b>Grooming comb</b></a><span style="font-weight: 400;">: Finishes up around ears, legs, and tail</span></li>
+<li style="font-weight: 400;"><a href="https://www.amazon.com/dp/B0C53CJTVT?psc=1&pd_rd_i=B0C53CJTVT&pd_rd_w=NDMnd&content-id=amzn1.sym.3bc66c0a-cc61-4816-aa2d-e53327eaddb6&pf_rd_p=3bc66c0a-cc61-4816-aa2d-e53327eaddb6&pf_rd_r=8AYGHRZVT2FYJ252BCC9&pd_rd_wg=gFXQ0&pd_rd_r=98a9b5d3-846b-4dec-8a22-68cb9e951f61&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&linkCode=ll2&tag=qccareersch09-20&linkId=b014f877974f31bb502e035260eaef7f&language=en_US&ref_=as_li_ss_tl"><b>Blow dryer (dog-safe)</b></a><span style="font-weight: 400;">: Helps lift out dead undercoat after bathing&nbsp;</span></li>
 </ul>
 <p><span style="font-weight: 400;">🛑 </span><i><span style="font-weight: 400;">Avoid Furminator-style de-shedding blades, as they can cut through the coat if used incorrectly.</span></i></p>
 <h3><span style="font-weight: 400;">Deshedding Schedule by Season</span></h3>
@@ -341,7 +341,7 @@ const huskyGroomingGuideHtml = String.raw`
 <p><span style="font-weight: 400;">Your Husky's thick double coat needs more than a generic dog brush. The best brushes for Huskies target both layers of fur without damaging the skin or cutting guard hairs.</span></p>
 <h4><strong>The Three Essentials:</strong></h4>
 <h4><b>1. Undercoat Rake</b></h4>
-<p><b>Recommended Product:</b> <a href="https://www.amazon.com/Pet-Grooming-Tool-Undercoat-Dematting/dp/B01EZ7UOCM" target="_blank" rel="noopener noreferrer"><span style="font-weight: 400;">Pat Your Pet Two-Sided Undercoat Rake</span></a></p>
+<p><b>Recommended Product:</b> <a href="https://www.amazon.com/Pet-Grooming-Tool-Undercoat-Dematting/dp/B0FK6QYCVL?th=1&linkCode=ll2&tag=qccareersch09-20&linkId=6ecc48f7a801287c973b46a6dc593bdb&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer"><span style="font-weight: 400;">Pat Your Pet Two-Sided Undercoat Rake</span></a></p>
 <ul>
 <li style="font-weight: 400;"><span style="font-weight: 400;">⭐ 4.6/5 stars on Amazon (with 41,000+ reviews)</span></li>
 </ul>
@@ -358,7 +358,7 @@ const huskyGroomingGuideHtml = String.raw`
 <li style="font-weight: 400;"><span style="font-weight: 400;">Much safer than blade-style tools (like the FURminator)</span></li>
 </ul>
 <h4><b>2. Slicker Brush</b></h4>
-<p><span style="font-weight: 400;"><b>Recommended Product:</b> <a href="https://www.amazon.com/Hertzko-Self-Cleaning-Slicker-Brush/dp/B00ZGPI3OY" target="_blank" rel="noopener noreferrer">Hertzko Self-Cleaning Slicker Brush</a></span></p>
+<p><span style="font-weight: 400;"><b>Recommended Product:</b> <a href="https://www.amazon.com/Hertzko-Self-Cleaning-Slicker-Brush/dp/B00ZGPI3OY?th=1&linkCode=ll2&tag=qccareersch09-20&linkId=f4a3f1b472ff68cf858dbf03f83f14e2&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer">Hertzko Self-Cleaning Slicker Brush</a></span></p>
 <ul>
 <li style="font-weight: 400;"><span style="font-weight: 400;">⭐ 4.5/5 stars on Amazon (rated by nearly 100,000 pet parents)</span></li>
 </ul>
@@ -375,7 +375,7 @@ const huskyGroomingGuideHtml = String.raw`
 <li style="font-weight: 400;"><span style="font-weight: 400;">Self-cleaning function saves time and keeps the brush hygienic</span></li>
 </ul>
 <h4><b>3. Grooming Comb</b></h4>
-<p><span style="font-weight: 400;"><b>Recommended Product:</b> <a href="https://www.chewy.com/andis-steel-pet-comb/dp/54016" target="_blank" rel="noopener noreferrer">Andis Steel Pet Comb (7.5-Inch Dual-Sided)</a></span></p>
+<p><span style="font-weight: 400;"><b>Recommended Product:</b> <a href="https://www.amazon.com/Andis-68550-Stainless-Steel-Knots-Removal/dp/B0C6FTV88X?dib=eyJ2IjoiMSJ9.sLQ22cRZKLwxuEtRaJAHfCXhg3QRzQRifjp4I_THLmvwjXZsubH0OeEEDIcZAurQ1-1qm562-_dhaLsWkNEy3bSm2Gy6Os9bxtOvRlRs1HaAxYqS8rhR5aPgEhAovaPxPOHzJIMsJ9N5PCKBgjPDOPrJ-6z4iuFwSgKYpUyd6NwK24McuplMoKjgskQan6MhLJKeym3ZxQUsbLs6mdyUgrwLGjlpKphz7k17rlRutVU.SUCwckCJYaEIyUu0sBeTSCDmo1t7wQS1w9ILJbGignU&dib_tag=se&keywords=stainless%2Bsteel%2Bdog%2Bcomb&qid=1784206466&sr=8-5&th=1&linkCode=ll2&tag=qccareersch09-20&linkId=437f36787fcac7341e5661d81dec8a60&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer">Andis Steel Pet Comb (7.5-Inch Dual-Sided)</a></span></p>
 <ul>
 <li style="font-weight: 400;"><span style="font-weight: 400;">⭐ 4.7/5 stars on Amazon and Chewy (with a combined total of 800+ ratings)</span></li>
 </ul>
@@ -409,9 +409,9 @@ const huskyGroomingGuideHtml = String.raw`
 <p><span style="font-weight: 400;">Want to level up your at-home grooming game? These bonus tools are totally worth considering!</span></p>
 <ul>
 <li style="font-weight: 400;"><b>High-velocity dryer:</b><span style="font-weight: 400;"> Blows out loose undercoat fast</span></li>
-<li style="font-weight: 400;"><b>Detangling spray:</b><span style="font-weight: 400;"> Prevents breakage and mats</span></li>
-<li style="font-weight: 400;"><b>Grooming mat or table:</b><span style="font-weight: 400;"> Adds safety and stability</span></li>
-<li style="font-weight: 400;"><b>Ear wipes &amp; toothbrush kit:</b><span style="font-weight: 400;"> Support whole-body care</span></li>
+<li style="font-weight: 400;"><a href="https://www.amazon.com/TropiClean-Detangler-Dematting-Conditioner-Perfect/dp/B0GFGGY3F8?dib=eyJ2IjoiMSJ9.8qcrsekPdf5UmiKCe0HXyHFBLWUScyG2BWuMYws7chz8yOeI2gXiilEQivl946vexNJ74BHsDdLlc4iJO2aRvuo6EVzsEcn7xajZN-1cJblR-0On9OZwY9KGVs1ypZvc8aCPxcVFecGUabNuLhDaWMeNEdQPcIfueou0_9aOePPyCz6YhCBw6UmZ_IlODhdn5WG3KISGdvFhCkZne9Z9N5ZMwdhkTLxmnbXcsWsEAQk.2OSWDiaaclqM9-BpT6CHzdPQvsJMK7Y_rkvHHJd38ws&dib_tag=se&keywords=dog%2Bdetangler%2Bspray&qid=1784208467&sr=8-11&th=1&linkCode=ll2&tag=qccareersch09-20&linkId=e6c3157aaf89f0a5e8fe50526127acf4&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer"><b>Detangling spray:</b></a><span style="font-weight: 400;"> Prevents breakage and mats</span></li>
+<li style="font-weight: 400;"><a href="https://www.amazon.com/niffgaff-Grooming-Waterproof-Adjustable-Stainless/dp/B0FQCCMN55?crid=15X3XPOG6ZGPB&dib=eyJ2IjoiMSJ9.Tpme5mRvEY-_4vZU1U-OONCuYBc3sR2e_TuS8V87tsLz3dGW1zQ2oFuqAAQ0rKfj6hy2u5QhvCZDu9-ILO8m5dMDWh16RIeHXh0ghUzV3SpKyXW1FaTsGoLbUqlUkohwyBx1hAsTvthf-mzmZnakCIr_YNh4z4xo3zPfX3oOGB59kOszbMM7ws4VeRqCubT_3waBhEZiaIZiWcCK_oBDOBwW_17xaMVIn71jtprtlZ0.Gej6LnfNi-lALJnB6tlGTSn2Ky2QMfbZhEtrAwiO8r8&dib_tag=se&keywords=grooming+table&qid=1784205817&sprefix=grooming+tabl%2Caps%2C144&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll2&tag=qccareersch09-20&linkId=9cc774a0d84d71b7d322112665c1241e&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer"><b>Grooming mat or table:</b></a><span style="font-weight: 400;"> Adds safety and stability</span></li>
+<li style="font-weight: 400;"><a href="https://www.amazon.com/Pet-MD-Cleaner-Cleanser-Eucalyptus/dp/B01IRO7WR4?th=1&linkCode=ll2&tag=qccareersch09-20&linkId=c111196570cbb78bd2051a7a35904fa3&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer"><b>Ear wipes</a> &amp; <a href="https://www.amazon.com/Virbac-Poultry-flavor-Toothpaste-Fingerbrush-Toothbrush/dp/B004ULZ2PI?crid=18TF4ZBUS2BHF&dib=eyJ2IjoiMSJ9.jgjGhMRdG7azQxAPECxrlzTfJpntDZlXgPh1OHTe1nM79gURNz-RECsITyTnmF0C9mQbuCpg95vb-_wdsjDi9oj3rHPRGbbAaLXgy0pH4eigw5reamHQWr17um3F1Iz4wWjB1EnJWNOC5BocdJFA3YsnZD_iGf5eyIDPycjrfux0nvU7H_yHbzI2W2udZINFAkZmUjg8umRnI7WN5htraBB_yIxzrKrHvxrqKoI0uTc.TufIiTbHFvh7w45iFf3BT2tPmhyFDmIbTW94ejgQwek&dib_tag=se&keywords=dog%2Btoothbrush%2Band%2Btoothpaste&qid=1784209572&sprefix=dog%2Btoothbru%2Caps%2C151&sr=8-5&th=1&linkCode=ll2&tag=qccareersch09-20&linkId=7d5f17dc3eab9325b45bd045571a13e0&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer">toothbrush kit:</a></b><span style="font-weight: 400;"> Support whole-body care</span></li>
 </ul>
 <div class="box">
 <h2 class="h4">💪 Conquer The Fluff Once And For All!</h2>
