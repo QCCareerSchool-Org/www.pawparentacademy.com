@@ -63,3 +63,7 @@ section > div.container {
 section.Toastify {
   padding: 0;
 }
+
+.grecaptcha-badge { visibility: hidden; }
+
+
