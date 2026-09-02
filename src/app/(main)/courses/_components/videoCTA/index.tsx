@@ -4,6 +4,7 @@ import Image from 'next/image';
 import type { FC, MouseEvent } from 'react';
 import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
+import { BiPlay, BiPlayCircle } from 'react-icons/bi';
 
 import playButton from './play-button.jpg';
 import styles from './styles.module.scss';
@@ -47,12 +48,12 @@ export const CourseVideoCTA: FC<Props> = props => {
   return (
     <section className={styles.wrapper}>
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center my-2">
           <div className="col">
             <div className="d-flex align-items-center justify-content-center gap-2">
               <h3 className="fw-bold mb-0 text-white">Watch a Course Sample</h3>
               <button type="button" className={styles.playButton} onClick={handleButtonClick} aria-label="Play course sample">
-                <Image src={playButton} alt="Play course sample" priority />
+                <BiPlayCircle size={32} style={{ position: 'relative', top: 2, color: 'var(--brand-gold)' }} />
               </button>
             </div>
           </div>
