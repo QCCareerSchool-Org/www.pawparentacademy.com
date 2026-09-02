@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
+import { BiSolidDog } from 'react-icons/bi';
+import { BsEmojiSunglasses } from 'react-icons/bs';
+import { FaPaw } from 'react-icons/fa';
 
-import type { Features } from '../_components/featureGrid';
+import type { Feature } from '../_components/featureGrid';
 import { CourseFeatureGrid } from '../_components/featureGrid';
 import { CourseFinalCTA } from '../_components/finalCTA';
 import { CourseFitChecklist } from '../_components/fitChecklist';
@@ -106,20 +109,23 @@ const checklist = [
   'You want grooming to be a positive bonding experience for you and your dog.',
 ];
 
-const features: Features = {
-  'nails': {
+const features: Feature[] = [
+  {
     title: 'Make Positive Connections',
     description: 'Help your pup learn to feel good about essential grooming tasks.',
+    icon: FaPaw,
   },
-  'nail clippers': {
+  {
     title: 'Overcome Grooming Fears',
     description: 'Teach your dog that nail trims and grooming are nothing to fear.',
+    icon: BsEmojiSunglasses,
   },
-  'dog': {
+  {
     title: 'Customize the Groom',
     description: "Learn to customize the grooming process for your pet's unique needs.",
+    icon: BiSolidDog,
   },
-};
+];
 
 const pupBullets = [
   'A playful puppy learning to love grooming',
