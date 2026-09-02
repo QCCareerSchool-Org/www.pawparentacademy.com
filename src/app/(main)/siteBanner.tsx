@@ -14,7 +14,7 @@ interface Props {
 export const SiteBanner: FC<Props> = () => {
   const pathname = usePathname();
 
-  if (pathname === '/courses/how-to-groom-a-goldendoodle') {
+  if (pathname === '/courses/how-to-groom-a-goldendoodle-wld') {
     return <Banner><Link href="https://enroll.pawparentacademy.com/GD?promoCode=WLD20" style={{ color: 'inherit', textDecoration: 'none', fontSize: '1.25rem', fontWeight: 'bold', textTransform: 'uppercase' }}>Use Code WLD20 and Save 20% <Image src={WLDIcon} style={{ paddingLeft: '0.5rem', height: 30, width: 'auto' }} width={60} height={60} alt="" /></Link></Banner>;
   }
 };
