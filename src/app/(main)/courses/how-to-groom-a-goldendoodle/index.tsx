@@ -83,7 +83,7 @@ export const GoldendoodleCourse: FC<Props> = ({ price, wld }) => (
     />
     {!wld && <WLDSection />}
     <CourseOverview
-      className={wld ? 'bg-light' : undefined}
+      className={!wld ? 'bg-light' : undefined}
       heading="Easy-to-Follow Online Lessons"
       body="The grooming process is broken down into short videos that you can re-watch as often as you like. Each module also includes helpful grooming instructions, tip sheets and tool lists."
       courseCode={courseCode}
