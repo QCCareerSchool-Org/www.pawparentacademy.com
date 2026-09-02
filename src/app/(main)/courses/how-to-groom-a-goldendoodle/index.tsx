@@ -59,7 +59,7 @@ export const GoldendoodleCourse: FC<Props> = ({ price, wld }) => (
       courseCode={courseCode}
       description="Learn How to Groom Your Doodle, Poodle or Other Curly-Coated Dog at Home."
       src={heroBackground}
-      mobile={{ src: heroBackgroundMobile, breakpoint: 'md' }}
+      mobile={{ src: heroBackgroundMobile, breakpoint: 'lg' }}
       price={price}
       inverse
     />
