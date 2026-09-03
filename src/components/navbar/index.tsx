@@ -101,6 +101,7 @@ const courseLinks = [
   { href: '/courses/nail-trims-made-easy', label: 'Nail Trims Made Easy' },
   { href: '/courses/deshedding-mastery', label: 'Deshedding Mastery' },
   { href: '/courses/paws-itive-grooming', label: 'Paws-itive Grooming' },
+  { href: '/courses/professional-training', label: 'Professional Training' },
 ];
 
 const links = [
