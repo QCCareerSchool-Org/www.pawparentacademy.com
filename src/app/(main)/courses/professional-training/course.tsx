@@ -28,7 +28,7 @@ export const Course: FC<Props> = props => (
         <div className="row mb-4 g-4">
           <div className="col-md-6">
             {props.description}
-            <Link href={props.href} className="btn btn-secondary">Explore the Dog Grooming Course</Link>
+            <Link href={props.href} className="btn btn-secondary">Explore the {props.title} Course</Link>
           </div>
           <div className="col-md-6">
             <Image src={props.imageSrc} className="img-fluid rounded-4" alt="" />

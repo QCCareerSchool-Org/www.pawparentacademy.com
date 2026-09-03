@@ -71,6 +71,7 @@ const ProfessionalTrainingPage: PageComponent = () => (
             <p>You may have started learning about dogs simply because you wanted to be a better pet parent.</p>
             <p>But sometimes a hobby becomes something more. With the right training, you can build on that experience, and develop the skills you need to work with dogs beyond your own.</p>
             <p>And you don't have to choose a career based on just one kind of dog care. Your interests can help you decide which path is right for you.</p>
+            <a href="https://www.qcpetstudies.com" className="btn btn-primary">Explore Professional Training</a>
           </div>
         </div>
       </div>
