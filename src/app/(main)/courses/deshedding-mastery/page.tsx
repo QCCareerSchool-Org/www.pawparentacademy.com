@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
+import { BiCalendar, BiSolidDog } from 'react-icons/bi';
+import { MdOutlineMedicalServices } from 'react-icons/md';
 
-import type { Features } from '../_components/featureGrid';
+import type { Feature } from '../_components/featureGrid';
 import { CourseFeatureGrid } from '../_components/featureGrid';
 import { CourseFinalCTA } from '../_components/finalCTA';
 import { CourseFitChecklist } from '../_components/fitChecklist';
@@ -104,20 +106,23 @@ const checklist = [
   'You want to be your dog\'s #1 groomer!',
 ];
 
-const features: Features = {
-  coat: {
+const features: Feature[] = [
+  {
     title: 'Maintain a Healthy Coat',
     description: 'Prevent mats, knots, and tangles for a healthy finish.',
+    icon: MdOutlineMedicalServices,
   },
-  brush: {
+  {
     title: 'Manage Shedding',
     description: 'Learn the best ways to reduce shedding and keep hair off the couch.',
+    icon: BiSolidDog,
   },
-  dog: {
+  {
     title: 'Build a Routine',
     description: 'Find the perfect brushing routine so your pet looks and feels great.',
+    icon: BiCalendar,
   },
-};
+];
 
 const pupBullets = [
   'Enjoys a good ear rub',

@@ -1,6 +1,10 @@
 import type { Metadata } from 'next';
+import { BiBath } from 'react-icons/bi';
+import { BsEmojiSunglasses } from 'react-icons/bs';
+import { MdOutlineMedicalServices } from 'react-icons/md';
+import { RiScissorsFill } from 'react-icons/ri';
 
-import type { Features } from '../_components/featureGrid';
+import type { Feature } from '../_components/featureGrid';
 import { CourseFeatureGrid } from '../_components/featureGrid';
 import { CourseFitChecklist } from '../_components/fitChecklist';
 import { CourseHero } from '../_components/hero';
@@ -100,24 +104,28 @@ const checklist = [
   "You're ready to be your terrier's go-to groomer!",
 ];
 
-const features: Features = {
-  nails: {
+const features: Feature[] = [
+  {
     title: 'Master No-Fear Nail Trims',
     description: 'Give your pup a stress-free nail trim at home using pro techniques.',
+    icon: BsEmojiSunglasses,
   },
-  coat: {
+  {
     title: 'Maintain a Healthy Coat',
     description: 'Prevent mats and blown-out coat through handstripping and brushing.',
+    icon: MdOutlineMedicalServices,
   },
-  bathe: {
+  {
     title: 'Bathe and Dry Like a Pro',
     description: 'Learn professional techniques to keep a wire coat clean and fresh.',
+    icon: BiBath,
   },
-  trims: {
+  {
     title: 'Finishing Touches',
     description: "Keep your terrier's paws tidy and coat shining for a polished look.",
+    icon: RiScissorsFill,
   },
-};
+];
 
 const pupBullets = [
   'Always greets you with a tail-wag.',

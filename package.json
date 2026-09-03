@@ -1,6 +1,6 @@
 {
   "name": "www-pawparentacademy-com",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "private": true,
   "scripts": {
     "dev": "next dev --webpack",
@@ -24,6 +24,7 @@
     "react-bootstrap": "^2.10.10",
     "react-dom": "19.2.5",
     "react-google-recaptcha-v3": "^1.11.0",
+    "react-icons": "^5.7.0",
     "react-toastify": "^11.0.5",
     "use-window-listener": "^1.1.1"
   },

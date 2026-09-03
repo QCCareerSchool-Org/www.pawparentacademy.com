@@ -59,11 +59,11 @@ export const Navbar: FC = () => {
 
           <div className="collapse navbar-collapse justify-content-end" id="mainNav">
             <ul className={`navbar-nav ${styles.navList}`}>
-              <li className={`nav-item ${styles.dropdown} ${isCoursesOpen ? styles.dropdownOpen : ''}`.trim()} ref={dropdownRef}>
-                <button type="button" className={`nav-link text-shadow ${styles.dropdownToggle} ${isCoursesActive ? 'active' : ''}`.trim()} aria-expanded={isCoursesOpen} aria-haspopup="true" aria-controls={dropdownMenuId} onClick={handleDropdownClick}>
+              <li className={`nav-item ${styles.dropdown} ${isCoursesOpen ? styles.dropdownOpen : ''}`} ref={dropdownRef}>
+                <button type="button" className={`nav-link text-shadow ${styles.dropdownToggle} ${isCoursesActive ? 'active' : ''}`} aria-expanded={isCoursesOpen} aria-haspopup="true" aria-controls={dropdownMenuId} onClick={handleDropdownClick}>
                   Courses<span aria-hidden="true" className={styles.dropdownCaret} />
                 </button>
-                <div className={`${styles.dropdownMenu} ${isCoursesOpen ? styles.dropdownMenuOpen : ''}`.trim()} role="menu" id={dropdownMenuId}>
+                <div className={`${styles.dropdownMenu} ${isCoursesOpen ? styles.dropdownMenuOpen : ''}`} role="menu" id={dropdownMenuId}>
                   <ul className={styles.dropdownList}>
                     {courseLinks.map(({ href, label }) => (
                       <li key={href}>
@@ -71,7 +71,10 @@ export const Navbar: FC = () => {
                       </li>
                     ))}
                   </ul>
-                  <Link href="/courses" className={`${styles.dropdownLink} ${styles.viewAllLink}`.trim()} onClick={handleDropdownClose}>View all courses</Link>
+                  <div className="mt-2">
+                    <Link href="/courses" className={`${styles.dropdownLink} ${styles.viewAllLink}`} onClick={handleDropdownClose}>View all courses</Link>
+                    <Link href="/courses/professional-training" className={`${styles.dropdownLink} ${styles.viewAllLink}`} onClick={handleDropdownClose}>Professional Training</Link>
+                  </div>
                 </div>
               </li>
               {links.map(({ href, label }) => {
@@ -79,7 +82,7 @@ export const Navbar: FC = () => {
 
                 return (
                   <li className="nav-item" key={href}>
-                    <Link href={href} className={`nav-link text-shadow ${isActive ? 'active' : ''}`.trim()}>{label}</Link>
+                    <Link href={href} className={`nav-link text-shadow ${isActive ? 'active' : ''}`}>{label}</Link>
                   </li>
                 );
               })}

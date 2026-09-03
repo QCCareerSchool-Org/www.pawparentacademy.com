@@ -1,6 +1,10 @@
 import type { Metadata } from 'next';
+import { BiBath } from 'react-icons/bi';
+import { BsEmojiSunglasses } from 'react-icons/bs';
+import { MdOutlineMedicalServices } from 'react-icons/md';
+import { RiScissorsFill } from 'react-icons/ri';
 
-import type { Features } from '../_components/featureGrid';
+import type { Feature } from '../_components/featureGrid';
 import { CourseFeatureGrid } from '../_components/featureGrid';
 import { CourseFitChecklist } from '../_components/fitChecklist';
 import { CourseHero } from '../_components/hero';
@@ -100,24 +104,28 @@ const checklist = [
   'Learning a new skill with your fur baby sounds like fun.',
 ];
 
-const features: Features = {
-  nails: {
+const features: Feature[] = [
+  {
     title: 'Master Nail Trims',
     description: 'Learn pro techniques to make the nail trimming process a breeze.',
+    icon: BsEmojiSunglasses,
   },
-  coat: {
+  {
     title: 'Maintain a Healthy Coat',
     description: 'Prevent the buildup of dead hair by learning proper brushing techniques.',
+    icon: MdOutlineMedicalServices,
   },
-  bathe: {
+  {
     title: 'Bathe and Dry Like a Pro',
     description: 'Carefully clean your dog, including under sensitive folds and wrinkles.',
+    icon: BiBath,
   },
-  curry: {
+  {
     title: 'Finishing Touches',
     description: 'Give your pup a perfect, shiny coat with a final deshedding process.',
+    icon: RiScissorsFill,
   },
-};
+];
 
 const pupBullets = [
   'Has an adorable curly tail and a great smile.',

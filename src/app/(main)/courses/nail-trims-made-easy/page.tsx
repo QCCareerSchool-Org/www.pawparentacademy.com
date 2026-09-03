@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
+import { BiSolidDog } from 'react-icons/bi';
+import { BsEmojiSunglasses } from 'react-icons/bs';
+import { MdOutlineMedicalServices } from 'react-icons/md';
 
-import type { Features } from '../_components/featureGrid';
+import type { Feature } from '../_components/featureGrid';
 import { CourseFeatureGrid } from '../_components/featureGrid';
 import { CourseFitChecklist } from '../_components/fitChecklist';
 import { CourseHero } from '../_components/hero';
@@ -89,20 +92,23 @@ const checklist = [
   'You\'re ready to give your dog the ultimate pet-icure!',
 ];
 
-const features: Features = {
-  'nails': {
+const features: Feature[] = [
+  {
     title: 'Enjoy No-Fear Nail Trims',
     description: "Make cutting your dog's nails a positive experience for you and your pup.",
+    icon: BsEmojiSunglasses,
   },
-  'nail clippers': {
+  {
     title: 'Avoid Cutting the Quick',
     description: 'Master comfortable, pain-free trims with expert tips from a pro groomer.',
+    icon: MdOutlineMedicalServices,
   },
-  'dog': {
+  {
     title: 'Master Dog Handling',
     description: 'Learn the right way to handle your dog for easy, stress-free nail trims.',
+    icon: BiSolidDog,
   },
-};
+];
 
 const modules: CourseModuleInfo[] = [
   {

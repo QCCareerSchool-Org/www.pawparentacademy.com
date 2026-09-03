@@ -1,6 +1,0 @@
-{
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
-    { "source": "/courses/how-to-groom-a-goldendoodle", "destination": "/courses/how-to-groom-a-goldendoodle-wld" }
-  ]
-}
