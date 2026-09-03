@@ -12,7 +12,7 @@ const purgeCssOptions = {
     './node_modules/react-bootstrap/**/*.js',
   ],
   safelist: {
-    standard: [ 'html', 'body', /^PhoneInput/u, /grecaptcha-badge/u ],
+    standard: [ 'html', 'body', /^PhoneInput/u, /grecaptcha-badge/u, /d-(?:(?:sm|md|lg|xl|xxl)-)?(?:none|block)/u ],
     deep: [ /modal-/u, /show/u, /fade/u, /nav/u ],
     greedy: [ /^Toastify/u, /^react-multi-carousel/u, /^react-multiple-carousel/u ],
   },
