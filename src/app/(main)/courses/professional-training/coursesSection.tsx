@@ -28,6 +28,7 @@ const courses: CourseProps[] = [
       <>
         <p>If you enjoy brushing, bathing, trimming, and styling your own dog, professional dog grooming could be the perfect next step.</p>
         <p>QC Pet Studies' <a href="https://www.qcpetstudies.com/certification-courses/dog-grooming">Dog Grooming Course</a> teaches you professional grooming techniques for a wide range of breeds and coat types. You'll develop practical skills through hands-on assignments, receive personalized feedback from experienced groomers, and learn how to approach professional grooming with confidence.</p>
+        <a href="https://www.qcpetstudies.com/certification-courses/dog-grooming" className="btn btn-secondary">Explore the Dog Grooming Course</a>
       </>
     ),
     reasons: [
@@ -45,7 +46,6 @@ const courses: CourseProps[] = [
       'Refine your techniques with personalized feedback from pro groomers',
       'Build the skills needed to pursue professional grooming opportunities',
     ],
-    href: 'https://www.qcpetstudies.com/certification-courses/dog-grooming',
     imageSrc: DGCourseImage,
   },
   {
@@ -55,6 +55,7 @@ const courses: CourseProps[] = [
       <>
         <p>If you find yourself enjoying training your own dog, you may have a natural talent for helping dogs learn.</p>
         <p>QC Pet Studies' <a href="https://www.qcpetstudies.com/certification-courses/dog-training">Dog Training Course</a> can help you turn that interest into professional skills. You'll learn about canine behavior, communication, learning theory, and effective training techniques you can use with dogs at different stages of life.</p>
+        <a href="https://www.qcpetstudies.com/certification-courses/dog-training" className="btn btn-secondary">Explore the Dog Training Course</a>
       </>
     ),
     reasons: [
@@ -71,7 +72,6 @@ const courses: CourseProps[] = [
       'Work with different dogs, personalities, and learning needs',
       'Build your confidence as a professional dog trainer',
     ],
-    href: 'https://www.qcpetstudies.com/certification-courses/dog-training',
     imageSrc: DTCourseImage,
   },
   {
@@ -81,6 +81,7 @@ const courses: CourseProps[] = [
       <>
         <p>Maybe your favorite part of having a dog is simply being around them. If you enjoy keeping dogs active, engaged, and happy, a career in dog daycare could be a great fit.</p>
         <p>QC Pet Studies' <a href="https://www.qcpetstudies.com/certification-courses/dog-daycare">Dog Daycare Course</a> teaches you how to provide safe, professional care for dogs in a daycare environment. You'll learn about canine behavior, health and safety, play, enrichment, and the responsibilities involved in caring for multiple dogs.</p>
+        <a href="https://www.qcpetstudies.com/certification-courses/dog-daycare" className="btn btn-secondary">Explore the Dog Daycare Course</a>
       </>
     ),
     reasons: [
@@ -97,7 +98,6 @@ const courses: CourseProps[] = [
       'Understand important health and safety practices',
       'Provide professional-quality care in a daycare environment',
     ],
-    href: 'https://www.qcpetstudies.com/certification-courses/dog-daycare',
     imageSrc: DDCourseImage,
   },
 ];
