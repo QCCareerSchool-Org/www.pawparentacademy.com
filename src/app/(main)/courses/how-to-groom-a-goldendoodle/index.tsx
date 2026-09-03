@@ -81,9 +81,7 @@ export const GoldendoodleCourse: FC<Props> = ({ price, wld }) => (
       description="Peek inside the lessons with a real clip pulled directly from the course."
       videoSrc="https://47de3d821751073337b6-1b9eff79752112441e95f2296d639dd5.ssl.cf1.rackcdn.com/video-samples/golden-doodle.mp4"
     />
-    {!wld && <WLDSection />}
     <CourseOverview
-      className={!wld ? 'bg-light' : undefined}
       heading="Easy-to-Follow Online Lessons"
       body="The grooming process is broken down into short videos that you can re-watch as often as you like. Each module also includes helpful grooming instructions, tip sheets and tool lists."
       courseCode={courseCode}
@@ -91,6 +89,7 @@ export const GoldendoodleCourse: FC<Props> = ({ price, wld }) => (
       price={price}
     />
     <MoneyBackBanner />
+    {!wld && <WLDSection />}
     <FAQSection items={faqItems} className="bg-light" />
   </>
 );
