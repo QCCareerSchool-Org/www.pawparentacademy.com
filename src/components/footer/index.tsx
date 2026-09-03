@@ -9,15 +9,15 @@ export const Footer: FC = () => {
   return (
     <footer className={styles.footer}>
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row align-items-center g-2 g-lg-0">
 
-          <div className="col-4 text-start">
+          <div className="col-12 col-md-4 text-center text-md-start">
             <Link href="/" aria-label="Paw Parent Academy home">
               <Image src={whiteLogoIcon} alt="Paw Parent Academy" width={52} height={52} />
             </Link>
           </div>
 
-          <div className="col-4 text-center">
+          <div className="col-12 col-md-4 text-center">
             <nav aria-label="Footer links">
               <Link href="/contact" className={styles.link}>Contact Us</Link>
               <span aria-hidden="true" className={styles.separator}>|</span>
@@ -26,8 +26,8 @@ export const Footer: FC = () => {
             <p className={styles.copy}>© {new Date().getFullYear()} Paw Parent Academy</p>
           </div>
 
-          <div className="col-4 text-end">
-            <nav aria-label="Social media" className={styles.social}>
+          <div className="col-12 col-md-4 text-center text-md-end">
+            <nav aria-label="Social media" className={`${styles.social} justify-content-center justify-content-md-end`}>
               {socialLinks.map(link => (
                 <Link key={link.name} href={link.href} className={styles.socialLink} aria-label={`Visit Paw Parent Academy on ${link.name}`} target="_blank" rel="noreferrer">
                   {link.icon}
